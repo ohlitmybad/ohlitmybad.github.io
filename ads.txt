@@ -7,4 +7,4 @@ pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
 rubiconproject.com, 17960, RESELLER, 0bfd66d529a55807
 appnexus.com, 1019, RESELLER, f5ab79cb980f11d1
 video.unrulymedia.com, 12444764291, RESELLER
-google.com, pub-8549313546485911, DIRECT, f08c47fec0942fa0
+google.com, pub-7677714701428206, DIRECT, f08c47fec0942fa0

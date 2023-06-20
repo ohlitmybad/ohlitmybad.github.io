@@ -1929,3 +1929,4 @@ yieldmo.com, 3224262582806192157, RESELLER
 yieldnexus.com, 96204, RESELLER
 yldbt.com, 5b522cc167f6b300b89dc6d3, RESELLER, cd184cb30abaabb5
 zeta.com, 533, RESELLER
+google.com, pub-3944954862316283, RESELLER, f08c47fec0942fa0

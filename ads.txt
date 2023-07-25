@@ -19,3 +19,4 @@ yahoo.com,59189,RESELLER
 imds.tv,82376,RESELLER
 vidoomy.com,2717565,RESELLER
 omgstudios.com, 0603231, RESELLER
+google.com, pub-7677714701428206, DIRECT, f08c47fec0942fa0

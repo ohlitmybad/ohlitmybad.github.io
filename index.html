@@ -5,8 +5,6 @@
 
 
 
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -324,14 +322,38 @@ color: black;
   justify-content: space-between;
 }
 
+
+.box2 {
+    position: relative;
+    overflow: hidden; /* Ensure pseudo-element stays within container bounds */
+}
+
+.box2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://datamb.football/homeimg/3.png');
+    background-size: cover; /* Make sure the image covers the entire background */
+    background-repeat: repeat;
+    background-position: center center; /* Center the background image */
+    opacity: 0.5; /* Adjust the opacity as needed */
+    z-index: 1; /* Ensure the pseudo-element is below any content in the container */
+}
+
+.box2 > * {
+    position: relative;
+    z-index: 2; /* Ensure content is above the pseudo-element */
+}
+
 .box2 {
   width: calc(19% - 20px); /* Adjust the width for your desired layout */
   border: 3px solid #007BFF;
   border-radius: 10px;
   padding: 10px;
   margin: 10px 0;
-  background-color: #F2F2F2;
-  
 }
 
 .box2:nth-child(3n + 1) {
@@ -374,13 +396,38 @@ color: black;
   justify-content: space-between;
 }
 
+
+.box {
+    position: relative;
+    overflow: hidden; /* Ensure pseudo-element stays within container bounds */
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://datamb.football/homeimg/3.png');
+    background-size: cover; /* Make sure the image covers the entire background */
+    background-repeat: repeat;
+    background-position: center center; /* Center the background image */
+    opacity: 0.5; /* Adjust the opacity as needed */
+    z-index: 1; /* Ensure the pseudo-element is below any content in the container */
+}
+
+.box > * {
+    position: relative;
+    z-index: 2; /* Ensure content is above the pseudo-element */
+}
+
 .box {
   width: calc(19% - 20px); /* Adjust the width for your desired layout */
   border: 3px solid #007BFF;
   border-radius: 10px;
   padding: 10px;
   margin: 10px 0;
-  background-color: #F2F2F2;
 }
 
 /* Adjust the margins for your desired layout */

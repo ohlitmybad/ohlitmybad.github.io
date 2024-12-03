@@ -958,7 +958,13 @@ let dataCSV2 = xhr2.responseText;
       return { name, link };
   });
 
-  function removeDiacritics(str) {
+function removeDiacritics(str) {
+    const charMap = {
+        'ø': 'o',
+        'Ø': 'O',
+        'ı': 'i',
+    };
+    str = str.replace(/[øØı]/g, match => charMap[match]);
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
   

@@ -2,6 +2,7 @@ https://datamb.football/
 https://datamb.football/radars/
 https://datamb.football/teams/
 https://datamb.football/glossary/
+https://datamb.football/guide/
 https://datamb.football/join/
 https://datamb.football/keepers/
 https://datamb.football/centrebacks/

@@ -1,0 +1,57 @@
+name: Run index.py on changes
+
+on:
+  push:
+    paths:
+      - 'database/CURRENT/**'
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9.6'  # Your specified Python version
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas numpy scipy openpyxl
+
+    - name: Check last run time
+      id: check_time
+      run: |
+        if [ -f last_run_time.txt ]; then
+          last_run=$(cat last_run_time.txt)
+          current_time=$(date +%s)
+          elapsed=$((current_time - last_run))
+          if [ $elapsed -lt 3600 ]; then
+            echo "Less than 1 hour since last run. Skipping execution."
+            exit 0
+          fi
+        fi
+
+    - name: Wait for 15 minutes
+      if: steps.check_time.outcome == 'success'
+      run: sleep 900
+
+    - name: Run index.py
+      if: steps.check_time.outcome == 'success'
+      run: python INDEX.py
+
+    - name: Update last run time
+      if: steps.check_time.outcome == 'success'
+      run: |
+        date +%s > last_run_time.txt
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add last_run_time.txt
+        git commit -m "Update last run time"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

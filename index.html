@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <meta name="viewport" content="width=device-width">
   <meta name="language" content="en">
   <link rel="alternate" hreflang="en" href="https://datamb.football" />
   <link rel="alternate" hreflang="x-default" href="https://datamb.football" />
@@ -16,6 +17,23 @@
   <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css"/>
   <title data-i18n="meta.title">DataMB | Football Visuals and Statistics</title>
+  <script>
+  (function() {
+      var width = window.innerWidth;
+      var viewportMeta = document.querySelector('meta[name="viewport"]');
+      if (viewportMeta) {
+if (width < 770) {
+	      
+      var initialScale = width / 770;
+viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + initialScale);
+} else {
+            var fixedScale = 1;
+	viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + fixedScale);
+
+  }
+    } 
+})();
+</script>
   <style>
 
 

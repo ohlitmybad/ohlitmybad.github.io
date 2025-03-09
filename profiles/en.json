@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "[PLAYER_NAME] Football Stats and Visuals | DataMB",
-    "description": "[PLAYER_NAME] 2024/25 data profile compared to players in Europe's Top 7 Leagues. Check out statistics with our radar chart and plots, or compare with other players.",
-    "tdescription": "[PLAYER_NAME] 2024/25 data profile compared to other teams in Europe's Top 7 Leagues. Check out [PLAYER_NAME] statistics with our radar chart and plots, or compare [PLAYER_NAME] to other teams using our data comparison tool."
+    "title": " Football Stats and Visuals | DataMB",
+    "description": " 2024/25 data profile compared to players in Europe's Top 7 Leagues. Check out statistics with our radar chart and plots, or compare with other players.",
+    "tdescription": " 2024/25 data profile compared to other teams in Europe's Top 7 Leagues. Check out statistics with our radar chart and plots, or compare to other teams using our data comparison tool."
  
 },
   "header": {
@@ -80,7 +80,7 @@
     "age": "Age",
     "position": "Position",
     "season": "Season",
-    "percentile": "Percentile",
+    "percentile": " percentile",
     "minutes_played": "Minutes played",
     "percentile_suffix": {
       "th_suffix": "th",
@@ -88,6 +88,7 @@
       "nd_suffix": "nd",
       "rd_suffix": "rd"
     },
+    "vs_top_7_leagues": "vs Top 7 Leagues",
     "metrics": {
       "cross_accuracy": "Cross accuracy",
       "expected_assists": "Expected assists",
@@ -127,8 +128,7 @@
     "radar": {
       "compare": "Compare teams"
     },
-    "minutes": "Most League Minutes",
-    "vs_top7": "vs Top 7 League teams"
+    "minutes": "MOST LEAGUE MINUTES"
   },
   "cb": {
     "radar": {

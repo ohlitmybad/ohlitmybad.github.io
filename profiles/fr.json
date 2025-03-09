@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Statistiques et Visualisations de Football de [PLAYER_NAME] | DataMB",
-    "description": "Profil de données 2024/25 de [PLAYER_NAME] comparé aux joueurs des 7 meilleures ligues européennes. Consultez les statistiques avec notre graphique radar et nos diagrammes, ou comparez avec d'autres joueurs.",
-    "tdescription": "Profil de données 2024/25 de [PLAYER_NAME] comparé à d'autres équipes des 7 meilleures ligues européennes. Consultez les statistiques de [PLAYER_NAME] avec notre graphique radar et nos diagrammes, ou comparez [PLAYER_NAME] à d'autres équipes à l'aide de notre outil de comparaison de données."
+    "title": " | Statistiques et Visualisations de Football | DataMB",
+    "description": "  | Profil de données 2024/25 comparé aux joueurs des 7 meilleures ligues européennes. Consultez les statistiques avec notre graphique radar et nos diagrammes, ou comparez avec d'autres joueurs.",
+    "tdescription": " | Profil de données 2024/25 comparé à d'autres équipes des 7 meilleures ligues européennes. Consultez les statistiques avec notre graphique radar et nos diagrammes, ou comparez à d'autres équipes à l'aide de notre outil de comparaison de données."
   },
   "header": {
     "home": "Accueil",

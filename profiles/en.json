@@ -2,7 +2,7 @@
   "meta": {
     "title": "[PLAYER_NAME] Football Stats and Visuals | DataMB",
     "description": "[PLAYER_NAME] 2024/25 data profile compared to players in Europe's Top 7 Leagues. Check out statistics with our radar chart and plots, or compare with other players.",
-    "twitter_description": "[PLAYER_NAME] 2024/25 data profile compared to players in Europe's Top 7 Leagues. Check out statistics with our radar chart and plots, or compare with other players."
+    "tdescription": "[PLAYER_NAME] 2024/25 data profile compared to other teams in Europe's Top 7 Leagues. Check out [PLAYER_NAME] statistics with our radar chart and plots, or compare [PLAYER_NAME] to other teams using our data comparison tool."
  
 },
   "header": {
@@ -11,7 +11,7 @@
     "guide": "Guide"
   },
   "positions": {
-    "goalkeeper": "DABABAD",
+    "goalkeeper": "Goalkeeper",
     "centreback": "Centre-back",
     "fullback": "Full-back",
     "midfielder": "Midfielder",
@@ -19,7 +19,7 @@
     "striker": "Striker"
   },
   "plotmetrics": {
-    "goals_per_90": "DABADABADA",
+    "goals_per_90": "Goals per 90",
     "goals_conceded_per_90": "Goals conceded per 90",
     "prevented_goals_per_90": "Prevented goals per 90",
     "save_percentage_%": "Save percentage %",
@@ -39,7 +39,7 @@
   },
   "radar": {
     "metrics": {
-      "physicality": "DABDABA",
+      "physicality": "Physicality",
       "defending": "Defending",
       "counters": "Counters",
       "possession": "Possession",
@@ -83,7 +83,7 @@
     "percentile": "Percentile",
     "minutes_played": "Minutes Played",
     "percentile_suffix": {
-      "th_suffix": "DBADAB",
+      "th_suffix": "th",
       "st_suffix": "st",
       "nd_suffix": "nd",
       "rd_suffix": "rd"
@@ -119,14 +119,15 @@
       "possession": "Possession",
       "counters": "Counters",
       "defending": "Defending",
-      "physicality": "DABDABD",
+      "physicality": "Physicality",
       "pressing": "Pressing"
     }
   },
   "teams": {
     "radar": {
-      "compare": "Compare DABA"
-    }
+      "compare": "Compare teams"
+    },
+    "minutes": "MOST LEAGUE MINUTES"
   },
   "cb": {
     "radar": {
@@ -159,7 +160,7 @@
     }
   },
   "plot": {
-    "more": "Plot more DABA"
+    "more": "Plot more metrics"
   },
   "footer": {
     "copyright": "© All Rights Reserved",

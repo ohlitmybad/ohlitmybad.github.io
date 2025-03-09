@@ -87,6 +87,7 @@
       "nd_suffix": "ème",
       "rd_suffix": "ème"
     },
+    "vs_top7_leagues": "vs 7 Grands Championnats"
     "metrics": {
       "cross_accuracy": "Précision des centres",
       "expected_assists": "Passes décisives attendues",
@@ -126,8 +127,7 @@
     "radar": {
       "compare": "Comparer les équipes"
     },
-    "minutes": "Plus de minutes jouées",
-    "vs_top7": "vs 7 Grands Championnats"
+    "minutes": "Plus de minutes jouées"
   },
   "cb": {
     "radar": {

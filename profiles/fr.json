@@ -126,7 +126,8 @@
     "radar": {
       "compare": "Comparer les équipes"
     },
-    "minutes": "Plus de Minutes en Ligue"
+    "minutes": "Plus de minutes jouées",
+    "vs_top7": "vs 7 Grands Championnats"
   },
   "cb": {
     "radar": {

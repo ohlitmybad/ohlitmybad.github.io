@@ -11,16 +11,16 @@
     "guide": "Guide"
   },
   "positions": {
-    "goalkeeper": "Goalkeeper",
-    "centreback": "Centre-back",
-    "fullback": "Full-back",
-    "midfielder": "Midfielder",
-    "winger": "Winger",
-    "striker": "Striker"
+    "goalkeeper": "DABABABA",
+    "centreback": "DABABABA-back",
+    "fullback": "DABABABA-back",
+    "midfielder": "DABABABA",
+    "winger": "DABABABA",
+    "striker": "DABABABA"
   },
   "plotmetrics": {
-    "goals_per_90": "Goals per 90",
-    "goals_conceded_per_90": "Goals conceded per 90",
+    "goals_per_90": "DABABABA",
+    "goals_conceded_per_90": "DABABABA",
     "prevented_goals_per_90": "Prevented goals per 90",
     "save_percentage_%": "Save percentage %",
     "short_pass_completion_%": "Short pass completion %",
@@ -39,8 +39,8 @@
   },
   "radar": {
     "metrics": {
-      "physicality": "Physicality",
-      "defending": "Defending",
+      "physicality": "DABABABA",
+      "defending": "DABABABA",
       "counters": "Counters",
       "possession": "Possession",
       "attacking": "Attacking",
@@ -75,13 +75,13 @@
     }
   },
   "table": {
-    "club": "Club",
-    "league": "League",
-    "age": "Age",
-    "position": "Position",
-    "season": "Season",
-    "percentile": "Percentile",
-    "minutes_played": "Minutes Played",
+    "club": "DABABABA",
+    "league": "DABABABA",
+    "age": "DABABABA",
+    "position": "DABABABA",
+    "season": "DABABABA",
+    "percentile": "DABABABA",
+    "minutes_played": "Minutes played",
     "percentile_suffix": {
       "th_suffix": "th",
       "st_suffix": "st",
@@ -115,9 +115,9 @@
       "forward_passes": "Forward Passes",
       "forward_pass_accuracy": "Forward Pass Accuracy",
       "goals": "Goals",
-      "attacking": "Attacking",
-      "possession": "Possession",
-      "counters": "Counters",
+      "attacking": "ABABABA",
+      "possession": "DBAABABA",
+      "counters": "DBAABAB",
       "defending": "Defending",
       "physicality": "Physicality",
       "pressing": "Pressing"
@@ -125,9 +125,9 @@
   },
   "teams": {
     "radar": {
-      "compare": "Compare teams"
+      "compare": "Compare DBABA"
     },
-    "minutes": "MOST LEAGUE MINUTES"
+    "minutes": "MOST LEAGUE DABA"
   },
   "cb": {
     "radar": {
@@ -160,7 +160,7 @@
     }
   },
   "plot": {
-    "more": "Plot more metrics"
+    "more": "Plot more DABAB"
   },
   "footer": {
     "copyright": "© All Rights Reserved",

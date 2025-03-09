@@ -11,7 +11,7 @@
     "guide": "Guide"
   },
   "positions": {
-    "goalkeeper": "Goalkeeper",
+    "goalkeeper": "DABABAD",
     "centreback": "Centre-back",
     "fullback": "Full-back",
     "midfielder": "Midfielder",
@@ -39,7 +39,7 @@
   },
   "radar": {
     "metrics": {
-      "physicality": "Physicality",
+      "physicality": "DABDABA",
       "defending": "Defending",
       "counters": "Counters",
       "possession": "Possession",
@@ -83,7 +83,7 @@
     "percentile": "Percentile",
     "minutes_played": "Minutes Played",
     "percentile_suffix": {
-      "th_suffix": "th",
+      "th_suffix": "DBADAB",
       "st_suffix": "st",
       "nd_suffix": "nd",
       "rd_suffix": "rd"
@@ -119,13 +119,13 @@
       "possession": "Possession",
       "counters": "Counters",
       "defending": "Defending",
-      "physicality": "Physicality",
+      "physicality": "DABDABD",
       "pressing": "Pressing"
     }
   },
   "teams": {
     "radar": {
-      "compare": "Compare teams"
+      "compare": "Compare DABA"
     }
   },
   "cb": {
@@ -159,7 +159,7 @@
     }
   },
   "plot": {
-    "more": "Plot more metrics"
+    "more": "Plot more DABA"
   },
   "footer": {
     "copyright": "© All Rights Reserved",

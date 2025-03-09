@@ -127,7 +127,8 @@
     "radar": {
       "compare": "Compare teams"
     },
-    "minutes": "Most League Minutes"
+    "minutes": "Most League Minutes",
+    "vs_top7": "vs Top 7 League teams"
   },
   "cb": {
     "radar": {

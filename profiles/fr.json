@@ -33,7 +33,7 @@
     "dribbles_attempted_per_90": "Dribbles tentés par 90",
     "xg_per_90": "xG par 90",
     "xA_per_90": "xA par 90",
-    "goals_conversion_%": "Taux de conversion de buts %",
+    "goal_conversion_%": "Taux de conversion de buts %",
     "shots_per_90": "Tirs par 90"
   },
   "radar": {

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "title": "[PLAYER_NAME] Football Stats and Visuals | DataMB",
+    "description": "[PLAYER_NAME] 2024/25 data profile compared to players in Europe's Top 7 Leagues. Check out statistics with our radar chart and plots, or compare with other players.",
+    "twitter_description": "[PLAYER_NAME] 2024/25 data profile compared to players in Europe's Top 7 Leagues. Check out statistics with our radar chart and plots, or compare with other players."
+ 
+},
+  "header": {
+    "home": "Home",
+    "pro": "Pro",
+    "guide": "Guide"
+  },
+  "positions": {
+    "goalkeeper": "Goalkeeper",
+    "centreback": "Centre-back",
+    "fullback": "Full-back",
+    "midfielder": "Midfielder",
+    "winger": "Winger",
+    "striker": "Striker"
+  },
+  "plotmetrics": {
+    "goals_per_90": "Goals per 90",
+    "goals_conceded_per_90": "Goals conceded per 90",
+    "prevented_goals_per_90": "Prevented goals per 90",
+    "save_percentage_%": "Save percentage %",
+    "short_pass_completion_%": "Short pass completion %",
+    "long_pass_accuracy_%": "Long pass accuracy %",
+    "aerial_duels_won_%": "Aerial duels won %",
+    "defensive_duels_won_%": "Defensive duels won %",
+    "progressive_passes_per_90": "Progressive passes per 90",
+    "progressive_carries_per_90": "Progressive carries per 90",
+    "key_passes_per_90": "Key passes per 90",
+    "pass_completion_%": "Pass completion %",
+    "dribbles_attempted_per_90": "Dribbles attempted per 90",
+    "xg_per_90": "xG per 90",
+    "xA_per_90": "xA per 90",
+    "goals_conversion_%": "Goals conversion %",
+    "shots_per_90": "Shots per 90"
+  },
+  "radar": {
+    "metrics": {
+      "physicality": "Physicality",
+      "defending": "Defending",
+      "counters": "Counters",
+      "possession": "Possession",
+      "attacking": "Attacking",
+      "goals": "Goals",
+      "pressing": "Pressing",
+      "aerial_percentage": "Aerial%",
+      "duel_percentage": "Duel%",
+      "defensive_actions": "Def Actions",
+      "progressive_passes": "Prog Passes",
+      "forward_pass_percentage": "Fwd Pass%",
+      "passes_completed": "Passes",
+      "carrying": "Carrying",
+      "expected_assists": "xAssist",
+      "cross_percentage": "Cross%",
+      "short_pass_accuracy": "Short%",
+      "long_pass_accuracy": "Long%",
+      "line_exits": "Exits",
+      "aerials_contested": "Aerial",
+      "psxg_minus_ga": "Shot-stopping",
+      "key_passes": "Key Passes",
+      "forward_passes": "Fwd Passes",
+      "duels_percentage": "Duels%",
+      "assists": "Assists",
+      "expected_goals_and_assists": "xG+xA",
+      "non_penalty_goals": "NPG",
+      "dribbles": "Dribbles",
+      "carries": "Carries",
+      "attacking_actions": "Att Actions",
+      "expected_goals": "xG",
+      "passes_to_box": "Passes to box",
+      "passes_received": "Passes Rec"
+    }
+  },
+  "table": {
+    "club": "Club",
+    "league": "League",
+    "age": "Age",
+    "position": "Position",
+    "season": "Season",
+    "percentile": "Percentile",
+    "minutes_played": "Minutes Played",
+    "percentile_suffix": {
+      "th_suffix": "th",
+      "st_suffix": "st",
+      "nd_suffix": "nd",
+      "rd_suffix": "rd"
+    },
+    "metrics": {
+      "cross_accuracy": "Cross Accuracy",
+      "expected_assists": "Expected Assists",
+      "progressive_passes": "Progressive Passes",
+      "defensive_actions": "Defensive Actions",
+      "defensive_duel_success": "Defensive Duel Success",
+      "aerial_duel_success": "Aerial Duel Success",
+      "progressive_carries": "Progressive Carries",
+      "successful_dribbles": "Successful Dribbles",
+      "non_penalty_goals": "Non-Penalty Goals",
+      "expected_goals_and_assists": "Expected Goals & Assists",
+      "assists": "Assists",
+      "key_passes": "Key Passes",
+      "offensive_actions": "Offensive Actions",
+      "passes_received": "Passes Received",
+      "passes_to_penalty_area": "Passes to Penalty Area",
+      "expected_goals": "Expected Goals",
+      "aerials_contested": "Aerials Contested",
+      "line_exits": "Line Exits",
+      "passes_completed": "Passes Completed",
+      "long_pass_accuracy": "Long Pass Accuracy",
+      "short_pass_accuracy": "Short Pass Accuracy",
+      "psxg_minus_ga": "PSxG-GA",
+      "duel_success": "Duel Success",
+      "forward_passes": "Forward Passes",
+      "forward_pass_accuracy": "Forward Pass Accuracy",
+      "goals": "Goals",
+      "attacking": "Attacking",
+      "possession": "Possession",
+      "counters": "Counters",
+      "defending": "Defending",
+      "physicality": "Physicality",
+      "pressing": "Pressing"
+    }
+  },
+  "teams": {
+    "radar": {
+      "compare": "Compare teams"
+    }
+  },
+  "cb": {
+    "radar": {
+      "compare": "Compare centrebacks"
+    }
+  },
+  "fb": {
+    "radar": {
+      "compare": "Compare fullbacks"
+    }
+  },
+  "cm": {
+    "radar": {
+      "compare": "Compare midfielders"
+    }
+  },
+  "fw": {
+    "radar": {
+      "compare": "Compare wingers"
+    }
+  },
+  "st": {
+    "radar": {
+      "compare": "Compare strikers"
+    }
+  },
+  "gk": {
+    "radar": {
+      "compare": "Compare goalkeepers"
+    }
+  },
+  "plot": {
+    "more": "Plot more metrics"
+  },
+  "footer": {
+    "copyright": "© All Rights Reserved",
+    "terms": "Privacy",
+    "privacy": "Contact",
+    "glossary": "About"
+  }
+} 

@@ -34,7 +34,7 @@
     "dribbles_attempted_per_90": "Dribbles attempted per 90",
     "xg_per_90": "xG per 90",
     "xA_per_90": "xA per 90",
-    "goals_conversion_%": "Goals conversion %",
+    "goal_conversion_%": "Goal conversion %",
     "shots_per_90": "Shots per 90"
   },
   "radar": {
@@ -160,7 +160,7 @@
     }
   },
   "plot": {
-    "more": "Plot more metrics"
+    "more": "Plot more DABABAB"
   },
   "footer": {
     "copyright": "© All Rights Reserved",

@@ -82,10 +82,10 @@
     "percentile": " centile",
     "minutes_played": "Minutes jouées",
     "percentile_suffix": {
-      "th_suffix": "ème",
-      "st_suffix": "er",
-      "nd_suffix": "ème",
-      "rd_suffix": "ème"
+      "th_suffix": "e",
+      "st_suffix": "e",
+      "nd_suffix": "e",
+      "rd_suffix": "e"
     },
     "vs_top_7_leagues": "vs 7 Grands Championnats",
     "metrics": {

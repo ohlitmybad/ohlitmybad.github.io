@@ -3,8 +3,9 @@
 <head>
         <meta name="viewport" content="width=device-width">
   <meta name="language" content="en">
-  <link rel="alternate" hreflang="en" href="https://datamb.football" />
+  <link rel="canonical" href="https://datamb.football" />
   <link rel="alternate" hreflang="x-default" href="https://datamb.football" />
+  <link rel="alternate" hreflang="en" href="https://datamb.football/?lang=en" />
   <link rel="shortcut icon" type="image/x-icon" href="https://datamb.football/favicon.ico">
   <meta name="description" data-i18n="meta.description" content="Compare football players and teams. Browse player and team profiles, try our radar comparison and other tools to visualise data from Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Eredivisie, Primeira Liga and more leagues.">
   <meta name="twitter:card" content="summary_large_image">
@@ -1133,10 +1134,8 @@ function _0x5707(_0xd20fa7,_0x4d36b5){const _0x4dcd69=_0x4dcd();return _0x5707=f
 
 
 <script>
-  // Translation functionality
-  function setLanguage(language) {
+function setLanguage(language) {
     localStorage.setItem('preferredLanguage', language);
-    // Update URL with language parameter
     const url = new URL(window.location.href);
     if (language === 'en') {
       url.searchParams.delete('lang');
@@ -1148,60 +1147,82 @@ function _0x5707(_0xd20fa7,_0x4d36b5){const _0x4dcd69=_0x4dcd();return _0x5707=f
   }
   
   function getPreferredLanguage() {
-    // Check URL parameter first
+    // PRIORITY 1: Check URL parameter first
     const urlParams = new URLSearchParams(window.location.search);
     const langParam = urlParams.get('lang');
     if (langParam) {
       return langParam;
     }
-    return localStorage.getItem('preferredLanguage') || getBrowserLanguage() || 'en';
+    // PRIORITY 2: Check localStorage
+    const storedLang = localStorage.getItem('preferredLanguage');
+    if (storedLang) {
+      return storedLang;
+    }
+    // PRIORITY 3: Use browser language
+    return getBrowserLanguage() || 'en';
   }
-  
+
   function getBrowserLanguage() {
     return navigator.language.slice(0, 2);
   }
-  
-  function applyLanguage(language) {
-    fetch(`locales/${language}.json`)
-      .then(response => response.json())
-      .then(translations => {
-        // Update text content for elements with data-i18n attribute
-        document.querySelectorAll('[data-i18n]').forEach(element => {
-          const keys = element.getAttribute('data-i18n').split('.');
-          let value = translations;
-          for (const key of keys) {
-            value = value[key];
-          }
-          if (value) {
-            element.textContent = value;
-          }
-        });
-  
 
-  
-        // Update meta tags
-        document.title = translations.meta.title;
-        document.querySelector('meta[name="description"]').setAttribute('content', translations.meta.description);
-        document.querySelector('meta[name="language"]').setAttribute('content', language);
+  function applyLanguage(language) {
+    console.log(language);
+
+    if (language === 'en') {
+      return;
+    }
+
+    
+    fetch(`locales/${language}.json`)
+      .then(response => {
+        // Don't throw an error, just return null if response is not OK
+        return response.ok ? response.json() : null;
+      })
+      .then(translations => {
+        // Only proceed if translations exist
+        if (translations) {
+          document.querySelectorAll('[data-i18n]').forEach(element => {
+            const keys = element.getAttribute('data-i18n').split('.');
+            let value = translations;
+            for (const key of keys) {
+              if (value === undefined || value === null) break;
+              value = value[key];
+            }
+            if (value) {
+              if (element.tagName === 'META') {
+              element.setAttribute('content', value);
+          } else if (value.includes('<')) {
+              element.innerHTML = value;
+          } else {
+              element.textContent = value;
+          }          }
+          });
+          // REMOVE FOR PAGES WITH NO METADATA
+          document.querySelector('meta[name="language"]').setAttribute('content', language);
+        }
+      })
+      .catch(() => {
+        // Completely empty catch block to silently ignore any errors
       });
   }
   
-  // Initialize translations
   const preferredLanguage = getPreferredLanguage();
   applyLanguage(preferredLanguage);
   
-  // Language dropdown functionality
+  // BUTTON LANGUAGE SWITCHER REMOVE FOR PAGES WITH NO LANGUAGE SWITCHER
   document.addEventListener('DOMContentLoaded', function() {
     const languageButton = document.getElementById('languageButton');
     const languageDropdown = document.getElementById('languageDropdown');
+    
+
+    if (languageButton) {
+      languageButton.addEventListener('click', function(e) {
+        e.stopPropagation();
+        languageDropdown.classList.toggle('show');
+      });
+    }
   
-    // Toggle dropdown on button click
-    languageButton.addEventListener('click', function(e) {
-      e.stopPropagation();
-      languageDropdown.classList.toggle('show');
-    });
-  
-    // Handle language option clicks
     document.querySelectorAll('.language-option').forEach(option => {
       option.addEventListener('click', function(e) {
         e.preventDefault();
@@ -1211,10 +1232,11 @@ function _0x5707(_0xd20fa7,_0x4d36b5){const _0x4dcd69=_0x4dcd();return _0x5707=f
       });
     });
   
-    // Close dropdown when clicking outside
     document.addEventListener('click', function(event) {
       if (!event.target.closest('.language-switcher-container')) {
-        languageDropdown.classList.remove('show');
+        if (languageDropdown) {
+          languageDropdown.classList.remove('show');
+        }
       }
     });
   });

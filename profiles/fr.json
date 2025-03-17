@@ -17,7 +17,7 @@
     "winger": "Ailier",
     "striker": "Attaquant"
   },
-  "plotmetrics": {
+  "metrics": {
     "prevented_goals_per_90": "Buts évités par 90",
     "save_percentage_pct": "Pourcentage d'arrêts %",
     "short_pass_completion_pct": "Passes courtes réussies %",

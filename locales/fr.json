@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "DataMB | Visuels et Statistiques de Football",
+    "description": "Comparez les statistiques des joueurs et équipes des 7 grands championnats européens. Utilisez notre outil de comparaison radar et d'autres outils pour visualiser les données de Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Eredivisie, Primeira Liga et plus encore."
+  },
+  "header": {
+    "players": "Joueurs",
+    "pro": "Pro",
+    "teams": "Équipes"
+  },
+  "search": {
+    "placeholder": "Recherchez un joueur ou une équipe...",
+    "placeholder2": "Entrez le nom d'une équipe ou d'un joueur..."
+  },
+  "footer": {
+    "rights": "© Tous droits réservés",
+    "privacy": "Confidentialité",
+    "contact": "Contact",
+    "about": "À propos"
+  }
+} 

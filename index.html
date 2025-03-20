@@ -6,6 +6,7 @@
   <link rel="canonical" href="https://datamb.football" />
   <link rel="alternate" hreflang="x-default" href="https://datamb.football" />
   <link rel="alternate" hreflang="en" href="https://datamb.football/?lang=en" />
+  <link rel="alternate" hreflang="fr" href="https://datamb.football/?lang=fr" />
   <link rel="shortcut icon" type="image/x-icon" href="https://datamb.football/favicon.ico">
   <meta name="description" data-i18n="meta.description" content="Compare football players and teams. Browse player and team profiles, try our radar comparison and other tools to visualise data from Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Eredivisie, Primeira Liga and more leagues.">
   <meta name="twitter:card" content="summary_large_image">
@@ -1194,7 +1195,9 @@ function setLanguage(language) {
               element.setAttribute('content', value);
           } else if (value.includes('<')) {
               element.innerHTML = value;
-          } else {
+          } else if (element.tagName === 'INPUT') {
+        element.setAttribute('placeholder', value);
+    } else {
               element.textContent = value;
           }          }
           });

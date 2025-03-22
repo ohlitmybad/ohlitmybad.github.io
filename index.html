@@ -18,6 +18,8 @@
   <meta itemprop="name" content="DataMB | Compare Players and Team Statistics">
   <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css"/>
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet">
   <title data-i18n="meta.title">DataMB | Football Visuals and Statistics</title>
   <script>
   (function() {
@@ -37,731 +39,783 @@ viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + init
 })();
 </script>
   <style>
-
-
-body {
-      font-family: system-ui;
-      background-color: #FFFFFF;
-      margin: 0;
-      padding: 0;
-      font-size: 14px;
-    }
-.button-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.bouton {
-  display: inline-block;
-  width: 245px;
-  height: 245px;
-  padding: 20px 40px;
-  background-color: transparent;
-  border: none;
-  border-radius: 5px;
-  margin: 20px;
-  cursor: pointer;
-}
-
-.image-1 {
-        border-radius: 10px;
-        text-decoration: none;
-        font-size: 24px;
-        font-weight: bold;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        transition: background-color 0.1s ease;
-        background-image: url('https://datamb.football/homeimg/1.png');
-        background-size: cover;
-}
-
-.image-2 {
-  background-image: url('https://datamb.football/homeimg/4.png');
-  background-size: cover;
-  background-color: black;
-  border-radius: 10px;
-        text-decoration: none;
-        font-size: 24px;
-        font-weight: bold;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        transition: background-color 0.1s ease;}
-
-.image-3 {
-  border-radius: 10px;
-        text-decoration: none;
-        font-size: 24px;
-        font-weight: bold;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        transition: background-color 0.1s ease;
-        background-image: url('https://datamb.football/homeimg/2.png');
-        background-size: cover;
-}
-
-
-
-.footer {
-  font-family: system-ui;
-  background: #F2F2F2;
-  padding: 20px;
-  text-align: center;
-  color: #fff;
-}
-
-.footer .logo {
-  display: flex;
-  justify-content: center;
-}
-
-.footer .description {
-  font-size: 20px;
-  margin-bottom: 0px;
-color: black;
-}
-
-.footer .info {
-  font-size: 16px;
-  opacity: 0.8;
-}
-
-.footer .divider {
-  border: none;
-  border-bottom: 1px solid #fff;
-  margin: 25px 0;
-  opacity: 0.2;
-}
-
-.footer .sub-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footer .sub-footer .terms,
-.footer .sub-footer .privacy,
-.footer .sub-footer .glossary {
-font-size: 17px;
-  margin-left: 10px;
-  text-decoration: none;
-  color: black;
-}
-
-.logo img {
-  width: 50px;
-  height: 50px;
-}
-
-
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; /* Align items at the top */
-  flex-wrap: wrap; /* Add flex-wrap property to wrap the content on smaller screens */
-}
-
-.google-play-container {
-  display: flex;
-  flex-direction: column; /* Arrange items in a column */
-  align-items: flex-end; /* Align items to the right */
-  margin-top: -20px; /* Adjust the margin-top to remove the space */
-}
-
-.google-play-container img {
-  width: 182px;
-  height: 70px;
-}
-
-.description,
-.info,
-.divider,
-.sub-footer {
-  flex-basis: 100%;
-color: black;
-}
-
-.footer p {
-  margin-bottom: 0; 
-}
-
-.search-input2 {
-      width: 300px; /* Set the width as desired */
-      padding: 10px;
-      border: 2px solid #ccc;
-      border-radius: 5px;
-      font-size: 18px;
-      outline: none;
-      margin: 10px;
-      /* Center the input horizontally */
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-
-
-.search-input-modal {
-    display: none;
-    position: fixed; /* Change this to "fixed" to cover the entire viewport */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Increase opacity for better obscuring */
-    z-index: 999; /* Ensure it's above other elements */
-}
-
-.search-input-container {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 4px;
-    z-index: 1000; /* Make sure it's on top of the modal background */
-}
-
-#searchInput {
-            width: 340px;
-            padding: 12px;
-            border: 3px solid #ccc;
-            border-radius: 4px;
-            font-size: 19px;
-            outline: none;
-        }
-
-        #autocompleteBox {
-            width: 360px;
-            max-height: 150px;
-            overflow-y: auto;
-            background-color: #fff;
-        }
-
-
-        #autocompleteBox ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        #autocompleteBox li {
-            margin: 0;
-            padding: 5px;
-        }
-
-        #autocompleteBox {
-            line-height: 2; /* Adjust the value as needed to control line spacing */
-            text-align: center !important;
-
-        }
-
-        #autocompleteBox a {
-            text-decoration: none;
-            font-family: Arial, sans-serif;
-            text-align: center !important;
-            color: #333 !important;
-            cursor: pointer; /* Add pointer cursor style to the anchor element */
-        }
-
-        #autocompleteBox li:hover {
-            background-color: #f0f0f0;
-        }
-        #autocompleteBox2 {
-    width: 600px;
-    max-height: 200px;
-    overflow-y: auto;
-    background-color: #fff;
-    position: relative;
-    left: 50%;
-    top: 0%;
-    transform: translate(-50%, -0%);
-}
-
-#autocompleteBox2 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#autocompleteBox2 li {
-    margin: 0;
-    padding: 5px;
-}
-
-#autocompleteBox2 {
-    line-height: 2; /* Adjust the value as needed to control line spacing */
-    text-align: center !important;
-}
-
-#autocompleteBox2 a {
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    text-align: center !important;
-    color: #0c2e70f7 !important;
-    cursor: pointer; /* Add pointer cursor style to the anchor element */
-}
-
-#autocompleteBox2 li:hover {
-    background-color: #f0f0f0;
-}
-
-
-
-      
-        .search-container2 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-        
-#searchButton {
-  padding: 8.5px;  /* Reduced from 10px */
-  background-color: #0074d9;
-  color: #fff;
-  border: none;
-  width: 34px;  /* Reduced from 40px */
-  height: 34px;  /* Reduced from 40px */
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 17px;  /* Reduced from 20px */
-}
-
-/* Add this to control icon size */
-#searchButton iconify-icon {
-  font-size: 17px;  /* Match the button's font-size */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-
-.box2 {
-    position: relative;
-    overflow: hidden; /* Ensure pseudo-element stays within container bounds */
-}
-
-.box2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('https://datamb.football/homeimg/3.png');
-    background-size: cover; /* Make sure the image covers the entire background */
-    background-repeat: repeat;
-    background-position: center center; /* Center the background image */
-    opacity: 0.5; /* Adjust the opacity as needed */
-    z-index: 1; /* Ensure the pseudo-element is below any content in the container */
-}
-
-.box2 > * {
-    position: relative;
-    z-index: 2; /* Ensure content is above the pseudo-element */
-}
-
-.box2 {
-  width: calc(19% - 20px); /* Adjust the width for your desired layout */
-  border: 3px solid #007BFF;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px 0;
-}
-
-.box2:nth-child(3n + 1) {
-  margin-left: 140px; /* Adjust the margin for proper spacing */
-  border: 3px solid #cffb0b;
-}
-
-.box2:nth-child(3n + 2) {
-  margin-left: 0px; /* Adjust the margin for proper spacing */
-  margin-right: 0px; /* Adjust the margin for proper spacing */
-  border: 3px solid #002F63;
-}
-
-.box2:nth-child(3n + 3) {
-  margin-right: 140px; /* Adjust the margin for proper spacing */
-  border: 3px solid #e3000d;
-}
-
-.box2 h2 {
-  color: #007BFF;
-  text-align: center;
-
-}
-.box2:nth-child(3n + 1) h2 {
-  color: #081d3d;
-}
-
-.box2:nth-child(3n + 2) h2 {
-  color: #002F63;
-}
-.box2:nth-child(3n + 3) h2 {
-  color: #001e5a;
-}
-
-
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-
-.box {
-    position: relative;
-    overflow: hidden; /* Ensure pseudo-element stays within container bounds */
-}
-
-.box::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('https://datamb.football/homeimg/3.png');
-    background-size: cover; /* Make sure the image covers the entire background */
-    background-repeat: repeat;
-    background-position: center center; /* Center the background image */
-    opacity: 0.5; /* Adjust the opacity as needed */
-    z-index: 1; /* Ensure the pseudo-element is below any content in the container */
-}
-
-.box > * {
-    position: relative;
-    z-index: 2; /* Ensure content is above the pseudo-element */
-}
-
-.box {
-  width: calc(19% - 20px); /* Adjust the width for your desired layout */
-  border: 3px solid #007BFF;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px 0;
-}
-
-/* Adjust the margins for your desired layout */
-.box:nth-child(4n + 1) {
-  margin-left: 40px;
-  border: 3px solid #3D195B;
-}
-
-.box:nth-child(4n + 2) {
-  margin-left: 0px;
-  margin-right: 0px;
-  border: 3px solid #ff4b43;
-}
-
-.box:nth-child(4n + 3) {
-  margin-left: 0px;
-  margin-right: 0px;
-  border: 3px solid #D3010C;
-
-}
-
-.box:nth-child(4n + 4) {
-  margin-right: 40px;
-  border: 3px solid #002d71;
-}
-
-
-.box h2 {
-  color: #007BFF;
-  text-align: center;
-}
-
-.box:nth-child(4n + 1)  h2 {
-  color: #3D195B;
-  text-align: center;
-}
-.box:nth-child(4n + 2)  h2 {
-  color: #ff4b43;
-  text-align: center;
-}
-
-.box:nth-child(4n + 3)  h2 {
-  color: #D3010C;
-  text-align: center;
-}
-
-
-.box:nth-child(4n + 4)  h2 {
-  color: #002d71;
-  text-align: center;
-}
-
-.team-list {
-  list-style-type: none;
-  padding: 0;
-  line-height: 20px;
-}
-
-.team-list li {
-  margin: 6px 0;
-  text-align: center;
-}
-
-.team-list a {
-  text-decoration: none;
-  color: #007BFF;
-  font-size: 16px;
-}
-.team-list2 {
-  list-style-type: none;
-  padding: 0;
-  line-height: 20px;
-}
-
-.team-list2 li {
-  margin: 6px 0;
-  text-align: center;
-}
-
-.team-list2 a {
-  text-decoration: none;
-  color: #3D195B;
-  font-size: 16px;
-}
-.team-list3 {
-  list-style-type: none;
-  padding: 0;
-  line-height: 20px;
-}
-
-.team-list3 li {
-  margin: 6px 0;
-  text-align: center;
-}
-
-.team-list3 a {
-  text-decoration: none;
-  color: #ff4b43;
-  font-size: 16px;
-}
-
-.team-list4 {
-  list-style-type: none;
-  padding: 0;
-  line-height: 20px;
-}
-
-.team-list4 li {
-  margin: 6px 0;
-  text-align: center;
-}
-
-.team-list4 a {
-  text-decoration: none;
-  color: #D3010C;
-  font-size: 16px;
-}
-.team-list5 {
-  list-style-type: none;
-  padding: 0;
-  line-height: 20px;
-}
-
-.team-list5 li {
-  margin: 6px 0;
-  text-align: center;
-}
-
-.team-list5 a {
-  text-decoration: none;
-  color: #002d71;
-  font-size: 16px;
-}
-
-.team-list6 {
-  list-style-type: none;
-  padding: 0;
-  line-height: 20px;
-}
-
-.team-list6 li {
-  margin: 6px 0;
-  text-align: center;
-}
-
-.team-list6 a {
-  text-decoration: none;
-  color: #081d3d;
-  font-size: 16px;
-}
-
-.team-list7 {
-  list-style-type: none;
-  padding: 0;
-  line-height: 20px;
-}
-
-.team-list7 li {
-  margin: 6px 0;
-  text-align: center;
-}
-
-.team-list7 a {
-  text-decoration: none;
-  color: #002F63;
-  font-size: 16px;
-}
-
-
-.team-list8 {
-  list-style-type: none;
-  padding: 0;
-  line-height: 20px;
-}
-
-.team-list8 li {
-  margin: 6px 0;
-  text-align: center;
-}
-
-.team-list8 a {
-  text-decoration: none;
-  color: #001e5a;
-  font-size: 16px;
-}
-
-/* HEADER STARTS HERE */
-
-
-.header {
-  font-family: system-ui;
-  padding: 20px;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header .logo {
-  display: flex;
-  align-items: center;
-  margin-right: auto; /* Push logo to the left */
-}
-
-.header .logo img {
-  height: 34px;
-  width: auto;
-  opacity: 0.84;
-}
-
-
-
-.header .navigation {
-  display: flex;
-  align-items: center;
-  gap: 25px; /* Reduced gap between buttons */
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%); /* Center the navigation */
-}
-
+ body {
+     font-family: system-ui;
+     margin: 0;
+     padding: 0;
+     font-size: 14px;
+     color: var(--text-color);
+     background-color: var(--background-color);
+}
+ :root {
+     --primary-color: #3498db;
+     --secondary-color: #2ecc71;
+     --background-color: #f5f7fa;
+     --container-bg: #ffffff;
+     --text-color: #333333;
+     --border-color: #e0e0e0;
+     --hover-color: #f0f0f0;
+     --button-color: #3498db;
+     --button-text: #ffffff;
+     --header-bg: #ffffff;
+     --footer-bg: #ffffff;
+     --box-bg: #ffffff;
+     --shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+ .dark-mode {
+     --primary-color: #3498db;
+     --secondary-color: #2ecc71;
+     --background-color: #0e0f0f;
+     --container-bg: #1a1a1a;
+     --text-color: #e0e0e0;
+     --border-color: #333333;
+     --hover-color: #252525;
+     --button-color: #2980b9;
+     --button-text: #ffffff;
+     --header-bg: #0e0f0f;
+     --footer-bg: #222222;
+     --box-bg: #212120;
+     --shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+ .header {
+     background-color: var(--header-bg);
+     display: flex;
+     padding: 22px 20px;
+     align-items: center;
+     justify-content: space-between;
+     box-shadow: var(--shadow);
+     position: relative;
+     font-family: system-ui;
+     top: 0;
+     z-index: 100;
+}
+ #searchButton3 {
+     padding: 8.5px;
+     background-color: #0074d9;
+     color: #fff;
+     border: none;
+     width: 34px;
+     height: 34px;
+     border-radius: 50%;
+     cursor: pointer;
+     font-size: 17px;
+}
+ body.dark-mode .header .button10 {
+     color: #aeaeae;
+}
+ body.dark-mode .header .button10:hover {
+     color: #2563eb;
+     background-color: #ffffff;
+}
+ body.dark-mode header a {
+     color: #aeaeae;
+}
+ body.dark-mode .header .logo img {
+     opacity: 0.88;
+}
+ body.dark-mode .language-button {
+     background-color: #0F0F0E;
+     color: #aeaeae;
+}
+ .header .logo {
+     display: flex;
+     align-items: center;
+     margin-right: auto;
+}
+ .header .logo img {
+     height: 34px;
+     width: auto;
+     opacity: 0.84;
+     transform: translateY(-2px) 
+}
+ .header .navigation {
+     display: flex;
+     align-items: center;
+     gap: 25px;
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%) translateY(-2px);
+}
+ .header .button10 {
+     padding: 0.5rem 1rem;
+     text-decoration: none;
+     color: #333;
+     line-height: 1.6;
+     border-radius: 4px;
+     transition: background-color 0.2s;
+     font-size: 1.1rem;
+}
+ .header .button10:hover {
+     background-color: #f0f0f0;
+     color: #2563eb;
+}
+ .header-right {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     margin-left: auto;
+     transform: translateY(-1.25px);
+}
+ header a {
+     color: black;
+     text-decoration: none;
+}
+ .language-switcher-container {
+     position: relative;
+     display: inline-block;
+}
+ .language-button {
+     background: none;
+     border: none;
+     cursor: pointer;
+     padding: 10px;
+     color: #444444;
+     display: flex;
+     align-items: center;
+     font-size: 17px;
+}
+ .language-button iconify-icon {
+     font-size: 24px;
+     opacity: 0.7;
+}
+ .language-dropdown {
+     display: none;
+     position: absolute;
+     top: 100%;
+     right: 0;
+     background: white;
+     border-radius: 8px;
+     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+     padding: 10px;
+     width: 200px;
+     z-index: 1000;
+}
+ .language-option {
+     display: flex;
+     align-items: center;
+     padding: 8px 12px;
+     cursor: pointer;
+     border-radius: 4px;
+     color: #444444;
+     text-decoration: none;
+}
+ .language-option iconify-icon {
+     margin-right: 10px;
+     font-size: 20px;
+}
+ .language-dropdown.show {
+     display: block;
+}
+ .dark-mode-toggle {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: var(--container-bg);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+     box-shadow: var(--shadow);
+     z-index: 100;
+     transition: background-color 0.3s;
+}
+ .toggle-icon::before {
+     font-family: "Ionicons";
+     content: "\f467";
+     font-size: 30px;
+     color: var(--text-color);
+}
+ .dark-mode .toggle-icon::before {
+     content: "\f3b0";
+     font-size: 20px;
+}
+ body.dark-mode .language-button:hover {
+     background-color: #0F0F0E;
+     color: #aeaeae;
+}
+ body.dark-mode .language-dropdown {
+     background: #e8e6e6;
+}
+ body.dark-mode .language-option {
+     color: #000000;
+}
+ .dark-mode .dark-mode-toggle {
+     background-color: #1a1a1a;
+     border: 1px solid #333;
+}
+ .dark-mode .toggle-icon::before {
+     color: #e0e0e0;
+}
+ .dark-mode #searchButton3 {
+     background-color: #0074d9;
+     color: #fff;
+}
+ .dark-mode .header .button10 {
+     color: #aaa;
+}
+ .dark-mode .header .button10:hover {
+     color: #2563eb;
+     background-color: #1a1a1a;
+}
+ .dark-mode header a {
+     color: #aaa;
+}
+ .dark-mode .header .logo img {
+     opacity: 0.9;
+     filter: brightness(0.9);
+}
+ .dark-mode .language-button {
+     background-color: #0e0f0f;
+     color: #aaa;
+}
+ .dark-mode .language-button:hover {
+     background-color: #1a1a1a;
+}
+ .dark-mode .language-dropdown {
+     background: #1a1a1a;
+     border: 1px solid #333;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+ .dark-mode .language-option {
+     color: #e0e0e0;
+}
+ .dark-mode .language-option:hover {
+     background-color: #252525;
+}
+ .button-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+ .bouton {
+     display: flex;
+     width: 245px;
+     height: 245px;
+     padding: 20px 40px;
+     background-color: transparent;
+     border: none;
+     border-radius: 5px;
+     margin: 20px;
+     cursor: pointer;
+     position: relative;
+     justify-content: center;
+}
+ .bouton span {
+     position: absolute;
+     top: 72%;
+     transform: translateY(-50%);
+     transform: translateX(1.8%);
+}
+ .image-1 span, .image-3 span {
+     color: #222;
+     font-weight: 600;
+     font-size: 30px;
+     font-family: 'Oswald', sans-serif;
+}
+ body.dark-mode .image-2 span {
+     color: #e0e0e0;
+}
+ .image-2 span {
+     color: #ffffff;
+     font-weight: 700;
+     font-size: 30px;
+     font-family: 'Oswald', sans-serif;
+}
+ body.dark-mode .image-1, body.dark-mode .image-2, body.dark-mode .image-3 {
+     background-color: #151515;
+}
+ .image-1 {
+     border-radius: 10px;
+     text-decoration: none;
+     background-color: white;
+     font-size: 24px;
+     font-weight: bold;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+     transition: background-color 0.1s ease;
+     background-image: url('https://datamb.football/homeimg/1.png');
+     background-size: cover;
+}
+ .image-2 {
+     background-image: url('https://datamb.football/homeimg/4.png');
+     background-size: cover;
+     background-color: #0e0f0f;
+     border-radius: 10px;
+     text-decoration: none;
+     font-size: 24px;
+     font-weight: bold;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+     transition: background-color 0.1s ease;
+}
+ .image-3 {
+     border-radius: 10px;
+     text-decoration: none;
+     background-color: white;
+     font-size: 24px;
+     font-weight: bold;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+     transition: background-color 0.1s ease;
+     background-image: url('https://datamb.football/homeimg/2.png');
+     background-size: cover;
+}
+ .footer {
+     font-family: system-ui;
+     background: var(--footer-bg);
+     padding: 20px;
+     text-align: center;
+     color: var(--text-color);
+     box-shadow: var(--shadow);
+}
+ .footer .logo {
+     display: flex;
+     justify-content: center;
+}
+ .footer .description {
+     font-size: 20px;
+     margin-bottom: 0px;
+     color: var(--text-color);
+}
+ .footer .info {
+     font-size: 16px;
+     opacity: 0.8;
+}
+ .footer .divider {
+     border: none;
+     border-bottom: 1px solid #fff;
+     margin: 25px 0;
+     opacity: 0.2;
+}
+ .footer .sub-footer {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+ .footer .sub-footer .terms, .footer .sub-footer .privacy, .footer .sub-footer .glossary {
+     font-size: 17px;
+     margin-left: 10px;
+     text-decoration: none;
+     color: var(--text-color);
+}
+ .logo img {
+     width: 50px;
+     height: 50px;
+}
+ .footer-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     flex-wrap: wrap;
+}
+ .google-play-container {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     margin-top: -20px;
+}
+ .google-play-container img {
+     width: 182px;
+     height: 70px;
+}
+ .description, .info, .divider, .sub-footer {
+     flex-basis: 100%;
+     color: var(--text-color);
+}
+ .footer p {
+     margin-bottom: 0;
+}
+ .search-input2 {
+     width: 320px;
+     padding: 10px;
+     border: 1px solid var(--border-color);
+     border-radius: 6px;
+     font-size: 17px;
+     font-family: 'Inter', sans-serif;
+     outline: none;
+     height: 50px;
+     box-sizing: border-box;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+ .search-input-modal {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.7);
+     z-index: 999;
+}
+ .search-input-container {
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: var(--container-bg);
+     padding: 20px;
+     border-radius: 4px;
+     z-index: 1000;
+}
+ #searchInput {
+     width: 340px;
+     padding: 12px;
+     border: 3px solid var(--border-color);
+     border-radius: 4px;
+     font-size: 19px;
+     outline: none;
+     background-color: var(--container-bg);
+     color: var(--text-color);
+}
+ #searchInput:focus {
+     border-color: var(--primary-color);
+}
+ #searchInput::placeholder {
+     color: #999;
+}
+ #autocompleteBox {
+     width: 360px;
+     max-height: 150px;
+     overflow-y: auto;
+}
+ #autocompleteBox ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+ #autocompleteBox li {
+     margin: 0;
+     padding: 5px;
+}
+ #autocompleteBox {
+     line-height: 2;
+     text-align: center !important;
+}
+ body.dark-mode #autocompleteBox a, body.dark-mode #autocompleteBox2 a {
+     color: var(--text-color) !important;
+}
+ body.dark-mode #autocompleteBox a {
+     color: white !important;
+}
+ #autocompleteBox a {
+     text-decoration: none;
+     font-family: Arial, sans-serif;
+     text-align: center !important;
+     color: #333 !important;
+     cursor: pointer;
+}
+ #autocompleteBox li:hover {
+     background-color: #f0f0f0;
+}
+ #autocompleteBox2 {
+     width: 600px;
+     max-height: 200px;
+     overflow-y: auto;
+     position: relative;
+     left: 50%;
+     top: 0%;
+     transform: translate(-50%, -0%);
+}
+ #autocompleteBox2 ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+ #autocompleteBox2 li {
+     margin: 0;
+     padding: 5px;
+}
+ #autocompleteBox2 {
+     line-height: 2;
+     text-align: center !important;
+}
+ #autocompleteBox2 a {
+     text-decoration: none;
+     font-family: Arial, sans-serif;
+     text-align: center !important;
+     color: #0c2e70f7 !important;
+     cursor: pointer;
+}
+ #autocompleteBox2 li:hover {
+     background-color: #f0f0f0;
+}
+ .search-container2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ .container2 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+ .box2 {
+     position: relative;
+     overflow: hidden;
+}
+ .box2::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: var(--box-bg);
+}
+ .box2 > * {
+     position: relative;
+     z-index: 2;
+}
+ .box2 {
+     width: calc(19% - 20px);
+     border: 3px solid #007BFF;
+     border-radius: 10px;
+     padding: 10px;
+     margin: 10px 0;
+}
+ .box2:nth-child(3n + 1) {
+     margin-left: 140px;
+     border: 3px solid #cffb0b;
+}
+ .box2:nth-child(3n + 2) {
+     margin-left: 0px;
+     margin-right: 0px;
+     border: 3px solid #002F63;
+}
+ .box2:nth-child(3n + 3) {
+     margin-right: 140px;
+     border: 3px solid #e3000d;
+}
+ .box2 h2 {
+     color: #007BFF;
+     text-align: center;
+}
+ .box2:nth-child(3n + 1) h2 {
+     color: #081d3d;
+}
+ .box2:nth-child(3n + 2) h2 {
+     color: #002F63;
+}
+ .box2:nth-child(3n + 3) h2 {
+     color: #001e5a;
+}
+ .container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+ .box {
+     position: relative;
+     overflow: hidden;
+}
+ .box::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: var(--box-bg);
+}
+ .box > * {
+     position: relative;
+     z-index: 2;
+}
+ .box {
+     width: calc(19% - 20px);
+     border: 3px solid #007BFF;
+     border-radius: 10px;
+     padding: 10px;
+     margin: 10px 0;
+}
+ .box:nth-child(4n + 1) {
+     margin-left: 40px;
+     border: 3px solid #3D195B;
+}
+ .box:nth-child(4n + 2) {
+     margin-left: 0px;
+     margin-right: 0px;
+     border: 3px solid #ff4b43;
+}
+ .box:nth-child(4n + 3) {
+     margin-left: 0px;
+     margin-right: 0px;
+     border: 3px solid #D3010C;
+}
+ .box:nth-child(4n + 4) {
+     margin-right: 40px;
+     border: 3px solid #002d71;
+}
+ .box h2 {
+     color: #007BFF;
+     text-align: center;
+}
+ .box:nth-child(4n + 1) h2 {
+     color: #3D195B;
+     text-align: center;
+}
+ .box:nth-child(4n + 2) h2 {
+     color: #ff4b43;
+     text-align: center;
+}
+ .box:nth-child(4n + 3) h2 {
+     color: #D3010C;
+     text-align: center;
+}
+ .box:nth-child(4n + 4) h2 {
+     color: #002d71;
+     text-align: center;
+}
+ .team-list {
+     list-style-type: none;
+     padding: 0;
+     line-height: 20px;
+}
+ .team-list li {
+     margin: 6px 0;
+     text-align: center;
+}
+ .team-list a {
+     text-decoration: none;
+     color: #007BFF;
+     font-size: 16px;
+}
+ .team-list2 {
+     list-style-type: none;
+     padding: 0;
+     line-height: 20px;
+}
+ .team-list2 li {
+     margin: 6px 0;
+     text-align: center;
+}
+ .team-list2 a {
+     text-decoration: none;
+     color: #3D195B;
+     font-size: 16px;
+}
+ .team-list3 {
+     list-style-type: none;
+     padding: 0;
+     line-height: 20px;
+}
+ .team-list3 li {
+     margin: 6px 0;
+     text-align: center;
+}
+ .team-list3 a {
+     text-decoration: none;
+     color: #ff4b43;
+     font-size: 16px;
+}
+ .team-list4 {
+     list-style-type: none;
+     padding: 0;
+     line-height: 20px;
+}
+ .team-list4 li {
+     margin: 6px 0;
+     text-align: center;
+}
+ .team-list4 a {
+     text-decoration: none;
+     color: #D3010C;
+     font-size: 16px;
+}
+ .team-list5 {
+     list-style-type: none;
+     padding: 0;
+     line-height: 20px;
+}
+ .team-list5 li {
+     margin: 6px 0;
+     text-align: center;
+}
+ .team-list5 a {
+     text-decoration: none;
+     color: #002d71;
+     font-size: 16px;
+}
+ .team-list6 {
+     list-style-type: none;
+     padding: 0;
+     line-height: 20px;
+}
+ .team-list6 li {
+     margin: 6px 0;
+     text-align: center;
+}
+ .team-list6 a {
+     text-decoration: none;
+     color: #081d3d;
+     font-size: 16px;
+}
+ .team-list7 {
+     list-style-type: none;
+     padding: 0;
+     line-height: 20px;
+}
+ .team-list7 li {
+     margin: 6px 0;
+     text-align: center;
+}
+ .team-list7 a {
+     text-decoration: none;
+     color: #002F63;
+     font-size: 16px;
+}
+ .team-list8 {
+     list-style-type: none;
+     padding: 0;
+     line-height: 20px;
+}
+ .team-list8 li {
+     margin: 6px 0;
+     text-align: center;
+}
+ .team-list8 a {
+     text-decoration: none;
+     color: #001e5a;
+     font-size: 16px;
+}
 /* Hide navigation on small screens */
-@media screen and (max-width: 650px) {
-  .header .navigation {
-    display: none;
-  }
+ @media screen and (max-width: 650px) {
+     .header .navigation {
+         display: none;
+    }
+}
+ body.dark-mode #searchInput2 {
+     box-shadow: var(--shadow);
+     background-color: var(--container-bg);
+}
+ body.dark-mode #searchInput {
+     background-color: #333;
+     color: #e0e0e0;
+     border-color: #555;
+}
+ body.dark-mode .box, body.dark-mode .box2 {
+     background-color: rgba(40, 40, 40, 0.7);
+}
+ body.dark-mode .team-list a, body.dark-mode .team-list2 a, body.dark-mode .team-list3 a, body.dark-mode .team-list4 a, body.dark-mode .team-list5 a, body.dark-mode .team-list6 a, body.dark-mode .team-list7 a, body.dark-mode .team-list8 a {
+     color: #e0e0e0;
+}
+ body.dark-mode .box h2, body.dark-mode .box2 h2 {
+     color: #e0e0e0;
+}
+ body.dark-mode .image-1 span, body.dark-mode .image-3 span {
+     color: #e0e0e0;
+}
+ body.dark-mode .sub-footer svg {
+     fill: white;
+}
+ body.dark-mode .search-input-container {
+     background-color: #333;
 }
 
-.header .button {
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: #333;
-  line-height: 1.6;
-  border-radius: 4px;
-  transition: background-color 0.2s;
-  font-size: 1.1rem;  /* Added larger font size */
-}
 
-
-.header .button:hover {
-  background-color: #f0f0f0;
-  color: #2563eb;
-
-}
-
-
-
-/* Group search and language buttons */
-.header-right {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-left: auto; /* Push buttons to the right */
-}
-
-
-
-/* Add language switcher styles */
-.language-switcher-container {
-  display: none;
-  position: relative;
-}
-
-.language-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-  color: #444444;
-  display: flex;
-  align-items: center;
-  font-size: 17px;
-}
-
-.language-button iconify-icon {
-  font-size: 24px;
-  opacity: 0.7;
-}
-
-.language-dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  padding: 10px;
-  width: 200px; 
-  z-index: 1000;
-}
-
-.language-option {
-  display: flex;
-  align-items: center;
-  padding: 8px 12px;
-  cursor: pointer;
-  border-radius: 4px;
-  color: #444444;
-  text-decoration: none;
-}
-
-.language-option:hover {
-  background: #f5f5f5;
-}
-
-.language-option iconify-icon {
-  margin-right: 10px;
-  font-size: 20px;
-}
-
-.language-dropdown.show {
-  display: block;
-}
 
   </style>
 
@@ -773,20 +827,21 @@ color: black;
     <div class="logo-text"><a href="https://datamb.football"></a></div>
   </div>&nbsp;
   <nav class="navigation">
-    <a href="https://datamb.football/radars" class="button" data-i18n="header.players">Players</a>
-    <a href="https://datamb.football/join" class="button" data-i18n="header.pro">Pro</a>
-    <a href="https://datamb.football/teams" class="button" data-i18n="header.teams">Teams</a>  
+    <a href="https://datamb.football/radars" class="button10" data-i18n="header.players">Players</a>
+    <a href="https://datamb.football/join" class="button10" data-i18n="header.pro">Pro</a>
+    <a href="https://datamb.football/teams" class="button10" data-i18n="header.teams">Teams</a>  
   </nav>  <div class="header-right">
 
   <div class="search-container">
-    <button id="searchButton"><iconify-icon icon="ion:search-outline"></iconify-icon></button>
+    <button id="searchButton3"><iconify-icon icon="ion:search-outline"></iconify-icon></button>
   </div>
   <div class="language-switcher-container">
     <button class="language-button" id="languageButton">
       <iconify-icon icon="heroicons:globe-alt"></iconify-icon>
     </button>
-    <div class="language-dropdown" id="languageDropdown">
+        <div class="language-dropdown" id="languageDropdown">
       <a href="?lang=en" class="language-option"><iconify-icon icon="flag:gb-4x3"></iconify-icon>English</a>
+      <a href="?lang=fr" class="language-option"><iconify-icon icon="flag:fr-4x3"></iconify-icon>Français</a>
     </div>
   </div></div>
 </header>
@@ -824,7 +879,7 @@ xhr.send(null);
 
 let dataCSV = xhr.responseText;
   
-function _0x5707(_0xd20fa7,_0x4d36b5){const _0x4dcd69=_0x4dcd();return _0x5707=function(_0x57077a,_0xde96b9){_0x57077a=_0x57077a-0x140;let _0x383e81=_0x4dcd69[_0x57077a];return _0x383e81;},_0x5707(_0xd20fa7,_0x4d36b5);}const _0xedf2b2=_0x5707;(function(_0x16e1b0,_0x125833){const _0x222c5a=_0x5707,_0x3f540c=_0x16e1b0();while(!![]){try{const _0x3105f2=parseInt(_0x222c5a(0x161))/0x1+parseInt(_0x222c5a(0x144))/0x2+parseInt(_0x222c5a(0x148))/0x3+-parseInt(_0x222c5a(0x155))/0x4+parseInt(_0x222c5a(0x141))/0x5*(-parseInt(_0x222c5a(0x145))/0x6)+-parseInt(_0x222c5a(0x157))/0x7+parseInt(_0x222c5a(0x14b))/0x8*(parseInt(_0x222c5a(0x159))/0x9);if(_0x3105f2===_0x125833)break;else _0x3f540c['push'](_0x3f540c['shift']());}catch(_0x450250){_0x3f540c['push'](_0x3f540c['shift']());}}}(_0x4dcd,0x1bc51));const dataLines=dataCSV[_0xedf2b2(0x160)]('\x0a'),searchButton=document[_0xedf2b2(0x142)]('searchButton'),searchInputModal=document[_0xedf2b2(0x142)](_0xedf2b2(0x14a)),searchInput=document[_0xedf2b2(0x142)](_0xedf2b2(0x143)),autocompleteBox=document[_0xedf2b2(0x142)](_0xedf2b2(0x162)),data1=dataLines[_0xedf2b2(0x146)](_0x19546c=>{const _0x89300c=_0xedf2b2,[_0x5af128,_0x515bec]=_0x19546c[_0x89300c(0x160)](',');return{'name':_0x5af128,'link':_0x515bec};});function removeDiacritics(_0x3ed1af){const _0x202611=_0xedf2b2,_0x4b45cf={'ø':'o','Ø':'O','ı':'i'};return _0x3ed1af=_0x3ed1af[_0x202611(0x147)](/[øØıI]/g,_0x19f74a=>_0x4b45cf[_0x19f74a]),_0x3ed1af[_0x202611(0x15d)]('NFD')[_0x202611(0x147)](/[\u0300-\u036f]/g,'');}function search2(_0x1db14d){const _0x26c944=_0xedf2b2;autocompleteBox[_0x26c944(0x15e)]='';const _0x321867=removeDiacritics(_0x1db14d)[_0x26c944(0x147)](/[^\w\s]/g,'')[_0x26c944(0x149)](),_0x3ad89e=data1[_0x26c944(0x15c)](_0xb995bf=>{const _0x3866b0=_0x26c944,_0x2b7de7=removeDiacritics(_0xb995bf[_0x3866b0(0x14e)])['replace'](/[^\w\s]/g,'')[_0x3866b0(0x149)]();return _0x2b7de7['includes'](_0x321867);});if(_0x3ad89e[_0x26c944(0x163)]===0x0){autocompleteBox[_0x26c944(0x152)][_0x26c944(0x14c)]='none';return;}_0x3ad89e[_0x26c944(0x151)](_0x4b9def=>{const _0x31eeb1=_0x26c944,_0x505ab8=document[_0x31eeb1(0x14d)]('div'),_0x3a2d70=document[_0x31eeb1(0x14d)]('a');_0x3a2d70['href']=_0x4b9def[_0x31eeb1(0x154)],_0x3a2d70[_0x31eeb1(0x150)]=_0x4b9def[_0x31eeb1(0x14e)],_0x505ab8[_0x31eeb1(0x15b)](_0x3a2d70),autocompleteBox[_0x31eeb1(0x15b)](_0x505ab8);}),autocompleteBox['style'][_0x26c944(0x14c)]=_0x26c944(0x153);}searchButton[_0xedf2b2(0x156)](_0xedf2b2(0x14f),()=>{const _0x350b96=_0xedf2b2;searchInputModal['style'][_0x350b96(0x14c)]=_0x350b96(0x153);}),searchInput['addEventListener'](_0xedf2b2(0x158),()=>{const _0x122364=_0xedf2b2,_0x1aac33=searchInput['value'];_0x1aac33[_0x122364(0x140)]()===''?autocompleteBox[_0x122364(0x152)][_0x122364(0x14c)]='none':search2(_0x1aac33);}),document['addEventListener']('click',_0x17873a=>{const _0x2c2a21=_0xedf2b2;_0x17873a[_0x2c2a21(0x15a)]===searchInputModal&&(searchInputModal[_0x2c2a21(0x152)][_0x2c2a21(0x14c)]=_0x2c2a21(0x15f));});function _0x4dcd(){const _0x3abacf=['forEach','style','block','link','165476bdcaHI','addEventListener','430668iEzpyY','input','90cmGEmO','target','appendChild','filter','normalize','innerHTML','none','split','102625kyWWmb','autocompleteBox','length','trim','5KymJaR','getElementById','searchInput','423476PJmBDe','1170534HGXHHf','map','replace','60222cRWbFM','toLowerCase','searchInputModal','61832bbygIm','display','createElement','name','click','textContent'];_0x4dcd=function(){return _0x3abacf;};return _0x4dcd();}
+function _0x5707(_0xd20fa7,_0x4d36b5){const _0x4dcd69=_0x4dcd();return _0x5707=function(_0x57077a,_0xde96b9){_0x57077a=_0x57077a-0x140;let _0x383e81=_0x4dcd69[_0x57077a];return _0x383e81;},_0x5707(_0xd20fa7,_0x4d36b5);}const _0xedf2b2=_0x5707;(function(_0x16e1b0,_0x125833){const _0x222c5a=_0x5707,_0x3f540c=_0x16e1b0();while(!![]){try{const _0x3105f2=parseInt(_0x222c5a(0x161))/0x1+parseInt(_0x222c5a(0x144))/0x2+parseInt(_0x222c5a(0x148))/0x3+-parseInt(_0x222c5a(0x155))/0x4+parseInt(_0x222c5a(0x141))/0x5*(-parseInt(_0x222c5a(0x145))/0x6)+-parseInt(_0x222c5a(0x157))/0x7+parseInt(_0x222c5a(0x14b))/0x8*(parseInt(_0x222c5a(0x159))/0x9);if(_0x3105f2===_0x125833)break;else _0x3f540c['push'](_0x3f540c['shift']());}catch(_0x450250){_0x3f540c['push'](_0x3f540c['shift']());}}}(_0x4dcd,0x1bc51));const dataLines=dataCSV[_0xedf2b2(0x160)]('\x0a'),searchButton3=document[_0xedf2b2(0x142)]('searchButton3'),searchInputModal=document[_0xedf2b2(0x142)](_0xedf2b2(0x14a)),searchInput=document[_0xedf2b2(0x142)](_0xedf2b2(0x143)),autocompleteBox=document[_0xedf2b2(0x142)](_0xedf2b2(0x162)),data1=dataLines[_0xedf2b2(0x146)](_0x19546c=>{const _0x89300c=_0xedf2b2,[_0x5af128,_0x515bec]=_0x19546c[_0x89300c(0x160)](',');return{'name':_0x5af128,'link':_0x515bec};});function removeDiacritics(_0x3ed1af){const _0x202611=_0xedf2b2,_0x4b45cf={'ø':'o','Ø':'O','ı':'i'};return _0x3ed1af=_0x3ed1af[_0x202611(0x147)](/[øØıI]/g,_0x19f74a=>_0x4b45cf[_0x19f74a]),_0x3ed1af[_0x202611(0x15d)]('NFD')[_0x202611(0x147)](/[\u0300-\u036f]/g,'');}function search2(_0x1db14d){const _0x26c944=_0xedf2b2;autocompleteBox[_0x26c944(0x15e)]='';const _0x321867=removeDiacritics(_0x1db14d)[_0x26c944(0x147)](/[^\w\s]/g,'')[_0x26c944(0x149)](),_0x3ad89e=data1[_0x26c944(0x15c)](_0xb995bf=>{const _0x3866b0=_0x26c944,_0x2b7de7=removeDiacritics(_0xb995bf[_0x3866b0(0x14e)])['replace'](/[^\w\s]/g,'')[_0x3866b0(0x149)]();return _0x2b7de7['includes'](_0x321867);});if(_0x3ad89e[_0x26c944(0x163)]===0x0){autocompleteBox[_0x26c944(0x152)][_0x26c944(0x14c)]='none';return;}_0x3ad89e[_0x26c944(0x151)](_0x4b9def=>{const _0x31eeb1=_0x26c944,_0x505ab8=document[_0x31eeb1(0x14d)]('div'),_0x3a2d70=document[_0x31eeb1(0x14d)]('a');_0x3a2d70['href']=_0x4b9def[_0x31eeb1(0x154)],_0x3a2d70[_0x31eeb1(0x150)]=_0x4b9def[_0x31eeb1(0x14e)],_0x505ab8[_0x31eeb1(0x15b)](_0x3a2d70),autocompleteBox[_0x31eeb1(0x15b)](_0x505ab8);}),autocompleteBox['style'][_0x26c944(0x14c)]=_0x26c944(0x153);}searchButton3[_0xedf2b2(0x156)](_0xedf2b2(0x14f),()=>{const _0x350b96=_0xedf2b2;searchInputModal['style'][_0x350b96(0x14c)]=_0x350b96(0x153);}),searchInput['addEventListener'](_0xedf2b2(0x158),()=>{const _0x122364=_0xedf2b2,_0x1aac33=searchInput['value'];_0x1aac33[_0x122364(0x140)]()===''?autocompleteBox[_0x122364(0x152)][_0x122364(0x14c)]='none':search2(_0x1aac33);}),document['addEventListener']('click',_0x17873a=>{const _0x2c2a21=_0xedf2b2;_0x17873a[_0x2c2a21(0x15a)]===searchInputModal&&(searchInputModal[_0x2c2a21(0x152)][_0x2c2a21(0x14c)]=_0x2c2a21(0x15f));});function _0x4dcd(){const _0x3abacf=['forEach','style','block','link','165476bdcaHI','addEventListener','430668iEzpyY','input','90cmGEmO','target','appendChild','filter','normalize','innerHTML','none','split','102625kyWWmb','autocompleteBox','length','trim','5KymJaR','getElementById','searchInput','423476PJmBDe','1170534HGXHHf','map','replace','60222cRWbFM','toLowerCase','searchInputModal','61832bbygIm','display','createElement','name','click','textContent'];_0x4dcd=function(){return _0x3abacf;};return _0x4dcd();}
 
 
 </script>
@@ -834,9 +889,9 @@ function _0x5707(_0xd20fa7,_0x4d36b5){const _0x4dcd69=_0x4dcd();return _0x5707=f
 
 <body><br><br>
   <div class="button-container">
-    <a href="https://datamb.football/radars/" class="bouton image-1"></a>
-    <a href="https://datamb.football/join/" class="bouton image-2"></a>
-    <a href="https://datamb.football/teams/" class="bouton image-3"></a>
+    <a href="https://datamb.football/radars/" class="bouton image-1"><span data-i18n="button.players">PLAYERS</span></a>
+    <a href="https://datamb.football/join/" class="bouton image-2"><span data-i18n="button.pro">PRO</span></a>
+    <a href="https://datamb.football/teams/" class="bouton image-3"><span data-i18n="button.teams">TEAMS</span></a>
   </div><br>
 
 <div class="search-container2">
@@ -1071,80 +1126,119 @@ function _0x5707(_0xd20fa7,_0x4d36b5){const _0x4dcd69=_0x4dcd();return _0x5707=f
 
 
   const xhr2 = new XMLHttpRequest();
-  xhr2.open('GET', 'https://datamb.football/database/searchbar.csv', false); // false for synchronous request
-  xhr2.send(null);
+xhr2.open('GET', 'https://datamb.football/database/searchbar.csv', false); // false for synchronous request
+xhr2.send(null);
+
+let dataCSV2 = xhr2.responseText;
+
+  const dataLines2 = dataCSV2.split('\n');
+  const searchInput2 = document.getElementById('searchInput2');
+  const autocompleteBox2 = document.getElementById('autocompleteBox2');
   
-  let dataCSV2 = xhr2.responseText;
-  
-    const dataLines2 = dataCSV2.split('\n');
-    const searchInput2 = document.getElementById('searchInput2');
-    const autocompleteBox2 = document.getElementById('autocompleteBox2');
-    
-    // Convert CSV data to an array of objects
-    const data11 = dataLines2.map(line => {
-        const [name, link] = line.split(',');
-        return { name, link };
+  // Convert CSV data to an array of objects
+  const data11 = dataLines2.map(line => {
+      const [name, link] = line.split(',');
+      return { name, link };
+  });
+
+function removeDiacritics(str) {
+    const charMap = {
+        'ø': 'o',
+        'Ø': 'O',
+        'ı': 'i',
+    };
+    str = str.replace(/[øØı]/g, match => charMap[match]);
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+function search3(query) {
+    autocompleteBox2.innerHTML = '';
+    const sanitizedQuery = removeDiacritics(query).replace(/[^\w\s]/g, '').toLowerCase();
+
+    const filteredData2 = data11.filter(item => {
+      const sanitizedItem = removeDiacritics(item.name).replace(/[^\w\s]/g, '').toLowerCase();
+      return sanitizedItem.includes(sanitizedQuery);
     });
-  
-  function removeDiacritics(str) {
-      const charMap = {
-          'ø': 'o',
-          'Ø': 'O',
-          'ı': 'i',
-      };
-      str = str.replace(/[øØı]/g, match => charMap[match]);
-      return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  }
-    
-    function search3(query) {
-        autocompleteBox2.innerHTML = '';
-        const sanitizedQuery = removeDiacritics(query).replace(/[^\w\s]/g, '').toLowerCase();
-    
-        const filteredData2 = data11.filter(item => {
-          const sanitizedItem = removeDiacritics(item.name).replace(/[^\w\s]/g, '').toLowerCase();
-          return sanitizedItem.includes(sanitizedQuery);
-        });
-    
-        if (filteredData2.length === 0) {
-            autocompleteBox2.style.display = 'none';
-            return;
-        }
-    
-        filteredData2.forEach(item => {
-            const listItem = document.createElement('div');
-            const link = document.createElement('a');
-            link.href = item.link;
-            link.textContent = item.name;
-            listItem.appendChild(link);
-            autocompleteBox2.appendChild(listItem);
-        });
-    
-        autocompleteBox2.style.display = 'block';
+
+    if (filteredData2.length === 0) {
+        autocompleteBox2.style.display = 'none';
+        return;
     }
-    
-    searchInput2.addEventListener('input', () => {
-        const query = searchInput2.value;
-        if (query.trim() === '') {
-            autocompleteBox2.style.display = 'none';
+
+    filteredData2.forEach(item => {
+        const listItem = document.createElement('div');
+        const link = document.createElement('a');
+        link.href = item.link;
+        
+        // Extract player name and position
+        const match = item.name.match(/(.*)\s+\((.*)\)/);
+        if (match) {
+            const playerName = match[1];
+            const position = match[2];
+            // Translate the position using the existing translation system
+            const translatedPosition = translatePosition(position);
+            // Reconstruct the display text
+            link.textContent = `${playerName} (${translatedPosition})`;
         } else {
-            search3(query);
+            // Fallback if pattern doesn't match
+            link.textContent = item.name;
         }
+        
+        listItem.appendChild(link);
+        autocompleteBox2.appendChild(listItem);
     });
+
+    autocompleteBox2.style.display = 'block';
+}
+  
+  searchInput2.addEventListener('input', () => {
+      const query = searchInput2.value;
+      if (query.trim() === '') {
+          autocompleteBox2.style.display = 'none';
+      } else {
+          search3(query);
+      }
+  });
     </script>
 
 
+<div class="dark-mode-toggle" onclick="toggleDarkMode()">
+  <div class="toggle-icon"></div>
+</div>
 
 <script>
-function setLanguage(language) {
+// Function to toggle dark mode
+function toggleDarkMode() {
+  const body = document.querySelector("body");
+  body.classList.toggle("dark-mode");
+
+  // Store the user's preference in local storage
+  const isDarkMode = body.classList.contains("dark-mode");
+  localStorage.setItem("darkMode", isDarkMode);
+}
+
+// Check if user has a stored preference for dark mode
+document.addEventListener('DOMContentLoaded', function() {
+  const storedDarkMode = localStorage.getItem("darkMode");
+
+  if (storedDarkMode === "true") {
+    const body = document.querySelector("body");
+    body.classList.add("dark-mode");
+  }
+});
+
+
+ function setLanguage(language) {
     localStorage.setItem('preferredLanguage', language);
     const url = new URL(window.location.href);
     if (language === 'en') {
       url.searchParams.delete('lang');
+      applyLanguage('xx');
     } else {
       url.searchParams.set('lang', language);
+      applyLanguage(language);
     }
     window.history.pushState({}, '', url);
-    applyLanguage(language);
   }
   
   function getPreferredLanguage() {
@@ -1167,6 +1261,22 @@ function setLanguage(language) {
     return navigator.language.slice(0, 2);
   }
 
+  let cachedTranslations = {};
+    function translatePosition(position) {
+    const currentLang = getPreferredLanguage();    
+      if (currentLang === 'en') {
+      return position;}
+    const positionKey = position.toLowerCase();
+    
+    if (cachedTranslations[currentLang] && 
+        cachedTranslations[currentLang].positions && 
+        cachedTranslations[currentLang].positions[positionKey]) {
+      return cachedTranslations[currentLang].positions[positionKey];
+    }
+    return position;
+  }
+
+
   function applyLanguage(language) {
     console.log(language);
 
@@ -1183,6 +1293,7 @@ function setLanguage(language) {
       .then(translations => {
         // Only proceed if translations exist
         if (translations) {
+          cachedTranslations[language] = translations;
           document.querySelectorAll('[data-i18n]').forEach(element => {
             const keys = element.getAttribute('data-i18n').split('.');
             let value = translations;

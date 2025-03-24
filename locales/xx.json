@@ -22,5 +22,13 @@
     "players": "PLAYERS",
     "pro": "PRO",
     "teams": "TEAMS"
+  },
+    "positions": {
+    "goalkeeper": "Goalkeeper",
+    "centreback": "Centre-back",
+    "fullback": "Full-back",
+    "midfielder": "Midfielder",
+    "winger": "Winger",
+    "striker": "Striker"
   }
 } 

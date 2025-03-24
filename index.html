@@ -277,7 +277,7 @@ viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + init
  .dark-mode .language-option {
      color: #e0e0e0;
 }
-
+ 
  .button-container {
      display: flex;
      flex-wrap: wrap;
@@ -433,6 +433,17 @@ viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + init
      margin-left: auto;
      margin-right: auto;
 }
+
+.search-input2:focus {
+  box-shadow: 0 0 0 2px var(--primary-color) !important;
+
+}
+body.dark-mode .search-input2 {
+    color: #ffffff;
+}
+
+
+
  .search-input-modal {
      display: none;
      position: fixed;
@@ -477,14 +488,17 @@ viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + init
  #autocompleteBox ul {
      list-style: none;
      padding: 0;
+     
      margin: 0;
 }
  #autocompleteBox li {
      margin: 0;
+     
      padding: 5px;
 }
  #autocompleteBox {
      line-height: 2;
+     
      text-align: center !important;
 }
  body.dark-mode #autocompleteBox a, body.dark-mode #autocompleteBox2 a {
@@ -499,6 +513,7 @@ viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + init
      text-align: center !important;
      color: #333 !important;
      cursor: pointer;
+     
 }
  #autocompleteBox li:hover {
      background-color: #f0f0f0;
@@ -509,21 +524,25 @@ viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + init
      overflow-y: auto;
      position: relative;
      left: 50%;
+     
      top: 0%;
      transform: translate(-50%, -0%);
 }
  #autocompleteBox2 ul {
      list-style: none;
      padding: 0;
+     
      margin: 0;
 }
  #autocompleteBox2 li {
      margin: 0;
      padding: 5px;
+     
 }
  #autocompleteBox2 {
      line-height: 2;
      text-align: center !important;
+     top: 12px;
 }
  #autocompleteBox2 a {
      text-decoration: none;

@@ -22,5 +22,13 @@
     "players": "JOUEURS",
     "pro": "PRO",
     "teams": "ÉQUIPES"
+  },
+  "positions": {
+    "goalkeeper": "Gardien",
+    "centreback": "Défenseur",
+    "fullback": "Latéral",
+    "midfielder": "Milieu",
+    "winger": "Ailier",
+    "striker": "Buteur"
   }
 } 

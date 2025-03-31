@@ -169,5 +169,8 @@
     "terms": "Privacy",
     "privacy": "Contact",
     "glossary": "About"
+  },
+  "search": {
+    "placeholder": "Enter a team or player name..."
   }
 }

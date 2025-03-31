@@ -169,5 +169,8 @@
     "terms": "Confidentialité",
     "privacy": "Contact",
     "glossary": "À propos"
+  },
+  "search": {
+    "placeholder": "Chercher une équipe ou joueur...."
   }
 }

@@ -1,6 +1,6 @@
 google.com, pub-7677714701428206, DIRECT, f08c47fec0942fa0
 
-#### Akcelo (16/05/2025) #### 
+#### Akcelo (28/05/2025) #### 
 
 OWNERDOMAIN=datamb.football
 MANAGERDOMAIN=spacefoot.com
@@ -31,6 +31,7 @@ adform.com,582,RESELLER,9f5210a2f0999e32
 adform.com,648,RESELLER,9f5210a2f0999e32
 adipolo.com,22703897216,RESELLER
 adipolo.com,22955696665,RESELLER
+adipolo.com,90643844,DIRECT
 adipolosolutions.com,22652786701,RESELLER
 adipolosolutions.com,22955696665,RESELLER
 adipolosolutions.com,90643844,DIRECT
@@ -118,8 +119,6 @@ aps.amazon.com,bbbb77a7-1459-4c85-af82-cd7e0a773a21,RESELLER
 aps.amazon.com,ea05d466-f785-4b9a-a030-6fdc6a39498f,RESELLER
 axonix.com,57264,RESELLER,bc385f2b4a87b721
 beachfront.com,14804,RESELLER,e2541279e8e2ca4d
-betweendigital.com,42666,RESELLER
-betweendigital.com,44774,RESELLER
 bizzclick.com,898,RESELLER,7e936b1feafdaa61
 bliink.io,51586c42-06c5-11ee-9dfc-b2bdeff6c2f8,RESELLER
 bulletin.ca,58960,RESELLER

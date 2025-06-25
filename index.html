@@ -89,17 +89,6 @@ viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + init
      top: 0;
      z-index: 100;
 }
- #searchButton3 {
-     padding: 8.5px;
-     background-color: #0074d9;
-     color: #fff;
-     border: none;
-     width: 34px;
-     height: 34px;
-     border-radius: 50%;
-     cursor: pointer;
-     font-size: 17px;
-}
  body.dark-mode .header .button10 {
      color: #aeaeae;
 }
@@ -246,10 +235,8 @@ viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + init
  .dark-mode .toggle-icon::before {
      color: #e0e0e0;
 }
- .dark-mode #searchButton3 {
-     background-color: #0074d9;
-     color: #fff;
-}
+
+
  .dark-mode .header .button10 {
      color: #aaa;
 }
@@ -442,123 +429,6 @@ body.dark-mode .search-input2 {
     color: #ffffff;
 }
 
-
-
- .search-input-modal {
-     display: none;
-     position: fixed;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     background: rgba(0, 0, 0, 0.7);
-     z-index: 999;
-}
- .search-input-container {
-     position: absolute;
-     top: 30%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     background-color: var(--container-bg);
-     padding: 20px;
-     border-radius: 4px;
-     z-index: 1000;
-}
- #searchInput {
-     width: 340px;
-     padding: 12px;
-     border: 3px solid var(--border-color);
-     border-radius: 4px;
-     font-size: 19px;
-     outline: none;
-     background-color: var(--container-bg);
-     color: var(--text-color);
-}
- #searchInput:focus {
-     border-color: var(--primary-color);
-}
- #searchInput::placeholder {
-     color: #999;
-}
- #autocompleteBox {
-     width: 360px;
-     max-height: 150px;
-     overflow-y: auto;
-}
- #autocompleteBox ul {
-     list-style: none;
-     padding: 0;
-     
-     margin: 0;
-}
- #autocompleteBox li {
-     margin: 0;
-     
-     padding: 5px;
-}
- #autocompleteBox {
-     line-height: 2;
-     
-     text-align: center !important;
-}
- body.dark-mode #autocompleteBox a, body.dark-mode #autocompleteBox2 a {
-     color: var(--text-color) !important;
-}
- body.dark-mode #autocompleteBox a {
-     color: white !important;
-}
- #autocompleteBox a {
-     text-decoration: none;
-     font-family: Arial, sans-serif;
-     text-align: center !important;
-     color: #333 !important;
-     cursor: pointer;
-     
-}
- #autocompleteBox li:hover {
-     background-color: #f0f0f0;
-}
- #autocompleteBox2 {
-     width: 600px;
-     max-height: 200px;
-     overflow-y: auto;
-     position: relative;
-     left: 50%;
-     
-     top: 0%;
-     transform: translate(-50%, -0%);
-}
- #autocompleteBox2 ul {
-     list-style: none;
-     padding: 0;
-     
-     margin: 0;
-}
- #autocompleteBox2 li {
-     margin: 0;
-     padding: 5px;
-     
-}
- #autocompleteBox2 {
-     line-height: 2;
-     text-align: center !important;
-     top: 12px;
-}
- #autocompleteBox2 a {
-     text-decoration: none;
-     font-family: Arial, sans-serif;
-     text-align: center !important;
-     color: #0c2e70f7 !important;
-     cursor: pointer;
-}
- #autocompleteBox2 li:hover {
-     background-color: #f0f0f0;
-}
- .search-container2 {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
  .container2 {
      display: flex;
      flex-wrap: wrap;
@@ -799,15 +669,8 @@ body.dark-mode .search-input2 {
          display: none;
     }
 }
- body.dark-mode #searchInput2 {
-     box-shadow: var(--shadow);
-     background-color: var(--container-bg);
-}
- body.dark-mode #searchInput {
-     background-color: #333;
-     color: #e0e0e0;
-     border-color: #555;
-}
+
+
  body.dark-mode .box, body.dark-mode .box2 {
      background-color: rgba(40, 40, 40, 0.7);
 }
@@ -823,8 +686,164 @@ body.dark-mode .search-input2 {
  body.dark-mode .sub-footer svg {
      fill: white;
 }
- body.dark-mode .search-input-container {
-     background-color: #333;
+
+ #autocompleteBox2 {
+     width: 600px;
+     max-height: 200px;
+     overflow-y: auto;
+     position: relative;
+     left: 50%;
+     
+     top: 0%;
+     transform: translate(-50%, -0%);
+}
+ #autocompleteBox2 ul {
+     list-style: none;
+     padding: 0;
+     
+     margin: 0;
+}
+ #autocompleteBox2 li {
+     margin: 0;
+     padding: 5px;
+     
+}
+ #autocompleteBox2 {
+     line-height: 2;
+     text-align: center !important;
+     top: 12px;
+}
+ #autocompleteBox2 a {
+     text-decoration: none;
+     font-family: Arial, sans-serif;
+     text-align: center !important;
+     color: #0c2e70f7 !important;
+     cursor: pointer;
+}
+ #autocompleteBox2 li:hover {
+     background-color: #f0f0f0;
+}
+ .search-container2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+ body.dark-mode #searchInput2 {
+     box-shadow: var(--shadow);
+     background-color: var(--container-bg);
+}
+
+
+/* MODAL */
+
+.search-input-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+.search-input-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--container-bg);
+    padding: 20px;
+    border-radius: 4px;
+    z-index: 1000;
+    width: 410px; /* Fixed width for modal */
+    box-sizing: border-box;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#searchInputforModal {
+    width: 340px;
+    padding: 12px;
+    border: 3px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 19px;
+    outline: none;
+    background-color: var(--container-bg);
+    color: var(--text-color);
+}
+
+
+#autocompleteBoxmodal {
+    width: 360px;
+    max-height: 158px;
+    overflow-y: auto;
+    line-height: 2;
+    text-align: center !important;
+}
+#autocompleteBoxmodal:empty {
+    margin-top: 0;
+}
+#autocompleteBoxmodal:not(:empty) {
+    margin-top: 20px;
+}
+
+#autocompleteBoxmodal a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center !important;
+    color: #333 !important;
+    cursor: pointer;
+    
+}
+#autocompleteBoxmodal li:hover {
+    background-color: #f0f0f0;
+}
+
+
+#searchButtonmodal {
+    padding: 8.5px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+body.dark-mode #searchInputforModal {
+    background-color: #333;
+    color: #e0e0e0;
+    border-color: #555;
+}
+
+body.dark-mode .search-input-container {
+    background-color: #333;
+}
+
+
+.dark-mode #searchButtonmodal {
+    background-color: #0074d9;
+    color: #fff;
+}
+
+#searchInputforModal:focus {
+    border-color: var(--primary-color);
+}
+#searchInputforModal::placeholder {
+    color: #999;
+}
+
+body.dark-mode #autocompleteBoxmodal a, body.dark-mode #autocompleteBoxmodal2 a {
+    color: var(--text-color) !important;
+}
+body.dark-mode #autocompleteBoxmodal a {
+    color: white !important;
 }
 
 
@@ -845,7 +864,7 @@ body.dark-mode .search-input2 {
   </nav>  <div class="header-right">
 
   <div class="search-container">
-    <button id="searchButton3"><iconify-icon icon="ion:search-outline"></iconify-icon></button>
+    <button id="searchButtonmodal"><iconify-icon icon="ion:search-outline"></iconify-icon></button>
   </div>
   <div class="language-switcher-container">
     <button class="language-button" id="languageButton">
@@ -876,24 +895,12 @@ body.dark-mode .search-input2 {
 
 <div class="search-input-modal" id="searchInputModal">
   <div class="search-input-container">
-      <input type="text" id="searchInput" data-i18n="search.placeholder2" placeholder="Enter a team or player name...">
-      <div id="autocompleteBox"></div>
+      <input type="text" id="searchInputforModal" data-i18n="search.placeholder2" placeholder="Enter a team or player name...">
+      <div id="autocompleteBoxmodal"></div>
   </div>
 </div>
-
-
-
-
 <script>
-  const xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://datamb.football/database/searchbar.csv', false); // false for synchronous request
-xhr.send(null);
-
-let dataCSV = xhr.responseText;
-  
-function _0x5707(_0xd20fa7,_0x4d36b5){const _0x4dcd69=_0x4dcd();return _0x5707=function(_0x57077a,_0xde96b9){_0x57077a=_0x57077a-0x140;let _0x383e81=_0x4dcd69[_0x57077a];return _0x383e81;},_0x5707(_0xd20fa7,_0x4d36b5);}const _0xedf2b2=_0x5707;(function(_0x16e1b0,_0x125833){const _0x222c5a=_0x5707,_0x3f540c=_0x16e1b0();while(!![]){try{const _0x3105f2=parseInt(_0x222c5a(0x161))/0x1+parseInt(_0x222c5a(0x144))/0x2+parseInt(_0x222c5a(0x148))/0x3+-parseInt(_0x222c5a(0x155))/0x4+parseInt(_0x222c5a(0x141))/0x5*(-parseInt(_0x222c5a(0x145))/0x6)+-parseInt(_0x222c5a(0x157))/0x7+parseInt(_0x222c5a(0x14b))/0x8*(parseInt(_0x222c5a(0x159))/0x9);if(_0x3105f2===_0x125833)break;else _0x3f540c['push'](_0x3f540c['shift']());}catch(_0x450250){_0x3f540c['push'](_0x3f540c['shift']());}}}(_0x4dcd,0x1bc51));const dataLines=dataCSV[_0xedf2b2(0x160)]('\x0a'),searchButton3=document[_0xedf2b2(0x142)]('searchButton3'),searchInputModal=document[_0xedf2b2(0x142)](_0xedf2b2(0x14a)),searchInput=document[_0xedf2b2(0x142)](_0xedf2b2(0x143)),autocompleteBox=document[_0xedf2b2(0x142)](_0xedf2b2(0x162)),data1=dataLines[_0xedf2b2(0x146)](_0x19546c=>{const _0x89300c=_0xedf2b2,[_0x5af128,_0x515bec]=_0x19546c[_0x89300c(0x160)](',');return{'name':_0x5af128,'link':_0x515bec};});function removeDiacritics(_0x3ed1af){const _0x202611=_0xedf2b2,_0x4b45cf={'ø':'o','Ø':'O','ı':'i'};return _0x3ed1af=_0x3ed1af[_0x202611(0x147)](/[øØıI]/g,_0x19f74a=>_0x4b45cf[_0x19f74a]),_0x3ed1af[_0x202611(0x15d)]('NFD')[_0x202611(0x147)](/[\u0300-\u036f]/g,'');}function search2(_0x1db14d){const _0x26c944=_0xedf2b2;autocompleteBox[_0x26c944(0x15e)]='';const _0x321867=removeDiacritics(_0x1db14d)[_0x26c944(0x147)](/[^\w\s]/g,'')[_0x26c944(0x149)](),_0x3ad89e=data1[_0x26c944(0x15c)](_0xb995bf=>{const _0x3866b0=_0x26c944,_0x2b7de7=removeDiacritics(_0xb995bf[_0x3866b0(0x14e)])['replace'](/[^\w\s]/g,'')[_0x3866b0(0x149)]();return _0x2b7de7['includes'](_0x321867);});if(_0x3ad89e[_0x26c944(0x163)]===0x0){autocompleteBox[_0x26c944(0x152)][_0x26c944(0x14c)]='none';return;}_0x3ad89e[_0x26c944(0x151)](_0x4b9def=>{const _0x31eeb1=_0x26c944,_0x505ab8=document[_0x31eeb1(0x14d)]('div'),_0x3a2d70=document[_0x31eeb1(0x14d)]('a');_0x3a2d70['href']=_0x4b9def[_0x31eeb1(0x154)],_0x3a2d70[_0x31eeb1(0x150)]=_0x4b9def[_0x31eeb1(0x14e)],_0x505ab8[_0x31eeb1(0x15b)](_0x3a2d70),autocompleteBox[_0x31eeb1(0x15b)](_0x505ab8);}),autocompleteBox['style'][_0x26c944(0x14c)]=_0x26c944(0x153);}searchButton3[_0xedf2b2(0x156)](_0xedf2b2(0x14f),()=>{const _0x350b96=_0xedf2b2;searchInputModal['style'][_0x350b96(0x14c)]=_0x350b96(0x153);}),searchInput['addEventListener'](_0xedf2b2(0x158),()=>{const _0x122364=_0xedf2b2,_0x1aac33=searchInput['value'];_0x1aac33[_0x122364(0x140)]()===''?autocompleteBox[_0x122364(0x152)][_0x122364(0x14c)]='none':search2(_0x1aac33);}),document['addEventListener']('click',_0x17873a=>{const _0x2c2a21=_0xedf2b2;_0x17873a[_0x2c2a21(0x15a)]===searchInputModal&&(searchInputModal[_0x2c2a21(0x152)][_0x2c2a21(0x14c)]=_0x2c2a21(0x15f));});function _0x4dcd(){const _0x3abacf=['forEach','style','block','link','165476bdcaHI','addEventListener','430668iEzpyY','input','90cmGEmO','target','appendChild','filter','normalize','innerHTML','none','split','102625kyWWmb','autocompleteBox','length','trim','5KymJaR','getElementById','searchInput','423476PJmBDe','1170534HGXHHf','map','replace','60222cRWbFM','toLowerCase','searchInputModal','61832bbygIm','display','createElement','name','click','textContent'];_0x4dcd=function(){return _0x3abacf;};return _0x4dcd();}
-
-
+  const _0x5b86e1=_0x15a5;(function(_0x38813f,_0x2f15d4){const _0x3f9c89=_0x15a5,_0x43de7f=_0x38813f();while(!![]){try{const _0x228e14=-parseInt(_0x3f9c89(0x1dc))/0x1+-parseInt(_0x3f9c89(0x1d1))/0x2*(parseInt(_0x3f9c89(0x1de))/0x3)+parseInt(_0x3f9c89(0x1cd))/0x4+parseInt(_0x3f9c89(0x1e3))/0x5+-parseInt(_0x3f9c89(0x1e2))/0x6+parseInt(_0x3f9c89(0x1dd))/0x7+parseInt(_0x3f9c89(0x1cf))/0x8;if(_0x228e14===_0x2f15d4)break;else _0x43de7f['push'](_0x43de7f['shift']());}catch(_0x29a082){_0x43de7f['push'](_0x43de7f['shift']());}}}(_0x46f1,0x2d501));function _0x15a5(_0x199e9e,_0xbb99a3){const _0x46f11e=_0x46f1();return _0x15a5=function(_0x15a5ce,_0x5be766){_0x15a5ce=_0x15a5ce-0x1c9;let _0x4cb8e8=_0x46f11e[_0x15a5ce];return _0x4cb8e8;},_0x15a5(_0x199e9e,_0xbb99a3);}const xhrmodal=new XMLHttpRequest();xhrmodal[_0x5b86e1(0x1e5)](_0x5b86e1(0x1e8),_0x5b86e1(0x1cc),![]),xhrmodal[_0x5b86e1(0x1d3)](null);let dataCSVmodal=xhrmodal[_0x5b86e1(0x1db)];const dataLinesmodal=dataCSVmodal[_0x5b86e1(0x1da)]('\x0a'),searchButtonmodal=document[_0x5b86e1(0x1d5)](_0x5b86e1(0x1f8)),searchInputModal=document[_0x5b86e1(0x1d5)]('searchInputModal'),searchInputforModal=document[_0x5b86e1(0x1d5)](_0x5b86e1(0x1e6)),autocompleteBoxmodal=document[_0x5b86e1(0x1d5)](_0x5b86e1(0x1f2)),datamodal=dataLinesmodal[_0x5b86e1(0x1f1)](_0x11f996=>{const _0x28a878=_0x5b86e1,[_0x2261e9,_0x5c9272]=_0x11f996[_0x28a878(0x1da)](',');return{'name':_0x2261e9,'link':_0x5c9272};});function removeDiacritics(_0x235902){const _0x400a88=_0x5b86e1,_0x2f0971={'ø':'o','Ø':'O','ı':'i','ł':'l','Ł':'L'};return _0x235902=_0x235902['replace'](/[øØıłŁ]/g,_0x54b9e5=>_0x2f0971[_0x54b9e5]),_0x235902[_0x400a88(0x1f7)](_0x400a88(0x1ca))['replace'](/[\u0300-\u036f]/g,'');}function generateSearchVariations(_0x152212){const _0x3cd44c=_0x5b86e1,_0x891101=[],_0x5a0970=_0x152212[_0x3cd44c(0x1ed)]()[_0x3cd44c(0x1da)](/\s+/);_0x891101[_0x3cd44c(0x1d4)](_0x152212);if(_0x5a0970['length']>=0x2){const _0x4e3e3d=_0x5a0970[0x0][_0x3cd44c(0x1d6)](0x0)[_0x3cd44c(0x1e0)](),_0x1de89e=_0x5a0970[_0x3cd44c(0x1f6)](0x1)[_0x3cd44c(0x1f9)]('\x20');_0x891101[_0x3cd44c(0x1d4)](_0x4e3e3d+'.\x20'+_0x1de89e),_0x891101[_0x3cd44c(0x1d4)](_0x4e3e3d+'\x20'+_0x1de89e),_0x891101['push'](_0x4e3e3d+'.'+_0x1de89e);}return _0x891101;}function isInitialMatch(_0x154631,_0xc0666f){const _0x288646=_0x5b86e1,_0x55aaef=_0x154631[_0x288646(0x1d9)](/\./g,'');if(_0x55aaef[_0x288646(0x1c9)]===0x1)return _0x55aaef[_0x288646(0x1ec)]()===_0xc0666f[_0x288646(0x1d6)](0x0)[_0x288646(0x1ec)]();return![];}function _0x46f1(){const _0x456edb=['118iVasCw','createElement','send','push','getElementById','charAt','match','target','replace','split','responseText','270112eGIBZE','1810312YZvOfN','13638rfEnlx','none','toUpperCase','link','258972DFdWVQ','1337005mnpyxu','value','open','searchInputforModal','textContent','GET','style','name','addEventListener','toLowerCase','trim','block','forEach','display','map','autocompleteBoxmodal','DOMContentLoaded','appendChild','click','slice','normalize','searchButtonmodal','join','length','NFD','from','https://datamb.football/database/searchbar.csv','661076ILuUzb','filter','606424mmqYXy','includes'];_0x46f1=function(){return _0x456edb;};return _0x46f1();}function search3modal(_0x1c9c6f){const _0x700b8e=_0x5b86e1;autocompleteBoxmodal['innerHTML']='';const _0x58dbcd=generateSearchVariations(_0x1c9c6f),_0x27cd00=new Set();_0x58dbcd[_0x700b8e(0x1ef)](_0x4eea4e=>{const _0x1f6b15=_0x700b8e,_0x2e3cdb=removeDiacritics(_0x4eea4e)[_0x1f6b15(0x1d9)](/[^\w\s]/g,'')[_0x1f6b15(0x1d9)](/\s+/g,'')[_0x1f6b15(0x1ec)](),_0x150460=datamodal[_0x1f6b15(0x1ce)](_0x2dedb4=>{const _0x7ac3e7=_0x1f6b15,_0x4f2011=removeDiacritics(_0x2dedb4[_0x7ac3e7(0x1ea)])['replace'](/[^\w\s]/g,'')[_0x7ac3e7(0x1d9)](/\s+/g,'')[_0x7ac3e7(0x1ec)]();if(_0x4f2011[_0x7ac3e7(0x1d0)](_0x2e3cdb))return!![];const _0x1365bf=removeDiacritics(_0x4eea4e)[_0x7ac3e7(0x1d9)](/[^\w\s]/g,'')['split'](/\s+/)['filter'](_0x1bc534=>_0x1bc534[_0x7ac3e7(0x1c9)]>0x0),_0x180517=removeDiacritics(_0x2dedb4[_0x7ac3e7(0x1ea)])[_0x7ac3e7(0x1d9)](/[^\w\s]/g,'')[_0x7ac3e7(0x1da)](/\s+/)['filter'](_0x1c7cfe=>_0x1c7cfe[_0x7ac3e7(0x1c9)]>0x0);if(_0x1365bf[_0x7ac3e7(0x1c9)]>=0x2&&_0x180517[_0x7ac3e7(0x1c9)]>=0x2){const _0x5beebd=isInitialMatch(_0x1365bf[0x0],_0x180517[0x0])||_0x1365bf[0x0][_0x7ac3e7(0x1ec)]()===_0x180517[0x0][_0x7ac3e7(0x1ec)]();if(_0x5beebd){const _0x37dc07=_0x1365bf[_0x7ac3e7(0x1f6)](0x1),_0x1da647=_0x180517['slice'](0x1),_0x4297e9=_0x37dc07[_0x7ac3e7(0x1f9)]('')[_0x7ac3e7(0x1ec)](),_0x1ec6c6=_0x1da647['join']('')[_0x7ac3e7(0x1ec)]();return _0x1ec6c6[_0x7ac3e7(0x1d0)](_0x4297e9);}}return![];});_0x150460['forEach'](_0x28c4d0=>_0x27cd00['add'](_0x28c4d0));});const _0x50edf6=Array[_0x700b8e(0x1cb)](_0x27cd00);if(_0x50edf6[_0x700b8e(0x1c9)]===0x0){autocompleteBoxmodal['style']['display']=_0x700b8e(0x1df);return;}_0x50edf6['forEach'](_0x52e535=>{const _0x18a979=_0x700b8e,_0x5c3507=document[_0x18a979(0x1d2)]('div'),_0x2b2482=document[_0x18a979(0x1d2)]('a');_0x2b2482['href']=_0x52e535[_0x18a979(0x1e1)];const _0x3986df=_0x52e535[_0x18a979(0x1ea)][_0x18a979(0x1d7)](/(.*)\s+\((.*)\)/);if(_0x3986df){const _0x1c6725=_0x3986df[0x1],_0x3f4513=_0x3986df[0x2],_0x204ee5=translatePosition(_0x3f4513);_0x2b2482[_0x18a979(0x1e7)]=_0x1c6725+'\x20('+_0x204ee5+')';}else _0x2b2482[_0x18a979(0x1e7)]=_0x52e535[_0x18a979(0x1ea)];_0x5c3507['appendChild'](_0x2b2482),autocompleteBoxmodal[_0x18a979(0x1f4)](_0x5c3507);}),autocompleteBoxmodal[_0x700b8e(0x1e9)][_0x700b8e(0x1f0)]=_0x700b8e(0x1ee);}document[_0x5b86e1(0x1eb)](_0x5b86e1(0x1f3),function(){const _0x456212=_0x5b86e1;searchInputforModal[_0x456212(0x1eb)]('input',()=>{const _0x149ca0=_0x456212,_0x262b5a=searchInputforModal[_0x149ca0(0x1e4)];_0x262b5a['trim']()===''?autocompleteBoxmodal[_0x149ca0(0x1e9)][_0x149ca0(0x1f0)]='none':search3modal(_0x262b5a);});}),searchButtonmodal['addEventListener']('click',()=>{const _0x26afe4=_0x5b86e1;searchInputModal[_0x26afe4(0x1e9)][_0x26afe4(0x1f0)]=_0x26afe4(0x1ee);}),document[_0x5b86e1(0x1eb)](_0x5b86e1(0x1f5),_0x1f4e4f=>{const _0x464b7a=_0x5b86e1;_0x1f4e4f[_0x464b7a(0x1d8)]===searchInputModal&&(searchInputModal['style'][_0x464b7a(0x1f0)]=_0x464b7a(0x1df));});
 </script>
 
 
@@ -1158,19 +1165,98 @@ function removeDiacritics(str) {
         'ø': 'o',
         'Ø': 'O',
         'ı': 'i',
+        'ł': 'l',  // Added support for ł -> l
+        'Ł': 'L'   // Added support for Ł -> L
     };
-    str = str.replace(/[øØı]/g, match => charMap[match]);
+    str = str.replace(/[øØıłŁ]/g, match => charMap[match]);
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+function generateSearchVariations(query) {
+    const variations = [];
+    const words = query.trim().split(/\s+/);
+    
+    // Add original query
+    variations.push(query);
+    
+    // If we have multiple words, try converting first word to initial
+    if (words.length >= 2) {
+        const firstInitial = words[0].charAt(0).toUpperCase();
+        const restOfName = words.slice(1).join(' ');
+        
+        // Add variations with initial
+        variations.push(`${firstInitial}. ${restOfName}`);
+        variations.push(`${firstInitial} ${restOfName}`);
+        variations.push(`${firstInitial}.${restOfName}`);
+    }
+    
+    return variations;
+}
+
+function isInitialMatch(queryWord, nameWord) {
+    // Check if query word is an initial (1-2 chars, possibly with dot)
+    const cleanQuery = queryWord.replace(/\./g, '');
+    if (cleanQuery.length === 1) {
+        // Query is an initial, check if it matches first letter of name word
+        return cleanQuery.toLowerCase() === nameWord.charAt(0).toLowerCase();
+    }
+    return false;
 }
 
 function search3(query) {
     autocompleteBox2.innerHTML = '';
-    const sanitizedQuery = removeDiacritics(query).replace(/[^\w\s]/g, '').toLowerCase();
+    
+    const searchVariations = generateSearchVariations(query);
+    const foundItems = new Set(); // Use Set to avoid duplicates
+    
+    searchVariations.forEach(variation => {
+        const sanitizedQuery = removeDiacritics(variation)
+            .replace(/[^\w\s]/g, '')  // Remove punctuation
+            .replace(/\s+/g, '')      // Remove all spaces
+            .toLowerCase();
 
-    const filteredData2 = data11.filter(item => {
-      const sanitizedItem = removeDiacritics(item.name).replace(/[^\w\s]/g, '').toLowerCase();
-      return sanitizedItem.includes(sanitizedQuery);
+        const filteredData = data11.filter(item => {
+            const sanitizedItem = removeDiacritics(item.name)
+                .replace(/[^\w\s]/g, '')  // Remove punctuation  
+                .replace(/\s+/g, '')      // Remove all spaces
+                .toLowerCase();
+            
+            // Standard includes check
+            if (sanitizedItem.includes(sanitizedQuery)) {
+                return true;
+            }
+            
+            // Additional check for initial matching
+            // Split both query and item into words for intelligent matching
+            const queryWords = removeDiacritics(variation).replace(/[^\w\s]/g, '').split(/\s+/).filter(w => w.length > 0);
+            const itemWords = removeDiacritics(item.name).replace(/[^\w\s]/g, '').split(/\s+/).filter(w => w.length > 0);
+            
+            if (queryWords.length >= 2 && itemWords.length >= 2) {
+                // Check if first word is initial and matches, and rest of words match
+                const firstWordMatches = isInitialMatch(queryWords[0], itemWords[0]) || 
+                                       queryWords[0].toLowerCase() === itemWords[0].toLowerCase();
+                
+                if (firstWordMatches) {
+                    // Check if remaining words match
+                    const restQueryWords = queryWords.slice(1);
+                    const restItemWords = itemWords.slice(1);
+                    
+                    // Create a combined string from remaining words for comparison
+                    const restQuery = restQueryWords.join('').toLowerCase();
+                    const restItem = restItemWords.join('').toLowerCase();
+                    
+                    return restItem.includes(restQuery);
+                }
+            }
+            
+            return false;
+        });
+        
+        // Add found items to our set
+        filteredData.forEach(item => foundItems.add(item));
     });
+    
+    const filteredData2 = Array.from(foundItems);
 
     if (filteredData2.length === 0) {
         autocompleteBox2.style.display = 'none';
@@ -1202,16 +1288,15 @@ function search3(query) {
 
     autocompleteBox2.style.display = 'block';
 }
-  
-  searchInput2.addEventListener('input', () => {
-      const query = searchInput2.value;
-      if (query.trim() === '') {
-          autocompleteBox2.style.display = 'none';
-      } else {
-          search3(query);
-      }
-  });
-    </script>
+
+searchInput2.addEventListener('input', () => {
+    const query = searchInput2.value;
+    if (query.trim() === '') {
+        autocompleteBox2.style.display = 'none';
+    } else {
+        search3(query);
+    }
+});    </script>
 
 
 <div class="dark-mode-toggle" onclick="toggleDarkMode()">
@@ -1273,21 +1358,21 @@ document.addEventListener('DOMContentLoaded', function() {
     return navigator.language.slice(0, 2);
   }
 
-  let cachedTranslations = {};
-    function translatePosition(position) {
-    const currentLang = getPreferredLanguage();    
-      if (currentLang === 'en') {
-      return position;}
-    const positionKey = position.toLowerCase();
-    
-    if (cachedTranslations[currentLang] && 
-        cachedTranslations[currentLang].positions && 
-        cachedTranslations[currentLang].positions[positionKey]) {
-      return cachedTranslations[currentLang].positions[positionKey];
-    }
-    return position;
-  }
+let cachedTranslations = {};
+function translatePosition(position) {
+const currentLang = getPreferredLanguage();
+if (currentLang === 'en') {
+return position;}
+const positionKey = position.toLowerCase();
 
+if (cachedTranslations[currentLang] &&
+    cachedTranslations[currentLang].positions &&
+    cachedTranslations[currentLang].positions[positionKey]) {
+  return cachedTranslations[currentLang].positions[positionKey];
+}
+return position;
+
+}
 
   function applyLanguage(language) {
     console.log(language);

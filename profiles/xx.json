@@ -37,7 +37,6 @@
     "shots-per-90": "Shots per 90"
   },
   "radar": {
-    "metrics": {
       "physicality": "Physicality",
       "defending": "Defending",
       "counters": "Counters",
@@ -72,7 +71,6 @@
       "conversion" : "Conversion%",
       "offduels" : "Off duels",
       "touches" : "Touches in box"
-    }
   },
   "table": {
     "club": "Club",

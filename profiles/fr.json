@@ -37,7 +37,6 @@
     "shots-per-90": "Tirs par 90 min"
   },
   "radar": {
-    "metrics": {
       "physicality": "Physique",
       "defending": "Défense",
       "counters": "Contres",
@@ -72,7 +71,6 @@
       "save" : "% Arrêts",
       "conversion" : "% Conversion",
       "offduels" : "Duels off"
-    }
   },
   "table": {
     "club": "Club",
@@ -90,7 +88,7 @@
     },
     "vs_top_7_leagues": "vs 7 Grands Championnats",
     "metrics": {
-      "accurate_crosses": "Accurate crosses",
+      "accurate_crosses": "Centres réussis",
       "expected_assists": "Passes dé. attendues (xA)",
       "progressive_passes": "Passes progressives réussies",
       "poss_won": "Possessions gagnées",

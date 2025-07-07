@@ -37,13 +37,15 @@
     "shots-per-90": "Tirs par 90 min"
   },
   "radar": {
+        "metrics": {
       "physicality": "Physique",
       "defending": "Défense",
       "counters": "Contres",
       "possession": "Possession",
       "attacking": "Attaque",
       "goals": "Buts",
-      "pressing": "Pressing",
+      "pressing": "Pressing"
+    },
       "aerial": "% Aérien",
       "duels": "% Duels",
       "possWon": "Poss gagnés",

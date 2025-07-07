@@ -37,13 +37,15 @@
     "shots-per-90": "Shots per 90"
   },
   "radar": {
+    "metrics": {
       "physicality": "Physicality",
       "defending": "Defending",
       "counters": "Counters",
       "possession": "Possession",
       "attacking": "Attacking",
       "goals": "Goals",
-      "pressing": "Pressing",
+      "pressing": "Pressing"
+    },
       "aerial": "Aerial%",
       "duels": "Duel%",
       "possWon": "Poss won",

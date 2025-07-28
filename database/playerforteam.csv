@@ -88,7 +88,7 @@ Unai Simón,Goalkeeper,Athletic Bilbao,2041
 Adrián,Goalkeeper,Real Betis,1889
 Luiz Júnior,Goalkeeper,Villarreal,1616
 Iñaki Peña,Goalkeeper,Barcelona,1535
-Rui Silva1,Goalkeeper,Real Betis,1500
+Rui Silva,Goalkeeper,Real Betis,1500
 Julen Agirrezabala,Goalkeeper,Athletic Bilbao,1301
 D. Horkaš,Goalkeeper,Las Palmas,1217
 M. Sels,Goalkeeper,Nottingham Forest,3807
@@ -148,7 +148,7 @@ Ricardo Velho,Goalkeeper,Farense,2698
 C. Miszta,Goalkeeper,Rio Ave,2539
 G. Ochoa,Goalkeeper,AVS ,2166
 A. Trubin,Goalkeeper,Benfica,1960
-Rui Silva2,Goalkeeper,Sporting CP,1688
+Rui Silva1,Goalkeeper,Sporting CP,1688
 L. Horníček,Goalkeeper,Sporting Braga,1667
 L. Carević,Goalkeeper,Famalicão,1657
 Bruno Brígido,Goalkeeper,Estrela Amadora,1654
@@ -356,7 +356,7 @@ K. Schlotterbeck,Centre-back,Augsburg,1421
 M. Komenda,Centre-back,Holstein Kiel,1420
 M. Geschwill,Centre-back,Holstein Kiel,1406
 M. Rosenfelder,Centre-back,Freiburg,1369
-A. Rouault2,Centre-back,Stuttgart,1315
+A. Rouault1,Centre-back,Stuttgart,1315
 T. Siersleben,Centre-back,Heidenheim,1277
 E. Bitshiabu,Centre-back,RB Leipzig,1250
 M. Veljković,Centre-back,Werder Bremen,1134
@@ -415,7 +415,7 @@ Malang Sarr,Centre-back,Lens,1551
 J. Le Cardinal,Centre-back,Brest,1531
 E. Biumla,Centre-back,Angers SCO,1494
 L. Østigård,Centre-back,Rennes,1390
-E. Agbadou1,Centre-back,Reims,1387
+E. Agbadou,Centre-back,Reims,1387
 A. Sanganté,Centre-back,Le Havre,1351
 M. Gbane,Centre-back,Reims,1231
 J. Canvot,Centre-back,Toulouse,1217
@@ -424,7 +424,7 @@ M. Salisu,Centre-back,Monaco,1166
 Y. Abdelhamid,Centre-back,Saint-Étienne,1125
 A. Sylla,Centre-back,Strasbourg,1103
 A. Khusanov,Centre-back,Lens,1086
-A. Rouault1,Centre-back,Rennes,1064
+A. Rouault,Centre-back,Rennes,1064
 Y. Mouanga,Centre-back,Montpellier,1015
 J. Jacquet,Centre-back,Rennes,1013
 Marcelo,Centre-back,Moreirense,3174
@@ -584,7 +584,7 @@ C. Coady,Centre-back,Leicester City,1911
 C. Burgess,Centre-back,Ipswich Town,1721
 T. Adarabioyo,Centre-back,Chelsea,1605
 C. Romero,Centre-back,Tottenham Hotspur,1565
-E. Agbadou2,Centre-back,Wolverhampton,1554
+E. Agbadou1,Centre-back,Wolverhampton,1554
 J. Stephens,Centre-back,Southampton,1546
 J. Vestergaard,Centre-back,Leicester City,1520
 I. Diop,Centre-back,Fulham,1509
@@ -1174,7 +1174,7 @@ D. Proper,Midfielder,NEC,2356
 D. Klaassen,Midfielder,Ajax,2330
 A. Verschueren,Midfielder,Twente,2328
 L. Rosier,Midfielder,Fortuna Sittard,2312
-K. Sano2,Midfielder,NEC,2259
+K. Sano1,Midfielder,NEC,2259
 J. Breum,Midfielder,Go Ahead Eagles,2237
 T. Haye,Midfielder,Almere City,2211
 E. Bullaude,Midfielder,Fortuna Sittard,2210
@@ -1232,7 +1232,7 @@ M. Kjølø,Midfielder,Twente,1159
 E. Michut,Midfielder,Fortuna Sittard,1111
 Rober González,Midfielder,NEC,1062
 J. Žambůrek,Midfielder,Heracles,1011
-K. Sano1,Midfielder,Mainz 05,3335
+K. Sano,Midfielder,Mainz 05,3335
 G. Xhaka,Midfielder,Bayer Leverkusen,3151
 R. Schmid,Midfielder,Werder Bremen,3070
 M. Eggestein,Midfielder,Freiburg,3055
@@ -1448,7 +1448,7 @@ Pablo Marín,Midfielder,Real Sociedad,1355
 Dani Olmo,Midfielder,Barcelona,1344
 Dani Ceballos,Midfielder,Real Madrid,1325
 José Campaña,Midfielder,Las Palmas,1308
-Kike Pérez1,Midfielder,Real Valladolid,1292
+Kike Pérez,Midfielder,Real Valladolid,1292
 F. de Jong,Midfielder,Barcelona,1288
 Peque Fernández,Midfielder,Sevilla,1255
 E. Camavinga,Midfielder,Real Madrid,1222
@@ -1539,7 +1539,7 @@ T. Pobega,Midfielder,Bologna,1288
 Þ. Helgason,Midfielder,Lecce,1249
 A. Richardson,Midfielder,Fiorentina,1225
 T. Anjorin,Midfielder,Empoli,1189
-Kike Pérez2,Midfielder,Venezia,1180
+Kike Pérez1,Midfielder,Venezia,1180
 G. Fabbian,Midfielder,Bologna,1155
 R. Loftus-Cheek,Midfielder,Milan,1151
 M. Caqueret,Midfielder,Como,1137
@@ -2058,7 +2058,7 @@ S. Essende,Striker,Augsburg,1775
 P. Harres,Striker,Holstein Kiel,1698
 J. Adamu,Striker,Freiburg,1656
 M. Beier,Striker,Borussia Dortmund,1643
-Omar Marmoush1,Striker,Eintracht Frankfurt,1563
+Omar Marmoush,Striker,Eintracht Frankfurt,1563
 M. Broschinski,Striker,Bochum,1533
 S. Skrzybski,Striker,Holstein Kiel,1441
 D. Sinani,Striker,St. Pauli,1374
@@ -2189,7 +2189,7 @@ J. Zirkzee,Striker,Manchester United,1605
 A. Armstrong,Striker,Southampton,1379
 Diogo Jota,Striker,Liverpool,1330
 D. Núñez,Striker,Liverpool,1323
-Omar Marmoush2,Striker,Manchester City,1241
+Omar Marmoush1,Striker,Manchester City,1241
 P. Onuachu,Striker,Southampton,1209
 E. Nketiah,Striker,Crystal Palace,1171
 Gonçalo Guedes,Striker,Wolverhampton,1162

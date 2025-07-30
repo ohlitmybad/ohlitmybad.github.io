@@ -1267,18 +1267,21 @@ function search3(query) {
         
         // Extract player name and position
         const match = item.name.match(/(.*)\s+\((.*)\)/);
-        if (match) {
-            const playerName = match[1];
-            const position = match[2];
-            // Translate the position using the existing translation system
-            const translatedPosition = translatePosition(position);
-            // Reconstruct the display text
-            link.textContent = `${playerName} (${translatedPosition})`;
-        } else {
-            // Fallback if pattern doesn't match
-            link.textContent = item.name;
-        }
-        
+if (match) {
+    const playerName = match[1];
+    const position = match[2]; // Original position 
+    const positionKey = position.replace(/[^a-zA-Z]/g, ''); // Cleaned key
+    
+    // Pass cleaned key to translatePosition, but if it returns the cleaned key, use original position
+    const translation = translatePosition(positionKey);
+    const translatedPosition = translation === positionKey ? position : translation;
+    
+    // Reconstruct the display text
+    link.textContent = `${playerName} (${translatedPosition})`;
+} else {
+    // Fallback if pattern doesn't match
+    link.textContent = item.name;
+}
         listItem.appendChild(link);
         autocompleteBox2.appendChild(listItem);
     });

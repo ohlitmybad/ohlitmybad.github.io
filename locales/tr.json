@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "DataMB | Futbol Görselleri ve İstatistikleri",
+    "description": "Futbol oyuncularını ve takımlarını karşılaştırın. Oyuncu ve takım profillerini inceleyin, Premier Lig, La Liga, Bundesliga, Serie A, Ligue 1, Eredivisie, Primeira Liga ve daha fazla ligden veri görselleştirmek için radar karşılaştırmamızı ve diğer araçlarımızı deneyin."
+  },
+  "header": {
+    "players": "Oyuncular",
+    "pro": "Pro",
+    "teams": "Takımlar"
+  },
+  "search": {
+    "placeholder": "Oyuncu veya takım ara...",
+    "placeholder2": "Takım veya oyuncu adı girin..."
+  },
+  "footer": {
+    "rights": "© Tüm Hakları Saklıdır",
+    "privacy": "Gizlilik",
+    "contact": "İletişim",
+    "about": "Hakkında"
+  },
+  "button": {
+    "players": "OYUNCULAR",
+    "pro": "PRO",
+    "teams": "TAKIMLAR"
+  },
+  "positions": {
+    "goalkeeper": "Kaleci",
+    "centreback": "Stoper",
+    "fullback": "Bek",
+    "midfielder": "Orta saha",
+    "winger": "Kanat",
+    "striker": "Forvet"
+  }
+} 

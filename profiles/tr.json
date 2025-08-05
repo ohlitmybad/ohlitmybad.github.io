@@ -58,11 +58,11 @@
       "short": "Kısa%",
       "long": "Uzun%",
       "int": "Müdahaleler",
-      "aerialswon": "Kazanılan hava topları",
+      "aerialswon": "Hava kazanma",
       "prevented": "PSxG-GA",
       "keyPasses": "Anahtar paslar",
       "fwdPasses": "İleri paslar",
-      "duel": "Savunma düellosu",
+      "duel": "Savunma%",
       "assists": "Asistler",
       "xgxa": "npxG+xA",
       "npg": "NPG",
@@ -71,8 +71,8 @@
       "xa": "xA",
       "save" : "Kurtarış%",
       "conversion" : "Çevirme%",
-      "offduels" : "Hücum düelloları",
-      "touches" : "RCS topla buluşma"
+      "offduels" : "Hücum düello",
+      "touches" : "RCS topla"
   },
   "table": {
     "club": "Kulüp",

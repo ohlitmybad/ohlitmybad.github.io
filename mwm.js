@@ -1240,23 +1240,3 @@ SF.$("SFhdr")&&(SF.$("SFhdr").style.fontSize=a.site.fontSize));for(h in g)docume
 SF._re=805;SF.init(false);
 
 }
-/*
-     FILE ARCHIVED ON 16:35:13 Aug 18, 2025 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 12:11:28 Aug 22, 2025.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.599
-  exclusion.robots: 0.017
-  exclusion.robots.policy: 0.007
-  esindex: 0.011
-  cdx.remote: 7.834
-  LoadShardBlock: 429.185 (6)
-  PetaboxLoader3.resolve: 254.401 (3)
-  PetaboxLoader3.datanode: 133.226 (6)
-  load_resource: 13.152
-*/

@@ -401,23 +401,3 @@ Math.max(c,parseFloat(n.borderRadius,10)),h.remove();document.body.style.setProp
 
 
 }
-/*
-     FILE ARCHIVED ON 03:34:39 Jun 30, 2025 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 11:16:22 Aug 22, 2025.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.555
-  exclusion.robots: 0.021
-  exclusion.robots.policy: 0.01
-  esindex: 0.011
-  cdx.remote: 24.528
-  LoadShardBlock: 587.479 (3)
-  PetaboxLoader3.datanode: 338.509 (4)
-  PetaboxLoader3.resolve: 298.508 (3)
-  load_resource: 64.927
-*/

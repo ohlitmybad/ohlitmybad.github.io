@@ -1,0 +1,616 @@
+
+
+
+
+
+  
+.footer {
+    font-family: system-ui;
+    background: #F2F2F2;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .footer .logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer .description {
+    font-size: 20px;
+    margin-bottom: 0px;
+  color: black;
+  }
+  
+  .footer .info {
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  
+  .footer .divider {
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin: 25px 0;
+    opacity: 0.2;
+  }
+  
+  .footer .sub-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer .sub-footer .terms,
+  .footer .sub-footer .privacy,
+  .footer .sub-footer .glossary {
+  font-size: 17px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap; /* Add flex-wrap property to wrap the content on smaller screens */
+  }
+  
+  .google-play-container {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: flex-end; /* Align items to the right */
+    margin-top: -20px; /* Adjust the margin-top to remove the space */
+  }
+  
+  .google-play-container img {
+    width: 182px;
+    height: 70px;
+  }
+  
+  .description,
+  .info,
+  .divider,
+  .sub-footer {
+    flex-basis: 100%;
+  color: black;
+  }
+  
+  .footer p {
+    margin-bottom: 0; 
+  }
+  
+
+.footer .twitter-link svg {
+  width: 25px;
+  height: 24px;
+  fill: #444444;
+}
+
+
+
+.search-input-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+.search-input-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    z-index: 1000;
+    width: 410px; /* Fixed width for modal */
+    box-sizing: border-box;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#searchInputforModal {
+    width: 340px;
+    padding: 12px;
+    border: 3px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 19px;
+    outline: none;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+
+#autocompleteBoxmodal {
+    width: 360px;
+    max-height: 158px;
+    overflow-y: auto;
+    line-height: 2;
+    text-align: center !important;
+}
+#autocompleteBoxmodal:empty {
+    margin-top: 0;
+}
+#autocompleteBoxmodal:not(:empty) {
+    margin-top: 20px;
+}
+
+#autocompleteBoxmodal a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center !important;
+    color: #333 !important;
+    cursor: pointer;
+    
+}
+#autocompleteBoxmodal li:hover {
+    background-color: #f0f0f0;
+}
+
+
+#searchButtonmodal {
+    padding: 8.5px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#searchInputforModal:focus {
+    border-color: #3498db;
+}
+#searchInputforModal::placeholder {
+    color: #999;
+}
+
+/* Add this to control icon size */
+#searchButtonmodal iconify-icon {
+  font-size: 17px;  /* Match the button's font-size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  font-family: system-ui;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Push logo to the left */
+}
+
+.header .logo img {
+  height: 34px;
+  width: auto;
+  opacity: 0.84;
+}
+
+.header .logo-text {
+  margin-left: 10px;
+  font-size: 23px;
+color: #444444;
+  font-weight: 600;
+}
+
+.header .navigation {
+  display: flex;
+  align-items: center;
+  gap: 25px; /* Reduced gap between buttons */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); /* Center the navigation */
+}
+
+/* Hide navigation on small screens */
+
+
+.header .button {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #333;
+  line-height: 1.6;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  font-size: 1.1rem;  /* Added larger font size */
+}
+
+
+.header .button:hover {
+  background-color: #f0f0f0;
+  color: #2563eb;
+
+}
+
+
+
+/* Group search and language buttons */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto; /* Push buttons to the right */
+}
+
+header a {
+      color: black;
+      text-decoration: none;
+    }
+
+
+
+
+
+.language-switcher-container {
+  position: relative;
+  display: inline-block;
+}
+
+.language-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  color: #444444;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+.language-button iconify-icon {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.language-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  width: 200px;
+  z-index: 1000;
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #444444;
+  text-decoration: none;
+}
+
+.language-option:hover {
+  background: #f5f5f5;
+}
+
+.language-option iconify-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.language-dropdown.show {
+  display: block;
+}
+
+  /* BASIC STYLE ELEMENTS BELOW */
+  .team-label {
+    pointer-events: none;
+    text-shadow: 0px 0px 2px white, 0px 0px 2px white, 0px 0px 2px white, 0px 0px 2px white;
+}
+    
+  svg text.label {
+      fill: #bcbcbc;
+    }
+  
+  
+  
+    td.black {
+      color: black !important;
+    }
+    td.red {
+      color: red !important;
+    }
+    td.green {
+      color: green !important;
+    }
+  text {
+    font-family: Arial;
+  }
+  
+  .result-color-blue {
+    color: #3062FB !important;
+    stroke: #3062FB;
+    fill: #3062FB;
+    fill-opacity: 0.02;
+  }
+  
+  
+  
+  .radar-button {
+    position:relative;
+    left:-5px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 4px solid #135eb6; /* Add a border */
+    border-radius: 35px;
+    color: #0b57d0;
+    width: 145px;
+    height: 58px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  
+  }
+  
+  .radar-button:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+}
+.plot-button:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+}
+  .plot-button {
+    position:relative;
+    left:40px;
+    top: -11px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 4px solid #135eb6; /* Add a border */
+    border-radius: 35px;
+    color: #0b57d0;
+    width: 145px;
+    height: 58px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;  
+  }
+  
+  
+        
+  .metrics-table th {
+    background-color: #ececec;
+    color: #444444;
+    font-weight: bold;
+    padding: 9px;
+    text-align: left;
+  }
+  
+  .metrics-table td {
+    padding: 9px;
+    border: 1px solid #ccc;
+  }
+  
+  .metrics-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .metrics-table tr:hover {
+    background-color: #ddd;
+  }
+  .metrics-table tr:first-child td {
+    font-size: 20px;
+  }
+  
+  .metrics-table a {
+    text-decoration: none; /* Remove underlining */
+
+  }
+
+
+  #metrics-table a {
+    text-decoration: none; /* Remove underlining */
+    color: purple; /* Set link color to purple */
+  }
+
+  
+
+  
+
+  /* FUNCTIONAL STYLE ELEMENTS BELOW */
+
+
+  
+  svg:nth-of-type(1) {
+  height: 485px;
+}
+  
+
+
+.metrics-table {
+    width: 520px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+  }
+
+  
+  /* Ensure the container is centered and elements are responsive */
+.container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center; /* Center elements horizontally */
+  width: 100%; /* Allow the container to take up full width */
+  margin: 0 auto; /* Center the container itself */
+}
+
+/* For rows that should have elements side by side */
+.desktop-row {
+  display: flex;
+  justify-content: center; /* Center the row contents */
+  align-items: flex-start; /* Align elements to the top, preventing height stretching */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  width: 100%;
+  margin: 20px 0;
+}
+
+.radar-wrapper {
+  position: relative;
+top: 20px;
+}
+
+
+.scatter-plot-wrapper {
+  position: relative;
+top: 26px;
+}
+
+.scatter-plot-wrapper-2 {
+  position: relative;
+top: 26px;
+left: -20px;
+}
+
+
+
+/* Limit the width of individual elements and center them */
+.metric-table, .radar-wrapper, .scatter-plot-wrapper, .scatter-plot-wrapper-2 {
+  flex: 1;
+  min-width: 300px;
+  max-width: 550px; /* Ensure no element exceeds 485px */
+  margin: 0px 40px;
+  align-self: center; /* Ensure the element itself is centered */
+  text-align: center; /* Center text or content inside the div */
+}
+
+
+
+.scatter-plot, .scatter-plot-2 {
+  max-height: 400px; /* Keep aspect ratio */
+  max-width: 123%; /* Ensure it scales down on smaller screens */
+}
+
+/* Limit the width of the radar SVG */
+.radar {
+  width: 485px;
+  height: auto; /* Keep aspect ratio */
+  max-width: 100%; /* Ensure it scales down on smaller screens */
+}
+
+/* Wrapper for radar and button */
+.radar-wrapper, .scatter-plot-wrapper, .scatter-plot-wrapper-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content inside the wrapper */
+}
+
+/* Ensure the buttons are centered below their respective elements */
+.radar-button, .plot-button {
+  text-align: center; /* Ensure the buttons are centered */
+}
+
+/* Mobile-specific layout: Stack elements vertically */
+@media only screen and (max-width: 1048px) {
+  .desktop-row {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+
+    .metric-table, .radar-wrapper, .scatter-plot-wrapper, .scatter-plot-wrapper-2 {
+
+  margin: 20px 40px;
+
+}
+
+
+
+.scatter-plot-wrapper, .scatter-plot-wrapper-2 {
+top:-10px;
+left: 0px
+
+}
+.radar-wrapper {
+
+top: 0px;
+left: 10px
+
+}
+.plot-button {
+    position:relative;
+    left:10px;
+  }
+}
+
+  
+
+  body {
+    margin: 0 auto;
+  }
+  
+  
+  body, html {
+  
+  background-color: #ffffff !important;
+  }
+
+  #searchInput1 {
+  display: none;
+  }
+  
+  
+  
+  
+  #searchButton1 {
+    display: none;
+  
+  }
+  
+  
+
+  
+  #select-league {
+    display: none;
+  }
+  
+ 
+  
+svg text
+.x-label,
+.y-label,
+.team-label,
+.player-name,
+.x-axis text,
+.y-axis text {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+  
+  

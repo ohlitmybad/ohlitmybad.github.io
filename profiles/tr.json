@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": " Futbol İstatistikleri ve Görselleri | DataMB",
+    "description": " 2025/26 veri profili, Avrupa'nın En İyi 7 Ligindeki oyuncularla karşılaştırıldı. Radar ve diğer grafiklerimizle istatistikleri inceleyin veya diğer oyuncularla karşılaştırın.",
+    "tdescription": " 2025/26 veri profili, Avrupa'nın En İyi 7 Ligindeki diğer takımlarla karşılaştırıldı. Radar ve diğer grafiklerimizle istatistikleri inceleyin veya diğer takımlarla karşılaştırın."
+},
+  "header": {
+    "home": "Ana Sayfa",
+    "pro": "Pro",
+    "guide": "Rehber"
+  },
+  "positions": {
+    "goalkeeper": "Kaleci",
+    "centreback": "Stoper",
+    "fullback": "Bek",  
+    "midfielder": "Orta saha",
+    "winger": "Kanat",
+    "striker": "Forvet"
+  },
+  "metrics": {
+    "prevented-goals-per-90": "90 dakika başına önlenen gol",
+    "save-percentage-pct": "Kurtarış yüzdesi %",
+    "short-pass-completion-pct": "Kısa pas tamamlama %",
+    "long-pass-accuracy-pct": "Uzun pas isabeti %",
+    "aerial-duels-won-pct": "Hava topları kazanma %",
+    "defensive-duels-won-pct": "Savunma düelloları kazanma %",
+    "progressive-passes-per-90": "90 dakika başına hücum pası",
+    "progressive-carries-per-90": "90 dakika başına topu ileri taşıma",
+    "key-passes-per-90": "90 dakika başına anahtar pas",
+    "pass-completion-pct": "Pas tamamlama %",
+    "successful-dribbles-per-90": "90 dakika başına başarılı dribling",
+    "goals-per-90": "90 dakika başına gol",
+    "goals-conceded-per-90": "90 dakika başına yenen gol",
+    "xg-per-90": "90 dakika başına xG",
+    "xa-per-90": "90 dakika başına xA",
+    "goal-conversion-pct": "Gol çevirme %",
+    "shots-per-90": "90 dakika başına şut"
+  },
+  "radar": {
+      "metrics": {
+      "physicality": "Fiziksel",
+      "defending": "Savunma",
+      "counters": "Kontra",
+      "possession": "Top hakimiyeti",
+      "attacking": "Hücum",
+      "goals": "Goller",
+      "pressing": "Pres"
+  },
+      "aerial": "Hava%",
+      "duels": "Düello%",
+      "possWon": "Top kazanma",
+      "progPasses": "Hücum pası",
+      "fwdPass": "İleri pas%",
+      "passes": "Paslar",
+      "carrying": "Taşıma",
+      "xAssist": "xAsist",
+      "cross": "Ortalar",
+      "short": "Kısa%",
+      "long": "Uzun%",
+      "int": "Müdahaleler",
+      "aerialswon": "Hava kazanma",
+      "prevented": "PSxG-GA",
+      "keyPasses": "Anahtar paslar",
+      "fwdPasses": "İleri paslar",
+      "duel": "Savunma%",
+      "assists": "Asistler",
+      "xgxa": "npxG+xA",
+      "npg": "NPG",
+      "dribbles": "Driblingler",
+      "npxg": "npxG",
+      "xa": "xA",
+      "save" : "Kurtarış%",
+      "conversion" : "Çevirme%",
+      "offduels" : "Hücum düello",
+      "touches" : "RCS topla"
+  },
+  "table": {
+    "club": "Kulüp",
+    "league": "Lig",
+    "age": "Yaş",
+    "position": "Pozisyon",
+    "season": "Sezon",
+    "percentile": " yüzdelik",
+    "minutes_played": "Oynanan dakika",
+    "percentile_suffix": {
+      "th_suffix": "inci",
+      "st_suffix": "inci",
+      "nd_suffix": "nci",
+      "rd_suffix": "üncü"
+    },
+    "vs_top_7_leagues": "En İyi 7 Lig vs",
+    "metrics": {
+      "accurate_crosses": "İsabetli ortalar",
+      "expected_assists": "Beklenen asistler",
+      "progressive_passes": "Tamamlanan hücum pasları",
+      "poss_won": "Kazanılan top hakimiyetleri",
+      "defensive_duel_success": "Kazanılan savunma düelloları %",
+      "aerial_duel_success": "Kazanılan hava düelloları %",
+      "progressive_carries": "Topu ileri taşımalar",
+      "successful_dribbles": "Başarılı driblingler",
+      "non_penalty_goals": "Penaltı olmayan goller",
+      "expected_goals_and_assists": "Penaltı olmayan xG + xA",
+      "assists": "Asistler",
+      "key_passes": "Anahtar paslar",
+      "offensive_duels": "Kazanılan hücum düelloları",
+      "conversion": "Gol çevirme",
+      "touches": "RCS topla buluşma",
+      "npxg": "Penaltı olmayan xG",
+      "aerials_won": "Kazanılan hava düelloları",
+      "int": "Müdahaleler (PAdj)",
+      "passes_completed": "Tamamlanan paslar",
+      "long_pass_accuracy": "Uzun pas isabeti %",
+      "short_pass_accuracy": "Kısa pas isabeti %",
+      "psxg_minus_ga": "PSxG-GA",
+      "duel_success": "Düello %",
+      "forward_passes": "Tamamlanan ileri paslar",
+      "forward_pass_accuracy": "İleri pas tamamlama %",
+      "goals": "Goller",
+      "attacking": "Hücum",
+      "possession": "Top hakimiyeti",
+      "counters": "Kontra",
+      "defending": "Savunma",
+      "physicality": "Fiziksel",
+      "pressing": "Pres",
+      "passes": "Paslar"
+        }
+  },
+  "teams": {
+    "radar": {
+      "compare": "Takımları karşılaştır"
+    },
+    "minutes": "EN ÇOK LİG DAKİKASI"
+  },
+  "cb": {
+    "radar": {
+      "compare": "Stoperleri karşılaştır"
+    }
+  },
+  "fb": {
+    "radar": {
+      "compare": "Bekleri karşılaştır"
+    }
+  },
+  "cm": {
+    "radar": {
+      "compare": "Orta saha oyuncularını karşılaştır"
+    }
+  },
+  "fw": {
+    "radar": {
+      "compare": "Kanat oyuncularını karşılaştır"
+    }
+  },
+  "st": {
+    "radar": {
+      "compare": "Forvetleri karşılaştır"
+    }
+  },
+  "gk": {
+    "radar": {
+      "compare": "Kalecileri karşılaştır"
+    }
+  },
+  "plot": {
+    "more": "Daha fazla metrik grafiği"
+  },
+  "footer": {
+    "copyright": "© Tüm Hakları Saklıdır",
+    "terms": "Gizlilik",
+    "privacy": "İletişim",
+    "glossary": "Hakkında"
+  },
+  "search": {
+    "placeholder": "Takım veya oyuncu adı girin..."
+  }
+} 

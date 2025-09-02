@@ -1,3 +1,56 @@
+function showTooltip(element, text) {
+
+  const existingTooltip = document.querySelector('.tooltip');
+  if (existingTooltip) {
+      existingTooltip.remove();
+  }
+
+  let displayText = text;
+  if (window.translations && element.hasAttribute('data-i18n-tooltip')) {
+      const tooltipKey = element.getAttribute('data-i18n-tooltip');
+      const keys = tooltipKey.split('.');
+      let translatedText = window.translations;
+
+      for (const key of keys) {
+          if (translatedText === undefined || translatedText === null) break;
+          translatedText = translatedText[key];
+      }
+
+      if (translatedText) {
+          displayText = translatedText;
+      }
+  }
+
+  const tooltip = document.createElement('div');
+  tooltip.className = 'tooltip';
+  tooltip.textContent = displayText;
+
+  document.body.appendChild(tooltip);
+
+  const rect = element.getBoundingClientRect();
+  const tooltipRect = tooltip.getBoundingClientRect();
+
+  let left = rect.left + (rect.width / 2) - (tooltipRect.width / 2);
+  let top = rect.top - tooltipRect.height - 8;
+
+  if (left < 10) left = 10;
+  if (left + tooltipRect.width > 470 - 10) {
+      left = 470 - tooltipRect.width - 10;
+  }
+  if (top < 10) {
+
+      top = rect.bottom + 8;
+  }
+
+  tooltip.style.left = left + 'px';
+  tooltip.style.top = top + 'px';
+
+  setTimeout(() => {
+      if (tooltip.parentNode) {
+          tooltip.remove();
+      }
+  }, 2000);
+}
 async function takeScreenshot() {
   const chartContainer = document.querySelector('.screenshotcontainer');
   const isDarkMode = document.body.classList.contains('dark-mode');
@@ -32,14 +85,57 @@ logging: false,
       }
     });
     
-    canvas.toBlob(blob => {
-      const link = document.createElement('a');
-      link.href = URL.createObjectURL(blob);
-      link.download = 'DataMB Screenshot.png';
-      link.click();
-    }, 'image/png');
+    // Create a new canvas with margins
+    const margin = 20; // 10px margin on top/bottom (scaled by 2 for high DPI)
+    const horizontalMargin = 0; // 0px margin on left/right
+    const newCanvas = document.createElement('canvas');
+    const ctx = newCanvas.getContext('2d');
+    
+    newCanvas.width = canvas.width + (horizontalMargin * 2);
+    newCanvas.height = canvas.height + (margin * 2);
+    
+    // Fill background
+    ctx.fillStyle = isDarkMode ? '#0F0F0E' : '#FFFFFF';
+    ctx.fillRect(0, 0, newCanvas.width, newCanvas.height);
+    
+    // Draw original canvas with margins
+    ctx.drawImage(canvas, horizontalMargin, margin);
+    
+    // Add logo to the canvas
+    const logo = new Image();
+    logo.crossOrigin = 'anonymous';
+    logo.onload = function() {
+      // Draw logo 20px from bottom, 10px from right with better quality
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = 'high';
+      // Set opacity to 0.6 (60%)
+      ctx.globalAlpha = 0.7;
+      // Make logo slightly larger for better quality
+      ctx.drawImage(logo, horizontalMargin + 45, newCanvas.height - margin - 70, 50, 50);
+      // Reset opacity
+      ctx.globalAlpha = 1.0;
+      
+      // Convert to blob and download
+      newCanvas.toBlob(blob => {
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = 'DataMB Screenshot.png';
+        link.click();
+      }, 'image/png');
+    };
+    logo.onerror = function() {
+      // If logo fails to load, just download without it
+      newCanvas.toBlob(blob => {
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = 'DataMB Screenshot.png';
+        link.click();
+      }, 'image/png');
+    };
+    logo.src = 'https://datamb.football/logo.png';
     
   } catch (error) {
+    console.error('Screenshot error:', error);
   }
 }
 
@@ -103,6 +199,7 @@ fetch(`locales/${language}.json`)
       translateElement(element, translations);
     });
     
+
     document.querySelector('meta[name="language"]').setAttribute('content', language);
     
     if (!window.translationObserver) {
@@ -157,6 +254,8 @@ function translateElement(element, translations) {
     }
   }
 }
+
+
 
 const preferredLanguage = getPreferredLanguage();
 applyLanguage(preferredLanguage);

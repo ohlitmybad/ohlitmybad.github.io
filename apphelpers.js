@@ -31,15 +31,14 @@ function showTooltip(element, text) {
   const tooltipRect = tooltip.getBoundingClientRect();
 
   let left = rect.left + (rect.width / 2) - (tooltipRect.width / 2);
-  let top = rect.top - tooltipRect.height - 8;
+  let top = rect.bottom + 4;
 
   if (left < 10) left = 10;
   if (left + tooltipRect.width > 470 - 10) {
       left = 470 - tooltipRect.width - 10;
   }
-  if (top < 10) {
-
-      top = rect.bottom + 8;
+  if (top + tooltipRect.height > window.innerHeight - 10) {
+      top = rect.top - tooltipRect.height - 4;
   }
 
   tooltip.style.left = left + 'px';

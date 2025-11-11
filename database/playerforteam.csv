@@ -1,1947 +1,2083 @@
 Player,Position,Team within selected timeframe,Minutes played
 Simão,Goalkeeper,AVS ,806
-R. Owusu-Oduro,Goalkeeper,AZ,875
+R. Owusu-Oduro,Goalkeeper,AZ,969
 V. Jaroš,Goalkeeper,Ajax,888
-André Gomes,Goalkeeper,Alverca,915
-H. Koffi,Goalkeeper,Angers SCO,1092
+André Gomes,Goalkeeper,Alverca,1013
+H. Koffi,Goalkeeper,Angers SCO,1188
 João Valido,Goalkeeper,Arouca,899
-David Raya,Goalkeeper,Arsenal,1013
-E. Martínez,Goalkeeper,Aston Villa,810
-M. Carnesecchi,Goalkeeper,Atalanta,865
-Unai Simón,Goalkeeper,Athletic Club,983
-J. Oblak,Goalkeeper,Atlético Madrid,1104
-F. Dahmen,Goalkeeper,Augsburg,912
-D. Léon,Goalkeeper,Auxerre,838
+David Raya,Goalkeeper,Arsenal,1121
+E. Martínez,Goalkeeper,Aston Villa,911
+M. Carnesecchi,Goalkeeper,Atalanta,1060
+Unai Simón,Goalkeeper,Athletic Club,1185
+J. Oblak,Goalkeeper,Atlético Madrid,1204
+F. Dahmen,Goalkeeper,Augsburg,1014
+D. Léon,Goalkeeper,Auxerre,934
 Joan García,Goalkeeper,Barcelona,595
-M. Flekken,Goalkeeper,Bayer Leverkusen,915
-M. Neuer,Goalkeeper,Bayern München,795
-A. Trubin,Goalkeeper,Benfica,601
-Ł. Skorupski,Goalkeeper,Bologna,886
-G. Kobel,Goalkeeper,Borussia Dortmund,895
-M. Nicolas,Goalkeeper,Borussia Mgladbach,889
-D. Petrović,Goalkeeper,Bournemouth,900
-C. Kelleher,Goalkeeper,Brentford,1010
-R. Majecki,Goalkeeper,Brest,860
-B. Verbruggen,Goalkeeper,Brighton,905
-M. Dúbravka,Goalkeeper,Burnley,1006
-E. Caprile,Goalkeeper,Cagliari,887
-P. Sequeira,Goalkeeper,Casa Pia AC,655
-A. Radu,Goalkeeper,Celta de Vigo,1093
-Robert Sánchez,Goalkeeper,Chelsea,918
-J. Butez,Goalkeeper,Como,982
+M. Flekken,Goalkeeper,Bayer Leverkusen,1012
+M. Neuer,Goalkeeper,Bayern München,896
+A. Trubin,Goalkeeper,Benfica,698
+Ł. Skorupski,Goalkeeper,Bologna,893
+G. Kobel,Goalkeeper,Borussia Dortmund,994
+M. Nicolas,Goalkeeper,Borussia Mgladbach,997
+D. Petrović,Goalkeeper,Bournemouth,1102
+C. Kelleher,Goalkeeper,Brentford,1116
+R. Majecki,Goalkeeper,Brest,957
+B. Verbruggen,Goalkeeper,Brighton,1102
+M. Dúbravka,Goalkeeper,Burnley,1110
+E. Caprile,Goalkeeper,Cagliari,1081
+P. Sequeira,Goalkeeper,Casa Pia AC,762
+A. Radu,Goalkeeper,Celta de Vigo,1199
+Robert Sánchez,Goalkeeper,Chelsea,1017
+J. Butez,Goalkeeper,Como,1081
 M. Silvestri,Goalkeeper,Cremonese,383
-E. Audero,Goalkeeper,Cremonese,592
-D. Henderson,Goalkeeper,Crystal Palace,911
-Antonio Sivera,Goalkeeper,Deportivo Alavés,1092
+E. Audero,Goalkeeper,Cremonese,688
+D. Henderson,Goalkeeper,Crystal Palace,1107
+Antonio Sivera,Goalkeeper,Deportivo Alavés,1189
+M. Zetterer,Goalkeeper,Eintracht Frankfurt,593
 Kauã Santos,Goalkeeper,Eintracht Frankfurt,406
-M. Zetterer,Goalkeeper,Eintracht Frankfurt,396
-M. Dituro,Goalkeeper,Elche,503
-Iñaki Peña,Goalkeeper,Elche,502
-M. Dmitrović,Goalkeeper,Espanyol,994
-Joel Robles,Goalkeeper,Estoril,1004
-Renan Ribeiro,Goalkeeper,Estrela Amadora,1021
-J. Pickford,Goalkeeper,Everton,892
-S. van Gassel,Goalkeeper,Excelsior,714
-L. Carević,Goalkeeper,Famalicão,1004
-T. Wellenreuther,Goalkeeper,Feyenoord,1096
-David de Gea,Goalkeeper,Fiorentina,988
-M. Branderhorst,Goalkeeper,Fortuna Sittard,1085
-N. Atubolu,Goalkeeper,Freiburg,801
-B. Leno,Goalkeeper,Fulham,1015
-N. Leali,Goalkeeper,Genoa,893
-David Soria,Goalkeeper,Getafe,1109
-Andrew,Goalkeeper,Gil Vicente,752
-P. Gazzaniga,Goalkeeper,Girona,936
-J. De Busser,Goalkeeper,Go Ahead Eagles,996
-E. Vaessen,Goalkeeper,Groningen,692
-Daniel Heuer Fernandes,Goalkeeper,Hamburger SV,909
-B. Klaverboer,Goalkeeper,Heerenveen,603
+M. Dituro,Goalkeeper,Elche,600
+Iñaki Peña,Goalkeeper,Elche,600
+M. Dmitrović,Goalkeeper,Espanyol,1189
+Joel Robles,Goalkeeper,Estoril,1101
+Renan Ribeiro,Goalkeeper,Estrela Amadora,1124
+J. Pickford,Goalkeeper,Everton,1093
+S. van Gassel,Goalkeeper,Excelsior,910
+L. Carević,Goalkeeper,Famalicão,1102
+T. Wellenreuther,Goalkeeper,Feyenoord,1193
+David de Gea,Goalkeeper,Fiorentina,1085
+M. Branderhorst,Goalkeeper,Fortuna Sittard,1181
+N. Atubolu,Goalkeeper,Freiburg,1000
+B. Leno,Goalkeeper,Fulham,1118
+N. Leali,Goalkeeper,Genoa,1089
+David Soria,Goalkeeper,Getafe,1208
+Andrew,Goalkeeper,Gil Vicente,950
+P. Gazzaniga,Goalkeeper,Girona,1033
+J. De Busser,Goalkeeper,Go Ahead Eagles,1191
+E. Vaessen,Goalkeeper,Groningen,882
+Daniel Heuer Fernandes,Goalkeeper,Hamburger SV,1008
+B. Klaverboer,Goalkeeper,Heerenveen,813
 A. Noppert,Goalkeeper,Heerenveen,414
-D. Ramaj,Goalkeeper,Heidenheim,887
-L. Montipò,Goalkeeper,Hellas Verona,980
+D. Ramaj,Goalkeeper,Heidenheim,984
+L. Montipò,Goalkeeper,Hellas Verona,1077
 F. de Keijzer,Goalkeeper,Heracles,778
-O. Baumann,Goalkeeper,Hoffenheim,807
-Y. Sommer,Goalkeeper,Internazionale,775
-M. Di Gregorio,Goalkeeper,Juventus,886
-M. Schwäbe,Goalkeeper,Köln,825
-I. Provedel,Goalkeeper,Lazio,874
-M. Diaw,Goalkeeper,Le Havre,1100
-W. Falcone,Goalkeeper,Lecce,979
-Lucas Perri,Goalkeeper,Leeds United,405
+T. Jansink,Goalkeeper,Heracles,376
+O. Baumann,Goalkeeper,Hoffenheim,1007
+Y. Sommer,Goalkeeper,Internazionale,873
+M. Di Gregorio,Goalkeeper,Juventus,984
+M. Schwäbe,Goalkeeper,Köln,1042
+I. Provedel,Goalkeeper,Lazio,1067
+M. Diaw,Goalkeeper,Le Havre,1199
+W. Falcone,Goalkeeper,Lecce,1076
 K. Darlow,Goalkeeper,Leeds United,494
-R. Risser,Goalkeeper,Lens,1092
-M. Ryan,Goalkeeper,Levante,902
-B. Özer,Goalkeeper,Lille,809
+Lucas Perri,Goalkeeper,Leeds United,602
+R. Risser,Goalkeeper,Lens,1192
+M. Ryan,Goalkeeper,Levante,1002
+B. Özer,Goalkeeper,Lille,1006
 Alisson,Goalkeeper,Liverpool,612
-G. Mamardashvili,Goalkeeper,Liverpool,408
-Y. Mvogo,Goalkeeper,Lorient,799
-R. Zentner,Goalkeeper,Mainz 05,679
+G. Mamardashvili,Goalkeeper,Liverpool,508
+Y. Mvogo,Goalkeeper,Lorient,895
+R. Zentner,Goalkeeper,Mainz 05,776
 Leo Román,Goalkeeper,Mallorca,1004
-G. Donnarumma,Goalkeeper,Manchester City,695
+G. Donnarumma,Goalkeeper,Manchester City,795
 A. Bayındır,Goalkeeper,Manchester United,609
-S. Lammens,Goalkeeper,Manchester United,405
-J. Fischer,Goalkeeper,Metz,1022
-M. Maignan,Goalkeeper,Milan,840
-P. Köhn,Goalkeeper,Monaco,836
+S. Lammens,Goalkeeper,Manchester United,504
+J. Fischer,Goalkeeper,Metz,1120
+M. Maignan,Goalkeeper,Milan,940
+P. Köhn,Goalkeeper,Monaco,936
 Caio Secco,Goalkeeper,Moreirense,694
-D. Bielica,Goalkeeper,NAC Breda,890
-G. Crettaz,Goalkeeper,NEC,984
+André Ferreira,Goalkeeper,Moreirense,401
+D. Bielica,Goalkeeper,NAC Breda,1087
+G. Crettaz,Goalkeeper,NEC,1177
+Kaique,Goalkeeper,Nacional,512
 Lucas França,Goalkeeper,Nacional,601
 A. Lopes,Goalkeeper,Nantes,1092
+V. Milinković-Savić,Goalkeeper,Napoli,693
 A. Meret,Goalkeeper,Napoli,395
-V. Milinković-Savić,Goalkeeper,Napoli,594
-N. Pope,Goalkeeper,Newcastle United,917
-Y. Diouf,Goalkeeper,Nice,1114
-M. Sels,Goalkeeper,Nottingham Forest,987
+N. Pope,Goalkeeper,Newcastle United,1105
+Y. Diouf,Goalkeeper,Nice,1212
+M. Sels,Goalkeeper,Nottingham Forest,1087
+D. Greif,Goalkeeper,Olympique Lyonnais,808
 R. Descamps,Goalkeeper,Olympique Lyonnais,404
-D. Greif,Goalkeeper,Olympique Lyonnais,706
-G. Rulli,Goalkeeper,Olympique Marseille,902
-Sergio Herrera,Goalkeeper,Osasuna,999
-T. de Graaff,Goalkeeper,PEC Zwolle,783
-L. Chevalier,Goalkeeper,PSG,1084
+G. Rulli,Goalkeeper,Olympique Marseille,999
+Sergio Herrera,Goalkeeper,Osasuna,1197
+T. de Graaff,Goalkeeper,PEC Zwolle,974
+L. Chevalier,Goalkeeper,PSG,1186
 M. Kovář,Goalkeeper,PSV,1082
-O. Nkambadio,Goalkeeper,Paris,912
-Z. Suzuki,Goalkeeper,Parma,889
-A. Šemper,Goalkeeper,Pisa,971
-Diogo Costa,Goalkeeper,Porto,896
-P. Gulácsi,Goalkeeper,RB Leipzig,884
-A. Batalla,Goalkeeper,Rayo Vallecano,1084
+O. Nkambadio,Goalkeeper,Paris,1008
+Z. Suzuki,Goalkeeper,Parma,1090
+A. Šemper,Goalkeeper,Pisa,1067
+Diogo Costa,Goalkeeper,Porto,1091
+P. Gulácsi,Goalkeeper,RB Leipzig,985
+A. Batalla,Goalkeeper,Rayo Vallecano,1183
 Pau López,Goalkeeper,Real Betis,701
-Álvaro Valles,Goalkeeper,Real Betis,404
-T. Courtois,Goalkeeper,Real Madrid,1094
-Aarón Escandell,Goalkeeper,Real Oviedo,1000
-Álex Remiro,Goalkeeper,Real Sociedad,1101
-B. Samba,Goalkeeper,Rennes,1095
+Álvaro Valles,Goalkeeper,Real Betis,500
+T. Courtois,Goalkeeper,Real Madrid,1193
+Aarón Escandell,Goalkeeper,Real Oviedo,1195
+Álex Remiro,Goalkeeper,Real Sociedad,1198
+B. Samba,Goalkeeper,Rennes,1191
 C. Miszta,Goalkeeper,Rio Ave,995
-M. Svilar,Goalkeeper,Roma,884
-Gabriel Batista,Goalkeeper,Santa Clara,892
-A. Murić,Goalkeeper,Sassuolo,792
-O. Vlachodimos,Goalkeeper,Sevilla,708
+M. Svilar,Goalkeeper,Roma,1079
+Gabriel Batista,Goalkeeper,Santa Clara,1090
+A. Murić,Goalkeeper,Sassuolo,990
+O. Vlachodimos,Goalkeeper,Sevilla,808
 Ø. Nyland,Goalkeeper,Sevilla,405
-J. Drommel,Goalkeeper,Sparta Rotterdam,981
-L. Horníček,Goalkeeper,Sporting Braga,907
-Rui Silva,Goalkeeper,Sporting CP,785
-N. Vasilj,Goalkeeper,St. Pauli,897
-M. Penders,Goalkeeper,Strasbourg,995
-A. Nübel,Goalkeeper,Stuttgart,901
-R. Roefs,Goalkeeper,Sunderland,906
-R. Koeman,Goalkeeper,Telstar,977
-Bernardo,Goalkeeper,Tondela,882
+J. Drommel,Goalkeeper,Sparta Rotterdam,1172
+L. Horníček,Goalkeeper,Sporting Braga,1100
+Rui Silva,Goalkeeper,Sporting CP,886
+N. Vasilj,Goalkeeper,St. Pauli,995
+M. Penders,Goalkeeper,Strasbourg,1094
+A. Nübel,Goalkeeper,Stuttgart,1003
+R. Roefs,Goalkeeper,Sunderland,1112
+R. Koeman,Goalkeeper,Telstar,1177
+Bernardo,Goalkeeper,Tondela,1079
 F. Israel,Goalkeeper,Torino,685
-G. Vicario,Goalkeeper,Tottenham Hotspur,1004
-G. Restes,Goalkeeper,Toulouse,1104
-L. Unnerstall,Goalkeeper,Twente,1079
+A. Paleari,Goalkeeper,Torino,390
+G. Vicario,Goalkeeper,Tottenham Hotspur,1103
+G. Restes,Goalkeeper,Toulouse,1200
+L. Unnerstall,Goalkeeper,Twente,1179
+M. Okoye,Goalkeeper,Udinese,489
 R. Sava,Goalkeeper,Udinese,581
-M. Okoye,Goalkeeper,Udinese,391
-F. Rønnow,Goalkeeper,Union Berlin,820
-V. Barkas,Goalkeeper,Utrecht,823
-Julen Agirrezabala,Goalkeeper,Valencia,1092
-Luiz Júnior,Goalkeeper,Villarreal,778
-J. Castillo,Goalkeeper,Vitória Guimarães,610
+F. Rønnow,Goalkeeper,Union Berlin,1022
+V. Barkas,Goalkeeper,Utrecht,1016
+Julen Agirrezabala,Goalkeeper,Valencia,1188
+Luiz Júnior,Goalkeeper,Villarreal,873
 Charles,Goalkeeper,Vitória Guimarães,409
-K. van Oevelen,Goalkeeper,Volendam,1073
-M. Backhaus,Goalkeeper,Werder Bremen,691
+J. Castillo,Goalkeeper,Vitória Guimarães,708
+K. van Oevelen,Goalkeeper,Volendam,1172
+M. Backhaus,Goalkeeper,Werder Bremen,790
 M. Hermansen,Goalkeeper,West Ham United,397
-A. Aréola,Goalkeeper,West Ham United,510
-K. Grabara,Goalkeeper,Wolfsburg,819
-S. Johnstone,Goalkeeper,Wolverhampton,607
+A. Aréola,Goalkeeper,West Ham United,720
+K. Grabara,Goalkeeper,Wolfsburg,1017
+S. Johnstone,Goalkeeper,Wolverhampton,706
 José Sá,Goalkeeper,Wolverhampton,403
-S. Bane,Centre-back,AVS ,381
+S. Bane,Centre-back,AVS ,529
+C. Devenish,Centre-back,AVS ,947
 A. Santos,Centre-back,AVS ,413
-C. Devenish,Centre-back,AVS ,747
-Alexandre Penetra,Centre-back,AZ,970
-W. Goes,Centre-back,AZ,957
-J. Šutalo,Centre-back,Ajax,504
-Y. Baas,Centre-back,Ajax,994
+W. Goes,Centre-back,AZ,1051
+Alexandre Penetra,Centre-back,AZ,1064
+J. Šutalo,Centre-back,Ajax,599
 K. Itakura,Centre-back,Ajax,572
-Sergi Gómez,Centre-back,Alverca,888
-B. Meupiyou,Centre-back,Alverca,814
-Naves,Centre-back,Alverca,853
-O. Camara,Centre-back,Angers SCO,968
-J. Lefort,Centre-back,Angers SCO,1092
-José Fontán,Centre-back,Arouca,769
-B. Popović,Centre-back,Arouca,594
-W. Saliba,Centre-back,Arsenal,713
-Gabriel Magalhaes,Centre-back,Arsenal,1013
-E. Konsa,Centre-back,Aston Villa,875
+Y. Baas,Centre-back,Ajax,1089
+Sergi Gómez,Centre-back,Alverca,986
+B. Meupiyou,Centre-back,Alverca,912
+Naves,Centre-back,Alverca,951
+O. Camara,Centre-back,Angers SCO,1064
+J. Lefort,Centre-back,Angers SCO,1188
+B. Popović,Centre-back,Arouca,691
+José Fontán,Centre-back,Arouca,964
+Gabriel Magalhaes,Centre-back,Arsenal,1121
+W. Saliba,Centre-back,Arsenal,821
+E. Konsa,Centre-back,Aston Villa,976
+Pau Torres,Centre-back,Aston Villa,686
 T. Mings,Centre-back,Aston Villa,546
-Pau Torres,Centre-back,Aston Villa,585
-I. Hien,Centre-back,Atalanta,794
-B. Djimsiti,Centre-back,Atalanta,793
-H. Ahanor,Centre-back,Atalanta,403
-O. Kossounou,Centre-back,Atalanta,480
+O. Kossounou,Centre-back,Atalanta,530
+H. Ahanor,Centre-back,Atalanta,502
+I. Hien,Centre-back,Atalanta,893
+B. Djimsiti,Centre-back,Atalanta,842
 Aitor Paredes,Centre-back,Athletic Club,605
-Aymeric Laporte,Centre-back,Athletic Club,614
-Dani Vivian,Centre-back,Athletic Club,954
+Aymeric Laporte,Centre-back,Athletic Club,711
+Dani Vivian,Centre-back,Athletic Club,1051
+D. Hancko,Centre-back,Atlético Madrid,1066
+J. Giménez,Centre-back,Atlético Madrid,392
 C. Lenglet,Centre-back,Atlético Madrid,452
 Robin Le Normand,Centre-back,Atlético Madrid,988
-N. Banks,Centre-back,Augsburg,423
-J. Gouweleeuw,Centre-back,Augsburg,388
-C. Matsima,Centre-back,Augsburg,912
-K. Schlotterbeck,Centre-back,Augsburg,471
-C. Akpa,Centre-back,Auxerre,895
-F. Sierralta,Centre-back,Auxerre,845
-M. Senaya,Centre-back,Auxerre,1044
-R. Araújo,Centre-back,Barcelona,487
-Eric García,Centre-back,Barcelona,831
-Pau Cubarsí,Centre-back,Barcelona,666
-A. Christensen,Centre-back,Barcelona,366
+C. Matsima,Centre-back,Augsburg,1014
+N. Banks,Centre-back,Augsburg,490
+K. Schlotterbeck,Centre-back,Augsburg,573
+J. Gouweleeuw,Centre-back,Augsburg,423
+M. Senaya,Centre-back,Auxerre,1128
+F. Sierralta,Centre-back,Auxerre,941
+C. Akpa,Centre-back,Auxerre,991
+A. Christensen,Centre-back,Barcelona,378
+R. Araújo,Centre-back,Barcelona,691
+Pau Cubarsí,Centre-back,Barcelona,772
+L. Badé,Centre-back,Bayer Leverkusen,799
 J. Quansah,Centre-back,Bayer Leverkusen,792
-E. Tapsoba,Centre-back,Bayer Leverkusen,915
-L. Badé,Centre-back,Bayer Leverkusen,702
-J. Tah,Centre-back,Bayern München,767
-D. Upamecano,Centre-back,Bayern München,629
+E. Tapsoba,Centre-back,Bayer Leverkusen,975
+D. Upamecano,Centre-back,Bayern München,730
+J. Tah,Centre-back,Bayern München,868
+N. Otamendi,Centre-back,Benfica,893
+Tomás Araújo,Centre-back,Benfica,462
 António Silva,Centre-back,Benfica,519
-Tomás Araújo,Centre-back,Benfica,365
-N. Otamendi,Centre-back,Benfica,796
-T. Heggem,Centre-back,Bologna,772
-J. Lucumí,Centre-back,Bologna,750
+J. Lucumí,Centre-back,Bologna,849
+T. Heggem,Centre-back,Bologna,871
 M. Vitík,Centre-back,Bologna,395
+N. Schlotterbeck,Centre-back,Borussia Dortmund,590
 R. Bensebaini,Centre-back,Borussia Dortmund,849
-N. Schlotterbeck,Centre-back,Borussia Dortmund,491
-W. Anton,Centre-back,Borussia Dortmund,895
-N. Elvedi,Centre-back,Borussia Mgladbach,889
-K. Diks,Centre-back,Borussia Mgladbach,774
-P. Sander,Centre-back,Borussia Mgladbach,651
-M. Senesi,Centre-back,Bournemouth,981
+W. Anton,Centre-back,Borussia Dortmund,994
+N. Elvedi,Centre-back,Borussia Mgladbach,997
+P. Sander,Centre-back,Borussia Mgladbach,718
+K. Diks,Centre-back,Borussia Mgladbach,882
+M. Senesi,Centre-back,Bournemouth,1082
 B. Diakité,Centre-back,Bournemouth,804
-S. van den Berg,Centre-back,Brentford,1010
-Nathan Collins,Centre-back,Brentford,1010
-S. Coulibaly,Centre-back,Brest,397
-B. Chardonnet,Centre-back,Brest,877
+Nathan Collins,Centre-back,Brentford,1116
+S. van den Berg,Centre-back,Brentford,1116
 J. Diaz,Centre-back,Brest,622
-J. van Hecke,Centre-back,Brighton,905
-L. Dunk,Centre-back,Brighton,905
-A. Tuanzebe,Centre-back,Burnley,404
-J. Laurent,Centre-back,Burnley,629
-M. Estève,Centre-back,Burnley,986
+B. Chardonnet,Centre-back,Brest,974
+S. Coulibaly,Centre-back,Brest,494
+L. Dunk,Centre-back,Brighton,1102
+J. van Hecke,Centre-back,Brighton,1102
+M. Estève,Centre-back,Burnley,1090
 H. Ekdal,Centre-back,Burnley,586
+J. Laurent,Centre-back,Burnley,629
+A. Tuanzebe,Centre-back,Burnley,508
+S. Luperto,Centre-back,Cagliari,783
+Y. Mina,Centre-back,Cagliari,774
 Zé Pedro,Centre-back,Cagliari,398
-Y. Mina,Centre-back,Cagliari,580
-S. Luperto,Centre-back,Cagliari,589
-Kaique Rocha,Centre-back,Casa Pia AC,351
 David Sousa,Centre-back,Casa Pia AC,603
-André Geraldes,Centre-back,Casa Pia AC,758
+José Fonte,Centre-back,Casa Pia AC,791
 D. Tchamba,Centre-back,Casa Pia AC,394
 João Goulart,Centre-back,Casa Pia AC,403
-José Fonte,Centre-back,Casa Pia AC,791
-Manu Fernández,Centre-back,Celta de Vigo,424
-Marcos Alonso,Centre-back,Celta de Vigo,686
+André Geraldes,Centre-back,Casa Pia AC,758
+Kaique Rocha,Centre-back,Casa Pia AC,351
+C. Starfelt,Centre-back,Celta de Vigo,397
 Carlos Domínguez,Centre-back,Celta de Vigo,483
-Javi Rodríguez,Centre-back,Celta de Vigo,714
+Marcos Alonso,Centre-back,Celta de Vigo,792
+Javi Rodríguez,Centre-back,Celta de Vigo,767
 Yoel Lago,Centre-back,Celta de Vigo,355
+Manu Fernández,Centre-back,Celta de Vigo,510
+T. Chalobah,Centre-back,Chelsea,943
 J. Acheampong,Centre-back,Chelsea,380
-T. Chalobah,Centre-back,Chelsea,844
 T. Adarabioyo,Centre-back,Chelsea,452
-Jacobo Ramón,Centre-back,Como,677
+Jacobo Ramón,Centre-back,Como,776
 M. Kempf,Centre-back,Como,673
-Diego Carlos,Centre-back,Como,630
-M. Bianchetti,Centre-back,Cremonese,851
-F. Terracciano,Centre-back,Cremonese,864
-F. Baschirotto,Centre-back,Cremonese,975
+Diego Carlos,Centre-back,Como,729
+F. Baschirotto,Centre-back,Cremonese,1071
+F. Terracciano,Centre-back,Cremonese,955
+M. Bianchetti,Centre-back,Cremonese,947
 M. Guéhi,Centre-back,Crystal Palace,1007
-C. Richards,Centre-back,Crystal Palace,1007
-M. Lacroix,Centre-back,Crystal Palace,1007
-N. Tenaglia,Centre-back,Deportivo Alavés,996
+M. Lacroix,Centre-back,Crystal Palace,1107
+C. Richards,Centre-back,Crystal Palace,1107
+N. Tenaglia,Centre-back,Deportivo Alavés,1093
 F. Garcés,Centre-back,Deportivo Alavés,604
 Jon Pacheco,Centre-back,Deportivo Alavés,454
-R. Koch,Centre-back,Eintracht Frankfurt,902
-A. Theate,Centre-back,Eintracht Frankfurt,902
-D. Affengruber,Centre-back,Elche,933
-Víctor Chust,Centre-back,Elche,583
+A. Theate,Centre-back,Eintracht Frankfurt,999
+R. Koch,Centre-back,Eintracht Frankfurt,999
+Víctor Chust,Centre-back,Elche,666
+D. Affengruber,Centre-back,Elche,1030
 Pedro Bigas,Centre-back,Elche,918
-Fernando Calero,Centre-back,Espanyol,538
-C. Riedel,Centre-back,Espanyol,445
-L. Cabrera,Centre-back,Espanyol,901
-K. Boma,Centre-back,Estoril,905
+L. Cabrera,Centre-back,Espanyol,1096
+Fernando Calero,Centre-back,Espanyol,633
+C. Riedel,Centre-back,Espanyol,545
+K. Boma,Centre-back,Estoril,1002
+Ferro,Centre-back,Estoril,574
+F. Bacher,Centre-back,Estoril,1101
 Pedro Amaral,Centre-back,Estoril,618
-F. Bacher,Centre-back,Estoril,1004
-Ferro,Centre-back,Estoril,525
-Bernardo Schappo,Centre-back,Estrela Amadora,789
-A. Chernev,Centre-back,Estrela Amadora,974
-Luan Patrick,Centre-back,Estrela Amadora,972
-M. Keane,Centre-back,Everton,855
-J. Tarkowski,Centre-back,Everton,892
-C. Widell,Centre-back,Excelsior,1073
-R. Meissen,Centre-back,Excelsior,848
-L. Realpe,Centre-back,Famalicão,859
+Luan Patrick,Centre-back,Estrela Amadora,1075
+Bernardo Schappo,Centre-back,Estrela Amadora,822
+A. Chernev,Centre-back,Estrela Amadora,1077
+J. Tarkowski,Centre-back,Everton,1093
+M. Keane,Centre-back,Everton,1056
+R. Meissen,Centre-back,Excelsior,944
+S. Henderikx,Centre-back,Excelsior,387
+C. Widell,Centre-back,Excelsior,1169
 J. de Haas,Centre-back,Famalicão,903
-A. Ahmedhodžić,Centre-back,Feyenoord,946
-T. Watanabe,Centre-back,Feyenoord,1004
-M. Pongračić,Centre-back,Fiorentina,890
+I. Ba,Centre-back,Famalicão,364
+L. Realpe,Centre-back,Famalicão,957
+A. Ahmedhodžić,Centre-back,Feyenoord,1043
+T. Watanabe,Centre-back,Feyenoord,1101
+M. Pongračić,Centre-back,Fiorentina,987
 P. Comuzzo,Centre-back,Fiorentina,393
-Pablo Marí,Centre-back,Fiorentina,508
-L. Ranieri,Centre-back,Fiorentina,803
-Iván Márquez,Centre-back,Fortuna Sittard,926
-S. Adewoye,Centre-back,Fortuna Sittard,783
-J. Hubner,Centre-back,Fortuna Sittard,396
-M. Ginter,Centre-back,Freiburg,801
-P. Lienhart,Centre-back,Freiburg,674
-C. Bassey,Centre-back,Fulham,928
-J. Andersen,Centre-back,Fulham,852
-L. Østigård,Centre-back,Genoa,644
-J. Vásquez,Centre-back,Genoa,893
-A. Abqar,Centre-back,Getafe,484
-Diego Rico,Centre-back,Getafe,991
-Juan Iglesias,Centre-back,Getafe,933
-Domingos Duarte,Centre-back,Getafe,862
-Djené,Centre-back,Getafe,841
-M. Elimbi,Centre-back,Gil Vicente,790
-Jonathan Buatu,Centre-back,Gil Vicente,741
-D. Blind,Centre-back,Girona,946
-Vitor Reis,Centre-back,Girona,889
+L. Ranieri,Centre-back,Fiorentina,870
+Pablo Marí,Centre-back,Fiorentina,605
+J. Hubner,Centre-back,Fortuna Sittard,416
+S. Adewoye,Centre-back,Fortuna Sittard,879
+Iván Márquez,Centre-back,Fortuna Sittard,1022
+M. Ginter,Centre-back,Freiburg,1000
+P. Lienhart,Centre-back,Freiburg,772
+C. Bassey,Centre-back,Fulham,1031
+J. Andersen,Centre-back,Fulham,955
+A. Marcandalli,Centre-back,Genoa,368
+J. Vásquez,Centre-back,Genoa,1089
+L. Østigård,Centre-back,Genoa,840
+Djené,Centre-back,Getafe,861
+Diego Rico,Centre-back,Getafe,1084
+A. Abqar,Centre-back,Getafe,563
+Domingos Duarte,Centre-back,Getafe,961
+Jonathan Buatu,Centre-back,Gil Vicente,939
+M. Elimbi,Centre-back,Gil Vicente,988
+D. Blind,Centre-back,Girona,1043
+Vitor Reis,Centre-back,Girona,986
+J. Kramer,Centre-back,Go Ahead Eagles,1191
 G. Nauber,Centre-back,Go Ahead Eagles,881
-J. Kramer,Centre-back,Go Ahead Eagles,996
-D. Janse,Centre-back,Groningen,882
-T. Blokzijl,Centre-back,Groningen,1088
-W. Omari,Centre-back,Hamburger SV,473
+D. Janse,Centre-back,Groningen,977
+T. Blokzijl,Centre-back,Groningen,1183
+N. Capaldo,Centre-back,Hamburger SV,607
 Daniel Elfadli,Centre-back,Hamburger SV,826
-L. Vušković,Centre-back,Hamburger SV,710
-N. Capaldo,Centre-back,Hamburger SV,517
-N. Hopland,Centre-back,Heerenveen,424
-S. Kersten,Centre-back,Heerenveen,576
-M. Willemsen,Centre-back,Heerenveen,514
-J. van Overeem,Centre-back,Heerenveen,1017
-B. Gimber,Centre-back,Heidenheim,374
-T. Siersleben,Centre-back,Heidenheim,585
-P. Mainka,Centre-back,Heidenheim,887
+L. Vušković,Centre-back,Hamburger SV,809
+W. Omari,Centre-back,Hamburger SV,473
+S. Kersten,Centre-back,Heerenveen,786
+J. van Overeem,Centre-back,Heerenveen,1219
+M. Willemsen,Centre-back,Heerenveen,724
+N. Hopland,Centre-back,Heerenveen,443
+P. Mainka,Centre-back,Heidenheim,984
+B. Gimber,Centre-back,Heidenheim,438
+T. Siersleben,Centre-back,Heidenheim,682
+V. Nelsson,Centre-back,Hellas Verona,1077
+N. Valentini,Centre-back,Hellas Verona,367
+M. Frese,Centre-back,Hellas Verona,822
+A. Bella-Kotchap,Centre-back,Hellas Verona,466
 Unai Núñez,Centre-back,Hellas Verona,683
-M. Frese,Centre-back,Hellas Verona,801
-V. Nelsson,Centre-back,Hellas Verona,980
-A. Bella-Kotchap,Centre-back,Hellas Verona,369
-A. Van Hoorenbeeck,Centre-back,Heracles,488
-I. Mesík,Centre-back,Heracles,964
-D. Mirani,Centre-back,Heracles,940
-A. Hajdari,Centre-back,Hoffenheim,498
-R. Hranáč,Centre-back,Hoffenheim,762
-F. Acerbi,Centre-back,Internazionale,570
-A. Bastoni,Centre-back,Internazionale,828
-M. Akanji,Centre-back,Internazionale,780
-F. Gatti,Centre-back,Juventus,785
-L. Kelly,Centre-back,Juventus,883
+A. Van Hoorenbeeck,Centre-back,Heracles,678
+D. Mirani,Centre-back,Heracles,1130
+R. Hranáč,Centre-back,Hoffenheim,962
+A. Hajdari,Centre-back,Hoffenheim,645
+M. Akanji,Centre-back,Internazionale,878
+F. Acerbi,Centre-back,Internazionale,668
+A. Bastoni,Centre-back,Internazionale,926
 Bremer,Centre-back,Juventus,370
+F. Gatti,Centre-back,Juventus,835
+P. Kalulu,Centre-back,Juventus,1080
+L. Kelly,Centre-back,Juventus,883
 T. Hübers,Centre-back,Köln,758
-J. Schmied,Centre-back,Köln,691
-T. Krauß,Centre-back,Köln,373
-A. Romagnoli,Centre-back,Lazio,685
-Mario Gila,Centre-back,Lazio,829
-G. Lloris,Centre-back,Le Havre,936
+J. Schmied,Centre-back,Köln,851
+T. Krauß,Centre-back,Köln,409
+E. Martel,Centre-back,Köln,1006
+Mario Gila,Centre-back,Lazio,1022
+A. Romagnoli,Centre-back,Lazio,808
+A. Sanganté,Centre-back,Le Havre,1045
 É. Youté,Centre-back,Le Havre,363
-A. Sanganté,Centre-back,Le Havre,946
-Tiago Gabriel,Centre-back,Lecce,899
-Kialonda Gaspar,Centre-back,Lecce,979
-J. Rodon,Centre-back,Leeds United,996
-P. Struijk,Centre-back,Leeds United,791
-Malang Sarr,Centre-back,Lens,987
-S. Baidoo,Centre-back,Lens,943
-J. Gradit,Centre-back,Lens,788
-M. Moreno,Centre-back,Levante,673
-Adrián de la Fuente,Centre-back,Levante,774
-Unai Elgezabal,Centre-back,Levante,815
-C. Mbemba,Centre-back,Lille,459
-A. Mandi,Centre-back,Lille,782
+G. Lloris,Centre-back,Le Havre,1035
+Tiago Gabriel,Centre-back,Lecce,996
+Kialonda Gaspar,Centre-back,Lecce,1076
+P. Struijk,Centre-back,Leeds United,806
+J. Rodon,Centre-back,Leeds United,1096
+Malang Sarr,Centre-back,Lens,1087
+J. Gradit,Centre-back,Lens,888
+S. Baidoo,Centre-back,Lens,1043
+Adrián de la Fuente,Centre-back,Levante,874
+M. Moreno,Centre-back,Levante,773
+Unai Elgezabal,Centre-back,Levante,903
+A. Mandi,Centre-back,Lille,881
 Alexsandro,Centre-back,Lille,352
-N. Ngoy,Centre-back,Lille,837
-I. Konaté,Centre-back,Liverpool,923
-V. van Dijk,Centre-back,Liverpool,1020
+N. Ngoy,Centre-back,Lille,936
+C. Mbemba,Centre-back,Lille,459
+I. Konaté,Centre-back,Liverpool,1023
+V. van Dijk,Centre-back,Liverpool,1120
 B. Meïté,Centre-back,Lorient,558
-M. Talbi,Centre-back,Lorient,1104
-Igor Silva,Centre-back,Lorient,546
-D. Yongwa,Centre-back,Lorient,401
+D. Yongwa,Centre-back,Lorient,497
 A. Faye,Centre-back,Lorient,641
-S. Bell,Centre-back,Mainz 05,375
-D. Kohr,Centre-back,Mainz 05,697
-D. da Costa,Centre-back,Mainz 05,834
+Igor Silva,Centre-back,Lorient,642
+M. Talbi,Centre-back,Lorient,1200
+D. da Costa,Centre-back,Mainz 05,931
+D. Kohr,Centre-back,Mainz 05,794
 A. Hanche-Olsen,Centre-back,Mainz 05,624
-M. Valjent,Centre-back,Mallorca,1100
-Antonio Raíllo,Centre-back,Mallorca,1100
-Rúben Dias,Centre-back,Manchester City,914
-J. Gvardiol,Centre-back,Manchester City,571
+S. Bell,Centre-back,Mainz 05,375
+M. Valjent,Centre-back,Mallorca,1199
+Antonio Raíllo,Centre-back,Mallorca,1199
+Rúben Dias,Centre-back,Manchester City,1014
+J. Gvardiol,Centre-back,Manchester City,671
 J. Stones,Centre-back,Manchester City,367
-L. Yoro,Centre-back,Manchester United,689
-L. Shaw,Centre-back,Manchester United,925
-M. de Ligt,Centre-back,Manchester United,1014
+M. de Ligt,Centre-back,Manchester United,1113
+L. Shaw,Centre-back,Manchester United,1024
+L. Yoro,Centre-back,Manchester United,715
+H. Maguire,Centre-back,Manchester United,394
 S. Sané,Centre-back,Metz,431
-T. Yegbe,Centre-back,Metz,835
-J. Gbamin,Centre-back,Metz,1024
-M. Gabbia,Centre-back,Milan,977
-S. Pavlović,Centre-back,Milan,899
+J. Gbamin,Centre-back,Metz,1122
+T. Yegbe,Centre-back,Metz,933
 F. Tomori,Centre-back,Milan,734
-T. Kehrer,Centre-back,Monaco,640
-E. Dier,Centre-back,Monaco,620
-M. Salisu,Centre-back,Monaco,609
+K. De Winter,Centre-back,Milan,395
+S. Pavlović,Centre-back,Milan,999
+M. Gabbia,Centre-back,Milan,1077
 C. Mawissa,Centre-back,Monaco,589
-Maracás,Centre-back,Moreirense,776
-Marcelo,Centre-back,Moreirense,901
-R. Hillen,Centre-back,NAC Breda,828
+E. Dier,Centre-back,Monaco,620
+T. Kehrer,Centre-back,Monaco,740
+M. Salisu,Centre-back,Monaco,709
+Marcelo,Centre-back,Moreirense,999
+Maracás,Centre-back,Moreirense,970
+R. Hillen,Centre-back,NAC Breda,926
 L. Greiml,Centre-back,NAC Breda,641
+E. Mahmutovic,Centre-back,NAC Breda,360
+B. Pereira,Centre-back,NEC,673
+T. Ouwejan,Centre-back,NEC,468
+P. Sandler,Centre-back,NEC,533
+A. Kaplan,Centre-back,NEC,785
 C. Verdonk,Centre-back,NEC,392
-T. Ouwejan,Centre-back,NEC,421
-B. Pereira,Centre-back,NEC,651
-A. Kaplan,Centre-back,NEC,690
-P. Sandler,Centre-back,NEC,442
-Matheus Dias,Centre-back,Nacional,827
+E. Dasa,Centre-back,NEC,414
+Léo Santos,Centre-back,Nacional,1050
 Zé Vitor,Centre-back,Nacional,878
-Léo Santos,Centre-back,Nacional,947
-C. Awaziem,Centre-back,Nantes,1079
-T. Tati,Centre-back,Nantes,972
-A. Buongiorno,Centre-back,Napoli,540
+Matheus Dias,Centre-back,Nacional,930
+C. Awaziem,Centre-back,Nantes,1178
+T. Tati,Centre-back,Nantes,1071
 S. Beukema,Centre-back,Napoli,402
-Juan Jesus,Centre-back,Napoli,645
+Juan Jesus,Centre-back,Napoli,663
+A. Buongiorno,Centre-back,Napoli,621
+A. Rrahmani,Centre-back,Napoli,392
+S. Botman,Centre-back,Newcastle United,719
 F. Schär,Centre-back,Newcastle United,478
-M. Thiaw,Centre-back,Newcastle United,626
-S. Botman,Centre-back,Newcastle United,613
-A. Mendy,Centre-back,Nice,884
-K. Peprah Oppong,Centre-back,Nice,1069
-Juma Bah,Centre-back,Nice,758
-Murillo,Centre-back,Nottingham Forest,606
-N. Milenković,Centre-back,Nottingham Forest,987
-Morato,Centre-back,Nottingham Forest,472
-Clinton Mata,Centre-back,Olympique Lyonnais,1079
-M. Niakhaté,Centre-back,Olympique Lyonnais,1029
-C. Egan-Riley,Centre-back,Olympique Marseille,437
-N. Aguerd,Centre-back,Olympique Marseille,697
-B. Pavard,Centre-back,Olympique Marseille,615
+M. Thiaw,Centre-back,Newcastle United,732
+K. Peprah Oppong,Centre-back,Nice,1167
+Juma Bah,Centre-back,Nice,856
+A. Mendy,Centre-back,Nice,972
+Morato,Centre-back,Nottingham Forest,481
+Murillo,Centre-back,Nottingham Forest,706
+N. Milenković,Centre-back,Nottingham Forest,1087
+M. Niakhaté,Centre-back,Olympique Lyonnais,1131
+Clinton Mata,Centre-back,Olympique Lyonnais,1181
+C. Egan-Riley,Centre-back,Olympique Marseille,452
 L. Balerdi,Centre-back,Olympique Marseille,679
-E. Boyomo,Centre-back,Osasuna,991
-Alejandro Catena,Centre-back,Osasuna,999
+B. Pavard,Centre-back,Olympique Marseille,712
+N. Aguerd,Centre-back,Olympique Marseille,779
+Alejandro Catena,Centre-back,Osasuna,1197
+E. Boyomo,Centre-back,Osasuna,1171
 Juan Cruz,Centre-back,Osasuna,535
-A. García MacNulty,Centre-back,PEC Zwolle,979
-S. Graves,Centre-back,PEC Zwolle,979
-I. Zabarnyi,Centre-back,PSG,917
+A. García MacNulty,Centre-back,PEC Zwolle,1170
+S. Graves,Centre-back,PEC Zwolle,1170
+I. Zabarnyi,Centre-back,PSG,1019
+W. Pacho,Centre-back,PSG,613
 Lucas Beraldo,Centre-back,PSG,633
-W. Pacho,Centre-back,PSG,511
 Yarek Gasiorowski,Centre-back,PSV,957
-J. Schouten,Centre-back,PSV,1009
 R. Flamingo,Centre-back,PSV,736
-Otávio,Centre-back,Paris,845
-M. Mbow,Centre-back,Paris,1012
-E. Del Prato,Centre-back,Parma,990
+J. Schouten,Centre-back,PSV,1009
+M. Mbow,Centre-back,Paris,1108
+Otávio,Centre-back,Paris,941
+L. Valenti,Centre-back,Parma,644
 A. Circati,Centre-back,Parma,928
-L. Valenti,Centre-back,Parma,544
-A. N'Diaye,Centre-back,Parma,508
-A. Caracciolo,Centre-back,Pisa,971
-S. Canestrelli,Centre-back,Pisa,971
+A. N'Diaye,Centre-back,Parma,557
+E. Del Prato,Centre-back,Parma,1090
+S. Canestrelli,Centre-back,Pisa,1067
+A. Caracciolo,Centre-back,Pisa,1067
+A. Calabresi,Centre-back,Pisa,360
+J. Kiwior,Centre-back,Porto,697
+J. Bednarek,Centre-back,Porto,963
 N. Pérez,Centre-back,Porto,399
-J. Kiwior,Centre-back,Porto,502
-J. Bednarek,Centre-back,Porto,847
+W. Orbán,Centre-back,RB Leipzig,961
 C. Lukeba,Centre-back,RB Leipzig,884
-W. Orbán,Centre-back,RB Leipzig,860
-P. Ciss,Centre-back,Rayo Vallecano,829
-F. Lejeune,Centre-back,Rayo Vallecano,1070
-V. Gómez,Centre-back,Real Betis,520
-Marc Bartra,Centre-back,Real Betis,643
-Natan,Centre-back,Real Betis,1105
-Dean Huijsen,Centre-back,Real Madrid,796
-Éder Militão,Centre-back,Real Madrid,852
-Raúl Asencio,Centre-back,Real Madrid,352
+F. Lejeune,Centre-back,Rayo Vallecano,1169
+P. Ciss,Centre-back,Rayo Vallecano,928
+N. Mendy,Centre-back,Rayo Vallecano,375
+V. Gómez,Centre-back,Real Betis,616
+Natan,Centre-back,Real Betis,1201
+Marc Bartra,Centre-back,Real Betis,739
+Dean Huijsen,Centre-back,Real Madrid,845
+Raúl Asencio,Centre-back,Real Madrid,451
+Éder Militão,Centre-back,Real Madrid,902
+David Carmo,Centre-back,Real Oviedo,811
 Dani Calvo,Centre-back,Real Oviedo,608
-David Costas,Centre-back,Real Oviedo,401
-David Carmo,Centre-back,Real Oviedo,616
+David Costas,Centre-back,Real Oviedo,596
+Jon Martín,Centre-back,Real Sociedad,402
+Igor Zubeldía,Centre-back,Real Sociedad,1198
 D. Ćaleta-Car,Centre-back,Real Sociedad,768
-Igor Zubeldía,Centre-back,Real Sociedad,1101
-J. Jacquet,Centre-back,Rennes,1095
-A. Rouault,Centre-back,Rennes,700
-L. Brassier,Centre-back,Rennes,533
-Nelson Abbey,Centre-back,Rio Ave,479
-F. Petrasso,Centre-back,Rio Ave,563
+A. Rouault,Centre-back,Rennes,796
+L. Brassier,Centre-back,Rennes,629
+J. Jacquet,Centre-back,Rennes,1191
+Nelson Abbey,Centre-back,Rio Ave,577
+J. Brabec,Centre-back,Rio Ave,589
+F. Petrasso,Centre-back,Rio Ave,661
 J. Panzo,Centre-back,Rio Ave,792
-J. Brabec,Centre-back,Rio Ave,491
-E. Ndicka,Centre-back,Roma,816
-Mario Hermoso,Centre-back,Roma,521
-G. Mancini,Centre-back,Roma,876
-Z. Çelik,Centre-back,Roma,623
-Frederico Venâncio,Centre-back,Santa Clara,696
-Sidney Lima,Centre-back,Santa Clara,860
+G. Mancini,Centre-back,Roma,1071
+E. Ndicka,Centre-back,Roma,1011
+Mario Hermoso,Centre-back,Roma,704
+Sidney Lima,Centre-back,Santa Clara,1055
+Frederico Venâncio,Centre-back,Santa Clara,797
 MT,Centre-back,Santa Clara,700
-J. Idzes,Centre-back,Sassuolo,792
-T. Muharemović,Centre-back,Sassuolo,593
-Andrés Castrín,Centre-back,Sevilla,370
-Marcão,Centre-back,Sevilla,738
+Luís Rocha,Centre-back,Santa Clara,491
+J. Idzes,Centre-back,Sassuolo,990
+T. Muharemović,Centre-back,Sassuolo,791
 Kike Salas,Centre-back,Sevilla,403
-César Azpilicueta,Centre-back,Sevilla,512
-B. Martins Indi,Centre-back,Sparta Rotterdam,822
-M. Young,Centre-back,Sparta Rotterdam,981
+Andrés Castrín,Centre-back,Sevilla,370
+César Azpilicueta,Centre-back,Sevilla,559
+Marcão,Centre-back,Sevilla,838
+B. Martins Indi,Centre-back,Sparta Rotterdam,999
+M. Young,Centre-back,Sparta Rotterdam,1172
+B. Arrey-Mbi,Centre-back,Sporting Braga,558
+S. Niakaté,Centre-back,Sporting Braga,482
 Paulo Oliveira,Centre-back,Sporting Braga,403
-G. Lagerbielke,Centre-back,Sporting Braga,670
-B. Arrey-Mbi,Centre-back,Sporting Braga,365
-S. Niakaté,Centre-back,Sporting Braga,386
+G. Lagerbielke,Centre-back,Sporting Braga,863
 Z. Debast,Centre-back,Sporting CP,736
-Gonçalo Inácio,Centre-back,Sporting CP,987
+Gonçalo Inácio,Centre-back,Sporting CP,1088
+O. Diomandé,Centre-back,Sporting CP,352
+E. Smith,Centre-back,St. Pauli,995
+H. Wahl,Centre-back,St. Pauli,895
 A. Dźwigała,Centre-back,St. Pauli,438
-E. Smith,Centre-back,St. Pauli,897
-H. Wahl,Centre-back,St. Pauli,797
+M. Sarr,Centre-back,Strasbourg,903
+L. Hogsberg,Centre-back,Strasbourg,870
 I. Doukouré,Centre-back,Strasbourg,712
-M. Sarr,Centre-back,Strasbourg,804
-L. Hogsberg,Centre-back,Strasbourg,771
-G. Doué,Centre-back,Strasbourg,615
+G. Doué,Centre-back,Strasbourg,714
 R. Hendriks,Centre-back,Stuttgart,421
-F. Jeltsch,Centre-back,Stuttgart,400
 J. Chabot,Centre-back,Stuttgart,705
 L. Jaquez,Centre-back,Stuttgart,452
-D. Ballard,Centre-back,Sunderland,462
+F. Jeltsch,Centre-back,Stuttgart,502
+L. Geertruida,Centre-back,Sunderland,400
+D. Ballard,Centre-back,Sunderland,668
 O. Alderete,Centre-back,Sunderland,752
-N. Mukiele,Centre-back,Sunderland,704
-D. Bakker,Centre-back,Telstar,622
-D. Koswal,Centre-back,Telstar,798
-G. Offerhaus,Centre-back,Telstar,1077
-B. Medina,Centre-back,Tondela,781
-Christian Marques,Centre-back,Tondela,787
+N. Mukiele,Centre-back,Sunderland,910
+G. Offerhaus,Centre-back,Telstar,1177
+D. Bakker,Centre-back,Telstar,710
+D. Koswal,Centre-back,Telstar,898
+B. Medina,Centre-back,Tondela,879
 João Afonso,Centre-back,Tondela,392
-Saúl Coco,Centre-back,Torino,977
-G. Maripán,Centre-back,Torino,809
-A. Tamèze,Centre-back,Torino,490
-A. Ismajli,Centre-back,Torino,466
-M. van de Ven,Centre-back,Tottenham Hotspur,988
-C. Romero,Centre-back,Tottenham Hotspur,732
-C. Cresswell,Centre-back,Toulouse,1104
-M. McKenzie,Centre-back,Toulouse,940
-R. Nicolaisen,Centre-back,Toulouse,860
-D. Sidibé,Centre-back,Toulouse,709
-R. Pröpper,Centre-back,Twente,984
-R. Nijstad,Centre-back,Twente,355
+Christian Marques,Centre-back,Tondela,885
+Saúl Coco,Centre-back,Torino,1075
+A. Tamèze,Centre-back,Torino,498
+A. Ismajli,Centre-back,Torino,556
+G. Maripán,Centre-back,Torino,907
+M. van de Ven,Centre-back,Tottenham Hotspur,1087
+C. Romero,Centre-back,Tottenham Hotspur,820
+D. Sidibé,Centre-back,Toulouse,805
+R. Nicolaisen,Centre-back,Toulouse,956
+M. McKenzie,Centre-back,Toulouse,1021
+C. Cresswell,Centre-back,Toulouse,1200
+R. Pröpper,Centre-back,Twente,1084
+R. Nijstad,Centre-back,Twente,425
 M. Bruns,Centre-back,Twente,743
-T. Kristensen,Centre-back,Udinese,483
-O. Solet,Centre-back,Udinese,936
+O. Solet,Centre-back,Udinese,1034
+N. Bertola,Centre-back,Udinese,457
 S. Goglichidze,Centre-back,Udinese,465
-N. Bertola,Centre-back,Udinese,359
-C. Kabasele,Centre-back,Udinese,460
-Diogo Leite,Centre-back,Union Berlin,570
-T. Rothe,Centre-back,Union Berlin,419
-D. Doekhi,Centre-back,Union Berlin,921
-L. Querfeld,Centre-back,Union Berlin,921
-M. Didden,Centre-back,Utrecht,441
-N. Viergever,Centre-back,Utrecht,747
+C. Kabasele,Centre-back,Udinese,517
+T. Kristensen,Centre-back,Udinese,483
+T. Rothe,Centre-back,Union Berlin,502
+Diogo Leite,Centre-back,Union Berlin,671
+D. Doekhi,Centre-back,Union Berlin,1022
+L. Querfeld,Centre-back,Union Berlin,1022
+M. Didden,Centre-back,Utrecht,536
+N. Viergever,Centre-back,Utrecht,842
 M. van der Hoorn,Centre-back,Utrecht,763
+José Copete,Centre-back,Valencia,763
 M. Diakhaby,Centre-back,Valencia,501
-César Tárrega,Centre-back,Valencia,1092
-José Copete,Centre-back,Valencia,667
-Renato Veiga,Centre-back,Villarreal,763
-Rafa Marín,Centre-back,Villarreal,783
+César Tárrega,Centre-back,Valencia,1188
+Rafa Marín,Centre-back,Villarreal,878
 J. Foyth,Centre-back,Villarreal,581
-Óscar Rivas,Centre-back,Vitória Guimarães,710
-R. Abascal,Centre-back,Vitória Guimarães,921
-N. Verschuren,Centre-back,Volendam,757
-X. Mbuyamba,Centre-back,Volendam,593
-M. Amevor,Centre-back,Volendam,825
-M. Friedl,Centre-back,Werder Bremen,770
-A. Coulibaly,Centre-back,Werder Bremen,790
+Renato Veiga,Centre-back,Villarreal,858
+R. Abascal,Centre-back,Vitória Guimarães,1019
+Óscar Rivas,Centre-back,Vitória Guimarães,808
+N. Verschuren,Centre-back,Volendam,856
+X. Mbuyamba,Centre-back,Volendam,616
+M. Amevor,Centre-back,Volendam,901
+M. Friedl,Centre-back,Werder Bremen,869
+A. Coulibaly,Centre-back,Werder Bremen,872
+A. Pieper,Centre-back,Werder Bremen,393
+J. Todibo,Centre-back,West Ham United,557
 K. Mavropanos,Centre-back,West Ham United,547
-M. Kilman,Centre-back,West Ham United,1013
-J. Todibo,Centre-back,West Ham United,453
-M. Jenz,Centre-back,Wolfsburg,718
-K. Koulierakis,Centre-back,Wolfsburg,819
+M. Kilman,Centre-back,West Ham United,1117
+K. Koulierakis,Centre-back,Wolfsburg,918
+M. Jenz,Centre-back,Wolfsburg,817
 E. Agbadou,Centre-back,Wolverhampton,633
-S. Bueno,Centre-back,Wolverhampton,645
-Toti,Centre-back,Wolverhampton,493
-L. Krejčí,Centre-back,Wolverhampton,705
-Kiki,Full-back,AVS ,534
-Diogo Spencer,Full-back,AVS ,540
-D. Kasius,Full-back,AZ,934
-M. de Wit,Full-back,AZ,736
-Lucas Rosa,Full-back,Ajax,668
-A. Gaaei,Full-back,Ajax,541
+Toti,Centre-back,Wolverhampton,592
+S. Bueno,Centre-back,Wolverhampton,744
+L. Krejčí,Centre-back,Wolverhampton,804
+L. Rivas,Full-back,AVS ,373
+Kiki,Full-back,AVS ,696
+Diogo Spencer,Full-back,AVS ,740
+M. de Wit,Full-back,AZ,830
+D. Kasius,Full-back,AZ,1028
+Lucas Rosa,Full-back,Ajax,737
+A. Gaaei,Full-back,Ajax,568
 O. Wijndal,Full-back,Ajax,804
-Nabil Touaizi,Full-back,Alverca,855
-Francisco Chissumba,Full-back,Alverca,605
+Nabil Touaizi,Full-back,Alverca,953
 I. James,Full-back,Alverca,408
-F. Hanin,Full-back,Angers SCO,401
-J. Ekomié,Full-back,Angers SCO,737
-C. Arcus,Full-back,Angers SCO,1054
-Arnau Solà,Full-back,Arouca,353
-Tiago Esgaio,Full-back,Arouca,690
+Francisco Chissumba,Full-back,Alverca,703
+J. Ekomié,Full-back,Angers SCO,813
+C. Arcus,Full-back,Angers SCO,1150
+F. Hanin,Full-back,Angers SCO,421
+Arnau Solà,Full-back,Arouca,533
+Tiago Esgaio,Full-back,Arouca,861
 A. Danté,Full-back,Arouca,544
-R. Calafiori,Full-back,Arsenal,838
-J. Timber,Full-back,Arsenal,890
-M. Cash,Full-back,Aston Villa,964
-L. Digne,Full-back,Aston Villa,803
-D. Zappacosta,Full-back,Atalanta,609
-R. Bellanova,Full-back,Atalanta,610
-N. Zalewski,Full-back,Atalanta,433
+R. Calafiori,Full-back,Arsenal,946
+J. Timber,Full-back,Arsenal,998
+M. Cash,Full-back,Aston Villa,1065
+L. Digne,Full-back,Aston Villa,904
+R. Bellanova,Full-back,Atalanta,709
+D. Zappacosta,Full-back,Atalanta,697
+N. Zalewski,Full-back,Atalanta,444
 Jesús Areso,Full-back,Athletic Club,816
-Yuri Berchiche,Full-back,Athletic Club,1040
-Marcos Llorente,Full-back,Atlético Madrid,1104
-D. Hancko,Full-back,Atlético Madrid,966
-M. Ruggeri,Full-back,Atlético Madrid,426
-D. Giannoulis,Full-back,Augsburg,493
-R. Fellhauer,Full-back,Augsburg,739
-J. Casimir,Full-back,Auxerre,843
-F. Oppegård,Full-back,Auxerre,354
-G. Mensah,Full-back,Auxerre,920
-Gerard Martín,Full-back,Barcelona,413
-J. Koundé,Full-back,Barcelona,756
-Alejandro Balde,Full-back,Barcelona,475
-Arthur,Full-back,Bayer Leverkusen,398
-Álex Grimaldo,Full-back,Bayer Leverkusen,771
+Yuri Berchiche,Full-back,Athletic Club,1137
+M. Ruggeri,Full-back,Atlético Madrid,508
+Marcos Llorente,Full-back,Atlético Madrid,1204
+R. Fellhauer,Full-back,Augsburg,841
+M. Wolf,Full-back,Augsburg,357
+A. Kade,Full-back,Augsburg,360
+D. Giannoulis,Full-back,Augsburg,595
+F. Oppegård,Full-back,Auxerre,450
+J. Casimir,Full-back,Auxerre,893
+G. Mensah,Full-back,Auxerre,939
+J. Koundé,Full-back,Barcelona,854
+Gerard Martín,Full-back,Barcelona,447
+Alejandro Balde,Full-back,Barcelona,645
+Eric García,Full-back,Barcelona,1035
+Arthur,Full-back,Bayer Leverkusen,447
+Álex Grimaldo,Full-back,Bayer Leverkusen,868
+J. Stanišić,Full-back,Bayern München,413
+T. Bischof,Full-back,Bayern München,355
+K. Laimer,Full-back,Bayern München,852
 S. Boey,Full-back,Bayern München,508
-K. Laimer,Full-back,Bayern München,767
-S. Dahl,Full-back,Benfica,690
+S. Dahl,Full-back,Benfica,787
 A. Dedić,Full-back,Benfica,525
-N. Zortea,Full-back,Bologna,447
-E. Holm,Full-back,Bologna,360
-Juan Miranda,Full-back,Bologna,609
+E. Holm,Full-back,Bologna,459
 C. Lykogiannis,Full-back,Bologna,374
+N. Zortea,Full-back,Bologna,447
+Juan Miranda,Full-back,Bologna,708
+J. Ryerson,Full-back,Borussia Dortmund,578
 Yan Couto,Full-back,Borussia Dortmund,512
-J. Ryerson,Full-back,Borussia Dortmund,479
-D. Svensson,Full-back,Borussia Dortmund,816
-L. Ullrich,Full-back,Borussia Mgladbach,580
-J. Scally,Full-back,Borussia Mgladbach,688
-Álex Jiménez,Full-back,Bournemouth,413
-A. Truffert,Full-back,Bournemouth,1001
-K. Lewis-Potter,Full-back,Brentford,506
+D. Svensson,Full-back,Borussia Dortmund,915
+J. Scally,Full-back,Borussia Mgladbach,796
+L. Ullrich,Full-back,Borussia Mgladbach,688
+Álex Jiménez,Full-back,Bournemouth,456
+A. Truffert,Full-back,Bournemouth,1070
 K. Ajer,Full-back,Brentford,441
-M. Kayode,Full-back,Brentford,957
-B. Locko,Full-back,Brest,985
-K. Lala,Full-back,Brest,1084
-F. Kadıoğlu,Full-back,Brighton,630
-M. Wieffer,Full-back,Brighton,507
-M. De Cuyper,Full-back,Brighton,467
-J. Veltman,Full-back,Brighton,358
-Q. Hartman,Full-back,Burnley,999
-K. Walker,Full-back,Burnley,1006
-G. Zappa,Full-back,Cagliari,457
-M. Palestra,Full-back,Cagliari,695
-A. Obert,Full-back,Cagliari,834
+K. Lewis-Potter,Full-back,Brentford,506
+M. Kayode,Full-back,Brentford,1063
+B. Locko,Full-back,Brest,1018
+K. Lala,Full-back,Brest,1181
+J. Veltman,Full-back,Brighton,382
+M. De Cuyper,Full-back,Brighton,481
+M. Wieffer,Full-back,Brighton,704
+F. Kadıoğlu,Full-back,Brighton,827
+Q. Hartman,Full-back,Burnley,1085
+K. Walker,Full-back,Burnley,1110
+G. Zappa,Full-back,Cagliari,651
+M. Palestra,Full-back,Cagliari,874
+A. Obert,Full-back,Cagliari,915
 Gaizka Larrazabal,Full-back,Casa Pia AC,892
 F. Benaissa,Full-back,Casa Pia AC,564
-Hugo Álvarez,Full-back,Celta de Vigo,381
+Óscar Mingueza,Full-back,Celta de Vigo,753
 Javi Rueda,Full-back,Celta de Vigo,420
-Sergio Carreira,Full-back,Celta de Vigo,782
-Óscar Mingueza,Full-back,Celta de Vigo,700
-Marc Cucurella,Full-back,Chelsea,915
-R. James,Full-back,Chelsea,791
-M. Gusto,Full-back,Chelsea,545
-Álex Valle,Full-back,Como,732
-I. Smolčić,Full-back,Como,551
-A. Zerbin,Full-back,Cremonese,544
+Sergio Carreira,Full-back,Celta de Vigo,888
+Hugo Álvarez,Full-back,Celta de Vigo,381
+M. Gusto,Full-back,Chelsea,627
+R. James,Full-back,Chelsea,808
+Marc Cucurella,Full-back,Chelsea,1014
+Álex Valle,Full-back,Como,831
+I. Smolčić,Full-back,Como,643
 G. Pezzella,Full-back,Cremonese,679
-R. Floriani Mussolini,Full-back,Cremonese,440
-D. Muñoz,Full-back,Crystal Palace,1000
-T. Mitchell,Full-back,Crystal Palace,1000
-Yusi,Full-back,Deportivo Alavés,534
-Jonny Otto,Full-back,Deportivo Alavés,1078
-Víctor Parada,Full-back,Deportivo Alavés,466
-N. Collins,Full-back,Eintracht Frankfurt,499
-R. Kristensen,Full-back,Eintracht Frankfurt,484
-N. Brown,Full-back,Eintracht Frankfurt,685
-Germán Valera,Full-back,Elche,819
-Álvaro Núñez,Full-back,Elche,1084
-L. Pétrot,Full-back,Elche,401
-O. El Hilali,Full-back,Espanyol,770
-Carlos Romero,Full-back,Espanyol,959
-Pedro Carvalho,Full-back,Estoril,693
-Tiago Parente,Full-back,Estoril,427
-J. Encada,Full-back,Estrela Amadora,416
-S. Lopes Cabral,Full-back,Estrela Amadora,997
-V. Mykolenko,Full-back,Everton,590
-J. O'Brien,Full-back,Everton,863
-I. Bronkhorst,Full-back,Excelsior,897
+A. Zerbin,Full-back,Cremonese,544
+T. Barbieri,Full-back,Cremonese,445
+R. Floriani Mussolini,Full-back,Cremonese,458
+D. Muñoz,Full-back,Crystal Palace,1100
+T. Mitchell,Full-back,Crystal Palace,1100
+Víctor Parada,Full-back,Deportivo Alavés,563
+Jonny Otto,Full-back,Deportivo Alavés,1175
+Yusi,Full-back,Deportivo Alavés,622
+N. Collins,Full-back,Eintracht Frankfurt,516
+N. Brown,Full-back,Eintracht Frankfurt,782
+R. Kristensen,Full-back,Eintracht Frankfurt,564
+L. Pétrot,Full-back,Elche,415
+Germán Valera,Full-back,Elche,842
+Álvaro Núñez,Full-back,Elche,1181
+Adrià Pedrosa,Full-back,Elche,465
+O. El Hilali,Full-back,Espanyol,879
+Carlos Romero,Full-back,Espanyol,1059
+Tiago Parente,Full-back,Estoril,456
+Pedro Carvalho,Full-back,Estoril,741
+Guilherme Montóia,Full-back,Estrela Amadora,402
+S. Lopes Cabral,Full-back,Estrela Amadora,1100
+J. Encada,Full-back,Estrela Amadora,433
+J. O'Brien,Full-back,Everton,954
+V. Mykolenko,Full-back,Everton,791
 A. Zagré,Full-back,Excelsior,959
-Rodrigo Pinheiro,Full-back,Famalicão,1004
-Pedro Bondo,Full-back,Famalicão,477
-Rafa Soares,Full-back,Famalicão,417
-G. Smal,Full-back,Feyenoord,397
-G. Read,Full-back,Feyenoord,671
+I. Bronkhorst,Full-back,Excelsior,912
+Rafa Soares,Full-back,Famalicão,444
+Pedro Bondo,Full-back,Famalicão,549
+Rodrigo Pinheiro,Full-back,Famalicão,1102
+G. Smal,Full-back,Feyenoord,494
 J. Bos,Full-back,Feyenoord,699
+G. Read,Full-back,Feyenoord,749
+Dodô,Full-back,Fiorentina,1071
 R. Gosens,Full-back,Fiorentina,780
-Dodô,Full-back,Fiorentina,974
-J. Dahlhaus,Full-back,Fortuna Sittard,1058
-Ivo Pinto,Full-back,Fortuna Sittard,659
-J. Makengo,Full-back,Freiburg,497
-L. Kübler,Full-back,Freiburg,606
-R. Sessegnon,Full-back,Fulham,835
-K. Tete,Full-back,Fulham,697
+J. Dahlhaus,Full-back,Fortuna Sittard,1154
+Ivo Pinto,Full-back,Fortuna Sittard,755
+J. Makengo,Full-back,Freiburg,637
+P. Treu,Full-back,Freiburg,495
+C. Günter,Full-back,Freiburg,380
+L. Kübler,Full-back,Freiburg,629
+K. Tete,Full-back,Fulham,800
 T. Castagne,Full-back,Fulham,466
-Aarón Martín,Full-back,Genoa,554
-B. Norton-Cuffy,Full-back,Genoa,893
+R. Sessegnon,Full-back,Fulham,938
+Aarón Martín,Full-back,Genoa,730
+B. Norton-Cuffy,Full-back,Genoa,1089
 Davinchi,Full-back,Getafe,486
+Juan Iglesias,Full-back,Getafe,1032
 Kiko Femenía,Full-back,Getafe,633
-Zé Carlos,Full-back,Gil Vicente,604
-G. Konan,Full-back,Gil Vicente,776
-Hugo Rincón,Full-back,Girona,620
-Arnau Martínez,Full-back,Girona,655
-Álex Moreno,Full-back,Girona,940
-D. James,Full-back,Go Ahead Eagles,797
-M. Deijl,Full-back,Go Ahead Eagles,996
+G. Konan,Full-back,Gil Vicente,974
+Zé Carlos,Full-back,Gil Vicente,750
+Arnau Martínez,Full-back,Girona,752
+Hugo Rincón,Full-back,Girona,631
+Álex Moreno,Full-back,Girona,1037
+M. Deijl,Full-back,Go Ahead Eagles,1191
+D. James,Full-back,Go Ahead Eagles,894
 T. Mercera,Full-back,Groningen,359
-M. Rente,Full-back,Groningen,719
-M. Peersman,Full-back,Groningen,1069
-M. Muheim,Full-back,Hamburger SV,887
-W. Mikelbrencis,Full-back,Hamburger SV,409
-G. Gocholeishvili,Full-back,Hamburger SV,464
-O. Braude,Full-back,Heerenveen,917
-V. Zagaritis,Full-back,Heerenveen,979
-M. Busch,Full-back,Heidenheim,477
-J. Föhrenbach,Full-back,Heidenheim,846
-O. Traorè,Full-back,Heidenheim,665
-D. Bradarić,Full-back,Hellas Verona,760
-R. Belghali,Full-back,Hellas Verona,729
+M. Peersman,Full-back,Groningen,1164
+M. Rente,Full-back,Groningen,814
+G. Gocholeishvili,Full-back,Hamburger SV,538
+M. Muheim,Full-back,Hamburger SV,986
+W. Mikelbrencis,Full-back,Hamburger SV,434
+V. Zagaritis,Full-back,Heerenveen,1189
+O. Braude,Full-back,Heerenveen,1102
+M. Busch,Full-back,Heidenheim,563
+J. Föhrenbach,Full-back,Heidenheim,943
+O. Traorè,Full-back,Heidenheim,762
+D. Bradarić,Full-back,Hellas Verona,836
+R. Belghali,Full-back,Hellas Verona,826
+D. van der Kust,Full-back,Heracles,478
+I. Mesík,Full-back,Heracles,1145
+J. Wieckhoff,Full-back,Heracles,398
+M. te Wierik,Full-back,Heracles,351
 M. Benita,Full-back,Heracles,450
-J. Wieckhoff,Full-back,Heracles,361
-D. van der Kust,Full-back,Heracles,465
-Bernardo,Full-back,Hoffenheim,790
-V. Coufal,Full-back,Hoffenheim,781
-F. Dimarco,Full-back,Internazionale,735
-D. Dumfries,Full-back,Internazionale,703
-Carlos Augusto,Full-back,Internazionale,382
-P. Kalulu,Full-back,Juventus,982
-A. Cambiaso,Full-back,Juventus,710
-S. Sebulonsen,Full-back,Köln,710
-K. Lund,Full-back,Köln,522
-A. Marušić,Full-back,Lazio,631
+V. Coufal,Full-back,Hoffenheim,981
+Bernardo,Full-back,Hoffenheim,979
+D. Dumfries,Full-back,Internazionale,761
+Carlos Augusto,Full-back,Internazionale,422
+F. Dimarco,Full-back,Internazionale,833
+A. Cambiaso,Full-back,Juventus,808
+S. Sebulonsen,Full-back,Köln,826
+K. Lund,Full-back,Köln,702
+A. Marušić,Full-back,Lazio,824
 Nuno Tavares,Full-back,Lazio,486
-L. Nego,Full-back,Le Havre,914
-Y. Zouaoui,Full-back,Le Havre,857
-A. Gallo,Full-back,Lecce,902
-Danilo Veiga,Full-back,Lecce,737
-G. Gudmundsson,Full-back,Leeds United,896
-J. Bogle,Full-back,Leeds United,944
-R. Aguilar,Full-back,Lens,869
-M. Udol,Full-back,Lens,1076
-Manu Sánchez,Full-back,Levante,942
-J. Toljan,Full-back,Levante,1030
-T. Meunier,Full-back,Lille,662
-R. Perraud,Full-back,Lille,780
-C. Bradley,Full-back,Liverpool,503
-M. Kerkez,Full-back,Liverpool,739
-T. Le Bris,Full-back,Lorient,627
-J. Mvuka,Full-back,Lorient,405
-A. Kouassi,Full-back,Lorient,992
-P. Mwene,Full-back,Mainz 05,769
-J. Mojica,Full-back,Mallorca,859
-Pablo Maffeo,Full-back,Mallorca,618
+Y. Zouaoui,Full-back,Le Havre,956
+L. Nego,Full-back,Le Havre,994
+Danilo Veiga,Full-back,Lecce,834
+A. Gallo,Full-back,Lecce,999
+J. Bogle,Full-back,Leeds United,1044
+G. Gudmundsson,Full-back,Leeds United,982
+R. Aguilar,Full-back,Lens,958
+M. Udol,Full-back,Lens,1176
+J. Toljan,Full-back,Levante,1118
+Manu Sánchez,Full-back,Levante,1030
+T. Meunier,Full-back,Lille,761
+R. Perraud,Full-back,Lille,866
+C. Bradley,Full-back,Liverpool,592
+M. Kerkez,Full-back,Liverpool,776
+T. Le Bris,Full-back,Lorient,642
+J. Mvuka,Full-back,Lorient,486
+A. Kouassi,Full-back,Lorient,1088
+S. Widmer,Full-back,Mainz 05,423
+P. Mwene,Full-back,Mainz 05,861
+J. Mojica,Full-back,Mallorca,958
+Pablo Maffeo,Full-back,Mallorca,717
 Mateu Morey,Full-back,Mallorca,491
-N. O'Reilly,Full-back,Manchester City,657
-Matheus Nunes,Full-back,Manchester City,672
-Diogo Dalot,Full-back,Manchester United,655
-P. Dorgu,Full-back,Manchester United,613
-A. Diallo,Full-back,Manchester United,746
-K. Kouao,Full-back,Metz,1043
-A. Touré,Full-back,Metz,614
-M. Colin,Full-back,Metz,394
-P. Estupiñán,Full-back,Milan,400
-A. Saelemaekers,Full-back,Milan,904
-D. Bartesaghi,Full-back,Milan,505
+N. O'Reilly,Full-back,Manchester City,757
+Matheus Nunes,Full-back,Manchester City,772
+Diogo Dalot,Full-back,Manchester United,673
+A. Diallo,Full-back,Manchester United,845
+P. Dorgu,Full-back,Manchester United,694
+A. Touré,Full-back,Metz,708
+M. Colin,Full-back,Metz,492
+K. Kouao,Full-back,Metz,1141
+A. Saelemaekers,Full-back,Milan,1004
+D. Bartesaghi,Full-back,Milan,530
+P. Estupiñán,Full-back,Milan,474
+K. Ouattara,Full-back,Monaco,664
+Caio Henrique,Full-back,Monaco,776
 K. Diatta,Full-back,Monaco,629
-K. Ouattara,Full-back,Monaco,564
-Caio Henrique,Full-back,Monaco,676
-Kiko,Full-back,Moreirense,692
-Dinis Pinto,Full-back,Moreirense,891
-C. Valerius,Full-back,NAC Breda,565
-B. Lucassen,Full-back,NAC Breda,620
-B. Kemper,Full-back,NAC Breda,989
+Kiko,Full-back,Moreirense,886
+Dinis Pinto,Full-back,Moreirense,1085
+C. Valerius,Full-back,NAC Breda,616
+B. Lucassen,Full-back,NAC Breda,786
+B. Kemper,Full-back,NAC Breda,1161
+S. Ouaissa,Full-back,NEC,1095
 V. Misidjan,Full-back,NEC,486
-B. Önal,Full-back,NEC,510
-S. Ouaissa,Full-back,NEC,1022
-João Aurélio,Full-back,Nacional,889
-José Gomes,Full-back,Nacional,967
-K. Amian,Full-back,Nantes,1100
-L. Leroux,Full-back,Nantes,923
+B. Önal,Full-back,NEC,558
+João Aurélio,Full-back,Nacional,992
+José Gomes,Full-back,Nacional,1070
 N. Cozza,Full-back,Nantes,621
-M. Olivera,Full-back,Napoli,382
+K. Amian,Full-back,Nantes,1199
+L. Leroux,Full-back,Nantes,1022
+G. Di Lorenzo,Full-back,Napoli,1088
 L. Spinazzola,Full-back,Napoli,584
-G. Di Lorenzo,Full-back,Napoli,989
-D. Burn,Full-back,Newcastle United,1023
+M. Olivera,Full-back,Napoli,400
+D. Burn,Full-back,Newcastle United,1105
 T. Livramento,Full-back,Newcastle United,592
-K. Trippier,Full-back,Newcastle United,682
-M. Bard,Full-back,Nice,1067
-J. Clauss,Full-back,Nice,701
+K. Trippier,Full-back,Newcastle United,788
+J. Clauss,Full-back,Nice,799
 T. Louchet,Full-back,Nice,535
-N. Savona,Full-back,Nottingham Forest,383
-N. Williams,Full-back,Nottingham Forest,987
-A. Maitland-Niles,Full-back,Olympique Lyonnais,1096
-N. Tagliafico,Full-back,Olympique Lyonnais,628
+M. Bard,Full-back,Nice,1118
+N. Savona,Full-back,Nottingham Forest,483
+N. Williams,Full-back,Nottingham Forest,1087
+N. Tagliafico,Full-back,Olympique Lyonnais,726
 Abner,Full-back,Olympique Lyonnais,493
-A. Murillo,Full-back,Olympique Marseille,774
-Emerson Palmieri,Full-back,Olympique Marseille,640
-Abel Bretones,Full-back,Osasuna,785
+A. Maitland-Niles,Full-back,Olympique Lyonnais,1198
+Emerson Palmieri,Full-back,Olympique Marseille,737
+A. Murillo,Full-back,Olympique Marseille,871
+Abel Bretones,Full-back,Osasuna,983
 V. Rosier,Full-back,Osasuna,665
-O. Aertssen,Full-back,PEC Zwolle,773
-S. Floranus,Full-back,PEC Zwolle,940
-L. Hernández,Full-back,PSG,528
+O. Aertssen,Full-back,PEC Zwolle,964
+S. Floranus,Full-back,PEC Zwolle,1131
 Nuno Mendes,Full-back,PSG,548
 A. Hakimi,Full-back,PSG,730
+L. Hernández,Full-back,PSG,606
+Mauro Júnior,Full-back,PSV,609
 S. Dest,Full-back,PSV,928
 A. Salah-Eddine,Full-back,PSV,564
-Mauro Júnior,Full-back,PSV,609
-H. Traoré,Full-back,Paris,385
+T. De Smet,Full-back,Paris,724
+S. Chergui,Full-back,Paris,1018
 N. Sangui,Full-back,Paris,385
-T. De Smet,Full-back,Paris,637
-S. Chergui,Full-back,Paris,922
+H. Traoré,Full-back,Paris,385
+E. Valeri,Full-back,Parma,548
 P. Almqvist,Full-back,Parma,380
-E. Valeri,Full-back,Parma,520
-S. Britschgi,Full-back,Parma,520
+M. Lövik,Full-back,Parma,399
+S. Britschgi,Full-back,Parma,620
+I. Touré,Full-back,Pisa,785
+M. Léris,Full-back,Pisa,511
 S. Angori,Full-back,Pisa,486
-M. Léris,Full-back,Pisa,461
-I. Touré,Full-back,Pisa,689
-Alberto Costa,Full-back,Porto,586
-Francisco Moura,Full-back,Porto,512
-D. Raum,Full-back,RB Leipzig,884
-R. Baku,Full-back,RB Leipzig,862
-A. Rațiu,Full-back,Rayo Vallecano,1084
-Pep Chavarría,Full-back,Rayo Vallecano,1009
+J. Cuadrado,Full-back,Pisa,366
+Francisco Moura,Full-back,Porto,668
+P. Rosario,Full-back,Porto,380
+Alberto Costa,Full-back,Porto,768
+R. Baku,Full-back,RB Leipzig,952
+D. Raum,Full-back,RB Leipzig,985
+Pep Chavarría,Full-back,Rayo Vallecano,1108
+A. Rațiu,Full-back,Rayo Vallecano,1183
+Héctor Bellerín,Full-back,Real Betis,1058
 Junior Firpo,Full-back,Real Betis,484
-Héctor Bellerín,Full-back,Real Betis,962
 R. Rodríguez,Full-back,Real Betis,547
-Álvaro Carreras,Full-back,Real Madrid,1083
+F. Valverde,Full-back,Real Madrid,1080
+Álvaro Carreras,Full-back,Real Madrid,1182
 Dani Carvajal,Full-back,Real Madrid,422
-F. Valverde,Full-back,Real Madrid,994
+R. Alhassane,Full-back,Real Oviedo,840
+Nacho Vidal,Full-back,Real Oviedo,773
 Lucas Ahijado,Full-back,Real Oviedo,423
-Nacho Vidal,Full-back,Real Oviedo,578
-R. Alhassane,Full-back,Real Oviedo,832
-Sergio Gómez,Full-back,Real Sociedad,830
-Jon Aramburu,Full-back,Real Sociedad,900
-Aihen Muñoz,Full-back,Real Sociedad,413
+Aihen Muñoz,Full-back,Real Sociedad,436
+Sergio Gómez,Full-back,Real Sociedad,911
+Jon Aramburu,Full-back,Real Sociedad,993
+Mousa Al Tamari,Full-back,Rennes,637
+Q. Merlin,Full-back,Rennes,982
 A. Seidu,Full-back,Rennes,485
-Q. Merlin,Full-back,Rennes,886
-P. Frankowski,Full-back,Rennes,564
-M. Vrousai,Full-back,Rio Ave,858
-N. Athanasiou,Full-back,Rio Ave,794
+P. Frankowski,Full-back,Rennes,568
+M. Vrousai,Full-back,Rio Ave,956
+N. Athanasiou,Full-back,Rio Ave,883
+Z. Çelik,Full-back,Roma,794
 Angeliño,Full-back,Roma,404
-Wesley,Full-back,Roma,716
-Paulo Victor,Full-back,Santa Clara,385
-Lucas Soares,Full-back,Santa Clara,577
-J. Doig,Full-back,Sassuolo,721
-S. Walukiewicz,Full-back,Sassuolo,724
-G. Suazo,Full-back,Sevilla,844
-Juanlu Sánchez,Full-back,Sevilla,633
-José Ángel Carmona,Full-back,Sevilla,927
-T. Quintero,Full-back,Sparta Rotterdam,571
-S. Sambo,Full-back,Sparta Rotterdam,718
+Wesley,Full-back,Roma,907
+Paulo Victor,Full-back,Santa Clara,578
+Lucas Soares,Full-back,Santa Clara,775
+J. Doig,Full-back,Sassuolo,815
+S. Walukiewicz,Full-back,Sassuolo,922
+José Ángel Carmona,Full-back,Sevilla,1027
+G. Suazo,Full-back,Sevilla,944
+Juanlu Sánchez,Full-back,Sevilla,720
 P. van Aanholt,Full-back,Sparta Rotterdam,546
-Víctor Gómez,Full-back,Sporting Braga,708
-Gabri Martínez,Full-back,Sporting Braga,370
-Leonardo Lelo,Full-back,Sporting Braga,866
+S. Sambo,Full-back,Sparta Rotterdam,909
+T. Quintero,Full-back,Sparta Rotterdam,742
+Víctor Gómez,Full-back,Sporting Braga,854
+Gabri Martínez,Full-back,Sporting Braga,408
+Leonardo Lelo,Full-back,Sporting Braga,999
 G. Vagiannidis,Full-back,Sporting CP,570
-M. Araújo,Full-back,Sporting CP,508
+M. Araújo,Full-back,Sporting CP,602
 Ricardo Mangas,Full-back,Sporting CP,437
-Iván Fresneda,Full-back,Sporting CP,419
-L. Oppie,Full-back,St. Pauli,897
+Iván Fresneda,Full-back,Sporting CP,497
+L. Oppie,Full-back,St. Pauli,995
 M. Saliakas,Full-back,St. Pauli,496
-A. Pyrka,Full-back,St. Pauli,377
-G. Ouattara,Full-back,Strasbourg,818
-Diego Moreira,Full-back,Strasbourg,789
-B. Chilwell,Full-back,Strasbourg,475
-L. Assignon,Full-back,Stuttgart,360
-J. Vagnoman,Full-back,Stuttgart,589
-M. Mittelstädt,Full-back,Stuttgart,620
-T. Hume,Full-back,Sunderland,889
-Reinildo,Full-back,Sunderland,538
-T. Noslin,Full-back,Telstar,1017
-J. Hardeveld,Full-back,Telstar,1035
-E. Maviram,Full-back,Tondela,605
-Bebeto,Full-back,Tondela,559
-Tiago Manso,Full-back,Tondela,699
-V. Lazaro,Full-back,Torino,669
-M. Pedersen,Full-back,Torino,575
+A. Pyrka,Full-back,St. Pauli,475
+G. Ouattara,Full-back,Strasbourg,907
+Diego Moreira,Full-back,Strasbourg,878
+B. Chilwell,Full-back,Strasbourg,574
+J. Vagnoman,Full-back,Stuttgart,594
+L. Assignon,Full-back,Stuttgart,457
+M. Mittelstädt,Full-back,Stuttgart,722
+T. Hume,Full-back,Sunderland,1095
+Reinildo,Full-back,Sunderland,744
+T. Noslin,Full-back,Telstar,1117
+J. Hardeveld,Full-back,Telstar,1135
+E. Maviram,Full-back,Tondela,703
+Tiago Manso,Full-back,Tondela,717
+Bebeto,Full-back,Tondela,640
+M. Pedersen,Full-back,Torino,673
+V. Lazaro,Full-back,Torino,767
 C. Biraghi,Full-back,Torino,496
-D. Udogie,Full-back,Tottenham Hotspur,363
-D. Spence,Full-back,Tottenham Hotspur,740
-Pedro Porro,Full-back,Tottenham Hotspur,878
+D. Udogie,Full-back,Tottenham Hotspur,394
+D. Spence,Full-back,Tottenham Hotspur,839
+Pedro Porro,Full-back,Tottenham Hotspur,946
 A. Dønnum,Full-back,Toulouse,1104
-D. Methalie,Full-back,Toulouse,829
-B. van Rooij,Full-back,Twente,1049
-M. Rots,Full-back,Twente,944
-A. Zanoli,Full-back,Udinese,472
-H. Kamara,Full-back,Udinese,580
-J. Zemura,Full-back,Udinese,392
+D. Methalie,Full-back,Toulouse,925
+M. Rots,Full-back,Twente,1044
+B. van Rooij,Full-back,Twente,1149
+A. Zanoli,Full-back,Udinese,570
 K. Ehizibue,Full-back,Udinese,508
-D. Köhn,Full-back,Union Berlin,576
+J. Zemura,Full-back,Udinese,404
+H. Kamara,Full-back,Udinese,666
 C. Trimmel,Full-back,Union Berlin,681
-S. El Karouani,Full-back,Utrecht,1068
-S. Horemans,Full-back,Utrecht,1022
-José Gayá,Full-back,Valencia,705
-Jesús Vázquez,Full-back,Valencia,424
+D. Köhn,Full-back,Union Berlin,594
+S. Horemans,Full-back,Utrecht,1117
+S. El Karouani,Full-back,Utrecht,1163
+Jesús Vázquez,Full-back,Valencia,442
 D. Foulquier,Full-back,Valencia,697
-Thierry Correia,Full-back,Valencia,371
-Sergi Cardona,Full-back,Villarreal,772
-Alfonso Pedraza,Full-back,Villarreal,410
+Thierry Correia,Full-back,Valencia,467
+José Gayá,Full-back,Valencia,783
+Sergi Cardona,Full-back,Villarreal,784
 S. Mouriño,Full-back,Villarreal,853
-João Mendes,Full-back,Vitória Guimarães,816
-Maga,Full-back,Vitória Guimarães,899
-Y. Leliendal,Full-back,Volendam,1017
+Alfonso Pedraza,Full-back,Villarreal,505
+Maga,Full-back,Vitória Guimarães,997
+João Mendes,Full-back,Vitória Guimarães,897
+Vando Félix,Full-back,Vitória Guimarães,366
+Y. Leliendal,Full-back,Volendam,1116
+D. Payne,Full-back,Volendam,648
 P. Ugwu,Full-back,Volendam,572
-D. Payne,Full-back,Volendam,549
-Y. Sugawara,Full-back,Werder Bremen,753
 F. Agu,Full-back,Werder Bremen,524
-A. Wan-Bissaka,Full-back,West Ham United,529
-E. Diouf,Full-back,West Ham United,959
-K. Walker-Peters,Full-back,West Ham United,529
-A. Zehnter,Full-back,Wolfsburg,404
+Y. Sugawara,Full-back,Werder Bremen,852
+E. Diouf,Full-back,West Ham United,1063
+K. Walker-Peters,Full-back,West Ham United,545
+A. Wan-Bissaka,Full-back,West Ham United,633
+A. Zehnter,Full-back,Wolfsburg,597
 J. Maehle,Full-back,Wolfsburg,488
 K. Fischer,Full-back,Wolfsburg,675
-J. Tchatchoua,Full-back,Wolverhampton,495
+Hugo Bueno,Full-back,Wolverhampton,878
 Rodrigo Gomes,Full-back,Wolverhampton,375
-Hugo Bueno,Full-back,Wolverhampton,779
+J. Tchatchoua,Full-back,Wolverhampton,594
+R. Barbosa,Midfielder,AVS ,613
+P. Lima,Midfielder,AVS ,570
+G. Assunção,Midfielder,AVS ,371
 Á. Algobia,Midfielder,AVS ,457
-J. Grau,Midfielder,AVS ,901
-P. Lima,Midfielder,AVS ,487
+J. Grau,Midfielder,AVS ,1071
+S. Mijnans,Midfielder,AZ,899
 J. Clasie,Midfielder,AZ,556
-K. Smit,Midfielder,AZ,818
-P. Koopmeiners,Midfielder,AZ,564
+P. Koopmeiners,Midfielder,AZ,658
+K. Smit,Midfielder,AZ,899
+D. Klaassen,Midfielder,Ajax,664
+O. Gloukh,Midfielder,Ajax,745
+Y. Regeer,Midfielder,Ajax,474
 S. Berghuis,Midfielder,Ajax,505
-K. Taylor,Midfielder,Ajax,1063
-Y. Regeer,Midfielder,Ajax,379
-O. Gloukh,Midfielder,Ajax,676
-D. Klaassen,Midfielder,Ajax,637
-S. Abdulai,Midfielder,Alverca,444
+K. Taylor,Midfielder,Ajax,1153
 T. Mendes,Midfielder,Alverca,352
-Amorim,Midfielder,Alverca,924
-Y. Belkhdim,Midfielder,Angers SCO,939
-H. Belkebla,Midfielder,Angers SCO,1067
-L. Mouton,Midfielder,Angers SCO,643
-H. Abdelli,Midfielder,Angers SCO,575
-Lee Hyun-Ju,Midfielder,Arouca,487
-T. Fukui,Midfielder,Arouca,731
-David Simão,Midfielder,Arouca,523
-Martín Zubimendi,Midfielder,Arsenal,945
-D. Rice,Midfielder,Arsenal,892
-E. Eze,Midfielder,Arsenal,675
-B. Kamara,Midfielder,Aston Villa,627
-A. Onana,Midfielder,Aston Villa,466
-M. Rogers,Midfielder,Aston Villa,993
-M. Pašalić,Midfielder,Atalanta,846
-K. Sulemana,Midfielder,Atalanta,502
-L. Samardžić,Midfielder,Atalanta,397
+Amorim,Midfielder,Alverca,1020
+S. Abdulai,Midfielder,Alverca,524
+H. Belkebla,Midfielder,Angers SCO,1163
+H. Abdelli,Midfielder,Angers SCO,671
+L. Mouton,Midfielder,Angers SCO,719
+Y. Belkhdim,Midfielder,Angers SCO,1003
+Lee Hyun-Ju,Midfielder,Arouca,671
+Pablo Gozálbez,Midfielder,Arouca,350
+David Simão,Midfielder,Arouca,668
+T. Fukui,Midfielder,Arouca,926
+D. Rice,Midfielder,Arsenal,1000
+E. Eze,Midfielder,Arsenal,772
+Martín Zubimendi,Midfielder,Arsenal,1053
+A. Onana,Midfielder,Aston Villa,544
+B. Kamara,Midfielder,Aston Villa,714
+Y. Tielemans,Midfielder,Aston Villa,371
+M. Rogers,Midfielder,Aston Villa,1085
 M. de Roon,Midfielder,Atalanta,569
-Éderson,Midfielder,Atalanta,484
-Mikel Jauregizar,Midfielder,Athletic Club,1070
-Álex Berenguer,Midfielder,Athletic Club,721
-Iñigo Ruiz de Galarreta,Midfielder,Athletic Club,682
+Éderson,Midfielder,Atalanta,534
+L. Samardžić,Midfielder,Atalanta,496
+K. Sulemana,Midfielder,Atalanta,519
+M. Pašalić,Midfielder,Atalanta,945
+Mikel Jauregizar,Midfielder,Athletic Club,1167
+Iñigo Ruiz de Galarreta,Midfielder,Athletic Club,758
 Oihan Sancet,Midfielder,Athletic Club,652
-Pablo Barrios,Midfielder,Atlético Madrid,889
-Koke,Midfielder,Atlético Madrid,747
-C. Gallagher,Midfielder,Atlético Madrid,403
-H. Massengo,Midfielder,Augsburg,838
-E. Rexhbecaj,Midfielder,Augsburg,494
+Álex Baena,Midfielder,Atlético Madrid,386
+Pablo Barrios,Midfielder,Atlético Madrid,952
+Koke,Midfielder,Atlético Madrid,847
+C. Gallagher,Midfielder,Atlético Madrid,421
 K. Jakić,Midfielder,Augsburg,712
-E. Owusu,Midfielder,Auxerre,899
-K. Danois,Midfielder,Auxerre,872
-Dani Olmo,Midfielder,Barcelona,546
-F. de Jong,Midfielder,Barcelona,715
+H. Massengo,Midfielder,Augsburg,940
+E. Rexhbecaj,Midfielder,Augsburg,583
+K. Danois,Midfielder,Auxerre,968
+E. Owusu,Midfielder,Auxerre,983
+F. de Jong,Midfielder,Barcelona,916
+Marc Casadó,Midfielder,Barcelona,435
+Fermín López,Midfielder,Barcelona,545
+Dani Olmo,Midfielder,Barcelona,670
 Pedri,Midfielder,Barcelona,938
-Fermín López,Midfielder,Barcelona,370
-R. Andrich,Midfielder,Bayer Leverkusen,574
-E. Poku,Midfielder,Bayer Leverkusen,480
-Aleix García,Midfielder,Bayer Leverkusen,817
-M. Tillman,Midfielder,Bayer Leverkusen,418
-A. Pavlović,Midfielder,Bayern München,418
-S. Gnabry,Midfielder,Bayern München,487
-J. Kimmich,Midfielder,Bayern München,766
-L. Goretzka,Midfielder,Bayern München,559
-R. Ríos,Midfielder,Benfica,701
-E. Barrenechea,Midfielder,Benfica,743
-J. Odgaard,Midfielder,Bologna,466
+R. Andrich,Midfielder,Bayer Leverkusen,671
+I. Maza,Midfielder,Bayer Leverkusen,440
+M. Tillman,Midfielder,Bayer Leverkusen,465
+Aleix García,Midfielder,Bayer Leverkusen,895
+J. Kimmich,Midfielder,Bayern München,867
+S. Gnabry,Midfielder,Bayern München,550
+A. Pavlović,Midfielder,Bayern München,435
+L. Goretzka,Midfielder,Bayern München,644
+E. Barrenechea,Midfielder,Benfica,840
+R. Ríos,Midfielder,Benfica,794
+H. Sudakov,Midfielder,Benfica,413
+T. Pobega,Midfielder,Bologna,373
 R. Freuler,Midfielder,Bologna,741
-N. Moro,Midfielder,Bologna,449
 G. Fabbian,Midfielder,Bologna,374
-L. Ferguson,Midfielder,Bologna,493
-F. Nmecha,Midfielder,Borussia Dortmund,658
+N. Moro,Midfielder,Bologna,463
+J. Odgaard,Midfielder,Bologna,531
+L. Ferguson,Midfielder,Bologna,592
+K. Adeyemi,Midfielder,Borussia Dortmund,541
 J. Brandt,Midfielder,Borussia Dortmund,417
-P. Groß,Midfielder,Borussia Dortmund,457
-M. Sabitzer,Midfielder,Borussia Dortmund,595
-M. Beier,Midfielder,Borussia Dortmund,532
-K. Adeyemi,Midfielder,Borussia Dortmund,508
-Y. Engelhardt,Midfielder,Borussia Mgladbach,593
+P. Groß,Midfielder,Borussia Dortmund,551
+M. Sabitzer,Midfielder,Borussia Dortmund,601
+J. Bellingham,Midfielder,Borussia Dortmund,387
+F. Nmecha,Midfielder,Borussia Dortmund,675
+M. Beier,Midfielder,Borussia Dortmund,598
+Y. Engelhardt,Midfielder,Borussia Mgladbach,701
+F. Neuhaus,Midfielder,Borussia Mgladbach,437
 K. Stöger,Midfielder,Borussia Mgladbach,430
-R. Reitz,Midfielder,Borussia Mgladbach,780
-F. Neuhaus,Midfielder,Borussia Mgladbach,358
-J. Kluivert,Midfielder,Bournemouth,380
-A. Scott,Midfielder,Bournemouth,718
-M. Tavernier,Midfielder,Bournemouth,824
-T. Adams,Midfielder,Bournemouth,934
-Y. Yarmoliuk,Midfielder,Brentford,866
-J. Henderson,Midfielder,Brentford,806
-M. Damsgaard,Midfielder,Brentford,687
-H. Magnetti,Midfielder,Brest,884
+R. Reitz,Midfielder,Borussia Mgladbach,880
+T. Adams,Midfielder,Bournemouth,1035
+J. Kluivert,Midfielder,Bournemouth,449
+M. Tavernier,Midfielder,Bournemouth,925
+A. Scott,Midfielder,Bournemouth,787
+Y. Yarmoliuk,Midfielder,Brentford,954
+J. Henderson,Midfielder,Brentford,912
+M. Damsgaard,Midfielder,Brentford,775
+H. Magnetti,Midfielder,Brest,962
+J. Chotard,Midfielder,Brest,995
 K. Doumbia,Midfielder,Brest,665
-J. Chotard,Midfielder,Brest,909
-Y. Ayari,Midfielder,Brighton,769
-C. Baleba,Midfielder,Brighton,513
-D. Gómez,Midfielder,Brighton,413
-L. Ugochukwu,Midfielder,Burnley,568
-J. Cullen,Midfielder,Burnley,942
-Florentino,Midfielder,Burnley,628
-M. Prati,Midfielder,Cagliari,704
-M. Folorunsho,Midfielder,Cagliari,775
-M. Adopo,Midfielder,Cagliari,782
+D. Gómez,Midfielder,Brighton,582
+C. Baleba,Midfielder,Brighton,686
+Y. Ayari,Midfielder,Brighton,964
+G. Rutter,Midfielder,Brighton,721
+J. Cullen,Midfielder,Burnley,1046
+L. Ugochukwu,Midfielder,Burnley,645
+Florentino,Midfielder,Burnley,732
+G. Gaetano,Midfielder,Cagliari,431
+M. Prati,Midfielder,Cagliari,880
+M. Adopo,Midfielder,Cagliari,917
 A. Deiola,Midfielder,Cagliari,467
-S. Pérez,Midfielder,Casa Pia AC,592
+M. Folorunsho,Midfielder,Cagliari,954
 Iyad Mohamed,Midfielder,Casa Pia AC,421
+S. Pérez,Midfielder,Casa Pia AC,592
 Renato Nhaga,Midfielder,Casa Pia AC,641
-Ilaix Moriba,Midfielder,Celta de Vigo,795
-Hugo Sotelo,Midfielder,Celta de Vigo,701
-M. Caicedo,Midfielder,Chelsea,973
-E. Fernández,Midfielder,Chelsea,906
-Nico Paz,Midfielder,Como,959
+Hugo Sotelo,Midfielder,Celta de Vigo,787
+Ilaix Moriba,Midfielder,Celta de Vigo,901
+M. Caicedo,Midfielder,Chelsea,1072
+E. Fernández,Midfielder,Chelsea,993
 L. da Cunha,Midfielder,Como,706
-M. Perrone,Midfielder,Como,747
-M. Caqueret,Midfielder,Como,434
+M. Caqueret,Midfielder,Como,500
+Nico Paz,Midfielder,Como,1058
+M. Perrone,Midfielder,Como,846
+W. Bondo,Midfielder,Cremonese,800
+M. Payero,Midfielder,Cremonese,532
 A. Grassi,Midfielder,Cremonese,403
-W. Bondo,Midfielder,Cremonese,704
-M. Payero,Midfielder,Cremonese,454
-J. Vandeputte,Midfielder,Cremonese,696
-A. Wharton,Midfielder,Crystal Palace,688
-Yéremy Pino,Midfielder,Crystal Palace,537
-I. Sarr,Midfielder,Crystal Palace,770
-W. Hughes,Midfielder,Crystal Palace,474
-D. Kamada,Midfielder,Crystal Palace,725
-Pablo Ibáñez,Midfielder,Deportivo Alavés,701
-Denis Suárez,Midfielder,Deportivo Alavés,381
-Antonio Blanco,Midfielder,Deportivo Alavés,923
+J. Vandeputte,Midfielder,Cremonese,792
+J. Lerma,Midfielder,Crystal Palace,438
+Yéremy Pino,Midfielder,Crystal Palace,570
+I. Sarr,Midfielder,Crystal Palace,870
+D. Kamada,Midfielder,Crystal Palace,809
+A. Wharton,Midfielder,Crystal Palace,755
+W. Hughes,Midfielder,Crystal Palace,508
+Pablo Ibáñez,Midfielder,Deportivo Alavés,709
+Antonio Blanco,Midfielder,Deportivo Alavés,1020
+Denis Suárez,Midfielder,Deportivo Alavés,462
+E. Skhiri,Midfielder,Eintracht Frankfurt,458
 C. Uzun,Midfielder,Eintracht Frankfurt,629
-H. Larsson,Midfielder,Eintracht Frankfurt,507
-F. Chaïbi,Midfielder,Eintracht Frankfurt,657
-E. Skhiri,Midfielder,Eintracht Frankfurt,411
-Marc Aguado,Midfielder,Elche,691
-Rodrigo Mendoza,Midfielder,Elche,499
+H. Larsson,Midfielder,Eintracht Frankfurt,557
+F. Chaïbi,Midfielder,Eintracht Frankfurt,704
 Martim Neto,Midfielder,Elche,499
-Aleix Febas,Midfielder,Elche,1103
-Pol Lozano,Midfielder,Espanyol,828
-Urko González,Midfielder,Espanyol,422
-Edu Expósito,Midfielder,Espanyol,693
-N. Lominadze,Midfielder,Estoril,488
-J. Holsgrove,Midfielder,Estoril,932
+Marc Aguado,Midfielder,Elche,774
+Rodrigo Mendoza,Midfielder,Elche,588
+Aleix Febas,Midfielder,Elche,1200
+Pol Lozano,Midfielder,Espanyol,971
+Edu Expósito,Midfielder,Espanyol,865
+Urko González,Midfielder,Espanyol,521
+João Carvalho,Midfielder,Estoril,1065
 Patrick de Paula,Midfielder,Estoril,390
-Jorge Meireles,Midfielder,Estrela Amadora,472
-Jovane Cabral,Midfielder,Estrela Amadora,418
-Paulo Moreira,Midfielder,Estrela Amadora,810
-K. Dewsbury-Hall,Midfielder,Everton,778
-J. Garner,Midfielder,Everton,892
-I. Gueye,Midfielder,Everton,833
-N. Naujoks,Midfielder,Excelsior,532
-A. Carlén,Midfielder,Excelsior,982
-T. van de Looi,Midfielder,Famalicão,815
-Gustavo Sá,Midfielder,Famalicão,936
-M. De Amorim,Midfielder,Famalicão,800
+N. Lominadze,Midfielder,Estoril,536
+J. Holsgrove,Midfielder,Estoril,1029
+Robinho,Midfielder,Estrela Amadora,397
+Jovane Cabral,Midfielder,Estrela Amadora,471
+O. Ngom,Midfielder,Estrela Amadora,356
+Paulo Moreira,Midfielder,Estrela Amadora,913
+Jorge Meireles,Midfielder,Estrela Amadora,486
+J. Garner,Midfielder,Everton,1093
+K. Dewsbury-Hall,Midfielder,Everton,958
+T. Iroegbunam,Midfielder,Everton,385
+I. Gueye,Midfielder,Everton,1034
+A. Carlén,Midfielder,Excelsior,1078
+N. Naujoks,Midfielder,Excelsior,600
+T. van de Looi,Midfielder,Famalicão,913
+M. De Amorim,Midfielder,Famalicão,883
+Gustavo Sá,Midfielder,Famalicão,1034
 O. Targhalline,Midfielder,Feyenoord,641
-Q. Timber,Midfielder,Feyenoord,751
-S. Steijn,Midfielder,Feyenoord,763
-L. Valente,Midfielder,Feyenoord,873
+L. Valente,Midfielder,Feyenoord,970
+Q. Timber,Midfielder,Feyenoord,848
+S. Steijn,Midfielder,Feyenoord,813
+R. Mandragora,Midfielder,Fiorentina,828
+H. Nicolussi Caviglia,Midfielder,Fiorentina,616
 N. Fagioli,Midfielder,Fiorentina,487
-H. Nicolussi Caviglia,Midfielder,Fiorentina,519
-A. Gudmundsson,Midfielder,Fiorentina,528
-S. Sohm,Midfielder,Fiorentina,391
-R. Mandragora,Midfielder,Fiorentina,731
-J. Fazzini,Midfielder,Fiorentina,420
-E. Michut,Midfielder,Fortuna Sittard,352
-J. Lonwijk,Midfielder,Fortuna Sittard,739
-R. Fosso,Midfielder,Fortuna Sittard,1058
-P. Brittijn,Midfielder,Fortuna Sittard,1030
-J. Manzambi,Midfielder,Freiburg,491
-M. Eggestein,Midfielder,Freiburg,801
-P. Osterhage,Midfielder,Freiburg,368
-S. Lukić,Midfielder,Fulham,696
-J. King,Midfielder,Fulham,669
-S. Berge,Midfielder,Fulham,970
-P. Masini,Midfielder,Genoa,866
-V. Carboni,Midfielder,Genoa,365
-M. Frendrup,Midfielder,Genoa,744
-R. Malinovskyi,Midfielder,Genoa,583
-Luis Milla,Midfielder,Getafe,1098
-Mario Martín,Midfielder,Getafe,736
-M. Arambarri,Midfielder,Getafe,1086
-Luís Esteves,Midfielder,Gil Vicente,707
-F. Cáseres,Midfielder,Gil Vicente,709
-Iván Martín,Midfielder,Girona,759
-A. Ounahi,Midfielder,Girona,493
-J. Solís,Midfielder,Girona,370
-A. Witsel,Midfielder,Girona,702
-E. Linthorst,Midfielder,Go Ahead Eagles,681
+J. Fazzini,Midfielder,Fiorentina,432
+A. Gudmundsson,Midfielder,Fiorentina,604
+S. Sohm,Midfielder,Fiorentina,467
+R. Fosso,Midfielder,Fortuna Sittard,1154
+J. Lonwijk,Midfielder,Fortuna Sittard,784
+E. Michut,Midfielder,Fortuna Sittard,377
+P. Brittijn,Midfielder,Fortuna Sittard,1106
+P. Osterhage,Midfielder,Freiburg,394
+J. Manzambi,Midfielder,Freiburg,690
+M. Eggestein,Midfielder,Freiburg,1000
+J. King,Midfielder,Fulham,720
+S. Lukić,Midfielder,Fulham,748
+S. Berge,Midfielder,Fulham,1073
+M. Frendrup,Midfielder,Genoa,940
+V. Carboni,Midfielder,Genoa,385
+P. Masini,Midfielder,Genoa,923
+R. Malinovskyi,Midfielder,Genoa,645
+M. Arambarri,Midfielder,Getafe,1185
+Luis Milla,Midfielder,Getafe,1197
+Mario Martín,Midfielder,Getafe,815
+Luís Esteves,Midfielder,Gil Vicente,808
+F. Cáseres,Midfielder,Gil Vicente,907
+Zé Carlos,Midfielder,Gil Vicente,382
+A. Ounahi,Midfielder,Girona,564
+J. Solís,Midfielder,Girona,381
+Iván Martín,Midfielder,Girona,856
+A. Witsel,Midfielder,Girona,787
+K. Goudmijn,Midfielder,Go Ahead Eagles,436
+C. Twigt,Midfielder,Go Ahead Eagles,365
+M. Meulensteen,Midfielder,Go Ahead Eagles,951
 J. Breum,Midfielder,Go Ahead Eagles,679
-M. Meulensteen,Midfielder,Go Ahead Eagles,756
-S. Resink,Midfielder,Groningen,1088
-Y. Taha,Midfielder,Groningen,978
-T. de Jonge,Midfielder,Groningen,985
-A. Sambi Lokonga,Midfielder,Hamburger SV,360
+E. Linthorst,Midfielder,Go Ahead Eagles,712
+Y. Salah Rahmouni,Midfielder,Go Ahead Eagles,497
+Y. Taha,Midfielder,Groningen,1048
+T. de Jonge,Midfielder,Groningen,1055
+S. Resink,Midfielder,Groningen,1183
+N. Remberg,Midfielder,Hamburger SV,1008
 Fábio Vieira,Midfielder,Hamburger SV,384
-N. Remberg,Midfielder,Hamburger SV,909
-M. Linday,Midfielder,Heerenveen,759
+A. Sambi Lokonga,Midfielder,Hamburger SV,459
+M. Linday,Midfielder,Heerenveen,799
 R. Meerveld,Midfielder,Heerenveen,705
-L. Brouwers,Midfielder,Heerenveen,842
-J. Schöppner,Midfielder,Heidenheim,726
-A. Beck,Midfielder,Heidenheim,352
-N. Dorsch,Midfielder,Heidenheim,545
+L. Brouwers,Midfielder,Heerenveen,1052
+J. Schöppner,Midfielder,Heidenheim,775
+A. Beck,Midfielder,Heidenheim,362
+N. Dorsch,Midfielder,Heidenheim,609
+J. Niehues,Midfielder,Heidenheim,365
+R. Gagliardini,Midfielder,Hellas Verona,624
+A. Bernede,Midfielder,Hellas Verona,847
+J. Akpa Akpro,Midfielder,Hellas Verona,483
 S. Serdar,Midfielder,Hellas Verona,802
-A. Bernede,Midfielder,Hellas Verona,806
-R. Gagliardini,Midfielder,Hellas Verona,527
 S. Scheperman,Midfielder,Heracles,582
-J. Žambůrek,Midfielder,Heracles,685
-A. Hrustić,Midfielder,Heracles,686
-W. Burger,Midfielder,Hoffenheim,600
-A. Kramarić,Midfielder,Hoffenheim,536
-L. Avdullahu,Midfielder,Hoffenheim,736
-P. Sučić,Midfielder,Internazionale,526
+J. Žambůrek,Midfielder,Heracles,840
+A. Hrustić,Midfielder,Heracles,876
+L. Avdullahu,Midfielder,Hoffenheim,936
+W. Burger,Midfielder,Hoffenheim,800
+A. Kramarić,Midfielder,Hoffenheim,659
+G. Prömel,Midfielder,Hoffenheim,381
+H. Çalhanoğlu,Midfielder,Internazionale,731
 H. Hamlet Mkhitaryan,Midfielder,Internazionale,510
-N. Barella,Midfielder,Internazionale,786
-H. Çalhanoğlu,Midfielder,Internazionale,647
-T. Koopmeiners,Midfielder,Juventus,551
-K. Thuram,Midfielder,Juventus,646
-W. McKennie,Midfielder,Juventus,516
-K. Yıldız,Midfielder,Juventus,799
-M. Locatelli,Midfielder,Juventus,712
-E. Martel,Midfielder,Köln,789
-I. Jóhannesson,Midfielder,Köln,680
-S. El Mala,Midfielder,Köln,376
-T. Bašić,Midfielder,Lazio,357
-D. Cataldi,Midfielder,Lazio,660
-M. Guendouzi,Midfielder,Lazio,657
+P. Sučić,Midfielder,Internazionale,584
+N. Barella,Midfielder,Internazionale,884
+K. Yıldız,Midfielder,Juventus,886
+T. Koopmeiners,Midfielder,Juventus,649
+Francisco Conceicão,Midfielder,Juventus,603
+K. Thuram,Midfielder,Juventus,744
+M. Locatelli,Midfielder,Juventus,800
+W. McKennie,Midfielder,Juventus,614
+D. Huseinbašić,Midfielder,Köln,457
+I. Jóhannesson,Midfielder,Köln,837
+M. Guendouzi,Midfielder,Lazio,850
+D. Cataldi,Midfielder,Lazio,822
+T. Bašić,Midfielder,Lazio,517
+A. Seko,Midfielder,Le Havre,1117
 S. Ebonog,Midfielder,Le Havre,412
-R. Ndiaye,Midfielder,Le Havre,719
-A. Touré,Midfielder,Le Havre,652
-A. Seko,Midfielder,Le Havre,1018
-Y. Kechta,Midfielder,Le Havre,700
-Y. Ramadani,Midfielder,Lecce,943
-L. Coulibaly,Midfielder,Lecce,785
-M. Berisha,Midfielder,Lecce,603
-S. Longstaff,Midfielder,Leeds United,794
+A. Touré,Midfielder,Le Havre,751
+Y. Kechta,Midfielder,Le Havre,764
+R. Ndiaye,Midfielder,Le Havre,799
+M. Berisha,Midfielder,Lecce,691
+Y. Ramadani,Midfielder,Lecce,1040
+L. Coulibaly,Midfielder,Lecce,882
+S. Longstaff,Midfielder,Leeds United,871
+E. Ampadu,Midfielder,Leeds United,859
 A. Tanaka,Midfielder,Leeds United,372
-E. Ampadu,Midfielder,Leeds United,759
-A. Stach,Midfielder,Leeds United,769
-M. Sangaré,Midfielder,Lens,886
-W. Saïd,Midfielder,Lens,763
-A. Thomasson,Midfielder,Lens,1092
-Pablo Martínez,Midfielder,Levante,585
-K. Arriaga,Midfielder,Levante,529
+A. Stach,Midfielder,Leeds United,869
+A. Thomasson,Midfielder,Lens,1181
+W. Saïd,Midfielder,Lens,840
+M. Sangaré,Midfielder,Lens,954
 Unai Vencedor,Midfielder,Levante,460
-Oriol Rey,Midfielder,Levante,651
-N. Mukau,Midfielder,Lille,407
-B. André,Midfielder,Lille,877
-A. Bouaddi,Midfielder,Lille,884
-H. Haraldsson,Midfielder,Lille,888
-D. Szoboszlai,Midfielder,Liverpool,1020
-C. Jones,Midfielder,Liverpool,389
-R. Gravenberch,Midfielder,Liverpool,777
-F. Wirtz,Midfielder,Liverpool,664
-A. Mac Allister,Midfielder,Liverpool,614
-P. Pagis,Midfielder,Lorient,437
-J. Makengo,Midfielder,Lorient,394
-A. Avom,Midfielder,Lorient,907
-L. Abergel,Midfielder,Lorient,1088
-Lee Jae-Sung,Midfielder,Mainz 05,616
-P. Nebel,Midfielder,Mainz 05,657
+Oriol Rey,Midfielder,Levante,663
+K. Arriaga,Midfielder,Levante,629
+Pablo Martínez,Midfielder,Levante,585
+N. Mukau,Midfielder,Lille,419
+A. Bouaddi,Midfielder,Lille,970
+B. André,Midfielder,Lille,976
+H. Haraldsson,Midfielder,Lille,987
+D. Szoboszlai,Midfielder,Liverpool,1120
+F. Wirtz,Midfielder,Liverpool,753
+C. Jones,Midfielder,Liverpool,409
+R. Gravenberch,Midfielder,Liverpool,877
+A. Mac Allister,Midfielder,Liverpool,694
+A. Avom,Midfielder,Lorient,1003
+J. Makengo,Midfielder,Lorient,420
+L. Abergel,Midfielder,Lorient,1150
+N. Amiri,Midfielder,Mainz 05,939
+K. Sano,Midfielder,Mainz 05,1008
 A. Nordin,Midfielder,Mainz 05,409
-K. Sano,Midfielder,Mainz 05,911
-N. Amiri,Midfielder,Mainz 05,842
-Sergi Darder,Midfielder,Mallorca,933
-Manu Morlanes,Midfielder,Mallorca,723
-Samú Costa,Midfielder,Mallorca,659
+P. Nebel,Midfielder,Mainz 05,754
+Lee Jae-Sung,Midfielder,Mainz 05,713
+Manu Morlanes,Midfielder,Mallorca,737
 Pablo Torre,Midfielder,Mallorca,607
+Samú Costa,Midfielder,Mallorca,758
+Sergi Darder,Midfielder,Mallorca,1018
+Antonio Sánchez,Midfielder,Mallorca,356
+Bernardo Silva,Midfielder,Manchester City,707
+Nico González,Midfielder,Manchester City,724
+P. Foden,Midfielder,Manchester City,777
 T. Reijnders,Midfielder,Manchester City,836
-P. Foden,Midfielder,Manchester City,677
-Nico González,Midfielder,Manchester City,624
-Bernardo Silva,Midfielder,Manchester City,607
-Bruno Fernandes,Midfielder,Manchester United,989
-M. Mount,Midfielder,Manchester United,372
-Matheus Cunha,Midfielder,Manchester United,677
-Casemiro,Midfielder,Manchester United,592
-G. Hein,Midfielder,Metz,812
-J. Deminguet,Midfielder,Metz,626
-B. Traoré,Midfielder,Metz,655
-B. Stambouli,Midfielder,Metz,586
-Y. Fofana,Midfielder,Milan,868
-S. Ricci,Midfielder,Milan,473
+Bruno Fernandes,Midfielder,Manchester United,1088
+Casemiro,Midfielder,Manchester United,664
+M. Mount,Midfielder,Manchester United,398
+M. Ugarte,Midfielder,Manchester United,355
+B. Traoré,Midfielder,Metz,694
+J. Deminguet,Midfielder,Metz,704
+G. Hein,Midfielder,Metz,906
+B. Stambouli,Midfielder,Metz,595
+S. Ricci,Midfielder,Milan,547
 A. Rabiot,Midfielder,Milan,386
-L. Modrić,Midfielder,Milan,944
-R. Loftus-Cheek,Midfielder,Milan,360
-D. Zakaria,Midfielder,Monaco,409
-M. Coulibaly,Midfielder,Monaco,478
+Y. Fofana,Midfielder,Milan,968
+R. Loftus-Cheek,Midfielder,Milan,409
+L. Modrić,Midfielder,Milan,1044
+M. Coulibaly,Midfielder,Monaco,563
+D. Zakaria,Midfielder,Monaco,424
 T. Minamino,Midfielder,Monaco,740
 L. Camara,Midfielder,Monaco,370
-J. Teze,Midfielder,Monaco,898
-M. Stjepanović,Midfielder,Moreirense,901
-M. Balard,Midfielder,NAC Breda,834
-M. Nassoh,Midfielder,NAC Breda,814
-L. Holtby,Midfielder,NAC Breda,761
-D. Nejašmić,Midfielder,NEC,479
+J. Teze,Midfielder,Monaco,965
+Benny,Midfielder,Moreirense,433
+M. Stjepanović,Midfielder,Moreirense,1068
+M. Nassoh,Midfielder,NAC Breda,875
+L. Holtby,Midfielder,NAC Breda,915
+M. Balard,Midfielder,NAC Breda,1031
+T. Chery,Midfielder,NEC,1060
+K. Sano1,Midfielder,NEC,1177
 D. Proper,Midfielder,NEC,765
-K. Sano1,Midfielder,NEC,1082
-T. Chery,Midfielder,NEC,965
+D. Nejašmić,Midfielder,NEC,574
+Liziero,Midfielder,Nacional,978
+C. Labidi,Midfielder,Nacional,697
 Filipe Soares,Midfielder,Nacional,382
-C. Labidi,Midfielder,Nacional,594
-Liziero,Midfielder,Nacional,875
-J. Mwanga,Midfielder,Nantes,984
-Kwon Hyeok-Kyu,Midfielder,Nantes,486
-D. Assoumani,Midfielder,Nantes,528
+Kwon Hyeok-Kyu,Midfielder,Nantes,585
+D. Assoumani,Midfielder,Nantes,588
 J. Lepenant,Midfielder,Nantes,572
-F. Anguissa,Midfielder,Napoli,928
-K. De Bruyne,Midfielder,Napoli,602
+J. Mwanga,Midfielder,Nantes,1083
 B. Gilmour,Midfielder,Napoli,459
-S. Lobotka,Midfielder,Napoli,462
-S. McTominay,Midfielder,Napoli,796
-Bruno Guimarães,Midfielder,Newcastle United,913
-S. Tonali,Midfielder,Newcastle United,894
-Joelinton,Midfielder,Newcastle United,688
-H. Boudaoui,Midfielder,Nice,804
-S. Diop,Midfielder,Nice,695
-C. Vanhoutte,Midfielder,Nice,701
+S. Lobotka,Midfielder,Napoli,561
+S. McTominay,Midfielder,Napoli,882
+F. Anguissa,Midfielder,Napoli,1027
+K. De Bruyne,Midfielder,Napoli,602
+Joelinton,Midfielder,Newcastle United,711
+Bruno Guimarães,Midfielder,Newcastle United,1014
+S. Tonali,Midfielder,Newcastle United,976
+S. Diop,Midfielder,Nice,776
+C. Vanhoutte,Midfielder,Nice,799
 S. Abdul Samed,Midfielder,Nice,397
-E. Anderson,Midfielder,Nottingham Forest,987
-M. Gibbs-White,Midfielder,Nottingham Forest,888
-I. Sangaré,Midfielder,Nottingham Forest,481
-T. Morton,Midfielder,Olympique Lyonnais,967
-K. Merah,Midfielder,Olympique Lyonnais,350
-T. Tessmann,Midfielder,Olympique Lyonnais,864
-C. Tolisso,Midfielder,Olympique Lyonnais,1029
-A. Gomes,Midfielder,Olympique Marseille,765
-M. O'Riley,Midfielder,Olympique Marseille,630
-P. Højbjerg,Midfielder,Olympique Marseille,961
-Jon Moncayola,Midfielder,Osasuna,966
-Lucas Torró,Midfielder,Osasuna,856
-Moi Gómez,Midfielder,Osasuna,573
-Jamiro Monteiro,Midfielder,PEC Zwolle,556
-R. Thomas,Midfielder,PEC Zwolle,808
-T. Oosting,Midfielder,PEC Zwolle,839
-Fabián Ruiz,Midfielder,PSG,418
-W. Zaire-Emery,Midfielder,PSG,869
-Lee Kang-In,Midfielder,PSG,544
-Vitinha,Midfielder,PSG,767
-S. Mayulu,Midfielder,PSG,529
-J. Veerman,Midfielder,PSV,920
+H. Boudaoui,Midfielder,Nice,902
+I. Sangaré,Midfielder,Nottingham Forest,544
+E. Anderson,Midfielder,Nottingham Forest,1087
+M. Gibbs-White,Midfielder,Nottingham Forest,979
+T. Tessmann,Midfielder,Olympique Lyonnais,966
+T. Morton,Midfielder,Olympique Lyonnais,1069
+C. Tolisso,Midfielder,Olympique Lyonnais,1049
+M. O'Riley,Midfielder,Olympique Marseille,654
+A. Gomes,Midfielder,Olympique Marseille,838
+P. Højbjerg,Midfielder,Olympique Marseille,1050
+Moi Gómez,Midfielder,Osasuna,763
+Lucas Torró,Midfielder,Osasuna,874
+Jon Moncayola,Midfielder,Osasuna,1164
+R. Thomas,Midfielder,PEC Zwolle,905
+Jamiro Monteiro,Midfielder,PEC Zwolle,747
+T. Oosting,Midfielder,PEC Zwolle,994
+S. Mayulu,Midfielder,PSG,600
+Fabián Ruiz,Midfielder,PSG,496
+Vitinha,Midfielder,PSG,869
+W. Zaire-Emery,Midfielder,PSG,971
+João Neves,Midfielder,PSG,419
 I. Saibari,Midfielder,PSV,996
-M. López,Midfielder,Paris,1111
-V. Marchetti,Midfielder,Paris,362
-A. Camara,Midfielder,Paris,671
-P. Lees-Melou,Midfielder,Paris,1019
-O. Sørensen,Midfielder,Parma,612
-M. Keita,Midfielder,Parma,785
-Adrián Bernabé,Midfielder,Parma,835
-M. Marin,Midfielder,Pisa,552
-E. Akinsanmiro,Midfielder,Pisa,746
-M. Aebischer,Midfielder,Pisa,776
-Gabri Veiga,Midfielder,Porto,512
-A. Varela,Midfielder,Porto,797
-V. Froholdt,Midfielder,Porto,860
-N. Seiwald,Midfielder,RB Leipzig,807
-A. Ouédraogo,Midfielder,RB Leipzig,427
-C. Baumgartner,Midfielder,RB Leipzig,730
-Unai López,Midfielder,Rayo Vallecano,617
-Pedro Díaz,Midfielder,Rayo Vallecano,804
-Óscar Valentín,Midfielder,Rayo Vallecano,610
-G. Lo Celso,Midfielder,Real Betis,756
-Pablo Fornals,Midfielder,Real Betis,991
+J. Veerman,Midfielder,PSV,920
+P. Lees-Melou,Midfielder,Paris,1106
+V. Marchetti,Midfielder,Paris,371
+M. López,Midfielder,Paris,1207
+A. Camara,Midfielder,Paris,758
+O. Sørensen,Midfielder,Parma,712
+M. Keita,Midfielder,Parma,885
+Adrián Bernabé,Midfielder,Parma,920
+M. Aebischer,Midfielder,Pisa,872
+E. Akinsanmiro,Midfielder,Pisa,813
+M. Marin,Midfielder,Pisa,581
+A. Varela,Midfielder,Porto,992
+Gabri Veiga,Midfielder,Porto,587
+Rodrigo Mora,Midfielder,Porto,380
+V. Froholdt,Midfielder,Porto,1055
+N. Seiwald,Midfielder,RB Leipzig,884
+C. Baumgartner,Midfielder,RB Leipzig,831
+A. Ouédraogo,Midfielder,RB Leipzig,497
+Unai López,Midfielder,Rayo Vallecano,704
+Pedro Díaz,Midfielder,Rayo Vallecano,831
+Óscar Valentín,Midfielder,Rayo Vallecano,634
+Marc Roca,Midfielder,Real Betis,354
+S. Amrabat,Midfielder,Real Betis,613
+G. Lo Celso,Midfielder,Real Betis,834
 Sergi Altimira,Midfielder,Real Betis,508
-S. Amrabat,Midfielder,Real Betis,517
-J. Bellingham,Midfielder,Real Madrid,418
-A. Güler,Midfielder,Real Madrid,753
+Pablo Fornals,Midfielder,Real Betis,1087
 A. Tchouaméni,Midfielder,Real Madrid,969
-Alberto Reina,Midfielder,Real Oviedo,514
-L. Dendoncker,Midfielder,Real Oviedo,843
-S. Colombatto,Midfielder,Real Oviedo,404
-K. Sibo,Midfielder,Real Oviedo,358
-L. Ilić,Midfielder,Real Oviedo,550
-Pablo Marín,Midfielder,Real Sociedad,592
-Brais Méndez,Midfielder,Real Sociedad,639
-Carlos Soler,Midfielder,Real Sociedad,422
-Jon Gorrotxategi,Midfielder,Real Sociedad,865
-V. Rongier,Midfielder,Rennes,946
-M. Camara,Midfielder,Rennes,691
-D. Cissé,Midfielder,Rennes,444
-S. Fofana,Midfielder,Rennes,699
-B. Aguilera,Midfielder,Rio Ave,664
-A. Ntoi,Midfielder,Rio Ave,815
-G. Liavas,Midfielder,Rio Ave,520
-M. Koné,Midfielder,Roma,884
-M. Soulé,Midfielder,Roma,700
-B. Cristante,Midfielder,Roma,808
-Pedro Ferreira,Midfielder,Santa Clara,476
-Serginho,Midfielder,Santa Clara,696
-Adriano Firmino,Midfielder,Santa Clara,815
-N. Matić,Midfielder,Sassuolo,776
-K. Thorstvedt,Midfielder,Sassuolo,356
-A. Vranckx,Midfielder,Sassuolo,451
-I. Koné,Midfielder,Sassuolo,589
-L. Agoumé,Midfielder,Sevilla,840
-R. Vargas,Midfielder,Sevilla,786
-N. Gudelj,Midfielder,Sevilla,641
-B. Mendy,Midfielder,Sevilla,510
-D. Sow,Midfielder,Sevilla,534
+E. Camavinga,Midfielder,Real Madrid,391
+J. Bellingham1,Midfielder,Real Madrid,517
+A. Güler,Midfielder,Real Madrid,852
+L. Dendoncker,Midfielder,Real Oviedo,1030
+L. Ilić,Midfielder,Real Oviedo,583
+S. Colombatto,Midfielder,Real Oviedo,591
+Alberto Reina,Midfielder,Real Oviedo,677
+K. Sibo,Midfielder,Real Oviedo,366
+Carlos Soler,Midfielder,Real Sociedad,497
+Brais Méndez,Midfielder,Real Sociedad,714
+Jon Gorrotxategi,Midfielder,Real Sociedad,962
+Pablo Marín,Midfielder,Real Sociedad,615
+D. Cissé,Midfielder,Rennes,510
+S. Fofana,Midfielder,Rennes,712
+V. Rongier,Midfielder,Rennes,1042
+M. Camara,Midfielder,Rennes,787
+B. Aguilera,Midfielder,Rio Ave,753
+G. Liavas,Midfielder,Rio Ave,530
+A. Ntoi,Midfielder,Rio Ave,913
+M. Soulé,Midfielder,Roma,831
+L. Pellegrini,Midfielder,Roma,422
+M. Koné,Midfielder,Roma,1079
+B. Cristante,Midfielder,Roma,1003
+Adriano Firmino,Midfielder,Santa Clara,1008
+Pedro Ferreira,Midfielder,Santa Clara,674
+Serginho,Midfielder,Santa Clara,860
+K. Thorstvedt,Midfielder,Sassuolo,554
+A. Vranckx,Midfielder,Sassuolo,484
+I. Koné,Midfielder,Sassuolo,750
+N. Matić,Midfielder,Sassuolo,974
 A. Sánchez,Midfielder,Sevilla,446
-J. Toornstra,Midfielder,Sparta Rotterdam,747
-J. Kitolano,Midfielder,Sparta Rotterdam,747
-P. Clement,Midfielder,Sparta Rotterdam,791
-J. Baas,Midfielder,Sparta Rotterdam,376
-Diego Rodrigues,Midfielder,Sporting Braga,351
-João Moutinho,Midfielder,Sporting Braga,556
-Pau Víctor,Midfielder,Sporting Braga,476
-J. Gorby,Midfielder,Sporting Braga,620
-M. Hjulmand,Midfielder,Sporting CP,987
-Francisco Trincão,Midfielder,Sporting CP,939
-H. Morita,Midfielder,Sporting CP,365
+D. Sow,Midfielder,Sevilla,600
+R. Vargas,Midfielder,Sevilla,873
+B. Mendy,Midfielder,Sevilla,657
+L. Agoumé,Midfielder,Sevilla,840
+N. Gudelj,Midfielder,Sevilla,675
+J. Toornstra,Midfielder,Sparta Rotterdam,793
+P. Clement,Midfielder,Sparta Rotterdam,865
+J. Kitolano,Midfielder,Sparta Rotterdam,883
+J. Baas,Midfielder,Sparta Rotterdam,390
+L. Duijvestijn,Midfielder,Sparta Rotterdam,463
+J. Gorby,Midfielder,Sporting Braga,806
+Diego Rodrigues,Midfielder,Sporting Braga,357
+João Moutinho,Midfielder,Sporting Braga,657
 G. Kochorashvili,Midfielder,Sporting CP,392
-J. Sands,Midfielder,St. Pauli,725
-J. Fujita,Midfielder,St. Pauli,862
-D. Sinani,Midfielder,St. Pauli,825
-V. Barco,Midfielder,Strasbourg,989
-S. El Mourabet,Midfielder,Strasbourg,632
+M. Hjulmand,Midfielder,Sporting CP,1088
+H. Morita,Midfielder,Sporting CP,407
+Francisco Trincão,Midfielder,Sporting CP,1034
+J. Sands,Midfielder,St. Pauli,794
+J. Fujita,Midfielder,St. Pauli,960
+D. Sinani,Midfielder,St. Pauli,840
+S. El Mourabet,Midfielder,Strasbourg,654
+V. Barco,Midfielder,Strasbourg,1088
 F. Lemaréchal,Midfielder,Strasbourg,537
-Chema Andrés,Midfielder,Stuttgart,445
-B. El Khannouss,Midfielder,Stuttgart,592
-A. Karazor,Midfielder,Stuttgart,512
-Tiago Tomás,Midfielder,Stuttgart,482
-A. Stiller,Midfielder,Stuttgart,767
+Chema Andrés,Midfielder,Stuttgart,450
+A. Karazor,Midfielder,Stuttgart,592
+B. El Khannouss,Midfielder,Stuttgart,672
+C. Führich,Midfielder,Stuttgart,362
+A. Stiller,Midfielder,Stuttgart,869
+Tiago Tomás,Midfielder,Stuttgart,511
+N. Sadiki,Midfielder,Sunderland,1091
 H. Diarra,Midfielder,Sunderland,370
-N. Sadiki,Midfielder,Sunderland,885
-G. Xhaka,Midfielder,Sunderland,906
-N. Rossen,Midfielder,Telstar,1042
-T. Owusu,Midfielder,Telstar,580
+G. Xhaka,Midfielder,Sunderland,1112
+P. Brouwer,Midfielder,Telstar,959
+T. Owusu,Midfielder,Telstar,680
+J. Ritmeester van de Kamp,Midfielder,Telstar,848
 D. Mertens,Midfielder,Telstar,435
-J. Ritmeester van de Kamp,Midfielder,Telstar,760
-P. Brouwer,Midfielder,Telstar,888
-J. Rodríguez,Midfielder,Tondela,628
-Y. Sithole,Midfielder,Tondela,622
+N. Rossen,Midfielder,Telstar,1142
+J. Rodríguez,Midfielder,Tondela,726
+Y. Sithole,Midfielder,Tondela,707
 Rony Lopes,Midfielder,Tondela,385
-N. Vlašić,Midfielder,Torino,706
-C. Casadei,Midfielder,Torino,895
-K. Asllani,Midfielder,Torino,604
+K. Asllani,Midfielder,Torino,654
+C. Casadei,Midfielder,Torino,993
+N. Vlašić,Midfielder,Torino,788
+I. Ilić,Midfielder,Torino,385
+X. Simons,Midfielder,Tottenham Hotspur,571
+P. Sarr,Midfielder,Tottenham Hotspur,649
 L. Bergvall,Midfielder,Tottenham Hotspur,447
-R. Bentancur,Midfielder,Tottenham Hotspur,715
-João Palhinha,Midfielder,Tottenham Hotspur,874
-P. Sarr,Midfielder,Tottenham Hotspur,550
-M. Sauer,Midfielder,Toulouse,534
-A. Francis,Midfielder,Toulouse,496
-C. Cásseres,Midfielder,Toulouse,887
-R. Zerrouki,Midfielder,Twente,1025
-T. van den Belt,Midfielder,Twente,621
-K. Hlynsson,Midfielder,Twente,910
-J. Piotrowski,Midfielder,Udinese,431
-J. Karlström,Midfielder,Udinese,972
-A. Atta,Midfielder,Udinese,910
-O. Burke,Midfielder,Union Berlin,458
-R. Khedira,Midfielder,Union Berlin,895
-A. Schäfer,Midfielder,Union Berlin,370
-J. Haberer,Midfielder,Union Berlin,567
-T. Skarke,Midfielder,Union Berlin,367
-A. Engwanda,Midfielder,Utrecht,972
-G. Zechiël,Midfielder,Utrecht,956
-Pepelu,Midfielder,Valencia,689
-Javi Guerra,Midfielder,Valencia,668
-B. Santamaria,Midfielder,Valencia,706
-T. Partey,Midfielder,Villarreal,515
-Santi Comesaña,Midfielder,Villarreal,672
+R. Bentancur,Midfielder,Tottenham Hotspur,734
+João Palhinha,Midfielder,Tottenham Hotspur,953
+C. Cásseres,Midfielder,Toulouse,983
+M. Sauer,Midfielder,Toulouse,539
+A. Francis,Midfielder,Toulouse,564
+A. Verschueren,Midfielder,Twente,362
+R. Zerrouki,Midfielder,Twente,1125
+K. Hlynsson,Midfielder,Twente,1009
+T. van den Belt,Midfielder,Twente,668
+A. Atta,Midfielder,Udinese,1008
+J. Piotrowski,Midfielder,Udinese,454
+J. Ekkelenkamp,Midfielder,Udinese,423
+J. Karlström,Midfielder,Udinese,1048
+A. Schäfer,Midfielder,Union Berlin,471
+J. Haberer,Midfielder,Union Berlin,642
+O. Burke,Midfielder,Union Berlin,541
+A. Kemlein,Midfielder,Union Berlin,415
+T. Skarke,Midfielder,Union Berlin,385
+R. Khedira,Midfielder,Union Berlin,996
+A. Engwanda,Midfielder,Utrecht,1067
+G. Zechiël,Midfielder,Utrecht,1051
+D. de Wit,Midfielder,Utrecht,374
+Javi Guerra,Midfielder,Valencia,764
+Pepelu,Midfielder,Valencia,767
+B. Santamaria,Midfielder,Valencia,724
+Santi Comesaña,Midfielder,Villarreal,746
 Dani Parejo,Midfielder,Villarreal,402
-P. Gueye,Midfielder,Villarreal,717
-Beni,Midfielder,Vitória Guimarães,625
-M. Mitrović,Midfielder,Vitória Guimarães,405
-R. Mühren,Midfielder,Volendam,382
-N. Bukala,Midfielder,Volendam,948
-R. Van Cruijsen,Midfielder,Volendam,484
-G. Yah,Midfielder,Volendam,676
-J. Stage,Midfielder,Werder Bremen,599
-R. Schmid,Midfielder,Werder Bremen,834
-S. Lynen,Midfielder,Werder Bremen,764
-Cameron Puertas,Midfielder,Werder Bremen,465
-Mateus Fernandes,Midfielder,West Ham United,600
-T. Souček,Midfielder,West Ham United,458
+T. Partey,Midfielder,Villarreal,610
+P. Gueye,Midfielder,Villarreal,738
+M. Mitrović,Midfielder,Vitória Guimarães,474
+Miguel Nogueira,Midfielder,Vitória Guimarães,374
+Beni,Midfielder,Vitória Guimarães,723
+N. Bukala,Midfielder,Volendam,1017
+G. Yah,Midfielder,Volendam,775
+R. Van Cruijsen,Midfielder,Volendam,560
+R. Mühren,Midfielder,Volendam,405
+S. Lynen,Midfielder,Werder Bremen,851
+J. Stage,Midfielder,Werder Bremen,698
+Cameron Puertas,Midfielder,Werder Bremen,478
+R. Schmid,Midfielder,Werder Bremen,933
+Lucas Paquetà,Midfielder,West Ham United,1071
+Mateus Fernandes,Midfielder,West Ham United,704
 J. Ward-Prowse,Midfielder,West Ham United,439
-Lucas Paquetà,Midfielder,West Ham United,983
-Vini Souza,Midfielder,Wolfsburg,679
-M. Arnold,Midfielder,Wolfsburg,720
-L. Majer,Midfielder,Wolfsburg,356
-M. Svanberg,Midfielder,Wolfsburg,350
-João Gomes,Midfielder,Wolverhampton,824
-M. Munetsi,Midfielder,Wolverhampton,870
-André,Midfielder,Wolverhampton,682
-J. Bellegarde,Midfielder,Wolverhampton,468
-P. Lima,Winger,AVS ,487
-T. Akinsola,Winger,AVS ,813
-R. Barbosa,Winger,AVS ,544
+T. Souček,Midfielder,West Ham United,495
+C. Eriksen,Midfielder,Wolfsburg,426
+L. Majer,Midfielder,Wolfsburg,394
+M. Svanberg,Midfielder,Wolfsburg,480
+M. Arnold,Midfielder,Wolfsburg,918
+Vini Souza,Midfielder,Wolfsburg,877
+J. Bellegarde,Midfielder,Wolverhampton,542
+M. Munetsi,Midfielder,Wolverhampton,895
+André,Midfielder,Wolverhampton,781
+João Gomes,Midfielder,Wolverhampton,923
+T. Akinsola,Winger,AVS ,911
+R. Barbosa,Winger,AVS ,613
+P. Lima,Winger,AVS ,570
+S. Mijnans,Winger,AZ,899
+I. Jensen,Winger,AZ,580
+Weslley Patati,Winger,AZ,505
 R. Daal,Winger,AZ,469
-I. Jensen,Winger,AZ,486
-Weslley Patati,Winger,AZ,424
-I. Sadiq,Winger,AZ,352
+I. Sadiq,Winger,AZ,365
+O. Edvardsen,Winger,Ajax,474
+O. Gloukh,Winger,Ajax,745
+Raúl Moro,Winger,Ajax,582
 S. Berghuis,Winger,Ajax,505
-O. Edvardsen,Winger,Ajax,384
-Raúl Moro,Winger,Ajax,576
-O. Gloukh,Winger,Ajax,676
-M. Godts,Winger,Ajax,722
-C. Nuozzi,Winger,Alverca,523
-Lincoln,Winger,Alverca,538
+M. Godts,Winger,Ajax,812
+C. Nuozzi,Winger,Alverca,594
+Lincoln,Winger,Alverca,634
 Chiquinho,Winger,Alverca,351
-L. Raolisoa,Winger,Angers SCO,662
-L. Mouton,Winger,Angers SCO,643
-Lee Hyun-Ju,Winger,Arouca,487
-N. Djouahra,Winger,Arouca,651
-A. Trezza,Winger,Arouca,710
-L. Trossard,Winger,Arsenal,601
-E. Eze,Winger,Arsenal,675
-B. Saka,Winger,Arsenal,657
-E. Buendía,Winger,Aston Villa,402
-E. Guessand,Winger,Aston Villa,476
-J. McGinn,Winger,Aston Villa,829
-M. Rogers,Winger,Aston Villa,993
-K. Sulemana,Winger,Atalanta,502
-L. Samardžić,Winger,Atalanta,397
-Álex Berenguer,Winger,Athletic Club,721
-Oihan Sancet,Winger,Athletic Club,652
+L. Mouton,Winger,Angers SCO,719
+L. Raolisoa,Winger,Angers SCO,694
+Miguel Puche,Winger,Arouca,372
+A. Trezza,Winger,Arouca,831
+N. Djouahra,Winger,Arouca,846
+Pablo Gozálbez,Winger,Arouca,350
+Lee Hyun-Ju,Winger,Arouca,671
+E. Eze,Winger,Arsenal,772
+B. Saka,Winger,Arsenal,765
+L. Trossard,Winger,Arsenal,709
+J. McGinn,Winger,Aston Villa,907
+M. Rogers,Winger,Aston Villa,1085
+E. Guessand,Winger,Aston Villa,485
+E. Buendía,Winger,Aston Villa,480
+Y. Tielemans,Winger,Aston Villa,371
+K. Sulemana,Winger,Atalanta,519
+L. Samardžić,Winger,Atalanta,496
+Álex Berenguer,Winger,Athletic Club,808
 Iñaki Williams,Winger,Athletic Club,712
-Nico Williams,Winger,Athletic Club,500
-Robert Navarro,Winger,Athletic Club,476
-N. González,Winger,Atlético Madrid,596
-G. Simeone,Winger,Atlético Madrid,887
-E. Saad,Winger,Augsburg,498
-F. Rieder,Winger,Augsburg,644
-A. Claude-Maurice,Winger,Augsburg,401
-D. Namaso,Winger,Auxerre,803
-J. Casimir,Winger,Auxerre,843
-I. Osman,Winger,Auxerre,528
-G. Mensah,Winger,Auxerre,920
-F. Oppegård,Winger,Auxerre,354
-Lamine Yamal,Winger,Barcelona,519
-Dani Olmo,Winger,Barcelona,546
-Fermín López,Winger,Barcelona,370
+Nico Williams,Winger,Athletic Club,576
+Oihan Sancet,Winger,Athletic Club,652
+Robert Navarro,Winger,Athletic Club,497
+Álex Baena,Winger,Atlético Madrid,386
+N. González,Winger,Atlético Madrid,621
+G. Simeone,Winger,Atlético Madrid,962
+E. Saad,Winger,Augsburg,513
+A. Claude-Maurice,Winger,Augsburg,468
+F. Rieder,Winger,Augsburg,731
+F. Oppegård,Winger,Auxerre,450
+I. Osman,Winger,Auxerre,574
+J. Casimir,Winger,Auxerre,893
+D. Namaso,Winger,Auxerre,899
+G. Mensah,Winger,Auxerre,939
 Raphinha,Winger,Barcelona,417
-M. Rashford,Winger,Barcelona,714
-M. Tillman,Winger,Bayer Leverkusen,418
-E. Poku,Winger,Bayer Leverkusen,480
-Arthur,Winger,Bayer Leverkusen,398
-S. Gnabry,Winger,Bayern München,487
-L. Díaz,Winger,Bayern München,782
-M. Olise,Winger,Bayern München,753
-F. Aursnes,Winger,Benfica,786
-H. Sudakov,Winger,Benfica,365
-A. Schjelderup,Winger,Benfica,373
+Dani Olmo,Winger,Barcelona,670
+M. Rashford,Winger,Barcelona,885
+Lamine Yamal,Winger,Barcelona,715
+Fermín López,Winger,Barcelona,545
+I. Maza,Winger,Bayer Leverkusen,440
+Arthur,Winger,Bayer Leverkusen,447
+M. Tillman,Winger,Bayer Leverkusen,465
+E. Poku,Winger,Bayer Leverkusen,529
+L. Díaz,Winger,Bayern München,883
+M. Olise,Winger,Bayern München,854
+S. Gnabry,Winger,Bayern München,550
+H. Sudakov,Winger,Benfica,413
+F. Aursnes,Winger,Benfica,883
+A. Schjelderup,Winger,Benfica,422
+R. Orsolini,Winger,Bologna,798
+J. Odgaard,Winger,Bologna,531
+N. Cambiaghi,Winger,Bologna,669
+F. Bernardeschi,Winger,Bologna,405
 G. Fabbian,Winger,Bologna,374
-F. Bernardeschi,Winger,Bologna,371
-J. Odgaard,Winger,Bologna,466
-R. Orsolini,Winger,Bologna,713
-N. Cambiaghi,Winger,Bologna,620
-K. Adeyemi,Winger,Borussia Dortmund,508
+M. Beier,Winger,Borussia Dortmund,598
 J. Brandt,Winger,Borussia Dortmund,417
-M. Beier,Winger,Borussia Dortmund,532
+K. Adeyemi,Winger,Borussia Dortmund,541
+F. Neuhaus,Winger,Borussia Mgladbach,437
 J. Castrop,Winger,Borussia Mgladbach,387
 K. Stöger,Winger,Borussia Mgladbach,430
-F. Neuhaus,Winger,Borussia Mgladbach,358
-F. Honorat,Winger,Borussia Mgladbach,469
-M. Tavernier,Winger,Bournemouth,824
-J. Kluivert,Winger,Bournemouth,380
-D. Brooks,Winger,Bournemouth,580
-A. Semenyo,Winger,Bournemouth,999
-K. Schade,Winger,Brentford,912
-M. Damsgaard,Winger,Brentford,687
-Dango Ouattara,Winger,Brentford,615
-J. Dina Ebimbe,Winger,Brest,359
-P. Mboup,Winger,Brest,417
-R. Del Castillo,Winger,Brest,907
-Mama Baldé,Winger,Brest,454
+F. Honorat,Winger,Borussia Mgladbach,548
+M. Tavernier,Winger,Bournemouth,925
+A. Semenyo,Winger,Bournemouth,1100
+J. Kluivert,Winger,Bournemouth,449
+D. Brooks,Winger,Bournemouth,597
+M. Damsgaard,Winger,Brentford,775
+Dango Ouattara,Winger,Brentford,711
+K. Schade,Winger,Brentford,1018
+P. Mboup,Winger,Brest,466
 K. Doumbia,Winger,Brest,665
+R. Del Castillo,Winger,Brest,1004
+J. Dina Ebimbe,Winger,Brest,370
+Mama Baldé,Winger,Brest,503
+Y. Minteh,Winger,Brighton,1033
+G. Rutter,Winger,Brighton,721
+D. Gómez,Winger,Brighton,582
 K. Mitoma,Winger,Brighton,554
-Y. Minteh,Winger,Brighton,844
-D. Gómez,Winger,Brighton,413
-Q. Hartman,Winger,Burnley,999
-K. Walker,Winger,Burnley,1006
-L. Tchaouna,Winger,Burnley,422
-L. Ugochukwu,Winger,Burnley,568
-J. Anthony,Winger,Burnley,867
-J. Bruun Larsen,Winger,Burnley,437
+L. Tchaouna,Winger,Burnley,494
+Q. Hartman,Winger,Burnley,1085
+J. Anthony,Winger,Burnley,953
+J. Bruun Larsen,Winger,Burnley,469
+G. Gaetano,Winger,Cagliari,431
+M. Felici,Winger,Cagliari,372
 J. Livolant,Winger,Casa Pia AC,957
-Pablo Durán,Winger,Celta de Vigo,469
-Bryan Zaragoza,Winger,Celta de Vigo,539
-Iago Aspas,Winger,Celta de Vigo,439
-Pedro Neto,Winger,Chelsea,809
-E. Fernández,Winger,Chelsea,906
-Estevão,Winger,Chelsea,368
-N. Kühn,Winger,Como,365
-Jesús Rodríguez,Winger,Como,466
-M. Vojvoda,Winger,Como,536
-Nico Paz,Winger,Como,959
-R. Floriani Mussolini,Winger,Cremonese,440
-Yéremy Pino,Winger,Crystal Palace,537
-I. Sarr,Winger,Crystal Palace,770
-Carles Aleñà,Winger,Deportivo Alavés,761
-Carlos Vicente,Winger,Deportivo Alavés,784
-A. Rebbach,Winger,Deportivo Alavés,452
-Pablo Ibáñez,Winger,Deportivo Alavés,701
-A. Knauff,Winger,Eintracht Frankfurt,428
-R. Doan,Winger,Eintracht Frankfurt,777
+Ferrán Jutglà,Winger,Celta de Vigo,629
+Bryan Zaragoza,Winger,Celta de Vigo,579
+Pablo Durán,Winger,Celta de Vigo,575
+Iago Aspas,Winger,Celta de Vigo,467
+Estevão,Winger,Chelsea,398
+A. Garnacho,Winger,Chelsea,372
+Pedro Neto,Winger,Chelsea,891
+M. Vojvoda,Winger,Como,543
+Jesús Rodríguez,Winger,Como,517
+N. Kühn,Winger,Como,386
+Nico Paz,Winger,Como,1058
+J. Addai,Winger,Como,372
+R. Floriani Mussolini,Winger,Cremonese,458
+Yéremy Pino,Winger,Crystal Palace,570
+I. Sarr,Winger,Crystal Palace,870
+A. Rebbach,Winger,Deportivo Alavés,503
+Carles Aleñà,Winger,Deportivo Alavés,807
+Pablo Ibáñez,Winger,Deportivo Alavés,709
+Carlos Vicente,Winger,Deportivo Alavés,835
 C. Uzun,Winger,Eintracht Frankfurt,629
-J. Bahoya,Winger,Eintracht Frankfurt,430
-Álvaro Núñez,Winger,Elche,1084
+A. Knauff,Winger,Eintracht Frankfurt,496
+R. Doan,Winger,Eintracht Frankfurt,874
+J. Bahoya,Winger,Eintracht Frankfurt,480
+Adrià Pedrosa,Winger,Elche,465
 Javi Puado,Winger,Espanyol,715
-Pere Milla,Winger,Espanyol,546
-T. Dolan,Winger,Espanyol,706
-R. Guitane,Winger,Estoril,472
-I. Stoica,Winger,Estrela Amadora,411
-M. Ayomide,Winger,Estrela Amadora,765
-S. Lopes Cabral,Winger,Estrela Amadora,997
-J. Grealish,Winger,Everton,709
-K. Dewsbury-Hall,Winger,Everton,778
-I. Ndiaye,Winger,Everton,820
-D. Sanches Fernandes,Winger,Excelsior,795
-G. de Regt,Winger,Excelsior,941
-Gustavo Sá,Winger,Famalicão,936
-Sorriso,Winger,Famalicão,957
-Gil Dias,Winger,Famalicão,646
-S. Steijn,Winger,Feyenoord,763
-L. Sauer,Winger,Feyenoord,754
-A. Hadj-Moussa,Winger,Feyenoord,881
-A. Gudmundsson,Winger,Fiorentina,528
-J. Fazzini,Winger,Fiorentina,420
-J. Lonwijk,Winger,Fortuna Sittard,739
-D. Limnios,Winger,Fortuna Sittard,919
-K. Peterson,Winger,Fortuna Sittard,627
-V. Grifo,Winger,Freiburg,481
-J. Beste,Winger,Freiburg,426
-J. King,Winger,Fulham,669
-A. Iwobi,Winger,Fulham,872
-H. Wilson,Winger,Fulham,653
-V. Carboni,Winger,Genoa,365
-M. Ellertsson,Winger,Genoa,774
-R. Malinovskyi,Winger,Genoa,583
-Vitinha,Winger,Genoa,363
+T. Dolan,Winger,Espanyol,853
+Pere Milla,Winger,Espanyol,718
+João Carvalho,Winger,Estoril,1065
+R. Guitane,Winger,Estoril,489
+S. Lopes Cabral,Winger,Estrela Amadora,1100
+M. Ayomide,Winger,Estrela Amadora,854
+I. Stoica,Winger,Estrela Amadora,454
+I. Ndiaye,Winger,Everton,987
+K. Dewsbury-Hall,Winger,Everton,958
+J. Grealish,Winger,Everton,910
+D. Sanches Fernandes,Winger,Excelsior,880
+G. de Regt,Winger,Excelsior,1037
+Sorriso,Winger,Famalicão,1055
+Gustavo Sá,Winger,Famalicão,1034
+Gil Dias,Winger,Famalicão,718
+S. Steijn,Winger,Feyenoord,813
+A. Hadj-Moussa,Winger,Feyenoord,978
+L. Sauer,Winger,Feyenoord,801
+J. Fazzini,Winger,Fiorentina,432
+A. Gudmundsson,Winger,Fiorentina,604
+D. Limnios,Winger,Fortuna Sittard,990
+K. Peterson,Winger,Fortuna Sittard,647
+J. Lonwijk,Winger,Fortuna Sittard,784
+J. Beste,Winger,Freiburg,593
+V. Grifo,Winger,Freiburg,618
+D. Scherhant,Winger,Freiburg,367
+A. Iwobi,Winger,Fulham,975
+Kevin,Winger,Fulham,376
+H. Wilson,Winger,Fulham,718
+J. King,Winger,Fulham,720
+R. Malinovskyi,Winger,Genoa,645
+Vitinha,Winger,Genoa,502
+V. Carboni,Winger,Genoa,385
+M. Ellertsson,Winger,Genoa,899
 Davinchi,Winger,Getafe,486
 Kiko Femenía,Winger,Getafe,633
-Murilo,Winger,Gil Vicente,387
+Sergio Bermejo,Winger,Gil Vicente,361
+Murilo,Winger,Gil Vicente,571
+M. Fernández,Winger,Gil Vicente,379
+Joel Roca,Winger,Girona,648
+Bryan Gil,Winger,Girona,406
+V. Tsygankov,Winger,Girona,426
 Y. Asprilla,Winger,Girona,476
-Joel Roca,Winger,Girona,614
-R. Margaret,Winger,Go Ahead Eagles,546
 J. Breum,Winger,Go Ahead Eagles,679
-M. Suray,Winger,Go Ahead Eagles,824
-J. Schreuders,Winger,Groningen,921
-Y. Taha,Winger,Groningen,978
-D. van der Werff,Winger,Groningen,653
-J. Dompé,Winger,Hamburger SV,616
-R. Philippe,Winger,Hamburger SV,619
-J. Trenskow,Winger,Heerenveen,878
-M. Rivera,Winger,Heerenveen,822
+M. Suray,Winger,Go Ahead Eagles,1019
+K. Goudmijn,Winger,Go Ahead Eagles,436
+R. Margaret,Winger,Go Ahead Eagles,645
+Y. Taha,Winger,Groningen,1048
+J. Schreuders,Winger,Groningen,1007
+D. van der Werff,Winger,Groningen,712
+R. Philippe,Winger,Hamburger SV,693
+J. Dompé,Winger,Hamburger SV,715
 R. Meerveld,Winger,Heerenveen,705
-A. Ibrahimović,Winger,Heidenheim,773
+J. Trenskow,Winger,Heerenveen,1048
+M. Rivera,Winger,Heerenveen,1000
+A. Ibrahimović,Winger,Heidenheim,870
+M. Honsak,Winger,Heidenheim,382
+A. Beck,Winger,Heidenheim,362
 L. Kerber,Winger,Heidenheim,353
-A. Beck,Winger,Heidenheim,352
+Y. Borges Sanches,Winger,Heracles,528
 T. van Gilst,Winger,Heracles,526
-Y. Borges Sanches,Winger,Heracles,504
-B. Limbombe,Winger,Heracles,749
-A. Kramarić,Winger,Hoffenheim,536
-T. Bazoumana,Winger,Hoffenheim,737
-Francisco Conceicão,Winger,Juventus,535
-K. Yıldız,Winger,Juventus,799
-S. El Mala,Winger,Köln,376
-M. Zaccagni,Winger,Lazio,725
+B. Limbombe,Winger,Heracles,895
+T. Bazoumana,Winger,Hoffenheim,878
+A. Kramarić,Winger,Hoffenheim,659
+K. Yıldız,Winger,Juventus,886
+Francisco Conceicão,Winger,Juventus,603
+M. Zaccagni,Winger,Lazio,918
+Pedro,Winger,Lazio,383
+G. Isaksen,Winger,Lazio,444
 M. Cancellieri,Winger,Lazio,440
-F. Doucouré,Winger,Le Havre,564
-S. Pierotti,Winger,Lecce,617
-Tete Morente,Winger,Lecce,665
-B. Aaronson,Winger,Leeds United,690
-N. Okafor,Winger,Leeds United,460
-F. Thauvin,Winger,Lens,871
-W. Saïd,Winger,Lens,763
-Roger Brugué,Winger,Levante,762
-Carlos Álvarez,Winger,Levante,740
-Félix Correia,Winger,Lille,840
-M. Fernandez-Pardo,Winger,Lille,891
-H. Haraldsson,Winger,Lille,888
-F. Wirtz,Winger,Liverpool,664
-C. Gakpo,Winger,Liverpool,884
-Mohamed Salah,Winger,Liverpool,1003
-D. Szoboszlai,Winger,Liverpool,1020
-J. Makengo,Winger,Lorient,394
-J. Mvuka,Winger,Lorient,405
-P. Pagis,Winger,Lorient,437
-A. Tosin,Winger,Lorient,653
-D. Karim,Winger,Lorient,627
-A. Kouassi,Winger,Lorient,992
+F. Doucouré,Winger,Le Havre,599
+S. Pierotti,Winger,Lecce,647
+Tete Morente,Winger,Lecce,732
+L. Banda,Winger,Lecce,402
+B. Aaronson,Winger,Leeds United,767
+N. Okafor,Winger,Leeds United,560
+F. Thauvin,Winger,Lens,971
+W. Saïd,Winger,Lens,840
+Carlos Álvarez,Winger,Levante,840
+Roger Brugué,Winger,Levante,838
+Jon Ander Olasagasti,Winger,Levante,384
+H. Haraldsson,Winger,Lille,987
+M. Fernandez-Pardo,Winger,Lille,956
+Félix Correia,Winger,Lille,917
+Mohamed Salah,Winger,Liverpool,1103
+D. Szoboszlai,Winger,Liverpool,1120
+F. Wirtz,Winger,Liverpool,753
+C. Gakpo,Winger,Liverpool,921
+J. Mvuka,Winger,Lorient,486
+J. Makengo,Winger,Lorient,420
+A. Kouassi,Winger,Lorient,1088
+D. Karim,Winger,Lorient,708
+P. Pagis,Winger,Lorient,508
+A. Tosin,Winger,Lorient,724
+Lee Jae-Sung,Winger,Mainz 05,713
+P. Nebel,Winger,Mainz 05,754
 A. Nordin,Winger,Mainz 05,409
-Lee Jae-Sung,Winger,Mainz 05,616
-P. Nebel,Winger,Mainz 05,657
 Mateu Morey,Winger,Mallorca,491
+Jan Virgili,Winger,Mallorca,415
+Sergi Darder,Winger,Mallorca,1018
 Pablo Torre,Winger,Mallorca,607
-Sergi Darder,Winger,Mallorca,933
+Savinho,Winger,Manchester City,429
+J. Doku,Winger,Manchester City,680
 O. Bobb,Winger,Manchester City,506
-J. Doku,Winger,Manchester City,600
-Savinho,Winger,Manchester City,389
-M. Mount,Winger,Manchester United,372
-A. Diallo,Winger,Manchester United,746
-B. Mbeumo,Winger,Manchester United,966
-Matheus Cunha,Winger,Manchester United,677
-G. Tsitaishvili,Winger,Metz,674
-G. Hein,Winger,Metz,812
-C. Sabaly,Winger,Metz,773
-M. Akliouche,Winger,Monaco,891
-A. Golovin,Winger,Monaco,424
+M. Mount,Winger,Manchester United,398
+Matheus Cunha,Winger,Manchester United,749
+B. Mbeumo,Winger,Manchester United,1065
+A. Diallo,Winger,Manchester United,845
+G. Hein,Winger,Metz,906
+C. Sabaly,Winger,Metz,851
+G. Tsitaishvili,Winger,Metz,772
+C. Pulišić,Winger,Milan,371
+A. Golovin,Winger,Monaco,475
 T. Minamino,Winger,Monaco,740
-Ansu Fati,Winger,Monaco,381
+Ansu Fati,Winger,Monaco,402
+M. Akliouche,Winger,Monaco,970
+Diogo Travassos,Winger,Moreirense,533
 Kiko Bondoso,Winger,Moreirense,632
-Diogo Travassos,Winger,Moreirense,356
-Cedric Teguia,Winger,Moreirense,584
-J. Talvitie,Winger,NAC Breda,688
-K. Sowah,Winger,NAC Breda,950
-M. Nassoh,Winger,NAC Breda,814
-T. Chery,Winger,NEC,965
-Paulinho Bóia,Winger,Nacional,916
+Cedric Teguia,Winger,Moreirense,601
+J. Talvitie,Winger,NAC Breda,834
+K. Sowah,Winger,NAC Breda,1129
+M. Nassoh,Winger,NAC Breda,875
+T. Chery,Winger,NEC,1060
 Pablo Ruan,Winger,Nacional,464
-Witi,Winger,Nacional,451
-João Aurélio,Winger,Nacional,889
-H. Guirassy,Winger,Nantes,555
-M. Abline,Winger,Nantes,898
-Y. Benhattab,Winger,Nantes,433
-M. Politano,Winger,Napoli,741
-David Neres,Winger,Napoli,446
-A. Elanga,Winger,Newcastle United,475
+José Gomes,Winger,Nacional,1070
+Witi,Winger,Nacional,540
+João Aurélio,Winger,Nacional,992
+Paulinho Bóia,Winger,Nacional,1005
+Y. Benhattab,Winger,Nantes,460
+H. Guirassy,Winger,Nantes,627
+M. Abline,Winger,Nantes,985
+David Neres,Winger,Napoli,473
+E. Elmas,Winger,Napoli,366
+M. Politano,Winger,Napoli,813
+J. Murphy,Winger,Newcastle United,627
+H. Barnes,Winger,Newcastle United,534
 A. Gordon,Winger,Newcastle United,493
-H. Barnes,Winger,Newcastle United,452
-J. Murphy,Winger,Newcastle United,545
-S. Diop,Winger,Nice,695
-D. Ndoye,Winger,Nottingham Forest,706
-M. Gibbs-White,Winger,Nottingham Forest,888
+A. Elanga,Winger,Newcastle United,500
+S. Diop,Winger,Nice,776
 C. Hudson-Odoi,Winger,Nottingham Forest,621
+D. Ndoye,Winger,Nottingham Forest,806
+M. Gibbs-White,Winger,Nottingham Forest,979
+Afonso Moreira,Winger,Olympique Lyonnais,414
 M. Fofana,Winger,Olympique Lyonnais,775
-A. Karabec,Winger,Olympique Lyonnais,667
-C. Tolisso,Winger,Olympique Lyonnais,1029
-K. Merah,Winger,Olympique Lyonnais,350
+C. Tolisso,Winger,Olympique Lyonnais,1049
+A. Karabec,Winger,Olympique Lyonnais,702
+A. Gomes,Winger,Olympique Marseille,838
+M. Greenwood,Winger,Olympique Marseille,953
 T. Weah,Winger,Olympique Marseille,568
-Igor Paixão,Winger,Olympique Marseille,524
-M. Greenwood,Winger,Olympique Marseille,871
-Victor Muñoz,Winger,Osasuna,712
-Rubén García,Winger,Osasuna,407
-T. Oosting,Winger,PEC Zwolle,839
-K. de Rooij,Winger,PEC Zwolle,929
-D. Mbayo,Winger,PEC Zwolle,423
-K. Kvaratskhelia,Winger,PSG,467
+Igor Paixão,Winger,Olympique Marseille,621
+Rubén García,Winger,Osasuna,551
+Aimar Oroz,Winger,Osasuna,406
+Victor Muñoz,Winger,Osasuna,910
+K. de Rooij,Winger,PEC Zwolle,1081
+D. Mbayo,Winger,PEC Zwolle,490
+S. Shoretire,Winger,PEC Zwolle,415
+I. Mbaye,Winger,PSG,503
 B. Barcola,Winger,PSG,680
-I. Mbaye,Winger,PSG,479
+K. Kvaratskhelia,Winger,PSG,545
+Lee Kang-In,Winger,PSG,646
 D. Man,Winger,PSV,444
-R. van Bommel,Winger,PSV,396
 I. Perišić,Winger,PSV,887
-M. Simon,Winger,Paris,879
-I. Kebbal,Winger,Paris,1048
-S. Britschgi,Winger,Parma,520
+R. van Bommel,Winger,PSV,396
+I. Kebbal,Winger,Paris,1144
+M. Simon,Winger,Paris,960
 C. Ordoñez,Winger,Parma,394
-Borja Sainz,Winger,Porto,727
-Pepê,Winger,Porto,579
-Y. Diomande,Winger,RB Leipzig,511
-A. Nusa,Winger,RB Leipzig,565
-J. Bakayoko,Winger,RB Leipzig,567
-Álvaro García,Winger,Rayo Vallecano,761
-Jorge de Frutos,Winger,Rayo Vallecano,808
-Fran Pérez,Winger,Rayo Vallecano,397
+Borja Sainz,Winger,Porto,795
+William Gomes,Winger,Porto,425
+Rodrigo Mora,Winger,Porto,380
+Pepê,Winger,Porto,743
+A. Nusa,Winger,RB Leipzig,655
+J. Bakayoko,Winger,RB Leipzig,598
+Y. Diomande,Winger,RB Leipzig,581
+Fran Pérez,Winger,Rayo Vallecano,421
+Álvaro García,Winger,Rayo Vallecano,848
+Jorge de Frutos,Winger,Rayo Vallecano,883
+Rodrigo Riquelme,Winger,Real Betis,445
 Aitor Ruibal,Winger,Real Betis,373
-Antony,Winger,Real Betis,643
-G. Lo Celso,Winger,Real Betis,756
-Rodrigo Riquelme,Winger,Real Betis,427
-A. Ezzalzouli,Winger,Real Betis,533
-J. Bellingham,Winger,Real Madrid,418
+Antony,Winger,Real Betis,739
+A. Ezzalzouli,Winger,Real Betis,611
+G. Lo Celso,Winger,Real Betis,834
 F. Mastantuono,Winger,Real Madrid,587
-Vinícius Júnior,Winger,Real Madrid,840
-A. Güler,Winger,Real Madrid,753
+Vinícius Júnior,Winger,Real Madrid,939
+J. Bellingham,Winger,Real Madrid,517
+A. Güler,Winger,Real Madrid,852
+I. Chaira,Winger,Real Oviedo,665
+Alberto Reina,Winger,Real Oviedo,677
+H. Hassan,Winger,Real Oviedo,722
+L. Ilić,Winger,Real Oviedo,583
 J. Brekalo,Winger,Real Oviedo,360
-L. Ilić,Winger,Real Oviedo,550
-I. Chaira,Winger,Real Oviedo,535
-H. Hassan,Winger,Real Oviedo,657
+T. Kubo,Winger,Real Sociedad,612
 Ander Barrenetxea,Winger,Real Sociedad,888
-T. Kubo,Winger,Real Sociedad,549
-Gonçalo Guedes,Winger,Real Sociedad,481
-L. Blas,Winger,Rennes,622
-O. Pohlmann,Winger,Rio Ave,479
-N. Athanasiou,Winger,Rio Ave,794
-D. Špikić,Winger,Rio Ave,521
-André Luiz,Winger,Rio Ave,834
-M. Soulé,Winger,Roma,700
-Matheus Pereira,Winger,Santa Clara,745
-Brenner,Winger,Santa Clara,357
-Lucas Soares,Winger,Santa Clara,577
-Vinícius Lopes,Winger,Santa Clara,535
-Paulo Victor,Winger,Santa Clara,385
-A. Laurienté,Winger,Sassuolo,562
-D. Berardi,Winger,Sassuolo,635
+Gonçalo Guedes,Winger,Real Sociedad,544
+L. Blas,Winger,Rennes,652
+O. Pohlmann,Winger,Rio Ave,543
+D. Špikić,Winger,Rio Ave,555
+André Luiz,Winger,Rio Ave,930
+M. Soulé,Winger,Roma,831
+L. Pellegrini,Winger,Roma,422
+Matheus Pereira,Winger,Santa Clara,801
+Paulo Victor,Winger,Santa Clara,578
+Brenner,Winger,Santa Clara,442
+Lucas Soares,Winger,Santa Clara,775
+Vinícius Lopes,Winger,Santa Clara,722
+D. Berardi,Winger,Sassuolo,810
+A. Fadera,Winger,Sassuolo,395
+A. Laurienté,Winger,Sassuolo,663
+D. Sow,Winger,Sevilla,600
+R. Vargas,Winger,Sevilla,873
 A. Sánchez,Winger,Sevilla,446
-D. Sow,Winger,Sevilla,534
-R. Vargas,Winger,Sevilla,786
-M. van Bergen,Winger,Sparta Rotterdam,794
-A. Oufkir,Winger,Sparta Rotterdam,440
 S. Ltaief,Winger,Sparta Rotterdam,535
-Ricardo Horta,Winger,Sporting Braga,482
-Pau Víctor,Winger,Sporting Braga,476
+A. Oufkir,Winger,Sparta Rotterdam,584
+L. Duijvestijn,Winger,Sparta Rotterdam,463
+M. van Bergen,Winger,Sparta Rotterdam,980
+Rodrigo Zalazar,Winger,Sporting Braga,784
+Ricardo Horta,Winger,Sporting Braga,675
 Roger,Winger,Sporting Braga,351
-Rodrigo Zalazar,Winger,Sporting Braga,603
-Pedro Gonçalves,Winger,Sporting CP,894
-Geovany Quenda,Winger,Sporting CP,572
-Geny Catamo,Winger,Sporting CP,432
-Francisco Trincão,Winger,Sporting CP,939
-D. Sinani,Winger,St. Pauli,825
+Geny Catamo,Winger,Sporting CP,491
+Francisco Trincão,Winger,Sporting CP,1034
+Geovany Quenda,Winger,Sporting CP,614
+Pedro Gonçalves,Winger,Sporting CP,953
+D. Sinani,Winger,St. Pauli,840
 F. Lemaréchal,Winger,Strasbourg,537
-B. El Khannouss,Winger,Stuttgart,592
-Tiago Tomás,Winger,Stuttgart,482
-J. Leweling,Winger,Stuttgart,612
-C. Talbi,Winger,Sunderland,601
+C. Führich,Winger,Stuttgart,362
+Tiago Tomás,Winger,Stuttgart,511
+J. Leweling,Winger,Stuttgart,714
+B. El Khannouss,Winger,Stuttgart,672
 H. Diarra,Winger,Sunderland,370
-E. Le Fée,Winger,Sunderland,604
-P. Brouwer,Winger,Telstar,888
-J. Ritmeester van de Kamp,Winger,Telstar,760
-Yarlen,Winger,Tondela,453
-Maranhão,Winger,Tondela,776
+E. Le Fée,Winger,Sunderland,774
+B. Traoré,Winger,Sunderland,395
+C. Talbi,Winger,Sunderland,651
+J. Ritmeester van de Kamp,Winger,Telstar,848
+P. Brouwer,Winger,Telstar,959
+Yarlen,Winger,Tondela,490
+I. Cavaleiro,Winger,Tondela,584
 Rony Lopes,Winger,Tondela,385
-I. Cavaleiro,Winger,Tondela,499
+Maranhão,Winger,Tondela,857
 C. Biraghi,Winger,Torino,496
-M. Pedersen,Winger,Torino,575
-B. Johnson,Winger,Tottenham Hotspur,440
-X. Simons,Winger,Tottenham Hotspur,492
+M. Pedersen,Winger,Torino,673
+W. Odobert,Winger,Tottenham Hotspur,435
+X. Simons,Winger,Tottenham Hotspur,571
 M. Kudus,Winger,Tottenham Hotspur,961
-W. Odobert,Winger,Tottenham Hotspur,382
-Y. Gboho,Winger,Toulouse,1001
+B. Johnson,Winger,Tottenham Hotspur,539
+D. Methalie,Winger,Toulouse,925
+Y. Gboho,Winger,Toulouse,1092
+A. Verschueren,Winger,Twente,362
+K. Hlynsson,Winger,Twente,1009
 T. Booth,Winger,Twente,392
-S. Ørjasæter,Winger,Twente,566
-K. Hlynsson,Winger,Twente,910
-D. Rots,Winger,Twente,695
-D. Köhn,Winger,Union Berlin,576
-T. Skarke,Winger,Union Berlin,367
-O. Burke,Winger,Union Berlin,458
+D. Rots,Winger,Twente,725
+S. Ørjasæter,Winger,Twente,645
+M. Pjaca,Winger,Twente,357
+D. Köhn,Winger,Union Berlin,594
+O. Burke,Winger,Union Berlin,541
 C. Trimmel,Winger,Union Berlin,681
-Miguel Rodríguez,Winger,Utrecht,646
-A. Blake,Winger,Utrecht,769
-Luis Rioja,Winger,Valencia,895
-Diego López,Winger,Valencia,866
-Alberto Moleiro,Winger,Villarreal,627
-T. Buchanan,Winger,Villarreal,707
-Telmo Arcanjo,Winger,Vitória Guimarães,493
+T. Skarke,Winger,Union Berlin,385
+A. Blake,Winger,Utrecht,837
+Miguel Rodríguez,Winger,Utrecht,736
+D. de Wit,Winger,Utrecht,374
+Diego López,Winger,Valencia,935
+A. Danjuma,Winger,Valencia,958
+Luis Rioja,Winger,Valencia,922
+T. Buchanan,Winger,Villarreal,790
+Alberto Moleiro,Winger,Villarreal,710
 Gustavo Silva,Winger,Vitória Guimarães,559
-O. Kökcü,Winger,Volendam,547
-R. Mühren,Winger,Volendam,382
-J. Ideho,Winger,Volendam,470
-R. Van Cruijsen,Winger,Volendam,484
-A. Oehlers,Winger,Volendam,591
-B. Kuwas,Winger,Volendam,732
-R. Schmid,Winger,Werder Bremen,834
-J. Njinmah,Winger,Werder Bremen,457
-S. Mbangula,Winger,Werder Bremen,583
-Cameron Puertas,Winger,Werder Bremen,465
-J. Bowen,Winger,West Ham United,1013
-C. Summerville,Winger,West Ham United,620
-Lucas Paquetà,Winger,West Ham United,983
-A. Daghim,Winger,Wolfsburg,418
-L. Majer,Winger,Wolfsburg,356
-M. Svanberg,Winger,Wolfsburg,350
-P. Wimmer,Winger,Wolfsburg,470
-A. Skov Olsen,Winger,Wolfsburg,402
+O. Camara,Winger,Vitória Guimarães,386
+Telmo Arcanjo,Winger,Vitória Guimarães,574
+Miguel Nogueira,Winger,Vitória Guimarães,374
+A. Oehlers,Winger,Volendam,677
+R. Mühren,Winger,Volendam,405
+O. Kökcü,Winger,Volendam,577
+J. Ideho,Winger,Volendam,483
+R. Van Cruijsen,Winger,Volendam,560
+B. Kuwas,Winger,Volendam,818
+R. Schmid,Winger,Werder Bremen,933
+Cameron Puertas,Winger,Werder Bremen,478
+J. Njinmah,Winger,Werder Bremen,524
+S. Mbangula,Winger,Werder Bremen,615
+C. Summerville,Winger,West Ham United,708
+J. Bowen,Winger,West Ham United,1117
+L. Majer,Winger,Wolfsburg,394
+M. Svanberg,Winger,Wolfsburg,480
+C. Eriksen,Winger,Wolfsburg,426
+P. Wimmer,Winger,Wolfsburg,501
+A. Skov Olsen,Winger,Wolfsburg,412
+A. Daghim,Winger,Wolfsburg,606
 J. Arias,Winger,Wolverhampton,606
-Tomané,Striker,AVS ,457
+Tomané,Striker,AVS ,619
+T. Parrott,Striker,AZ,450
 M. Meerdink,Striker,AZ,592
-T. Parrott,Striker,AZ,369
-S. Mijnans,Striker,AZ,805
-W. Weghorst,Striker,Ajax,909
-M. Milovanović,Striker,Alverca,743
-P. Peter,Striker,Angers SCO,572
-S. Chérif,Striker,Angers SCO,651
-Iván Barbero,Striker,Arouca,412
-D. Nandín,Striker,Arouca,417
-Mikel Merino,Striker,Arsenal,390
+W. Weghorst,Striker,Ajax,1004
+M. Milovanović,Striker,Alverca,823
+S. Chérif,Striker,Angers SCO,734
+P. Peter,Striker,Angers SCO,609
+D. Nandín,Striker,Arouca,441
+Iván Barbero,Striker,Arouca,558
+Mikel Merino,Striker,Arsenal,498
 V. Gyökeres,Striker,Arsenal,897
-D. Malen,Striker,Aston Villa,381
-O. Watkins,Striker,Aston Villa,860
-N. Krstović,Striker,Atalanta,468
-A. Lookman,Striker,Atalanta,394
-C. De Ketelaere,Striker,Atalanta,547
-Gorka Guruzeta,Striker,Athletic Club,549
-A. Sørloth,Striker,Atlético Madrid,491
-A. Griezmann,Striker,Atlético Madrid,484
-J. Álvarez,Striker,Atlético Madrid,909
-M. Kömür,Striker,Augsburg,701
-S. Mara,Striker,Auxerre,406
-L. Sinayoko,Striker,Auxerre,987
-R. Lewandowski,Striker,Barcelona,400
-Ferrán Torres,Striker,Barcelona,666
-P. Schick,Striker,Bayer Leverkusen,541
+D. Malen,Striker,Aston Villa,395
+O. Watkins,Striker,Aston Villa,947
+N. Krstović,Striker,Atalanta,531
+A. Lookman,Striker,Atalanta,476
+C. De Ketelaere,Striker,Atalanta,596
+Gorka Guruzeta,Striker,Athletic Club,636
+A. Sørloth,Striker,Atlético Madrid,554
+A. Griezmann,Striker,Atlético Madrid,521
+J. Álvarez,Striker,Atlético Madrid,1009
+M. Kömür,Striker,Augsburg,716
+S. Mara,Striker,Auxerre,430
+L. Sinayoko,Striker,Auxerre,1065
+Ferrán Torres,Striker,Barcelona,767
+R. Lewandowski,Striker,Barcelona,528
 C. Kofane,Striker,Bayer Leverkusen,431
-H. Kane,Striker,Bayern München,771
-V. Pavlidis,Striker,Benfica,709
+P. Schick,Striker,Bayer Leverkusen,601
+H. Kane,Striker,Bayern München,872
+V. Pavlidis,Striker,Benfica,802
 F. Ivanović,Striker,Benfica,470
 S. Castro,Striker,Bologna,647
-S. Guirassy,Striker,Borussia Dortmund,764
-S. Machino,Striker,Borussia Mgladbach,419
-H. Tabaković,Striker,Borussia Mgladbach,525
-Evanilson,Striker,Bournemouth,704
-Igor Thiago,Striker,Brentford,917
-L. Ajorque,Striker,Brest,1092
-D. Welbeck,Striker,Brighton,611
-G. Rutter,Striker,Brighton,550
+T. Dallinga,Striker,Bologna,417
+S. Guirassy,Striker,Borussia Dortmund,858
+H. Tabaković,Striker,Borussia Mgladbach,633
+S. Machino,Striker,Borussia Mgladbach,448
+Evanilson,Striker,Bournemouth,788
+Igor Thiago,Striker,Brentford,1023
+L. Ajorque,Striker,Brest,1189
+D. Welbeck,Striker,Brighton,780
+Z. Flemming,Striker,Burnley,399
 L. Foster,Striker,Burnley,623
-G. Borrelli,Striker,Cagliari,451
-S. Esposito,Striker,Cagliari,614
+S. Esposito,Striker,Cagliari,752
+G. Borrelli,Striker,Cagliari,550
 Cassiano,Striker,Casa Pia AC,572
-Ferrán Jutglà,Striker,Celta de Vigo,563
-Borja Iglesias,Striker,Celta de Vigo,723
-João Pedro,Striker,Chelsea,940
-A. Douvikas,Striker,Como,471
-Álvaro Morata,Striker,Como,512
-J. Vardy,Striker,Cremonese,463
+Borja Iglesias,Striker,Celta de Vigo,801
+João Pedro,Striker,Chelsea,1027
+Álvaro Morata,Striker,Como,578
+A. Douvikas,Striker,Como,505
 A. Sanabria,Striker,Cremonese,398
-F. Bonazzoli,Striker,Cremonese,490
-F. Vázquez,Striker,Cremonese,372
-J. Mateta,Striker,Crystal Palace,948
+F. Vázquez,Striker,Cremonese,450
+F. Bonazzoli,Striker,Cremonese,508
+J. Vardy,Striker,Cremonese,559
+J. Mateta,Striker,Crystal Palace,1048
+Toni Martínez,Striker,Deportivo Alavés,850
 L. Boyé,Striker,Deportivo Alavés,591
-Toni Martínez,Striker,Deportivo Alavés,753
-J. Burkardt,Striker,Eintracht Frankfurt,549
-André Silva,Striker,Elche,692
-Álvaro Rodríguez,Striker,Elche,533
-Rafa Mir,Striker,Elche,835
-Roberto Fernández,Striker,Espanyol,780
-Kike García,Striker,Espanyol,407
-Y. Begraoui,Striker,Estoril,665
-André Lacximicant,Striker,Estoril,494
-João Carvalho,Striker,Estoril,968
-Kikas,Striker,Estrela Amadora,655
-Beto,Striker,Everton,608
-M. van Duinen,Striker,Excelsior,398
-I. Yegoian,Striker,Excelsior,846
-S. Włodarczyk,Striker,Excelsior,545
-S. Elisor,Striker,Famalicão,816
-A. Ueda,Striker,Feyenoord,965
-R. Piccoli,Striker,Fiorentina,355
+Jon Guridi,Striker,Deportivo Alavés,397
+E. Wahi,Striker,Eintracht Frankfurt,360
+J. Burkardt,Striker,Eintracht Frankfurt,646
+Álvaro Rodríguez,Striker,Elche,607
+André Silva,Striker,Elche,696
+Rafa Mir,Striker,Elche,928
+Kike García,Striker,Espanyol,507
+Roberto Fernández,Striker,Espanyol,927
+André Lacximicant,Striker,Estoril,568
+Y. Begraoui,Striker,Estoril,762
+Kikas,Striker,Estrela Amadora,744
+T. Barry,Striker,Everton,439
+Beto,Striker,Everton,667
+M. van Duinen,Striker,Excelsior,409
+S. Włodarczyk,Striker,Excelsior,613
+I. Yegoian,Striker,Excelsior,942
+S. Elisor,Striker,Famalicão,843
+A. Ueda,Striker,Feyenoord,1062
+R. Piccoli,Striker,Fiorentina,440
 M. Kean,Striker,Fiorentina,968
-M. Ihattaren,Striker,Fortuna Sittard,611
-M. Aïko,Striker,Fortuna Sittard,396
-K. Sierhuis,Striker,Fortuna Sittard,368
-P. Gladon,Striker,Fortuna Sittard,441
-L. Höler,Striker,Freiburg,588
-J. Adamu,Striker,Freiburg,361
-R. Jiménez,Striker,Fulham,455
-Rodrigo Muniz,Striker,Fulham,366
-L. Colombo,Striker,Genoa,458
-Adrián Liso,Striker,Getafe,756
-Borja Mayoral,Striker,Getafe,612
-Santi García,Striker,Gil Vicente,546
-Pablo Felipe,Striker,Gil Vicente,634
+M. Aïko,Striker,Fortuna Sittard,455
+M. Ihattaren,Striker,Fortuna Sittard,687
+P. Gladon,Striker,Fortuna Sittard,478
+K. Sierhuis,Striker,Fortuna Sittard,419
+L. Höler,Striker,Freiburg,680
+J. Adamu,Striker,Freiburg,459
+R. Jiménez,Striker,Fulham,520
+Rodrigo Muniz,Striker,Fulham,382
+L. Colombo,Striker,Genoa,597
+J. Ekhator,Striker,Genoa,362
+Borja Mayoral,Striker,Getafe,711
+Adrián Liso,Striker,Getafe,826
+Álex Sancris,Striker,Getafe,425
+Pablo Felipe,Striker,Gil Vicente,787
+Santi García,Striker,Gil Vicente,717
+V. Vanat,Striker,Girona,668
 Portu,Striker,Girona,525
-V. Vanat,Striker,Girona,597
-M. Smit,Striker,Go Ahead Eagles,629
 V. Edvardsen,Striker,Go Ahead Eagles,577
-T. van Bergen,Striker,Groningen,1000
-B. Willumsson,Striker,Groningen,451
-R. Königsdörffer,Striker,Hamburger SV,682
-D. Vente,Striker,Heerenveen,882
+M. Smit,Striker,Go Ahead Eagles,824
+B. Willumsson,Striker,Groningen,487
+T. van Bergen,Striker,Groningen,1086
+R. Königsdörffer,Striker,Hamburger SV,719
+D. Vente,Striker,Heerenveen,1066
+V. Sejk,Striker,Heerenveen,499
+B. Zivzivadze,Striker,Heidenheim,367
 M. Kaufmann,Striker,Heidenheim,381
-Giovane,Striker,Hellas Verona,844
-G. Orban,Striker,Hellas Verona,700
-L. Kulenović,Striker,Heracles,480
-J. Hornkamp,Striker,Heracles,641
-T. Bruns,Striker,Heracles,463
-T. Lemperle,Striker,Hoffenheim,528
-F. Asllani,Striker,Hoffenheim,649
-L. Martínez,Striker,Internazionale,796
-P. Esposito,Striker,Internazionale,360
-A. Bonny,Striker,Internazionale,368
-M. Thuram,Striker,Internazionale,395
-D. Vlahović,Striker,Juventus,543
-J. David,Striker,Juventus,461
+G. Orban,Striker,Hellas Verona,788
+Giovane,Striker,Hellas Verona,920
+L. Kulenović,Striker,Heracles,670
+J. Hornkamp,Striker,Heracles,803
+T. Bruns,Striker,Heracles,527
+F. Asllani,Striker,Hoffenheim,726
+T. Lemperle,Striker,Hoffenheim,681
+P. Esposito,Striker,Internazionale,374
+L. Martínez,Striker,Internazionale,869
+A. Bonny,Striker,Internazionale,452
+M. Thuram,Striker,Internazionale,420
+D. Vlahović,Striker,Juventus,611
+J. David,Striker,Juventus,492
+S. El Mala,Striker,Köln,461
 J. Thielmann,Striker,Köln,486
-J. Kamiński,Striker,Köln,825
-M. Bülter,Striker,Köln,438
-B. Dia,Striker,Lazio,541
+J. Kamiński,Striker,Köln,1042
+M. Bülter,Striker,Köln,576
+R. Ache,Striker,Köln,425
 V. Castellanos,Striker,Lazio,460
-I. Soumaré,Striker,Le Havre,1100
+B. Dia,Striker,Lazio,693
 M. Samatta,Striker,Le Havre,553
-N. Štulić,Striker,Lecce,614
-F. Camarda,Striker,Lecce,376
-D. Calvert-Lewin,Striker,Leeds United,649
-R. Fofana,Striker,Lens,457
-O. Édouard,Striker,Lens,470
-M. Guilavogui,Striker,Lens,468
-E. Eyong,Striker,Levante,967
+I. Soumaré,Striker,Le Havre,1199
+F. Camarda,Striker,Lecce,406
+N. Štulić,Striker,Lecce,681
+D. Calvert-Lewin,Striker,Leeds United,672
+O. Édouard,Striker,Lens,547
+M. Guilavogui,Striker,Lens,491
+R. Fofana,Striker,Lens,480
 Iván Romero,Striker,Levante,749
-O. Giroud,Striker,Lille,737
-H. Ekitiké,Striker,Liverpool,634
-M. Bamba,Striker,Lorient,610
-S. Soumano,Striker,Lorient,424
-N. Weiper,Striker,Mainz 05,365
-V. Muriqi,Striker,Mallorca,875
-Mateo Joseph,Striker,Mallorca,641
-E. Haaland,Striker,Manchester City,934
-B. Šeško,Striker,Manchester United,668
-H. Diallo,Striker,Metz,773
-Rafael Leão,Striker,Milan,397
+E. Eyong,Striker,Levante,1067
+H. Igamane,Striker,Lille,371
+O. Giroud,Striker,Lille,814
+H. Ekitiké,Striker,Liverpool,697
+S. Soumano,Striker,Lorient,450
+M. Bamba,Striker,Lorient,625
+B. Hollerbach,Striker,Mainz 05,384
+N. Weiper,Striker,Mainz 05,373
+A. Sieb,Striker,Mainz 05,370
+Mateo Joseph,Striker,Mallorca,726
+V. Muriqi,Striker,Mallorca,966
+E. Haaland,Striker,Manchester City,1034
+B. Šeško,Striker,Manchester United,708
+H. Diallo,Striker,Metz,863
+Rafael Leão,Striker,Milan,497
 S. Giménez,Striker,Milan,652
-M. Biereth,Striker,Monaco,606
-F. Balogun,Striker,Monaco,610
-Guilherme Schettine,Striker,Moreirense,574
-Alan,Striker,Moreirense,836
-S. van Hooijdonk,Striker,NAC Breda,777
-K. Ogawa,Striker,NEC,624
-B. Linssen,Striker,NEC,755
-J. Ramírez,Striker,Nacional,947
-Mostafa Mohamed,Striker,Nantes,657
-R. Højlund,Striker,Napoli,441
-L. Lucca,Striker,Napoli,388
-N. Woltemade,Striker,Newcastle United,568
-J. Boga,Striker,Nice,664
-T. Moffi,Striker,Nice,350
-Kevin Carlos,Striker,Nice,444
+C. Pulišić,Striker,Milan,371
+M. Biereth,Striker,Monaco,673
+F. Balogun,Striker,Monaco,655
+Alan,Striker,Moreirense,1023
+Guilherme Schettine,Striker,Moreirense,712
+S. van Hooijdonk,Striker,NAC Breda,936
+B. Linssen,Striker,NEC,844
+K. Ogawa,Striker,NEC,671
+J. Ramírez,Striker,Nacional,1036
+Y. El-Arabi,Striker,Nantes,394
+Mostafa Mohamed,Striker,Nantes,684
+R. Højlund,Striker,Napoli,540
+L. Lucca,Striker,Napoli,401
+N. Woltemade,Striker,Newcastle United,674
+Kevin Carlos,Striker,Nice,517
+T. Moffi,Striker,Nice,368
 I. Jansson,Striker,Nice,377
+J. Boga,Striker,Nice,689
 C. Wood,Striker,Nottingham Forest,571
-P. Šulc,Striker,Olympique Lyonnais,565
+Igor Jesus,Striker,Nottingham Forest,382
 M. Satriano,Striker,Olympique Lyonnais,398
-P. Aubameyang,Striker,Olympique Marseille,608
+K. Merah,Striker,Olympique Lyonnais,431
+P. Šulc,Striker,Olympique Lyonnais,565
+R. Vaz,Striker,Olympique Marseille,355
 A. Gouiri,Striker,Olympique Marseille,402
-A. Budimir,Striker,Osasuna,902
-K. Kostons,Striker,PEC Zwolle,859
-Gonçalo Ramos,Striker,PSG,682
+P. Aubameyang,Striker,Olympique Marseille,697
+A. Budimir,Striker,Osasuna,992
+Raul García,Striker,Osasuna,520
+K. Kostons,Striker,PEC Zwolle,1022
+Gonçalo Ramos,Striker,PSG,706
 I. Saibari,Striker,PSV,996
 G. Til,Striker,PSV,831
-J. Krasso,Striker,Paris,516
-W. Geubbels,Striker,Paris,516
-M. Pellegrino,Striker,Parma,892
-P. Cutrone,Striker,Parma,636
-M. Nzola,Striker,Pisa,673
-S. Moreo,Striker,Pisa,454
-M. Tramoni,Striker,Pisa,526
-H. Meister,Striker,Pisa,528
-Samu Omorodion,Striker,Porto,514
-Rômulo,Striker,RB Leipzig,756
-Isi Palazón,Striker,Rayo Vallecano,811
-Alemão,Striker,Rayo Vallecano,529
-C. Hernández,Striker,Real Betis,1014
-K. Mbappé,Striker,Real Madrid,1032
-S. Rondón,Striker,Real Oviedo,625
-F. Viñas,Striker,Real Oviedo,356
-Mikel Oyarzabal,Striker,Real Sociedad,1057
-E. Lepaul,Striker,Rennes,976
-M. Meïté,Striker,Rennes,362
-Mousa Al Tamari,Striker,Rennes,545
-B. Embolo,Striker,Rennes,537
-Clayton,Striker,Rio Ave,848
-P. Dybala,Striker,Roma,397
+J. Krasso,Striker,Paris,590
+W. Geubbels,Striker,Paris,538
+M. Pellegrino,Striker,Parma,992
+P. Cutrone,Striker,Parma,731
+H. Meister,Striker,Pisa,533
+M. Nzola,Striker,Pisa,765
+S. Moreo,Striker,Pisa,521
+M. Tramoni,Striker,Pisa,555
+Samu Omorodion,Striker,Porto,665
+Rômulo,Striker,RB Leipzig,857
+Isi Palazón,Striker,Rayo Vallecano,886
+Alemão,Striker,Rayo Vallecano,541
+C. Hernández,Striker,Real Betis,1107
+K. Mbappé,Striker,Real Madrid,1131
+F. Viñas,Striker,Real Oviedo,540
+S. Rondón,Striker,Real Oviedo,799
+Mikel Oyarzabal,Striker,Real Sociedad,1154
+M. Meïté,Striker,Rennes,428
+E. Lepaul,Striker,Rennes,1059
+B. Embolo,Striker,Rennes,567
+Clayton,Striker,Rio Ave,946
+A. Dovbyk,Striker,Roma,367
+P. Dybala,Striker,Roma,482
 Gabriel Silva,Striker,Santa Clara,522
-W. Silva,Striker,Santa Clara,362
-A. Pinamonti,Striker,Sassuolo,783
-A. Adams,Striker,Sevilla,477
+W. Silva,Striker,Santa Clara,504
+A. Pinamonti,Striker,Sassuolo,966
 Isaac Romero,Striker,Sevilla,685
-T. Lauritsen,Striker,Sparta Rotterdam,981
+A. Adams,Striker,Sevilla,577
+T. Lauritsen,Striker,Sparta Rotterdam,1172
+Fran Navarro,Striker,Sporting Braga,411
+Pau Víctor,Striker,Sporting Braga,616
 A. El Ouazzani,Striker,Sporting Braga,524
-Fran Navarro,Striker,Sporting Braga,358
-L. Suárez,Striker,Sporting CP,861
-M. Kaars,Striker,St. Pauli,430
-A. Hountondji,Striker,St. Pauli,471
-M. Pereira Lage,Striker,St. Pauli,700
-J. Panichelli,Striker,Strasbourg,953
+L. Suárez,Striker,Sporting CP,962
+A. Hountondji,Striker,St. Pauli,509
+M. Kaars,Striker,St. Pauli,490
+M. Pereira Lage,Striker,St. Pauli,798
+J. Panichelli,Striker,Strasbourg,1051
 K. Páez,Striker,Strasbourg,363
 E. Demirović,Striker,Stuttgart,532
-W. Isidor,Striker,Sunderland,583
-S. Hetli,Striker,Telstar,676
-M. Zonneveld,Striker,Telstar,492
-K. Tejan,Striker,Telstar,468
-Y. Rodriguez,Striker,Tondela,400
-j.Siebatcheu,Striker,Tondela,406
-C. Adams,Striker,Torino,481
-C. Ngonge,Striker,Torino,641
-G. Simeone,Striker,Torino,701
-Richarlison,Striker,Tottenham Hotspur,613
-F. Magri,Striker,Toulouse,913
-Emersonn,Striker,Toulouse,430
-R. van Wolfswinkel,Striker,Twente,1052
-K. Davis,Striker,Udinese,569
-N. Zaniolo,Striker,Udinese,498
-A. Buksa,Striker,Udinese,353
+D. Undav,Striker,Stuttgart,428
+W. Isidor,Striker,Sunderland,739
+M. Zonneveld,Striker,Telstar,521
+S. Hetli,Striker,Telstar,747
+K. Tejan,Striker,Telstar,497
+Y. Rodriguez,Striker,Tondela,418
+j.Siebatcheu,Striker,Tondela,419
+C. Ngonge,Striker,Torino,689
+C. Adams,Striker,Torino,531
+G. Simeone,Striker,Torino,783
+Richarlison,Striker,Tottenham Hotspur,712
+F. Magri,Striker,Toulouse,1009
+Emersonn,Striker,Toulouse,511
+R. van Wolfswinkel,Striker,Twente,1122
+A. Buksa,Striker,Udinese,429
+N. Zaniolo,Striker,Udinese,584
+K. Davis,Striker,Udinese,592
 A. Ilić,Striker,Union Berlin,838
-I. Ansah,Striker,Union Berlin,650
-S. Haller,Striker,Utrecht,447
-D. Min,Striker,Utrecht,665
-A. Danjuma,Striker,Valencia,862
-Hugo Duro,Striker,Valencia,649
-N. Pépé,Striker,Villarreal,776
-T. Oluwaseyi,Striker,Villarreal,366
+I. Ansah,Striker,Union Berlin,733
+D. Min,Striker,Utrecht,713
+S. Haller,Striker,Utrecht,591
+Hugo Duro,Striker,Valencia,676
+L. Beltrán,Striker,Valencia,386
+N. Pépé,Striker,Villarreal,799
 G. Mikautadze,Striker,Villarreal,454
-Nélson Oliveira,Striker,Vitória Guimarães,607
-H. Veerman,Striker,Volendam,986
-M. Grüll,Striker,Werder Bremen,673
+T. Oluwaseyi,Striker,Villarreal,440
+Samu,Striker,Vitória Guimarães,410
+Nélson Oliveira,Striker,Vitória Guimarães,705
+H. Veerman,Striker,Volendam,1085
+M. Grüll,Striker,Werder Bremen,760
 N. Füllkrug,Striker,West Ham United,413
-C. Wilson,Striker,West Ham United,350
-M. Amoura,Striker,Wolfsburg,523
-J. Strand Larsen,Striker,Wolverhampton,670
+C. Wilson,Striker,West Ham United,426
+M. Amoura,Striker,Wolfsburg,704
+Hwang Hee-Chan,Striker,Wolverhampton,411
+J. Strand Larsen,Striker,Wolverhampton,769

@@ -23,23 +23,7 @@
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet">
   <title data-i18n="meta.title">DataMB | Football Visuals and Statistics</title>
-  <script>
-  (function() {
-      var width = window.innerWidth;
-      var viewportMeta = document.querySelector('meta[name="viewport"]');
-      if (viewportMeta) {
-if (width < 770) {
-	      
-      var initialScale = width / 770;
-viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + initialScale);
-} else {
-            var fixedScale = 1;
-	viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + fixedScale);
-
-  }
-    } 
-})();
-</script>
+  
   <style>
  body {
      font-family: system-ui;
@@ -49,6 +33,12 @@ viewportMeta.setAttribute('content', 'width=device-width, initial-scale=' + init
      color: var(--text-color);
      background-color: var(--background-color);
 }
+	  @media (hover: none) and (pointer: coarse) {
+    body {
+        width: 770px;
+    }
+}
+
  :root {
      --primary-color: #3498db;
      --secondary-color: #2ecc71;
@@ -665,12 +655,7 @@ body.dark-mode .search-input2 {
      color: #001e5a;
      font-size: 16px;
 }
-/* Hide navigation on small screens */
- @media screen and (max-width: 650px) {
-     .header .navigation {
-         display: none;
-    }
-}
+
 
 
  body.dark-mode .box, body.dark-mode .box2 {
@@ -1106,9 +1091,19 @@ body.dark-mode #autocompleteBoxmodal a, body.dark-mode #autocompleteBox2 a {
   </div>
 </div>
 
-<br>
-<br>
-<br>
+  <br>
+  <div align="center">
+    <!-- radarplotsearch -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-7677714701428206"
+         data-ad-slot="6673239737"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script></div>
+  <br>
 
 
   <footer class="footer">

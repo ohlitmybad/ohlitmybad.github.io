@@ -1001,6 +1001,7 @@ body.dark-mode #SFctr {
   font-weight: 400;
   left: 100px;
   white-space: nowrap;
+   top: 20px;
 }
 #SFctr input {
   background-color: #ffffff !important;

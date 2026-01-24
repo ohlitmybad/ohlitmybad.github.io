@@ -1,47 +1,86 @@
-// Load the data asynchronously
-        const WORKER_URL = 'https://summer-dream-8f33.datamb-football.workers.dev';
-        
-        (async function() {
-        const response = await fetch(`${WORKER_URL}/?file=3`); // teamplots.csv
-        let csvData = await response.text();
-        
-        let extraHeaderRow = 'ID,Player,Top 7 Leagues,Goals per 90,xG per 90,Shots on target per 90,Shots on target %,Passes completed,Pass accuracy %,Possession %,Positional attacks per 90,Counter attacks per 90,Touches in the box per 90,Goals conceded per 90,SoT against per 90,Defensive duels per 90,Defensive duel %,Aerial duels per 90,Aerial duels %,Passes per possession,PPDA\n';
-        
-        // Concatenate the extra header row with the fetched CSV data
-        csvData = extraHeaderRow + csvData;
-        
-        var rows = csvData.trim().split('\n');
-        var header = rows[0].split(',');
-        var data = rows.slice(1).map(function(row) {
-            return row.split(',').map(function(d, i) {
-                if (i >= 3) {
-                    return parseFloat(d);
-                } else {
-                    return d;
+let initializeCustomSelectors = function() {
+            // League selector functionality
+            const leagueTrigger = document.getElementById('league-select-trigger');
+            const leagueOptions = document.getElementById('league-select-options');
+            const leagueSelect = document.getElementById('select-league');
+            
+            setupCustomSelect(leagueTrigger, leagueOptions, leagueSelect);
+            
+            // X metric selector functionality
+            const xTrigger = document.getElementById('x-metric-trigger');
+            const xOptions = document.getElementById('x-metric-options');
+            const xSelect = document.getElementById('select-x');
+            
+            // Populate X metric options
+            populateMetricOptions(xOptions, header.slice(3), function(option, value) {
+                if (xTrigger.querySelector('span').textContent === value) {
+                    option.classList.add('selected');
+                }
+                if (value === header[3]) { // Default value
+                    option.classList.add('selected');
+                    // Update trigger text
+                    xTrigger.querySelector('span').textContent = value;
+                    const metricKey = value.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
+                    xTrigger.querySelector('span').setAttribute('data-i18n', 'metrics.' + metricKey);
                 }
             });
-        });
+            
+            setupCustomSelect(xTrigger, xOptions, xSelect);
+            
+            // Y metric selector functionality
+            const yTrigger = document.getElementById('y-metric-trigger');
+            const yOptions = document.getElementById('y-metric-options');
+            const ySelect = document.getElementById('select-y');
+            
+            // Populate Y metric options
+            populateMetricOptions(yOptions, header.slice(3), function(option, value) {
+                if (yTrigger.querySelector('span').textContent === value) {
+                    option.classList.add('selected');
+                }
+                if (value === header[4]) { // Default value
+                    option.classList.add('selected');
+                    // Update trigger text
+                    yTrigger.querySelector('span').textContent = value;
+                    const metricKey = value.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
+                    yTrigger.querySelector('span').setAttribute('data-i18n', 'metrics.' + metricKey);
+                }
+            });
+            
+            setupCustomSelect(yTrigger, yOptions, ySelect);
+        };
         
         // Function to populate metric options
         function populateMetricOptions(optionsContainer, metrics, callback) {
+            // Clear existing options
             optionsContainer.innerHTML = '';
+            
+            // Create a custom option for each metric
             metrics.forEach(function(metric) {
                 const customOption = document.createElement('div');
                 customOption.className = 'metric-select-option';
                 customOption.setAttribute('data-value', metric);
+                
                 const span = document.createElement('span');
                 span.textContent = metric;
+                
+                // Add data-i18n attribute for translation
                 const metricKey = metric.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
                 span.setAttribute('data-i18n', 'metrics.' + metricKey);
+                
                 customOption.appendChild(span);
+                
+                // Call the callback to potentially add selected class
                 if (callback) callback(customOption, metric);
+                
                 optionsContainer.appendChild(customOption);
             });
         }
         
         // Function to set up a custom select
         function setupCustomSelect(trigger, options, selectElement) {
+            // Toggle dropdown when clicking the trigger
             trigger.addEventListener('click', function() {
+                // Close all other open dropdowns first
                 document.querySelectorAll('.custom-select-trigger.open, .metric-select-trigger.open').forEach(function(openTrigger) {
                     if (openTrigger !== trigger) {
                         openTrigger.classList.remove('open');
@@ -49,82 +88,131 @@
                         if (openOptions) openOptions.style.display = 'none';
                     }
                 });
+                
+                // Toggle this dropdown
                 trigger.classList.toggle('open');
                 const isOpen = trigger.classList.contains('open');
                 options.style.display = isOpen ? 'block' : 'none';
             });
             
+            // Handle option selection
             const optionElements = options.querySelectorAll('.custom-select-option, .metric-select-option');
             optionElements.forEach(option => {
                 option.addEventListener('click', function() {
+                    // Update selected option
                     optionElements.forEach(opt => opt.classList.remove('selected'));
                     this.classList.add('selected');
+                    
+                    // Update trigger content
                     const text = this.querySelector('span').textContent;
                     const dataI18n = this.querySelector('span').getAttribute('data-i18n');
                     const icon = this.querySelector('iconify-icon');
+                    
                     trigger.innerHTML = '';
+                    
                     if (icon) {
                         const clonedIcon = icon.cloneNode(true);
                         clonedIcon.style.marginRight = '8px';
                         trigger.appendChild(clonedIcon);
                     }
+                    
                     const span = document.createElement('span');
                     span.textContent = text;
-                    if (dataI18n) span.setAttribute('data-i18n', dataI18n);
+                    if (dataI18n) {
+                        span.setAttribute('data-i18n', dataI18n);
+                    }
                     trigger.appendChild(span);
+                    
+                    // Update hidden select and trigger change event
                     const value = this.getAttribute('data-value');
                     selectElement.value = value || text;
+                    
+                    // Trigger the change event on the hidden select
                     const event = new Event('change');
                     selectElement.dispatchEvent(event);
+                    
+                    // Close dropdown
                     trigger.classList.remove('open');
                     options.style.display = 'none';
                 });
             });
             
+            // Add keyboard navigation
             let searchTerm = '';
             let searchTimeout;
+            
+            // Add keydown event listener to the document
             document.addEventListener('keydown', function(e) {
+                // Only process keyboard input when dropdown is open
                 if (!trigger.classList.contains('open')) return;
+                
+                // Handle arrow keys for navigation
                 if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
                     e.preventDefault();
+                    
                     const visibleOptions = Array.from(optionElements);
                     const currentIndex = visibleOptions.findIndex(opt => opt.classList.contains('selected'));
                     let newIndex;
+                    
                     if (e.key === 'ArrowDown') {
                         newIndex = currentIndex < visibleOptions.length - 1 ? currentIndex + 1 : 0;
                     } else {
                         newIndex = currentIndex > 0 ? currentIndex - 1 : visibleOptions.length - 1;
                     }
+                    
+                    // Update selection
                     optionElements.forEach(opt => opt.classList.remove('selected'));
                     visibleOptions[newIndex].classList.add('selected');
+                    
+                    // Ensure the selected option is visible in the dropdown
                     visibleOptions[newIndex].scrollIntoView({ block: 'nearest' });
+                    
                     return;
                 }
+                
+                // Handle Enter key to select the currently highlighted option
                 if (e.key === 'Enter') {
                     e.preventDefault();
                     const selectedOption = options.querySelector('.selected');
-                    if (selectedOption) selectedOption.click();
+                    if (selectedOption) {
+                        selectedOption.click();
+                    }
                     return;
                 }
+                
+                // Handle Escape key to close the dropdown
                 if (e.key === 'Escape') {
                     e.preventDefault();
                     trigger.classList.remove('open');
                     options.style.display = 'none';
                     return;
                 }
+                
+                // Handle typing to search
                 if (e.key.length === 1 && e.key.match(/[a-zA-Z0-9%]/)) {
+                    // Clear the previous timeout
                     clearTimeout(searchTimeout);
+                    
+                    // Add the key to the search term
                     searchTerm += e.key.toLowerCase();
+                    
+                    // Find the first option that starts with the search term
                     const matchingOption = Array.from(optionElements).find(option => {
                         const optionText = option.querySelector('span').textContent.toLowerCase();
                         return optionText.startsWith(searchTerm);
                     });
+                    
+                    // If a matching option is found, select it
                     if (matchingOption) {
                         optionElements.forEach(opt => opt.classList.remove('selected'));
                         matchingOption.classList.add('selected');
                         matchingOption.scrollIntoView({ block: 'nearest' });
                     }
-                    searchTimeout = setTimeout(() => { searchTerm = ''; }, 1000);
+                    
+                    // Clear the search term after a delay
+                    searchTimeout = setTimeout(() => {
+                        searchTerm = '';
+                    }, 1000);
                 }
             });
         }
@@ -133,13 +221,17 @@
         document.addEventListener('click', function(e) {
             const triggers = document.querySelectorAll('.custom-select-trigger, .metric-select-trigger');
             const optionsContainers = document.querySelectorAll('.custom-select-options, .metric-select-options');
+            
             let clickedInsideDropdown = false;
+            
             triggers.forEach(function(trigger, index) {
                 const options = optionsContainers[index];
+                
                 if (trigger && options && (trigger.contains(e.target) || options.contains(e.target))) {
                     clickedInsideDropdown = true;
                 }
             });
+            
             if (!clickedInsideDropdown) {
                 triggers.forEach(function(trigger, index) {
                     if (trigger && optionsContainers[index]) {
@@ -149,42 +241,33 @@
                 });
             }
         });
+
+// Variables that will be set after data loads
+var header, data, rows;
+
+// Load the data via worker
+const WORKER_URL = 'https://summer-dream-8f33.datamb-football.workers.dev';
+
+(async function() {
+    const response = await fetch(`${WORKER_URL}/?file=3`);
+    let csvData = await response.text();
         
-        // Initialize custom selectors function
-        function initializeCustomSelectors() {
-            const leagueTrigger = document.getElementById('league-select-trigger');
-            const leagueOptions = document.getElementById('league-select-options');
-            const leagueSelect = document.getElementById('select-league');
-            setupCustomSelect(leagueTrigger, leagueOptions, leagueSelect);
-            
-            const xTrigger = document.getElementById('x-metric-trigger');
-            const xOptions = document.getElementById('x-metric-options');
-            const xSelect = document.getElementById('select-x');
-            populateMetricOptions(xOptions, header.slice(3), function(option, value) {
-                if (xTrigger.querySelector('span').textContent === value) option.classList.add('selected');
-                if (value === header[3]) {
-                    option.classList.add('selected');
-                    xTrigger.querySelector('span').textContent = value;
-                    const metricKey = value.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
-                    xTrigger.querySelector('span').setAttribute('data-i18n', 'metrics.' + metricKey);
+        let extraHeaderRow = 'ID,Player,Top 7 Leagues,Goals per 90,xG per 90,Shots on target per 90,Shots on target %,Passes completed,Pass accuracy %,Possession %,Positional attacks per 90,Counter attacks per 90,Touches in the box per 90,Goals conceded per 90,SoT against per 90,Defensive duels per 90,Defensive duel %,Aerial duels per 90,Aerial duels %,Passes per possession,PPDA\n';
+        
+        // Concatenate the extra header row with the fetched CSV data
+        csvData = extraHeaderRow + csvData;
+        
+        rows = csvData.trim().split('\n');
+        header = rows[0].split(',');
+        data = rows.slice(1).map(function(row) {
+            return row.split(',').map(function(d, i) {
+                if (i >= 3) {
+                    return parseFloat(d);
+                } else {
+                    return d;
                 }
             });
-            setupCustomSelect(xTrigger, xOptions, xSelect);
-            
-            const yTrigger = document.getElementById('y-metric-trigger');
-            const yOptions = document.getElementById('y-metric-options');
-            const ySelect = document.getElementById('select-y');
-            populateMetricOptions(yOptions, header.slice(3), function(option, value) {
-                if (yTrigger.querySelector('span').textContent === value) option.classList.add('selected');
-                if (value === header[4]) {
-                    option.classList.add('selected');
-                    yTrigger.querySelector('span').textContent = value;
-                    const metricKey = value.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
-                    yTrigger.querySelector('span').setAttribute('data-i18n', 'metrics.' + metricKey);
-                }
-            });
-            setupCustomSelect(yTrigger, yOptions, ySelect);
-        }
+        });
         
         var margin = { top: 0, right: 0, bottom: 0, left: 0 };
         var width = 1082 - margin.left - margin.right;
@@ -879,7 +962,6 @@
         // Add event listeners to the selectors
         selectX.on("change", updateChart);
         selectY.on("change", updateChart);
-        d3.select("#select-league").on("change", updateChart);
         
         // Function to remove special characters and diacritics for better search matching
         function removeSpecialCharsAndDiacritics(str) {
@@ -1113,7 +1195,7 @@
             updateLeagueLegend(selectedLeague);
         }
         
-        // Expose selectAllCircles to global scope for onclick handler
+        // Expose to global scope for onclick
         window.selectAllCircles = selectAllCircles;
 
         
@@ -1372,4 +1454,4 @@
             medianTooltip.textContent = medianLinesVisible ? "Hide median lines" : "Show median lines";
         });
         
-        })(); // End async IIFE for data loading
+})();

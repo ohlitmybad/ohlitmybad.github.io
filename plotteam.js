@@ -1,1 +1,1375 @@
-const WORKER_URL='https://summer-dream-8f33.datamb-football.workers.dev';(async function(){const _0x105102=await fetch(WORKER_URL+'/?file=3');let _0x19cda3=await _0x105102['text'](),_0x56372c='ID,Player,Top\x207\x20Leagues,Goals\x20per\x2090,xG\x20per\x2090,Shots\x20on\x20target\x20per\x2090,Shots\x20on\x20target\x20%,Passes\x20completed,Pass\x20accuracy\x20%,Possession\x20%,Positional\x20attacks\x20per\x2090,Counter\x20attacks\x20per\x2090,Touches\x20in\x20the\x20box\x20per\x2090,Goals\x20conceded\x20per\x2090,SoT\x20against\x20per\x2090,Defensive\x20duels\x20per\x2090,Defensive\x20duel\x20%,Aerial\x20duels\x20per\x2090,Aerial\x20duels\x20%,Passes\x20per\x20possession,PPDA\x0a';_0x19cda3=_0x56372c+_0x19cda3;var _0x5d4a3c=_0x19cda3['trim']()['split']('\x0a'),_0x41bf87=_0x5d4a3c[0x0]['split'](','),_0xdc3c74=_0x5d4a3c['slice'](0x1)['map'](function(_0x3fab67){return _0x3fab67['split'](',')['map'](function(_0x367894,_0x331cad){return _0x331cad>=0x3?parseFloat(_0x367894):_0x367894;});});function _0x28010c(_0x2a09f0,_0x485bfd,_0x291181){_0x2a09f0['innerHTML']='',_0x485bfd['forEach'](function(_0x3c779d){const _0x57b9c8=document['createElement']('div');_0x57b9c8['className']='metric-select-option',_0x57b9c8['setAttribute']('data-value',_0x3c779d);const _0x4bbd46=document['createElement']('span');_0x4bbd46['textContent']=_0x3c779d;const _0x5d9780=_0x3c779d['toLowerCase']()['replace'](/ /g,'-')['replace'](/%/g,'pct');_0x4bbd46['setAttribute']('data-i18n','metrics.'+_0x5d9780),_0x57b9c8['appendChild'](_0x4bbd46);if(_0x291181)_0x291181(_0x57b9c8,_0x3c779d);_0x2a09f0['appendChild'](_0x57b9c8);});}function _0x5d4cd6(_0x2c3211,_0x3234d5,_0x1dbbb2){_0x2c3211['addEventListener']('click',function(){document['querySelectorAll']('.custom-select-trigger.open,\x20.metric-select-trigger.open')['forEach'](function(_0x47addd){if(_0x47addd!==_0x2c3211){_0x47addd['classList']['remove']('open');const _0x45db89=_0x47addd['nextElementSibling'];if(_0x45db89)_0x45db89['style']['display']='none';}}),_0x2c3211['classList']['toggle']('open');const _0x32a86e=_0x2c3211['classList']['contains']('open');_0x3234d5['style']['display']=_0x32a86e?'block':'none';});const _0x57b243=_0x3234d5['querySelectorAll']('.custom-select-option,\x20.metric-select-option');_0x57b243['forEach'](_0x18aba1=>{_0x18aba1['addEventListener']('click',function(){_0x57b243['forEach'](_0x51253c=>_0x51253c['classList']['remove']('selected')),this['classList']['add']('selected');const _0x5b3a2d=this['querySelector']('span')['textContent'],_0x3004f4=this['querySelector']('span')['getAttribute']('data-i18n'),_0x3e96bf=this['querySelector']('iconify-icon');_0x2c3211['innerHTML']='';if(_0x3e96bf){const _0x32c687=_0x3e96bf['cloneNode'](!![]);_0x32c687['style']['marginRight']='8px',_0x2c3211['appendChild'](_0x32c687);}const _0x491530=document['createElement']('span');_0x491530['textContent']=_0x5b3a2d;if(_0x3004f4)_0x491530['setAttribute']('data-i18n',_0x3004f4);_0x2c3211['appendChild'](_0x491530);const _0x1a1b59=this['getAttribute']('data-value');_0x1dbbb2['value']=_0x1a1b59||_0x5b3a2d;const _0x41875f=new Event('change');_0x1dbbb2['dispatchEvent'](_0x41875f),_0x2c3211['classList']['remove']('open'),_0x3234d5['style']['display']='none';});});let _0x46da3a='',_0x2cadb5;document['addEventListener']('keydown',function(_0x372ec1){if(!_0x2c3211['classList']['contains']('open'))return;if(_0x372ec1['key']==='ArrowDown'||_0x372ec1['key']==='ArrowUp'){_0x372ec1['preventDefault']();const _0x484d60=Array['from'](_0x57b243),_0x42ca2b=_0x484d60['findIndex'](_0xb922ff=>_0xb922ff['classList']['contains']('selected'));let _0x49fd2f;_0x372ec1['key']==='ArrowDown'?_0x49fd2f=_0x42ca2b<_0x484d60['length']-0x1?_0x42ca2b+0x1:0x0:_0x49fd2f=_0x42ca2b>0x0?_0x42ca2b-0x1:_0x484d60['length']-0x1;_0x57b243['forEach'](_0x2beac3=>_0x2beac3['classList']['remove']('selected')),_0x484d60[_0x49fd2f]['classList']['add']('selected'),_0x484d60[_0x49fd2f]['scrollIntoView']({'block':'nearest'});return;}if(_0x372ec1['key']==='Enter'){_0x372ec1['preventDefault']();const _0x43bc7b=_0x3234d5['querySelector']('.selected');if(_0x43bc7b)_0x43bc7b['click']();return;}if(_0x372ec1['key']==='Escape'){_0x372ec1['preventDefault'](),_0x2c3211['classList']['remove']('open'),_0x3234d5['style']['display']='none';return;}if(_0x372ec1['key']['length']===0x1&&_0x372ec1['key']['match'](/[a-zA-Z0-9%]/)){clearTimeout(_0x2cadb5),_0x46da3a+=_0x372ec1['key']['toLowerCase']();const _0x2765dd=Array['from'](_0x57b243)['find'](_0x570dd1=>{const _0x113f3a=_0x570dd1['querySelector']('span')['textContent']['toLowerCase']();return _0x113f3a['startsWith'](_0x46da3a);});_0x2765dd&&(_0x57b243['forEach'](_0x445711=>_0x445711['classList']['remove']('selected')),_0x2765dd['classList']['add']('selected'),_0x2765dd['scrollIntoView']({'block':'nearest'})),_0x2cadb5=setTimeout(()=>{_0x46da3a='';},0x3e8);}});}document['addEventListener']('click',function(_0x25702e){const _0x2013df=document['querySelectorAll']('.custom-select-trigger,\x20.metric-select-trigger'),_0x15ec30=document['querySelectorAll']('.custom-select-options,\x20.metric-select-options');let _0x21862e=![];_0x2013df['forEach'](function(_0x486e71,_0x7b0478){const _0x3489ba=_0x15ec30[_0x7b0478];_0x486e71&&_0x3489ba&&(_0x486e71['contains'](_0x25702e['target'])||_0x3489ba['contains'](_0x25702e['target']))&&(_0x21862e=!![]);}),!_0x21862e&&_0x2013df['forEach'](function(_0x57dc52,_0x5168c2){_0x57dc52&&_0x15ec30[_0x5168c2]&&(_0x57dc52['classList']['remove']('open'),_0x15ec30[_0x5168c2]['style']['display']='none');});});function _0x58323b(){const _0x266e7b=document['getElementById']('league-select-trigger'),_0x419c74=document['getElementById']('league-select-options'),_0x5155=document['getElementById']('select-league');_0x5d4cd6(_0x266e7b,_0x419c74,_0x5155);const _0x2334b4=document['getElementById']('x-metric-trigger'),_0x262a9d=document['getElementById']('x-metric-options'),_0x2a082a=document['getElementById']('select-x');_0x28010c(_0x262a9d,_0x41bf87['slice'](0x3),function(_0x5a3308,_0x29a77a){if(_0x2334b4['querySelector']('span')['textContent']===_0x29a77a)_0x5a3308['classList']['add']('selected');if(_0x29a77a===_0x41bf87[0x3]){_0x5a3308['classList']['add']('selected'),_0x2334b4['querySelector']('span')['textContent']=_0x29a77a;const _0x37527b=_0x29a77a['toLowerCase']()['replace'](/ /g,'-')['replace'](/%/g,'pct');_0x2334b4['querySelector']('span')['setAttribute']('data-i18n','metrics.'+_0x37527b);}}),_0x5d4cd6(_0x2334b4,_0x262a9d,_0x2a082a);const _0x4f5bdd=document['getElementById']('y-metric-trigger'),_0x21d297=document['getElementById']('y-metric-options'),_0x4ae5da=document['getElementById']('select-y');_0x28010c(_0x21d297,_0x41bf87['slice'](0x3),function(_0x255967,_0x3209fe){if(_0x4f5bdd['querySelector']('span')['textContent']===_0x3209fe)_0x255967['classList']['add']('selected');if(_0x3209fe===_0x41bf87[0x4]){_0x255967['classList']['add']('selected'),_0x4f5bdd['querySelector']('span')['textContent']=_0x3209fe;const _0x106bb2=_0x3209fe['toLowerCase']()['replace'](/ /g,'-')['replace'](/%/g,'pct');_0x4f5bdd['querySelector']('span')['setAttribute']('data-i18n','metrics.'+_0x106bb2);}}),_0x5d4cd6(_0x4f5bdd,_0x21d297,_0x4ae5da);}var _0x5bbacf={'top':0x0,'right':0x0,'bottom':0x0,'left':0x0},_0x17df0b=0x43a-_0x5bbacf['left']-_0x5bbacf['right'],_0x3339ec=0x302-_0x5bbacf['top']-_0x5bbacf['bottom'],_0x1bdfee={'Premier\x20League':'rgb(255,\x200,\x200,\x200.7)','La\x20Liga':'rgb(255,\x20223,\x200,\x200.7)','Bundesliga':'rgb(85,\x20209,\x2073,\x200.7)','Serie\x20A':'rgb(0,\x20191,\x20255,\x200.7)','Ligue\x201':'rgb(153,\x2050,\x20204,\x200.7)','Eredivisie':'rgb(255,\x20140,\x200,\x200.7)','Primeira\x20Liga':'rgb(255,\x2020,\x20147,\x200.7)'};function _0x5b77fb(_0x417e1d){return _0x1bdfee[_0x417e1d]||'rgba(255,\x200,\x200,\x200.7)';}function _0x1f4961(){var _0x178365=document['querySelector']('.chart-wrapper')['clientWidth'],_0x2a8dfa=window['innerHeight']*0.7,_0x33a85c=0x1e,_0x137ce2=Math['min'](0x43a,_0x178365-_0x33a85c*0x2),_0x1a3ad6=window['innerWidth']/window['innerHeight']<0x1;if(_0x1a3ad6){_0x5bbacf={'top':0x28,'right':0x1e,'bottom':0x3c,'left':0x4b};var _0x449a56=1.4,_0x3fc242=Math['min'](_0x2a8dfa,_0x137ce2*_0x449a56);_0x3fc242=Math['max'](_0x3fc242,0x1f4);}else{_0x5bbacf={'top':0x28,'right':0x1e,'bottom':0x3c,'left':0x4f};var _0x1d7857=0.7,_0x3fc242=_0x137ce2*_0x1d7857;}_0x17df0b=_0x137ce2-_0x5bbacf['left']-_0x5bbacf['right'],_0x3339ec=_0x3fc242-_0x5bbacf['top']-_0x5bbacf['bottom'],d3['select']('#scatter-plot')['attr']('width',_0x137ce2)['attr']('height',_0x3fc242),document['querySelector']('.chart-container')['style']['height']=_0x3fc242+'px';}window['addEventListener']('resize',function(){_0x1f4961(),requestAnimationFrame(function(){_0x33e6b6();});}),_0x1f4961();function _0x3ea105(_0x43eb2b,_0x3ed302){let _0xf1ca21;return function(){const _0x70c884=this,_0xc1cc49=arguments;clearTimeout(_0xf1ca21),_0xf1ca21=setTimeout(function(){_0x43eb2b['apply'](_0x70c884,_0xc1cc49);},_0x3ed302);};}var _0x9ad6bd=window['innerWidth'],_0x3a0cea=window['innerHeight'];window['addEventListener']('resize',_0x3ea105(function(){var _0xa8afbd=_0x9ad6bd/_0x3a0cea<0x1,_0x4bfb03=window['innerWidth']/window['innerHeight']<0x1;_0x9ad6bd=window['innerWidth'],_0x3a0cea=window['innerHeight'],requestAnimationFrame(function(){_0x33e6b6();});},0x32));var _0x328036=![],_0x2268f0=d3['select']('#select-x'),_0x362f8e=d3['select']('#select-y'),_0x339820=_0xdc3c74['map'](function(_0x2a1c50){return _0x2a1c50[0x1];});_0x41bf87['slice'](0x3)['forEach'](function(_0x376993){_0x2268f0['append']('option')['text'](_0x376993)['attr']('value',_0x376993),_0x362f8e['append']('option')['text'](_0x376993)['attr']('value',_0x376993);}),_0x2268f0['property']('value',_0x41bf87[0x3]),_0x362f8e['property']('value',_0x41bf87[0x4]);var _0x52563d=d3['select']('#scatter-plot')['attr']('width',_0x17df0b+_0x5bbacf['left']+_0x5bbacf['right'])['attr']('height',_0x3339ec+_0x5bbacf['top']+_0x5bbacf['bottom'])['append']('g')['attr']('transform','translate('+_0x5bbacf['left']+','+_0x5bbacf['top']+')'),_0x39fb6a=_0x41bf87[0x3],_0x4dda87=_0x41bf87[0x4],_0x126c6d=d3['scaleLinear']()['range']([0x0,_0x17df0b]),_0x3aad0a=d3['scaleLinear']()['range']([_0x3339ec,0x0]),_0x3878ce=d3['axisBottom'](_0x126c6d)['tickSize'](0x0),_0x3a2277=d3['axisLeft'](_0x3aad0a)['tickSize'](0x0),_0x227169=_0x52563d['append']('g')['attr']('class','x-axis')['attr']('transform','translate(0,'+_0x3339ec+')'),_0x1a5de4=_0x52563d['append']('g')['attr']('class','y-axis'),_0x55af64=_0x52563d['append']('text')['attr']('class','x-label')['attr']('text-anchor','end')['attr']('x',_0x17df0b)['attr']('y',_0x3339ec+0x23)['style']('font-family','Inter,\x20sans-serif')['style']('font-size','14px'),_0x2f5d9e=_0x52563d['append']('text')['attr']('class','y-label')['attr']('text-anchor','end')['attr']('transform','rotate(-90)')['attr']('y',-0x35)['attr']('x',0x0)['style']('font-family','Inter,\x20sans-serif')['style']('font-size','14px'),_0x2959d5=d3['select']('body')['append']('div')['attr']('class','tooltip');function _0x34d9a3(){return window['innerWidth']<=0x300;}function _0x16d99a(_0x211b29,_0x49bb30){const _0x15e520=_0x49bb30['node']();if(!_0x15e520)return{'left':0x0,'top':0x0};const _0x1c0bbf=_0x15e520['getBoundingClientRect'](),_0x22495b=window['innerWidth'],_0x342fe1=window['innerHeight'];let _0x2625dd=_0x211b29['pageX']+0xa,_0x1d58c9=_0x211b29['pageY']-0x1c;return _0x2625dd+_0x1c0bbf['width']>_0x22495b-0xa&&(_0x2625dd=_0x211b29['pageX']-_0x1c0bbf['width']-0xa),_0x1d58c9+_0x1c0bbf['height']>_0x342fe1-0xa&&(_0x1d58c9=_0x211b29['pageY']-_0x1c0bbf['height']-0xa),_0x2625dd=Math['max'](0xa,_0x2625dd),_0x1d58c9=Math['max'](0xa,_0x1d58c9),{'left':_0x2625dd,'top':_0x1d58c9};}var _0x2cbc04=[],_0x395a9b=_0xdc3c74,_0x4cf238=_0x339820,_0x141293;function _0x33e6b6(){_0x1f4961(),d3['select']('#scatter-plot')['attr']('width',_0x17df0b+_0x5bbacf['left']+_0x5bbacf['right'])['attr']('height',_0x3339ec+_0x5bbacf['top']+_0x5bbacf['bottom']),_0x227169['attr']('transform','translate(0,'+_0x3339ec+')'),_0x55af64['attr']('x',_0x17df0b)['attr']('y',_0x3339ec+0x23),_0x2f5d9e['attr']('x',0x0);const _0x2870d8=document['body']['classList']['contains']('dark-mode');var _0x13e589=document['getElementById']('select-league')['value'];if(_0x13e589==='all')_0x395a9b=_0xdc3c74;else _0x13e589==='Top\x205\x20Leagues'?_0x395a9b=_0xdc3c74['filter'](function(_0x408a56){return _0x408a56[0x2]==='Premier\x20League'||_0x408a56[0x2]==='La\x20Liga'||_0x408a56[0x2]==='Bundesliga'||_0x408a56[0x2]==='Serie\x20A'||_0x408a56[0x2]==='Ligue\x201';}):_0x395a9b=_0xdc3c74['filter'](function(_0x3248e2){return _0x3248e2[0x2]===_0x13e589;});_0x4cf238=_0x395a9b['map'](function(_0xdf9456){return _0xdf9456[0x1];}),_0x39fb6a=_0x2268f0['property']('value'),_0x4dda87=_0x362f8e['property']('value'),_0x126c6d['range']([0x0,_0x17df0b])['domain']((function(){const _0x207854=d3['extent'](_0x395a9b,function(_0x4de96e){return+_0x4de96e[_0x41bf87['indexOf'](_0x39fb6a)];}),_0x6d74ed=d3['scaleLinear']()['domain'](_0x207854)['nice'](),_0x40b0ae=_0x6d74ed['domain'](),_0x5d3acb=_0x207854[0x1]-_0x207854[0x0],_0x520de1=_0x40b0ae[0x1]-_0x40b0ae[0x0];if(_0x520de1/_0x5d3acb>1.2){const _0x4ba129=_0x5d3acb*0.1;return[_0x207854[0x0]-_0x4ba129,_0x207854[0x1]+_0x4ba129];}else return _0x40b0ae;}())),_0x3aad0a['range']([_0x3339ec,0x0])['domain']((function(){const _0x3124e6=d3['extent'](_0x395a9b,function(_0x128e80){return+_0x128e80[_0x41bf87['indexOf'](_0x4dda87)];}),_0x113ec5=d3['scaleLinear']()['domain'](_0x3124e6)['nice'](),_0x868fc4=_0x113ec5['domain'](),_0x1d350d=_0x3124e6[0x1]-_0x3124e6[0x0],_0x2392f4=_0x868fc4[0x1]-_0x868fc4[0x0];if(_0x2392f4/_0x1d350d>1.2){const _0x186847=_0x1d350d*0.1;return[_0x3124e6[0x0]-_0x186847,_0x3124e6[0x1]+_0x186847];}else return _0x868fc4;}())),_0x227169['call'](d3['axisBottom'](_0x126c6d)['tickSize'](0x0)),_0x1a5de4['call'](d3['axisLeft'](_0x3aad0a)['tickSize'](0x0));const _0x1271bb='metrics.'+_0x39fb6a['toLowerCase']()['replace'](/ /g,'-')['replace'](/%/g,'pct'),_0x33a320='metrics.'+_0x4dda87['toLowerCase']()['replace'](/ /g,'-')['replace'](/%/g,'pct');_0x55af64['attr']('data-i18n',_0x1271bb),_0x2f5d9e['attr']('data-i18n',_0x33a320);if(window['currentTranslations']&&window['currentTranslations']['metrics']){const _0x5a6142=_0x39fb6a['toLowerCase']()['replace'](/ /g,'-')['replace'](/%/g,'pct'),_0x5e3f9a=_0x4dda87['toLowerCase']()['replace'](/ /g,'-')['replace'](/%/g,'pct'),_0x406d5a=window['currentTranslations']['metrics'][_0x5a6142],_0x172d09=window['currentTranslations']['metrics'][_0x5e3f9a];_0x55af64['text'](_0x406d5a||_0x39fb6a),_0x2f5d9e['text'](_0x172d09||_0x4dda87);}else _0x55af64['text'](_0x39fb6a),_0x2f5d9e['text'](_0x4dda87);_0x52563d['selectAll']('circle')['remove'](),_0x52563d['selectAll']('.team-label')['remove'](),_0x52563d['selectAll']('.xy-line')['remove'](),_0x52563d['selectAll']('.xy-line-bg')['remove'](),_0x52563d['selectAll']('.xy-line-label')['remove'](),_0x52563d['selectAll']('.xy-line-label-bg')['remove'](),_0x52563d['selectAll']('.performance-label')['remove'](),_0x52563d['selectAll']('linearGradient#line-gradient')['remove'](),_0x52563d['selectAll']('marker#arrow-over,\x20marker#arrow-under')['remove'](),_0x52563d['selectAll']('.xy-line-hover')['remove'](),_0x52563d['selectAll']('.median-line')['remove']();if(_0x39fb6a==='xG\x20per\x2090'&&_0x4dda87==='Goals\x20per\x2090'||_0x39fb6a==='Goals\x20per\x2090'&&_0x4dda87==='xG\x20per\x2090'){var _0x49dfad=null,_0x9f27d0=d3['min'](_0x395a9b,function(_0x499e74){return _0x499e74[_0x41bf87['indexOf'](_0x39fb6a)];}),_0x31ad7c=d3['max'](_0x395a9b,function(_0x189099){return _0x189099[_0x41bf87['indexOf'](_0x39fb6a)];}),_0x74cd52=d3['min'](_0x395a9b,function(_0x11ef50){return _0x11ef50[_0x41bf87['indexOf'](_0x4dda87)];}),_0x1d41d2=d3['max'](_0x395a9b,function(_0x5d5034){return _0x5d5034[_0x41bf87['indexOf'](_0x4dda87)];}),_0xff1ab=Math['min'](_0x31ad7c,_0x1d41d2),_0x1af890=Math['max'](_0x9f27d0,_0x74cd52);_0x52563d['append']('line')['attr']('class','xy-line')['attr']('x1',_0x126c6d(_0x1af890))['attr']('y1',_0x3aad0a(_0x1af890))['attr']('x2',_0x126c6d(_0xff1ab))['attr']('y2',_0x3aad0a(_0xff1ab))['style']('stroke','#2ecc71')['style']('stroke-width','2')['style']('stroke-dasharray','5,3'),_0x52563d['append']('line')['attr']('class','xy-line-hover')['attr']('x1',_0x126c6d(_0x1af890))['attr']('y1',_0x3aad0a(_0x1af890))['attr']('x2',_0x126c6d(_0xff1ab))['attr']('y2',_0x3aad0a(_0xff1ab))['style']('stroke','transparent')['style']('stroke-width','15')['style']('cursor','help')['on']('mouseover',function(){_0x49dfad&&clearTimeout(_0x49dfad);var _0x2652cf=d3['event']['pageX'],_0x105788=d3['event']['pageY'];_0x49dfad=setTimeout(function(){_0x2959d5['transition']()['duration'](0xc8)['style']('opacity',0.9);var _0x5db8d0='<strong>'+getTranslation('tooltip.xg-line-title','G\x20=\x20xG\x20Line')+'</strong><br/>';_0x39fb6a==='xG\x20per\x2090'&&_0x4dda87==='Goals\x20per\x2090'?_0x5db8d0+='<span>'+getTranslation('tooltip.xg-line-above','Teams\x20above\x20this\x20line\x20are\x20scoring\x20more\x20goals\x20than\x20expected.')+'</span><br/>'+'<span>'+getTranslation('tooltip.xg-line-below','Teams\x20below\x20this\x20line\x20are\x20scoring\x20fewer\x20goals\x20than\x20expected.')+'</span>':_0x5db8d0+='<span>'+getTranslation('tooltip.xg-line-right','Teams\x20right\x20of\x20this\x20line\x20are\x20scoring\x20more\x20goals\x20than\x20expected.')+'</span><br/>'+'<span>'+getTranslation('tooltip.xg-line-left','Teams\x20left\x20of\x20this\x20line\x20are\x20scoring\x20fewer\x20goals\x20than\x20expected.')+'</span>',_0x2959d5['html'](_0x5db8d0)['style']('left',_0x2652cf+0xa+'px')['style']('top',_0x105788-0x1c+'px');},0x258);})['on']('mouseout',function(){_0x49dfad&&(clearTimeout(_0x49dfad),_0x49dfad=null),_0x2959d5['transition']()['duration'](0x1f4)['style']('opacity',0x0);});}if(_0x328036){var _0x4aeccc=d3['median'](_0x395a9b,function(_0x5e7ab2){return _0x5e7ab2[_0x41bf87['indexOf'](_0x39fb6a)];}),_0x3bcb98=d3['median'](_0x395a9b,function(_0x340d85){return _0x340d85[_0x41bf87['indexOf'](_0x4dda87)];});_0x52563d['append']('line')['attr']('class','median-line')['attr']('x1',_0x126c6d(_0x4aeccc))['attr']('y1',0x0)['attr']('x2',_0x126c6d(_0x4aeccc))['attr']('y2',_0x3339ec)['style']('stroke','rgba(0,\x200,\x200,\x200.3)')['style']('stroke-dasharray','4'),_0x52563d['append']('line')['attr']('class','median-line')['attr']('x1',0x0)['attr']('y1',_0x3aad0a(_0x3bcb98))['attr']('x2',_0x17df0b)['attr']('y2',_0x3aad0a(_0x3bcb98))['style']('stroke','rgba(0,\x200,\x200,\x200.3)')['style']('stroke-dasharray','4');}_0x141293=_0x52563d['selectAll']('circle')['data'](_0x395a9b)['enter']()['append']('circle')['attr']('cx',function(_0x52ac97){return _0x126c6d(_0x52ac97[_0x41bf87['indexOf'](_0x39fb6a)]);})['attr']('cy',function(_0x528346){return _0x3aad0a(_0x528346[_0x41bf87['indexOf'](_0x4dda87)]);})['attr']('r',0x9)['style']('fill',function(_0x3219d2){if(_0x2cbc04['includes'](_0x3219d2[0x1]))return _0x5b77fb(_0x3219d2[0x2]);return'rgba(70,\x20130,\x20180,\x200.7)';})['style']('stroke',function(_0x570696){return _0x2cbc04['includes'](_0x570696[0x1])?'#000':'none';})['style']('stroke-width',function(_0x31b73e){return _0x2cbc04['includes'](_0x31b73e[0x1])?0x2:0x0;})['style']('cursor','pointer')['on']('mouseover',function(_0x2e844f){d3['select'](this)['transition']()['duration'](0xc8)['attr']('r',11.2)['style']('fill',_0x5b77fb(_0x2e844f[0x2])),_0x2959d5['transition']()['duration'](0xc8)['style']('opacity',0.9);const _0x526979='metrics.'+_0x39fb6a['toLowerCase']()['replace'](/ /g,'-')['replace'](/%/g,'pct'),_0x2fd34b='metrics.'+_0x4dda87['toLowerCase']()['replace'](/ /g,'-')['replace'](/%/g,'pct'),_0x5b5cda=getTranslation(_0x526979,_0x39fb6a),_0x58a675=getTranslation(_0x2fd34b,_0x4dda87);_0x2959d5['html']('<strong>'+_0x2e844f[0x1]+'</strong><br/>'+_0x5b5cda+':\x20'+_0x2e844f[_0x41bf87['indexOf'](_0x39fb6a)]['toFixed'](0x2)+'<br/>'+_0x58a675+':\x20'+_0x2e844f[_0x41bf87['indexOf'](_0x4dda87)]['toFixed'](0x2));const _0x1d971e=_0x2959d5['node']();if(_0x1d971e){const _0x22c301=_0x1d971e['getBoundingClientRect'](),_0x44134d=window['innerWidth'],_0x54e133=window['innerHeight'];let _0x2d839c=d3['event']['pageX']+0xa,_0x74723d=d3['event']['pageY']-0x1c;_0x2d839c+_0x22c301['width']>_0x44134d-0xa&&(_0x2d839c=d3['event']['pageX']-_0x22c301['width']-0xa),_0x74723d+_0x22c301['height']>_0x54e133-0xa&&(_0x74723d=d3['event']['pageY']-_0x22c301['height']-0xa),_0x2d839c=Math['max'](0xa,_0x2d839c),_0x74723d=Math['max'](0xa,_0x74723d),_0x2959d5['style']('left',_0x2d839c+'px')['style']('top',_0x74723d+'px');}else _0x2959d5['style']('left',d3['event']['pageX']+0xa+'px')['style']('top',d3['event']['pageY']-0x1c+'px');window['innerWidth']<=0x300&&setTimeout(function(){_0x2959d5['transition']()['duration'](0xc8)['style']('opacity',0x0);},0x3e8);})['on']('mouseout',function(_0x502987){window['innerWidth']>0x300&&_0x2959d5['transition']()['duration'](0x1f4)['style']('opacity',0x0);var _0x7e4623=_0x2cbc04['includes'](_0x502987[0x1]);d3['select'](this)['transition']()['duration'](0xc8)['attr']('r',0x9)['style']('fill',function(){return _0x7e4623?_0x5b77fb(_0x502987[0x2]):'rgba(70,\x20130,\x20180,\x200.7)';});})['on']('click',function(_0x348895){var _0x24b007=d3['select'](this)['classed']('search-match');_0x24b007&&_0x12b974();var _0x4ca622=_0x2cbc04['indexOf'](_0x348895[0x1]);_0x4ca622===-0x1?(_0x2cbc04['push'](_0x348895[0x1]),d3['select'](this)['style']('fill',_0x5b77fb(_0x348895[0x2]))['style']('stroke','#000')['style']('stroke-width',0x2),_0x484f88(_0x348895)):(_0x2cbc04['splice'](_0x4ca622,0x1),d3['select'](this)['style']('fill','rgba(70,\x20130,\x20180,\x200.7)')['style']('stroke','none'),_0x52563d['selectAll']('.team-label-'+_0x348895[0x1]['replace'](/\s+/g,'-')['toLowerCase']())['remove']());_0x1aff8c();var _0x305834=document['getElementById']('select-league')['value'];_0x148a36(_0x305834);}),_0x2cbc04['forEach'](function(_0x13d063){var _0x2f3a37=_0x395a9b['find'](function(_0x3c9afc){return _0x3c9afc[0x1]===_0x13d063;});_0x2f3a37&&_0x484f88(_0x2f3a37);}),_0x1aff8c(),_0x148a36(_0x13e589);}function _0x1aff8c(){var _0x2c699a=document['getElementById']('select-icon'),_0x2a2d70=document['getElementById']('select-all-tooltip'),_0x1c86d7=_0x395a9b['every'](function(_0x39e9aa){return _0x2cbc04['includes'](_0x39e9aa[0x1]);});_0x1c86d7?(_0x2c699a['className']='ion-ios-circle-outline',_0x2a2d70&&(window['currentTranslations']&&window['currentTranslations']['tooltip']?_0x2a2d70['textContent']=window['currentTranslations']['tooltip']['unselectAll']||'Unselect\x20all\x20teams':_0x2a2d70['textContent']='Unselect\x20all\x20teams')):(_0x2c699a['className']='ion-ios-circle-filled',_0x2a2d70&&(window['currentTranslations']&&window['currentTranslations']['tooltip']?_0x2a2d70['textContent']=window['currentTranslations']['tooltip']['selectAll']||'Select\x20all\x20teams':_0x2a2d70['textContent']='Select\x20all\x20teams'));}_0x2268f0['on']('change',_0x33e6b6),_0x362f8e['on']('change',_0x33e6b6);function _0x3ba72e(_0x1e66a0){if(!_0x1e66a0)return'';return _0x1e66a0['normalize']('NFD')['replace'](/[\u0300-\u036f]/g,'')['replace'](/Ø/g,'O')['replace'](/ø/g,'o');}var _0x55db07=document['getElementById']('search-bar');_0x55db07['addEventListener']('input',function(){var _0x517f90=_0x55db07['value']['toLowerCase']();if(_0x517f90===''){_0x12b974();return;}var _0x46071e=_0x3ba72e(_0x517f90);_0x52563d['selectAll']('circle')['classed']('search-match',![])['style']('fill',function(_0x4a7b58){return _0x2cbc04['includes'](_0x4a7b58[0x1])?_0x5b77fb(_0x4a7b58[0x2]):'rgba(70,\x20130,\x20180,\x200.7)';})['style']('stroke',function(_0x32ee6a){return _0x2cbc04['includes'](_0x32ee6a[0x1])?'#000':'none';})['style']('stroke-width',function(_0x4d86f8){return _0x2cbc04['includes'](_0x4d86f8[0x1])?0x2:0x0;})['style']('filter','none')['each'](function(){d3['select'](this)['style']('r',null);}),_0x52563d['selectAll']('.team-label')['classed']('search-match',![])['classed']('search-dimmed',![]);var _0x402e5d=[];_0x52563d['selectAll']('circle')['filter'](function(_0x17cad0){var _0x57c57c=_0x17cad0[0x1]['toLowerCase'](),_0xb3fdd4=_0x3ba72e(_0x57c57c),_0x22504a=_0x57c57c['includes'](_0x517f90)||_0xb3fdd4['includes'](_0x46071e);return _0x22504a&&_0x402e5d['push'](_0x17cad0[0x1]),_0x22504a;})['classed']('search-match',!![])['each'](function(){this['parentNode']['appendChild'](this);}),_0x402e5d['length']>0x0?(_0x52563d['selectAll']('.team-label')['classed']('search-dimmed',!![]),_0x52563d['selectAll']('.team-label')['filter'](function(){var _0x428206=d3['select'](this)['text']();return _0x402e5d['includes'](_0x428206);})['classed']('search-match',!![])['classed']('search-dimmed',![])['each'](function(){this['parentNode']['appendChild'](this);}),_0x402e5d['forEach'](function(_0x473da5){var _0x3a4827='team-label-'+_0x473da5['replace'](/\s+/g,'-')['toLowerCase']();if(_0x52563d['select']('.'+_0x3a4827)['size']()===0x0){var _0x4cd841=_0x395a9b['find'](function(_0x135e11){return _0x135e11[0x1]===_0x473da5;});_0x4cd841&&(_0x484f88(_0x4cd841),_0x52563d['select']('.'+_0x3a4827)['classed']('search-match',!![]));}})):(_0x52563d['selectAll']('.team-label')['each'](function(){var _0x1d31b2=d3['select'](this),_0x335fa4=_0x1d31b2['text']();!_0x2cbc04['includes'](_0x335fa4)&&_0x1d31b2['remove']();}),_0x52563d['selectAll']('circle')['style']('fill',function(_0x275938){return _0x2cbc04['includes'](_0x275938[0x1])?_0x5b77fb(_0x275938[0x2]):'rgba(70,\x20130,\x20180,\x200.7)';})['style']('stroke',function(_0x5bdca3){return _0x2cbc04['includes'](_0x5bdca3[0x1])?'#000':'none';})['style']('stroke-width',function(_0x5c4b5b){return _0x2cbc04['includes'](_0x5c4b5b[0x1])?0x2:0x0;}));});function _0x12b974(){_0x55db07['value']='',_0x52563d['selectAll']('circle')['classed']('search-match',![])['style']('fill',function(_0x2a1ed1){return _0x2cbc04['includes'](_0x2a1ed1[0x1])?_0x5b77fb(_0x2a1ed1[0x2]):'rgba(70,\x20130,\x20180,\x200.7)';})['style']('stroke',function(_0x11cfb4){return _0x2cbc04['includes'](_0x11cfb4[0x1])?'#000':'none';})['style']('stroke-width',function(_0x23ef59){return _0x2cbc04['includes'](_0x23ef59[0x1])?0x2:0x0;})['style']('filter','none')['each'](function(){d3['select'](this)['style']('r',null),d3['select'](this)['interrupt']();}),_0x52563d['selectAll']('.team-label')['classed']('search-match',![])['classed']('search-dimmed',![])['each'](function(){d3['select'](this)['interrupt']();}),_0x52563d['selectAll']('.team-label')['each'](function(){var _0x309c5a=d3['select'](this),_0x2a62ef=_0x309c5a['text']();!_0x2cbc04['includes'](_0x2a62ef)&&_0x309c5a['remove']();});}var _0x14b018=document['getElementById']('toggle-median-lines');_0x14b018['addEventListener']('click',function(){_0x328036=!_0x328036,_0x33e6b6();const _0x4f5c30=document['getElementById']('median-lines-tooltip');window['currentTranslations']&&window['currentTranslations']['tooltip']?_0x4f5c30['textContent']=_0x328036?window['currentTranslations']['tooltip']['hideMedianLines']||'Hide\x20median\x20lines':window['currentTranslations']['tooltip']['showMedianLines']||'Show\x20median\x20lines':_0x4f5c30['textContent']=_0x328036?'Hide\x20median\x20lines':'Show\x20median\x20lines';});function _0x3d0b54(){var _0x1c9417=_0x395a9b['every'](function(_0x4c7a2d){return _0x2cbc04['includes'](_0x4c7a2d[0x1]);});_0x1c9417?(_0x2cbc04=[],_0x52563d['selectAll']('circle')['style']('fill','rgba(70,\x20130,\x20180,\x200.7)')['style']('stroke','none'),_0x52563d['selectAll']('.team-label')['remove']()):(_0x52563d['selectAll']('circle')['each'](function(_0x3d3940){!_0x2cbc04['includes'](_0x3d3940[0x1])&&(_0x2cbc04['push'](_0x3d3940[0x1]),d3['select'](this)['style']('fill',_0x5b77fb(_0x3d3940[0x2]))['style']('stroke','#000')['style']('stroke-width',0x2));}),_0x395a9b['forEach'](function(_0x598241){_0x484f88(_0x598241);}));_0x1aff8c();var _0x5a5585=document['getElementById']('select-league')['value'];_0x148a36(_0x5a5585);}_0x33e6b6(),_0x58323b();function _0x148a36(_0x31e64d){var _0x384e99=document['getElementById']('league-legend');if(_0x31e64d!=='all'&&_0x31e64d!=='Top\x205\x20Leagues'){_0x384e99['style']['display']='none';return;}if(_0x2cbc04['length']===0x0){_0x384e99['style']['display']='none';return;}var _0x109951=![];for(var _0x10d0eb=0x0;_0x10d0eb<_0x395a9b['length'];_0x10d0eb++){if(_0x2cbc04['includes'](_0x395a9b[_0x10d0eb][0x1])){_0x109951=!![];break;}}if(!_0x109951){_0x384e99['style']['display']='none';return;}_0x384e99['style']['display']='flex',_0x384e99['innerHTML']='';var _0x439957=document['createElement']('div');_0x439957['style']['fontWeight']='bold',_0x439957['style']['marginRight']='15px',_0x384e99['appendChild'](_0x439957);var _0x58387e=[];if(_0x31e64d==='all')_0x58387e=Object['keys'](_0x1bdfee);else _0x31e64d==='Top\x205\x20Leagues'&&(_0x58387e=['Premier\x20League','La\x20Liga','Bundesliga','Serie\x20A','Ligue\x201']);_0x58387e['forEach'](function(_0x32f224){var _0x640521=document['createElement']('div');_0x640521['className']='legend-item';var _0xf0c393=document['createElement']('div');_0xf0c393['className']='legend-color',_0xf0c393['style']['backgroundColor']=_0x1bdfee[_0x32f224];var _0x559e66=document['createElement']('span');_0x559e66['textContent']=_0x32f224,_0x640521['appendChild'](_0xf0c393),_0x640521['appendChild'](_0x559e66),_0x384e99['appendChild'](_0x640521);});}function _0x484f88(_0x10fd11,_0xce7b39){var _0x2b1b5b=_0x126c6d(_0x10fd11[_0x41bf87['indexOf'](_0x39fb6a)]),_0x26519a=_0x3aad0a(_0x10fd11[_0x41bf87['indexOf'](_0x4dda87)]),_0x2a8d1f='team-label-'+_0x10fd11[0x1]['toLowerCase']()['replace'](/\s+/g,'-');if(_0x52563d['select']('.'+_0x2a8d1f)['size']()>0x0)return;var _0x465079=_0x52563d['append']('text')['attr']('class','temp-label')['text'](_0x10fd11[0x1])['style']('font-family','Inter,\x20sans-serif')['style']('font-size','12px')['style']('opacity',0x0),_0x28a743=_0x465079['node']()['getComputedTextLength']();_0x465079['remove']();var _0x25aefe=[{'dx':0x8,'dy':0x0,'anchor':'start'},{'dx':-0x8,'dy':0x0,'anchor':'end'},{'dx':0x0,'dy':-0x8,'anchor':'middle'},{'dx':0x0,'dy':0x8,'anchor':'middle'}],_0x4276fd=[];_0x52563d['selectAll']('text.team-label')['each'](function(){var _0x24a5eb=this['getBBox']();_0x4276fd['push']({'x1':_0x24a5eb['x']-0x2,'y1':_0x24a5eb['y']-0x2,'x2':_0x24a5eb['x']+_0x24a5eb['width']+0x2,'y2':_0x24a5eb['y']+_0x24a5eb['height']+0x2});});var _0xa5a721=null,_0x11a0c2=0xc,_0x29e617=_0x17df0b,_0x285b01=_0x3339ec;if(!_0xce7b39){for(var _0x2c947b=0x0;_0x2c947b<_0x25aefe['length'];_0x2c947b++){var _0xd93131=_0x25aefe[_0x2c947b],_0x4ae354=_0x2b1b5b+_0xd93131['dx'],_0xdb7f7e=_0x26519a+_0xd93131['dy'],_0x283598={'x1':_0xd93131['anchor']==='end'?_0x4ae354-_0x28a743:_0xd93131['anchor']==='middle'?_0x4ae354-_0x28a743/0x2:_0x4ae354,'y1':_0xd93131['dy']<0x0?_0xdb7f7e-_0x11a0c2:_0xdb7f7e,'x2':_0xd93131['anchor']==='start'?_0x4ae354+_0x28a743:_0xd93131['anchor']==='middle'?_0x4ae354+_0x28a743/0x2:_0x4ae354,'y2':_0xd93131['dy']<0x0?_0xdb7f7e:_0xdb7f7e+_0x11a0c2};if(_0x283598['x1']<0x0||_0x283598['x2']>_0x29e617||_0x283598['y1']<0x0||_0x283598['y2']>_0x285b01)continue;var _0x4c4ab2=![];for(var _0x5d17c=0x0;_0x5d17c<_0x4276fd['length'];_0x5d17c++){var _0x251444=_0x4276fd[_0x5d17c];if(!(_0x283598['x2']<_0x251444['x1']||_0x283598['x1']>_0x251444['x2']||_0x283598['y2']<_0x251444['y1']||_0x283598['y1']>_0x251444['y2'])){_0x4c4ab2=!![];break;}}if(!_0x4c4ab2){_0xa5a721=_0xd93131;break;}}if(!_0xa5a721){var _0x2a28a5=0x32,_0x1ada2f=0x0;_0x4276fd['forEach'](function(_0x4f04a2){var _0x2ba2b9=(_0x4f04a2['x1']+_0x4f04a2['x2'])/0x2,_0x41ee5d=(_0x4f04a2['y1']+_0x4f04a2['y2'])/0x2,_0x2a9918=Math['sqrt'](Math['pow'](_0x2ba2b9-_0x2b1b5b,0x2)+Math['pow'](_0x41ee5d-_0x26519a,0x2));_0x2a9918<_0x2a28a5&&_0x1ada2f++;});if(_0x1ada2f>0x3)return;}}if(!_0xa5a721){_0xa5a721=_0x25aefe[0x0];var _0x4ae354=_0x2b1b5b+_0xa5a721['dx'],_0xdb7f7e=_0x26519a+_0xa5a721['dy'],_0x283598={'x1':_0xa5a721['anchor']==='end'?_0x4ae354-_0x28a743:_0xa5a721['anchor']==='middle'?_0x4ae354-_0x28a743/0x2:_0x4ae354,'y1':_0xa5a721['dy']<0x0?_0xdb7f7e-_0x11a0c2:_0xdb7f7e,'x2':_0xa5a721['anchor']==='start'?_0x4ae354+_0x28a743:_0xa5a721['anchor']==='middle'?_0x4ae354+_0x28a743/0x2:_0x4ae354,'y2':_0xa5a721['dy']<0x0?_0xdb7f7e:_0xdb7f7e+_0x11a0c2};if(_0x283598['x1']<0x0)_0xa5a721=_0x25aefe[0x0];else _0x283598['x2']>_0x29e617&&(_0xa5a721=_0x25aefe[0x1]);if(_0x283598['y1']<0x0)_0xa5a721=_0x25aefe[0x3];else _0x283598['y2']>_0x285b01&&(_0xa5a721=_0x25aefe[0x2]);}var _0x556cb2=_0x52563d['append']('text')['attr']('class','team-label\x20'+_0x2a8d1f)['attr']('x',_0x2b1b5b+_0xa5a721['dx'])['attr']('y',_0x26519a+_0xa5a721['dy'])['attr']('text-anchor',_0xa5a721['anchor'])['attr']('dominant-baseline',_0xa5a721['dy']<0x0?'auto':'hanging')['text'](_0x10fd11[0x1])['style']('font-family','Inter,\x20sans-serif')['style']('font-size','12px')['style']('font-weight','500')['style']('fill','#333');_0xce7b39&&_0x556cb2['classed']('search-match',!![]);var _0x51451b=_0x556cb2['node']()['getBBox']();_0x4276fd['push']({'x1':_0x51451b['x']-0x2,'y1':_0x51451b['y']-0x2,'x2':_0x51451b['x']+_0x51451b['width']+0x2,'y2':_0x51451b['y']+_0x51451b['height']+0x2});}document['addEventListener']('DOMContentLoaded',function(){const _0x5e6cf1=document['getElementById']('median-lines-tooltip');_0x5e6cf1['textContent']=_0x328036?'Hide\x20median\x20lines':'Show\x20median\x20lines';});}());
+// Load the data asynchronously
+        const WORKER_URL = 'https://summer-dream-8f33.datamb-football.workers.dev';
+        
+        (async function() {
+        const response = await fetch(`${WORKER_URL}/?file=3`); // teamplots.csv
+        let csvData = await response.text();
+        
+        let extraHeaderRow = 'ID,Player,Top 7 Leagues,Goals per 90,xG per 90,Shots on target per 90,Shots on target %,Passes completed,Pass accuracy %,Possession %,Positional attacks per 90,Counter attacks per 90,Touches in the box per 90,Goals conceded per 90,SoT against per 90,Defensive duels per 90,Defensive duel %,Aerial duels per 90,Aerial duels %,Passes per possession,PPDA\n';
+        
+        // Concatenate the extra header row with the fetched CSV data
+        csvData = extraHeaderRow + csvData;
+        
+        var rows = csvData.trim().split('\n');
+        var header = rows[0].split(',');
+        var data = rows.slice(1).map(function(row) {
+            return row.split(',').map(function(d, i) {
+                if (i >= 3) {
+                    return parseFloat(d);
+                } else {
+                    return d;
+                }
+            });
+        });
+        
+        // Function to populate metric options
+        function populateMetricOptions(optionsContainer, metrics, callback) {
+            optionsContainer.innerHTML = '';
+            metrics.forEach(function(metric) {
+                const customOption = document.createElement('div');
+                customOption.className = 'metric-select-option';
+                customOption.setAttribute('data-value', metric);
+                const span = document.createElement('span');
+                span.textContent = metric;
+                const metricKey = metric.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
+                span.setAttribute('data-i18n', 'metrics.' + metricKey);
+                customOption.appendChild(span);
+                if (callback) callback(customOption, metric);
+                optionsContainer.appendChild(customOption);
+            });
+        }
+        
+        // Function to set up a custom select
+        function setupCustomSelect(trigger, options, selectElement) {
+            trigger.addEventListener('click', function() {
+                document.querySelectorAll('.custom-select-trigger.open, .metric-select-trigger.open').forEach(function(openTrigger) {
+                    if (openTrigger !== trigger) {
+                        openTrigger.classList.remove('open');
+                        const openOptions = openTrigger.nextElementSibling;
+                        if (openOptions) openOptions.style.display = 'none';
+                    }
+                });
+                trigger.classList.toggle('open');
+                const isOpen = trigger.classList.contains('open');
+                options.style.display = isOpen ? 'block' : 'none';
+            });
+            
+            const optionElements = options.querySelectorAll('.custom-select-option, .metric-select-option');
+            optionElements.forEach(option => {
+                option.addEventListener('click', function() {
+                    optionElements.forEach(opt => opt.classList.remove('selected'));
+                    this.classList.add('selected');
+                    const text = this.querySelector('span').textContent;
+                    const dataI18n = this.querySelector('span').getAttribute('data-i18n');
+                    const icon = this.querySelector('iconify-icon');
+                    trigger.innerHTML = '';
+                    if (icon) {
+                        const clonedIcon = icon.cloneNode(true);
+                        clonedIcon.style.marginRight = '8px';
+                        trigger.appendChild(clonedIcon);
+                    }
+                    const span = document.createElement('span');
+                    span.textContent = text;
+                    if (dataI18n) span.setAttribute('data-i18n', dataI18n);
+                    trigger.appendChild(span);
+                    const value = this.getAttribute('data-value');
+                    selectElement.value = value || text;
+                    const event = new Event('change');
+                    selectElement.dispatchEvent(event);
+                    trigger.classList.remove('open');
+                    options.style.display = 'none';
+                });
+            });
+            
+            let searchTerm = '';
+            let searchTimeout;
+            document.addEventListener('keydown', function(e) {
+                if (!trigger.classList.contains('open')) return;
+                if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    const visibleOptions = Array.from(optionElements);
+                    const currentIndex = visibleOptions.findIndex(opt => opt.classList.contains('selected'));
+                    let newIndex;
+                    if (e.key === 'ArrowDown') {
+                        newIndex = currentIndex < visibleOptions.length - 1 ? currentIndex + 1 : 0;
+                    } else {
+                        newIndex = currentIndex > 0 ? currentIndex - 1 : visibleOptions.length - 1;
+                    }
+                    optionElements.forEach(opt => opt.classList.remove('selected'));
+                    visibleOptions[newIndex].classList.add('selected');
+                    visibleOptions[newIndex].scrollIntoView({ block: 'nearest' });
+                    return;
+                }
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    const selectedOption = options.querySelector('.selected');
+                    if (selectedOption) selectedOption.click();
+                    return;
+                }
+                if (e.key === 'Escape') {
+                    e.preventDefault();
+                    trigger.classList.remove('open');
+                    options.style.display = 'none';
+                    return;
+                }
+                if (e.key.length === 1 && e.key.match(/[a-zA-Z0-9%]/)) {
+                    clearTimeout(searchTimeout);
+                    searchTerm += e.key.toLowerCase();
+                    const matchingOption = Array.from(optionElements).find(option => {
+                        const optionText = option.querySelector('span').textContent.toLowerCase();
+                        return optionText.startsWith(searchTerm);
+                    });
+                    if (matchingOption) {
+                        optionElements.forEach(opt => opt.classList.remove('selected'));
+                        matchingOption.classList.add('selected');
+                        matchingOption.scrollIntoView({ block: 'nearest' });
+                    }
+                    searchTimeout = setTimeout(() => { searchTerm = ''; }, 1000);
+                }
+            });
+        }
+        
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            const triggers = document.querySelectorAll('.custom-select-trigger, .metric-select-trigger');
+            const optionsContainers = document.querySelectorAll('.custom-select-options, .metric-select-options');
+            let clickedInsideDropdown = false;
+            triggers.forEach(function(trigger, index) {
+                const options = optionsContainers[index];
+                if (trigger && options && (trigger.contains(e.target) || options.contains(e.target))) {
+                    clickedInsideDropdown = true;
+                }
+            });
+            if (!clickedInsideDropdown) {
+                triggers.forEach(function(trigger, index) {
+                    if (trigger && optionsContainers[index]) {
+                        trigger.classList.remove('open');
+                        optionsContainers[index].style.display = 'none';
+                    }
+                });
+            }
+        });
+        
+        // Initialize custom selectors function
+        function initializeCustomSelectors() {
+            const leagueTrigger = document.getElementById('league-select-trigger');
+            const leagueOptions = document.getElementById('league-select-options');
+            const leagueSelect = document.getElementById('select-league');
+            setupCustomSelect(leagueTrigger, leagueOptions, leagueSelect);
+            
+            const xTrigger = document.getElementById('x-metric-trigger');
+            const xOptions = document.getElementById('x-metric-options');
+            const xSelect = document.getElementById('select-x');
+            populateMetricOptions(xOptions, header.slice(3), function(option, value) {
+                if (xTrigger.querySelector('span').textContent === value) option.classList.add('selected');
+                if (value === header[3]) {
+                    option.classList.add('selected');
+                    xTrigger.querySelector('span').textContent = value;
+                    const metricKey = value.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
+                    xTrigger.querySelector('span').setAttribute('data-i18n', 'metrics.' + metricKey);
+                }
+            });
+            setupCustomSelect(xTrigger, xOptions, xSelect);
+            
+            const yTrigger = document.getElementById('y-metric-trigger');
+            const yOptions = document.getElementById('y-metric-options');
+            const ySelect = document.getElementById('select-y');
+            populateMetricOptions(yOptions, header.slice(3), function(option, value) {
+                if (yTrigger.querySelector('span').textContent === value) option.classList.add('selected');
+                if (value === header[4]) {
+                    option.classList.add('selected');
+                    yTrigger.querySelector('span').textContent = value;
+                    const metricKey = value.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
+                    yTrigger.querySelector('span').setAttribute('data-i18n', 'metrics.' + metricKey);
+                }
+            });
+            setupCustomSelect(yTrigger, yOptions, ySelect);
+        }
+        
+        var margin = { top: 0, right: 0, bottom: 0, left: 0 };
+        var width = 1082 - margin.left - margin.right;
+        var height = 770 - margin.top - margin.bottom;
+        
+        // Define league colors for clicked circles
+        var leagueColors = {
+            "Premier League": "rgb(255, 0, 0, 0.7)",         // 1
+            "La Liga": "rgb(255, 223, 0, 0.7)",             // 2
+            "Bundesliga": "rgb(85, 209, 73, 0.7)",          // 3
+            "Serie A": "rgb(0, 191, 255, 0.7)",             // 4
+            "Ligue 1": "rgb(153, 50, 204, 0.7)",            // 5
+            "Eredivisie": "rgb(255, 140, 0, 0.7)",          // 6
+            "Primeira Liga": "rgb(255, 20, 147, 0.7)"
+        };
+
+        // Function to get color based on league
+        function getLeagueColor(league) {
+            return leagueColors[league] || "rgba(255, 0, 0, 0.7)"; // Default to red if league not found
+        }
+        
+        // Calculate container width to center the chart
+        function updateChartDimensions() {
+            var containerWidth = document.querySelector('.chart-wrapper').clientWidth;
+            var containerHeight = window.innerHeight * 0.7; // Use 70% of viewport height as max height
+            
+            // Set consistent side margins regardless of screen size
+            var sideMargin = 30; // Consistent side margin in pixels
+            var svgWidth = Math.min(1082, containerWidth - (sideMargin * 2));
+            
+            // Detect if we're on a vertical screen (mobile)
+            var isVerticalScreen = window.innerWidth / window.innerHeight < 1;
+            
+            // Set consistent margins that work for both orientations
+            if (isVerticalScreen) {
+                // Mobile/vertical layout
+                margin = { 
+                    top: 40,          // Space for title/labels
+                    right: 30, // Consistent right margin
+                    bottom: 60,       // Space for x-axis labels
+                    left: 75          // Space for y-axis labels
+                };
+                
+                // For vertical screens, make the chart taller
+                var verticalAspectRatio = 1.4; // Taller than wide
+                var svgHeight = Math.min(containerHeight, svgWidth * verticalAspectRatio);
+                
+                // Ensure minimum height for mobile
+                svgHeight = Math.max(svgHeight, 500);
+            } else {
+                // Desktop/horizontal layout
+                margin = { 
+                    top: 40,          // Space for title/labels
+                    right: 30, // Consistent right margin
+                    bottom: 60,       // Space for x-axis labels
+                    left: 79         // Space for y-axis labels
+                };
+                
+                // For horizontal screens, use a fixed aspect ratio
+                var horizontalAspectRatio = 0.7; // Width:height ratio
+                var svgHeight = svgWidth * horizontalAspectRatio;
+            }
+            
+            // Update dimensions
+            width = svgWidth - margin.left - margin.right;
+            height = svgHeight - margin.top - margin.bottom;
+            
+            // Update SVG dimensions
+            d3.select("#scatter-plot")
+                .attr("width", svgWidth)
+                .attr("height", svgHeight);
+                
+            // Update the chart container to match SVG size
+            document.querySelector('.chart-container').style.height = svgHeight + 'px';
+        }
+        
+        window.addEventListener('resize', function() {
+            // Update dimensions immediately
+            updateChartDimensions();
+            // Use requestAnimationFrame for smoother updates
+            requestAnimationFrame(function() {
+                updateChart(); // Redraw the chart with new dimensions
+            });
+        });
+
+        // Initial call to set dimensions
+        updateChartDimensions();
+        
+        // Debounce function to limit how often the resize handler fires
+        function debounce(func, wait) {
+            let timeout;
+            return function() {
+                const context = this;
+                const args = arguments;
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    func.apply(context, args);
+                }, wait);
+            };
+        }
+        
+        // Track previous window dimensions to detect orientation changes
+        var prevWindowWidth = window.innerWidth;
+        var prevWindowHeight = window.innerHeight;
+        
+        // Add debounced resize handler
+        window.addEventListener('resize', debounce(function() {
+            // Check if orientation has changed (width/height ratio flipped)
+            var wasVertical = prevWindowWidth / prevWindowHeight < 1;
+            var isVertical = window.innerWidth / window.innerHeight < 1;
+            
+            // Update previous dimensions
+            prevWindowWidth = window.innerWidth;
+            prevWindowHeight = window.innerHeight;
+            
+              // Always update the chart on resize - use requestAnimationFrame for smoother updates
+              requestAnimationFrame(function() {
+                updateChart();
+            });
+        }, 50)); // Use a much shorter wait time for more responsive feel
+        
+
+        var medianLinesVisible = false;
+        
+        var selectX = d3.select("#select-x");
+        var selectY = d3.select("#select-y");
+        
+        var names = data.map(function(row) {
+            return row[1];
+        });
+        
+        // Populate the select dropdowns
+        header.slice(3).forEach(function(metric) {
+            selectX.append("option")
+                .text(metric)
+                .attr("value", metric);
+            selectY.append("option")
+                .text(metric)
+                .attr("value", metric);
+        });
+        
+        // Set default values for the selectors
+        selectX.property("value", header[3]);
+        selectY.property("value", header[4]);
+        
+        // Create the SVG container
+        var svg = d3.select("#scatter-plot")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        
+        var xMetric = header[3];
+        var yMetric = header[4]; // Use a different default for Y axis
+        
+        var xScale = d3.scaleLinear()
+            .range([0, width]);
+        var yScale = d3.scaleLinear()
+            .range([height, 0]);
+        
+        var xAxis = d3.axisBottom(xScale).tickSize(0);
+        var yAxis = d3.axisLeft(yScale).tickSize(0);
+        
+        // Add X axis
+        var gXAxis = svg.append("g")
+            .attr("class", "x-axis")
+            .attr("transform", "translate(0," + height + ")");
+        
+        // Add Y axis
+        var gYAxis = svg.append("g")
+            .attr("class", "y-axis");
+        
+        // Add axis labels
+        var xLabel = svg.append("text")
+            .attr("class", "x-label")
+            .attr("text-anchor", "end")
+            .attr("x", width)
+            .attr("y", height + 35)
+            .style("font-family", "Inter, sans-serif")
+            .style("font-size", "14px");
+        
+        var yLabel = svg.append("text")
+            .attr("class", "y-label")
+            .attr("text-anchor", "end")
+            .attr("transform", "rotate(-90)")
+            .attr("y", -53)
+            .attr("x", 0)
+            .style("font-family", "Inter, sans-serif")
+            .style("font-size", "14px");
+        
+        // Create tooltip
+        var tooltip = d3.select("body")
+            .append("div")
+            .attr("class", "tooltip");
+        
+        // Function to check if device is mobile
+        function isMobileDevice() {
+            return window.innerWidth <= 768;
+        }
+
+        // Function to position tooltip to prevent overflow
+        function positionTooltip(event, tooltipElement) {
+            const tooltipNode = tooltipElement.node();
+            if (!tooltipNode) return { left: 0, top: 0 };
+            
+            const tooltipRect = tooltipNode.getBoundingClientRect();
+            const viewportWidth = window.innerWidth;
+            const viewportHeight = window.innerHeight;
+            
+            // Default position
+            let left = event.pageX + 10;
+            let top = event.pageY - 28;
+            
+            // Adjust if tooltip would overflow right edge
+            if (left + tooltipRect.width > viewportWidth - 10) {
+                left = event.pageX - tooltipRect.width - 10;
+            }
+            
+            // Adjust if tooltip would overflow bottom edge
+            if (top + tooltipRect.height > viewportHeight - 10) {
+                top = event.pageY - tooltipRect.height - 10;
+            }
+            
+            // Ensure tooltip doesn't go off the left or top edge
+            left = Math.max(10, left);
+            top = Math.max(10, top);
+            
+            return { left, top };
+        }
+
+        var clickedCircles = [];
+        var filteredData = data;
+        var filteredNames = names;
+        var circles;
+        
+        // Function to update the chart
+        function updateChart() {
+            // Update chart dimensions based on current window size
+            updateChartDimensions();
+            
+            // Update SVG dimensions without recreating it
+            d3.select("#scatter-plot")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom);
+                
+            // Update axis positions based on new dimensions
+            gXAxis.attr("transform", "translate(0," + height + ")");
+            xLabel.attr("x", width)
+                  .attr("y", height + 35);
+            yLabel.attr("x", 0);
+            
+            // Check if dark mode is active
+            const isDarkMode = document.body.classList.contains('dark-mode');
+            
+            // Get the selected league
+            var selectedLeague = document.getElementById("select-league").value;
+            
+            
+            // Filter data based on selected league
+            if (selectedLeague === "all") {
+                filteredData = data;
+            } else if (selectedLeague === "Top 5 Leagues") {
+                filteredData = data.filter(function(d) {
+                    return d[2] === "Premier League" || d[2] === "La Liga" || 
+                           d[2] === "Bundesliga" || d[2] === "Serie A" || 
+                           d[2] === "Ligue 1";
+                });
+            } else {
+                filteredData = data.filter(function(d) {
+                    return d[2] === selectedLeague;
+                });
+            }
+            
+            // Update filtered names
+            filteredNames = filteredData.map(function(d) {
+                return d[1];
+            });
+            
+            // Get the selected metrics
+            xMetric = selectX.property("value");
+            yMetric = selectY.property("value");
+            
+          // Update scales with consistent 10% padding on each side
+          xScale.range([0, width])
+      .domain(function() {
+          // Get the raw extent
+          const extent = d3.extent(filteredData, function(d) { 
+              return +d[header.indexOf(xMetric)]; 
+          });
+          
+          // Apply nice() to get rounded values
+          const niceScale = d3.scaleLinear().domain(extent).nice();
+          const niceExtent = niceScale.domain();
+          
+          // Calculate the original range and the nice range
+          const originalRange = extent[1] - extent[0];
+          const niceRange = niceExtent[1] - niceExtent[0];
+          
+          // Check if nice() added more than 10% padding
+          if ((niceRange / originalRange) > 1.2) { // 1.2 represents original + 20% (10% on each side)
+              // If so, use manual 10% padding instead
+              const padding = originalRange * 0.1;
+              return [extent[0] - padding, extent[1] + padding];
+          } else {
+              // Otherwise use the nice rounded values
+              return niceExtent;
+          }
+      }());
+
+
+                  yScale.range([height, 0])
+      .domain(function() {
+          // Get the raw extent
+          const extent = d3.extent(filteredData, function(d) { 
+              return +d[header.indexOf(yMetric)]; 
+          });
+          
+          // Apply nice() to get rounded values
+          const niceScale = d3.scaleLinear().domain(extent).nice();
+          const niceExtent = niceScale.domain();
+          
+          // Calculate the original range and the nice range
+          const originalRange = extent[1] - extent[0];
+          const niceRange = niceExtent[1] - niceExtent[0];
+          
+          // Check if nice() added more than 10% padding
+          if ((niceRange / originalRange) > 1.2) { // 1.2 represents original + 20% (10% on each side)
+              // If so, use manual 10% padding instead
+              const padding = originalRange * 0.1;
+              return [extent[0] - padding, extent[1] + padding];
+          } else {
+              // Otherwise use the nice rounded values
+              return niceExtent;
+          }
+      }());
+            
+            // Update axes
+            gXAxis.call(d3.axisBottom(xScale).tickSize(0));
+            gYAxis.call(d3.axisLeft(yScale).tickSize(0));
+            
+            // Create metric key for translation
+            const xMetricKey = "metrics." + xMetric.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
+            const yMetricKey = "metrics." + yMetric.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
+            
+            // Set data-i18n attribute
+            xLabel.attr("data-i18n", xMetricKey);
+            yLabel.attr("data-i18n", yMetricKey);
+            
+            // Apply translations directly if available
+            if (window.currentTranslations && window.currentTranslations.metrics) {
+                const xTranslationKey = xMetric.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
+                const yTranslationKey = yMetric.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
+                
+                const xTranslation = window.currentTranslations.metrics[xTranslationKey];
+                const yTranslation = window.currentTranslations.metrics[yTranslationKey];
+                
+                xLabel.text(xTranslation || xMetric);
+                yLabel.text(yTranslation || yMetric);
+            } else {
+                xLabel.text(xMetric);
+                yLabel.text(yMetric);
+            }
+
+            // Remove existing circles and labels
+            svg.selectAll("circle").remove();
+            svg.selectAll(".team-label").remove();
+            svg.selectAll(".xy-line").remove(); // Remove any existing diagonal reference line
+            svg.selectAll(".xy-line-bg").remove(); // Remove line background
+            svg.selectAll(".xy-line-label").remove(); // Remove line label
+            svg.selectAll(".xy-line-label-bg").remove(); // Remove label background
+            svg.selectAll(".performance-label").remove(); // Remove performance labels
+            svg.selectAll("linearGradient#line-gradient").remove(); // Remove gradient definition
+            svg.selectAll("marker#arrow-over, marker#arrow-under").remove(); // Remove arrow markers
+            svg.selectAll(".xy-line-hover").remove(); // Remove hover detection element
+            svg.selectAll(".median-line").remove(); // Always remove median lines before potentially redrawing them
+            
+            // Add diagonal reference line for xG vs Goals
+            if ((xMetric === 'xG per 90' && yMetric === 'Goals per 90') || 
+                (xMetric === 'Goals per 90' && yMetric === 'xG per 90')) {
+                
+                // Variable to track hover timer for the diagonal line
+                var diagonalLineHoverTimer = null;
+                
+                // Calculate the intersection points for the x=y line
+                var minX = d3.min(filteredData, function(d) { return d[header.indexOf(xMetric)]; });
+                var maxX = d3.max(filteredData, function(d) { return d[header.indexOf(xMetric)]; });
+                var minY = d3.min(filteredData, function(d) { return d[header.indexOf(yMetric)]; });
+                var maxY = d3.max(filteredData, function(d) { return d[header.indexOf(yMetric)]; });
+                
+                // Get the smaller max between the x and y axes
+                var maxVal = Math.min(maxX, maxY);
+                
+                // Get the larger min between the x and y axes
+                var minVal = Math.max(minX, minY);
+                
+                // Now draw the line only within these bounds
+                svg.append("line")
+                    .attr("class", "xy-line")
+                    .attr("x1", xScale(minVal))
+                    .attr("y1", yScale(minVal))
+                    .attr("x2", xScale(maxVal))
+                    .attr("y2", yScale(maxVal))
+                    .style("stroke", "#2ecc71") // Simple green color
+                    .style("stroke-width", "2")
+                    .style("stroke-dasharray", "5,3");
+                
+                // Add invisible wider line for better hover detection
+                svg.append("line")
+                    .attr("class", "xy-line-hover")
+                    .attr("x1", xScale(minVal))
+                    .attr("y1", yScale(minVal))
+                    .attr("x2", xScale(maxVal))
+                    .attr("y2", yScale(maxVal))
+                    .style("stroke", "transparent")
+                    .style("stroke-width", "15")
+                    .style("cursor", "help")
+                    .on("mouseover", function() {
+                        // Clear any existing timer
+                        if (diagonalLineHoverTimer) {
+                            clearTimeout(diagonalLineHoverTimer);
+                        }
+                        
+                        // Capture the event coordinates
+                        var eventX = d3.event.pageX;
+                        var eventY = d3.event.pageY;
+                        
+                        // Set a new timer with delay
+                        diagonalLineHoverTimer = setTimeout(function() {
+                            tooltip.transition()
+                                .duration(200)
+                                .style("opacity", 0.9);
+                            
+                            // Use the global getTranslation function
+                            var tooltipContent = "<strong>" + getTranslation("tooltip.xg-line-title", "G = xG Line") + "</strong><br/>";
+                            
+                            // Check which axis is which and provide the correct explanation
+                            if (xMetric === 'xG per 90' && yMetric === 'Goals per 90') {
+                                tooltipContent += "<span>" + getTranslation("tooltip.xg-line-above", "Teams above this line are scoring more goals than expected.") + "</span><br/>" +
+                                    "<span>" + getTranslation("tooltip.xg-line-below", "Teams below this line are scoring fewer goals than expected.") + "</span>";
+                            } else {
+                                tooltipContent += "<span>" + getTranslation("tooltip.xg-line-right", "Teams right of this line are scoring more goals than expected.") + "</span><br/>" +
+                                    "<span>" + getTranslation("tooltip.xg-line-left", "Teams left of this line are scoring fewer goals than expected.") + "</span>";
+                            }
+                            
+                            tooltip.html(tooltipContent)
+                                .style("left", (eventX + 10) + "px")
+                                .style("top", (eventY - 28) + "px");
+                        }, 600); // 550ms delay before showing tooltip
+                    })
+                    .on("mouseout", function() {
+                        // Clear the timer if mouse leaves before tooltip is shown
+                        if (diagonalLineHoverTimer) {
+                            clearTimeout(diagonalLineHoverTimer);
+                            diagonalLineHoverTimer = null;
+                        }
+                        
+                        tooltip.transition()
+                            .duration(500)
+                            .style("opacity", 0);
+                    });
+            }
+            
+            // Add median lines if enabled
+            if (medianLinesVisible) {
+                // Calculate medians
+                var xMedian = d3.median(filteredData, function(d) { 
+                    return d[header.indexOf(xMetric)]; 
+                });
+                
+                var yMedian = d3.median(filteredData, function(d) { 
+                    return d[header.indexOf(yMetric)]; 
+                });
+                
+                // Add X median line
+                svg.append("line")
+                    .attr("class", "median-line")
+                    .attr("x1", xScale(xMedian))
+                    .attr("y1", 0)
+                    .attr("x2", xScale(xMedian))
+                    .attr("y2", height)
+                    .style("stroke", "rgba(0, 0, 0, 0.3)")
+                    .style("stroke-dasharray", "4");
+                
+                // Add Y median line
+                svg.append("line")
+                    .attr("class", "median-line")
+                    .attr("x1", 0)
+                    .attr("y1", yScale(yMedian))
+                    .attr("x2", width)
+                    .attr("y2", yScale(yMedian))
+                    .style("stroke", "rgba(0, 0, 0, 0.3)")
+                    .style("stroke-dasharray", "4");
+            }
+            
+            // Add circles
+            circles = svg.selectAll("circle")
+                .data(filteredData)
+                .enter()
+                .append("circle")
+                .attr("cx", function(d) { return xScale(d[header.indexOf(xMetric)]); })
+                .attr("cy", function(d) { return yScale(d[header.indexOf(yMetric)]); })
+                .attr("r", 9)
+                .style("fill", function(d) {
+                    // Check if this circle is in the clicked circles array
+                    if (clickedCircles.includes(d[1])) {
+                        return getLeagueColor(d[2]);
+                    }
+                    return "rgba(70, 130, 180, 0.7)";
+                })
+                .style("stroke", function(d) {
+                    return clickedCircles.includes(d[1]) ? "#000" : "none";
+                })
+                .style("stroke-width", function(d) {
+                    return clickedCircles.includes(d[1]) ? 2 : 0;
+                })
+                .style("cursor", "pointer")
+                .on("mouseover", function(d) {
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr("r", 11.2)
+                        .style("fill", getLeagueColor(d[2])); // Show league color on hover
+                    
+                    tooltip.transition()
+                        .duration(200)
+                        .style("opacity", 0.9);
+                    
+                    // Create metric keys for translation
+                    const xMetricKey = "metrics." + xMetric.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
+                    const yMetricKey = "metrics." + yMetric.toLowerCase().replace(/ /g, '-').replace(/%/g, 'pct');
+                    
+                    // Get translated metric names using the global getTranslation function
+                    const xMetricTranslated = getTranslation(xMetricKey, xMetric);
+                    const yMetricTranslated = getTranslation(yMetricKey, yMetric);
+                    
+                    tooltip.html("<strong>" + d[1] + "</strong><br/>" +
+                        xMetricTranslated + ": " + d[header.indexOf(xMetric)].toFixed(2) + "<br/>" +
+                        yMetricTranslated + ": " + d[header.indexOf(yMetric)].toFixed(2));
+
+                    // Position tooltip to prevent overflow
+                    const tooltipNode = tooltip.node();
+                    if (tooltipNode) {
+                        const tooltipRect = tooltipNode.getBoundingClientRect();
+                        const viewportWidth = window.innerWidth;
+                        const viewportHeight = window.innerHeight;
+                        
+                        // Default position
+                        let left = d3.event.pageX + 10;
+                        let top = d3.event.pageY - 28;
+                        
+                        // Adjust if tooltip would overflow right edge
+                        if (left + tooltipRect.width > viewportWidth - 10) {
+                            left = d3.event.pageX - tooltipRect.width - 10;
+                        }
+                        
+                        // Adjust if tooltip would overflow bottom edge
+                        if (top + tooltipRect.height > viewportHeight - 10) {
+                            top = d3.event.pageY - tooltipRect.height - 10;
+                        }
+                        
+                        // Ensure tooltip doesn't go off the left or top edge
+                        left = Math.max(10, left);
+                        top = Math.max(10, top);
+                        
+                        tooltip.style("left", left + "px")
+                               .style("top", top + "px");
+                    } else {
+                        tooltip.style("left", (d3.event.pageX + 10) + "px")
+                               .style("top", (d3.event.pageY - 28) + "px");
+                    }
+                    
+                    // On mobile, hide tooltip after 1 second
+                    if (window.innerWidth <= 768) {
+                        setTimeout(function() {
+                            tooltip.transition()
+                                .duration(200)
+                                .style("opacity", 0);
+                        }, 1000);
+                    }
+                })
+                .on("mouseout", function(d) {
+                    // Only hide tooltip on non-mobile devices (mobile has timeout)
+                    if (window.innerWidth > 768) {
+                        tooltip.transition()
+                            .duration(500)
+                            .style("opacity", 0);
+                    }
+                    
+                    // Get the original fill color
+                    var isClicked = clickedCircles.includes(d[1]);
+                    
+                    d3.select(this)
+                        .transition()
+                        .duration(200)
+                        .attr("r", 9)
+                        .style("fill", function() {
+                            // If the circle is clicked, keep the league color
+                            // Otherwise, revert to the default blue
+                            return isClicked ? getLeagueColor(d[2]) : "rgba(70, 130, 180, 0.7)";
+                        });
+                })
+                .on("click", function(d) {
+                    // Check if this is a search match
+                    var isSearchMatch = d3.select(this).classed("search-match");
+                    
+                    // If it's a search match, clear the search first
+                    if (isSearchMatch) {
+                        resetSearch();
+                    }
+                    
+                    // Toggle clicked state
+                    var index = clickedCircles.indexOf(d[1]);
+                    
+                    if (index === -1) {
+                        // Add to clicked circles
+                        clickedCircles.push(d[1]);
+                        d3.select(this)
+                            .style("fill", getLeagueColor(d[2]))
+                            .style("stroke", "#000")
+                            .style("stroke-width", 2);
+                            
+                        // Add team label
+                        addTeamLabel(d);
+                    } else {
+                        // Remove from clicked circles
+                        clickedCircles.splice(index, 1);
+                        d3.select(this)
+                            .style("fill", "rgba(70, 130, 180, 0.7)")
+                            .style("stroke", "none");
+                            
+                        // Remove team label
+                        svg.selectAll(".team-label-" + d[1].replace(/\s+/g, '-').toLowerCase()).remove();
+                    }
+                    
+                    // Update button text based on whether all circles are selected
+                    updateSelectAllButtonText();
+                    
+                    // Update the legend
+                    var selectedLeague = document.getElementById("select-league").value;
+                    updateLeagueLegend(selectedLeague);
+                });
+                
+            // Add labels for clicked teams
+            clickedCircles.forEach(function(teamName) {
+                var teamData = filteredData.find(function(d) {
+                    return d[1] === teamName;
+                });
+                
+                if (teamData) {
+                    addTeamLabel(teamData);
+                }
+            });
+                
+            // Update button text based on current selection state
+            updateSelectAllButtonText();
+            
+            // Update the legend to show only relevant leagues
+            updateLeagueLegend(selectedLeague);
+        }
+        
+        // Function to update the "Click All" button icon
+        function updateSelectAllButtonText() {
+            var selectIcon = document.getElementById('select-icon');
+            var selectTooltip = document.getElementById('select-all-tooltip');
+            var allSelected = filteredData.every(function(d) {
+                return clickedCircles.includes(d[1]);
+            });
+            
+            if (allSelected) {
+                selectIcon.className = "ion-ios-circle-outline"; // Icon for "Unclick All"
+                if (selectTooltip) {
+                    // Use translations for unselect all teams
+                    if (window.currentTranslations && window.currentTranslations.tooltip) {
+                        selectTooltip.textContent = window.currentTranslations.tooltip.unselectAll || "Unselect all teams";
+                    } else {
+                        selectTooltip.textContent = "Unselect all teams";
+                    }
+                }
+            } else {
+                selectIcon.className = "ion-ios-circle-filled"; // Icon for "Click All"
+                if (selectTooltip) {
+                    // Use translations for select all teams
+                    if (window.currentTranslations && window.currentTranslations.tooltip) {
+                        selectTooltip.textContent = window.currentTranslations.tooltip.selectAll || "Select all teams";
+                    } else {
+                        selectTooltip.textContent = "Select all teams";
+                    }
+                }
+            }
+        }
+        
+        // Add event listeners to the selectors
+        selectX.on("change", updateChart);
+        selectY.on("change", updateChart);
+        d3.select("#select-league").on("change", updateChart);
+        
+        // Function to remove special characters and diacritics for better search matching
+        function removeSpecialCharsAndDiacritics(str) {
+            if (!str) return '';
+            return str.normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+                .replace(/Ø/g, 'O')
+                .replace(/ø/g, 'o');
+        }
+        
+        // Add search functionality
+        var searchBar = document.getElementById("search-bar");
+        
+        searchBar.addEventListener("input", function() {
+            var searchTerm = searchBar.value.toLowerCase();
+            
+            if (searchTerm === '') {
+                resetSearch();
+                return;
+            }
+            
+            // Normalize search term to handle special characters and diacritics
+            var normalizedSearchTerm = removeSpecialCharsAndDiacritics(searchTerm);
+            
+            // Reset previous search styling
+            svg.selectAll("circle").classed("search-match", false)
+                .style("fill", function(d) {
+                    // Restore original fill color
+                    return clickedCircles.includes(d[1]) ? getLeagueColor(d[2]) : "rgba(70, 130, 180, 0.7)";
+                })
+                .style("stroke", function(d) {
+                    return clickedCircles.includes(d[1]) ? "#000" : "none";
+                })
+                .style("stroke-width", function(d) {
+                    return clickedCircles.includes(d[1]) ? 2 : 0;
+                })
+                .style("filter", "none")
+                .each(function() {
+                    // Reset any inline styles that might interfere with our animation
+                    d3.select(this).style("r", null);
+                });
+            
+            svg.selectAll(".team-label")
+                .classed("search-match", false)
+                .classed("search-dimmed", false);
+            
+            // Find matching teams
+            var matchingTeams = [];
+            
+            // Apply new search styling
+            svg.selectAll("circle").filter(function(d) {
+                var teamName = d[1].toLowerCase();
+                var normalizedTeamName = removeSpecialCharsAndDiacritics(teamName);
+                
+                // Check both original and normalized versions for better matching
+                var isMatch = teamName.includes(searchTerm) || normalizedTeamName.includes(normalizedSearchTerm);
+                
+                if (isMatch) {
+                    matchingTeams.push(d[1]);
+                }
+                
+                return isMatch;
+            })
+            .classed("search-match", true)
+            .each(function() {
+                // Bring matching circles to front
+                this.parentNode.appendChild(this);
+            });
+            
+            // If we have matches, dim non-matching labels
+            if (matchingTeams.length > 0) {
+                // First dim all labels
+                svg.selectAll(".team-label").classed("search-dimmed", true);
+                
+                // Then highlight matching labels
+                svg.selectAll(".team-label").filter(function() {
+                    var labelText = d3.select(this).text();
+                    return matchingTeams.includes(labelText);
+                })
+                .classed("search-match", true)
+                .classed("search-dimmed", false)
+                .each(function() {
+                    // Bring matching labels to front
+                    this.parentNode.appendChild(this);
+                });
+                
+                // Add labels for matching teams that don't have labels yet
+                matchingTeams.forEach(function(teamName) {
+                    // Check if this team already has a label
+                    var labelClass = "team-label-" + teamName.replace(/\s+/g, '-').toLowerCase();
+                    if (svg.select("." + labelClass).size() === 0) {
+                        // Find the team data
+                        var teamData = filteredData.find(function(d) {
+                            return d[1] === teamName;
+                        });
+                        
+                        if (teamData) {
+                            // Add the label
+                            addTeamLabel(teamData);
+                            // Apply search match styling
+                            svg.select("." + labelClass).classed("search-match", true);
+                        }
+                    }
+                });
+            } else {
+                // No matches found - reset to default state
+                // Remove all team labels that aren't for clicked circles
+                svg.selectAll(".team-label").each(function() {
+                    var label = d3.select(this);
+                    var teamName = label.text();
+                    
+                    if (!clickedCircles.includes(teamName)) {
+                        label.remove();
+                    }
+                });
+                
+                // Make sure clicked circles remain highlighted
+                svg.selectAll("circle")
+                    .style("fill", function(d) {
+                        return clickedCircles.includes(d[1]) ? getLeagueColor(d[2]) : "rgba(70, 130, 180, 0.7)";
+                    })
+                    .style("stroke", function(d) {
+                        return clickedCircles.includes(d[1]) ? "#000" : "none";
+                    })
+                    .style("stroke-width", function(d) {
+                        return clickedCircles.includes(d[1]) ? 2 : 0;
+                    });
+            }
+        });
+        
+        function resetSearch() {
+            // Clear the search input field
+            searchBar.value = '';
+            
+            // Reset circle styling
+            svg.selectAll("circle")
+                .classed("search-match", false)
+                .style("fill", function(d) {
+                    return clickedCircles.includes(d[1]) ? getLeagueColor(d[2]) : "rgba(70, 130, 180, 0.7)";
+                })
+                .style("stroke", function(d) {
+                    return clickedCircles.includes(d[1]) ? "#000" : "none";
+                })
+                .style("stroke-width", function(d) {
+                    return clickedCircles.includes(d[1]) ? 2 : 0;
+                })
+                .style("filter", "none")
+                .each(function() {
+                    // Reset any inline styles that might interfere with our animation
+                    d3.select(this).style("r", null);
+                    // Stop any ongoing animations
+                    d3.select(this).interrupt();
+                });
+                
+            // Reset label styling
+            svg.selectAll(".team-label")
+                .classed("search-match", false)
+                .classed("search-dimmed", false)
+                .each(function() {
+                    // Stop any ongoing animations
+                    d3.select(this).interrupt();
+                });
+                
+            // Remove labels for teams that aren't clicked
+            svg.selectAll(".team-label").each(function() {
+                var label = d3.select(this);
+                var teamName = label.text();
+                
+                if (!clickedCircles.includes(teamName)) {
+                    label.remove();
+                }
+            });
+        }
+        
+        // Toggle median lines
+        var toggleButton = document.getElementById("toggle-median-lines");
+        toggleButton.addEventListener("click", function() {
+            medianLinesVisible = !medianLinesVisible;
+            updateChart();
+
+            const medianTooltip = document.getElementById('median-lines-tooltip');
+            // Use translations for the median lines tooltip
+            if (window.currentTranslations && window.currentTranslations.tooltip) {
+                medianTooltip.textContent = medianLinesVisible ? 
+                    (window.currentTranslations.tooltip.hideMedianLines || "Hide median lines") : 
+                    (window.currentTranslations.tooltip.showMedianLines || "Show median lines");
+            } else {
+                medianTooltip.textContent = medianLinesVisible ? "Hide median lines" : "Show median lines";
+            }
+        });
+        
+        // Select all circles
+        function selectAllCircles() {
+            // Check if all circles are already selected
+            var allSelected = filteredData.every(function(d) {
+                return clickedCircles.includes(d[1]);
+            });
+            
+            if (allSelected) {
+                // Deselect all circles
+                clickedCircles = [];
+                svg.selectAll("circle")
+                    .style("fill", "rgba(70, 130, 180, 0.7)")
+                    .style("stroke", "none");
+                
+                // Remove all team labels
+                svg.selectAll(".team-label").remove();
+            } else {
+                // Select all circles
+                svg.selectAll("circle").each(function(d) {
+                    if (!clickedCircles.includes(d[1])) {
+                        clickedCircles.push(d[1]);
+                        d3.select(this)
+                            .style("fill", getLeagueColor(d[2]))
+                            .style("stroke", "#000")
+                            .style("stroke-width", 2);
+                    }
+                });
+                
+                // Add labels for all teams
+                filteredData.forEach(function(d) {
+                    addTeamLabel(d);
+                });
+            }
+            
+            // Update button text
+            updateSelectAllButtonText();
+            
+            // Update the legend
+            var selectedLeague = document.getElementById("select-league").value;
+            updateLeagueLegend(selectedLeague);
+        }
+        
+        // Expose selectAllCircles to global scope for onclick handler
+        window.selectAllCircles = selectAllCircles;
+
+        
+        // Initialize the chart
+        updateChart();
+        
+        // Initialize the custom selectors now that data is loaded
+        initializeCustomSelectors();
+        
+        // Function to update the league legend based on selected league
+        function updateLeagueLegend(selectedLeague) {
+            var legendContainer = document.getElementById('league-legend');
+            
+            // If only one league is selected (and it's not "all" or "Top 5 Leagues"), hide the legend completely
+            if (selectedLeague !== "all" && selectedLeague !== "Top 5 Leagues") {
+                legendContainer.style.display = 'none';
+                return;
+            }
+            
+                  // Hide the legend if no teams are clicked
+                  if (clickedCircles.length === 0) {
+                legendContainer.style.display = 'none';
+                return;
+            }
+            
+            // Check if any of the currently visible teams are selected
+            var anyVisibleTeamsSelected = false;
+            for (var i = 0; i < filteredData.length; i++) {
+                if (clickedCircles.includes(filteredData[i][1])) {
+                    anyVisibleTeamsSelected = true;
+                    break;
+                }
+            }
+            
+            // Hide the legend if none of the visible teams are selected
+            if (!anyVisibleTeamsSelected) {
+                legendContainer.style.display = 'none';
+                return;
+            }
+            
+            // Otherwise, show the legend
+            legendContainer.style.display = 'flex';
+            legendContainer.innerHTML = ''; // Clear existing legend
+            
+
+            // Add a title for the legend
+            var legendTitle = document.createElement('div');
+            legendTitle.style.fontWeight = 'bold';
+            legendTitle.style.marginRight = '15px';
+            legendContainer.appendChild(legendTitle);
+            
+            // Determine which leagues to show in the legend
+            var leaguesToShow = [];
+            
+            if (selectedLeague === "all") {
+                // Show all leagues
+                leaguesToShow = Object.keys(leagueColors);
+            } else if (selectedLeague === "Top 5 Leagues") {
+                // Show only Top 5 leagues
+                leaguesToShow = ["Premier League", "La Liga", "Bundesliga", "Serie A", "Ligue 1"];
+            }
+            
+            // Add an item for each relevant league
+            leaguesToShow.forEach(function(league) {
+                var legendItem = document.createElement('div');
+                legendItem.className = 'legend-item';
+                
+                var colorBox = document.createElement('div');
+                colorBox.className = 'legend-color';
+                colorBox.style.backgroundColor = leagueColors[league];
+                
+                var leagueText = document.createElement('span');
+                leagueText.textContent = league;
+                
+                legendItem.appendChild(colorBox);
+                legendItem.appendChild(leagueText);
+                legendContainer.appendChild(legendItem);
+            });
+        }
+        
+
+        function addTeamLabel(d, isSearchMatch) {
+    var x = xScale(d[header.indexOf(xMetric)]);
+    var y = yScale(d[header.indexOf(yMetric)]);
+    
+    // Create a unique class name for this team's label
+    var teamClass = "team-label-" + d[1].toLowerCase()
+    .replace(/\s+/g, '-');
+    
+    // Check if this label already exists (avoid duplicates)
+    if (svg.select("." + teamClass).size() > 0) {
+        return;
+    }
+    
+    // Create the label temporarily to measure its width
+    var tempLabel = svg.append("text")
+        .attr("class", "temp-label")
+        .text(d[1])
+        .style("font-family", "Inter, sans-serif")
+        .style("font-size", "12px")
+        .style("opacity", 0);
+    
+    var labelWidth = tempLabel.node().getComputedTextLength();
+    tempLabel.remove();
+    
+    // Define 4 possible positions (right, left, top, bottom) - closer to the dot
+    var positions = [
+        { dx: 8, dy: 0, anchor: "start" },      // Right (closest)
+        { dx: -8, dy: 0, anchor: "end" },       // Left (closest)
+        { dx: 0, dy: -8, anchor: "middle" },    // Top (closest)
+        { dx: 0, dy: 8, anchor: "middle" }      // Bottom (closest)
+    ];
+    
+    // Get all existing labels' bounding boxes for quick collision detection
+    var existingLabelBoxes = [];
+    svg.selectAll("text.team-label").each(function() {
+        var bbox = this.getBBox();
+        existingLabelBoxes.push({
+            x1: bbox.x - 2,
+            y1: bbox.y - 2,
+            x2: bbox.x + bbox.width + 2,
+            y2: bbox.y + bbox.height + 2
+        });
+    });
+    
+    // Find the first non-colliding position
+    var chosenPosition = null;
+    var labelHeight = 12; // Approximate height based on font size
+    
+    // Get chart boundaries
+    var chartWidth = width;
+    var chartHeight = height;
+    
+    // If it's a search match, we'll always show the label regardless of collisions
+    if (!isSearchMatch) {
+        for (var i = 0; i < positions.length; i++) {
+            var pos = positions[i];
+            var labelX = x + pos.dx;
+            var labelY = y + pos.dy;
+            
+            // Calculate label bounds based on anchor
+            var labelBox = {
+                x1: pos.anchor === "end" ? labelX - labelWidth : (pos.anchor === "middle" ? labelX - labelWidth/2 : labelX),
+                y1: pos.dy < 0 ? labelY - labelHeight : labelY,
+                x2: pos.anchor === "start" ? labelX + labelWidth : (pos.anchor === "middle" ? labelX + labelWidth/2 : labelX),
+                y2: pos.dy < 0 ? labelY : labelY + labelHeight
+            };
+            
+            // Check if label is within chart boundaries
+            if (labelBox.x1 < 0 || labelBox.x2 > chartWidth || 
+                labelBox.y1 < 0 || labelBox.y2 > chartHeight) {
+                continue; // Skip this position if label would be outside chart
+            }
+            
+            // Check for collisions
+            var hasCollision = false;
+            for (var j = 0; j < existingLabelBoxes.length; j++) {
+                var existing = existingLabelBoxes[j];
+                if (!(labelBox.x2 < existing.x1 || labelBox.x1 > existing.x2 || 
+                      labelBox.y2 < existing.y1 || labelBox.y1 > existing.y2)) {
+                    hasCollision = true;
+                    break;
+                }
+            }
+            
+            if (!hasCollision) {
+                chosenPosition = pos;
+                break;
+            }
+        }
+        
+        // If all positions have collisions, check if there are too many neighbors
+        // If so, skip this label entirely
+        if (!chosenPosition) {
+            // Count nearby labels (within a certain radius)
+            var radius = 50; // Adjust based on chart density
+            var neighborCount = 0;
+            
+            existingLabelBoxes.forEach(function(box) {
+                var centerX = (box.x1 + box.x2) / 2;
+                var centerY = (box.y1 + box.y2) / 2;
+                var distance = Math.sqrt(Math.pow(centerX - x, 2) + Math.pow(centerY - y, 2));
+                
+                if (distance < radius) {
+                    neighborCount++;
+                }
+            });
+            
+            // If too crowded, skip this label
+            if (neighborCount > 3) {
+                return;
+            }
+        }
+    }
+    
+    // Use the default right position if no non-colliding position was found or if it's a search match
+    if (!chosenPosition) {
+        chosenPosition = positions[0];
+        
+        // For edge cases, adjust the position to keep label within bounds
+        var labelX = x + chosenPosition.dx;
+        var labelY = y + chosenPosition.dy;
+        
+        var labelBox = {
+            x1: chosenPosition.anchor === "end" ? labelX - labelWidth : (chosenPosition.anchor === "middle" ? labelX - labelWidth/2 : labelX),
+            y1: chosenPosition.dy < 0 ? labelY - labelHeight : labelY,
+            x2: chosenPosition.anchor === "start" ? labelX + labelWidth : (chosenPosition.anchor === "middle" ? labelX + labelWidth/2 : labelX),
+            y2: chosenPosition.dy < 0 ? labelY : labelY + labelHeight
+        };
+        
+        // Adjust position if needed to keep within bounds
+        if (labelBox.x1 < 0) {
+            chosenPosition = positions[0]; // Use right position
+        } else if (labelBox.x2 > chartWidth) {
+            chosenPosition = positions[1]; // Use left position
+        }
+        
+        if (labelBox.y1 < 0) {
+            chosenPosition = positions[3]; // Use bottom position
+        } else if (labelBox.y2 > chartHeight) {
+            chosenPosition = positions[2]; // Use top position
+        }
+    }
+    
+    // Create the actual label with the chosen position
+    var label = svg.append("text")
+        .attr("class", "team-label " + teamClass)
+        .attr("x", x + chosenPosition.dx)
+        .attr("y", y + chosenPosition.dy)
+        .attr("text-anchor", chosenPosition.anchor)
+        .attr("dominant-baseline", chosenPosition.dy < 0 ? "auto" : "hanging")
+        .text(d[1])
+        .style("font-family", "Inter, sans-serif")
+        .style("font-size", "12px")
+        .style("font-weight", "500")
+        .style("fill", "#333");
+    
+    // If it's a search match, add the search-match class
+    if (isSearchMatch) {
+        label.classed("search-match", true);
+    }
+        
+    // Add this label's bounding box to the collection for future labels
+    var bbox = label.node().getBBox();
+    existingLabelBoxes.push({
+        x1: bbox.x - 2,
+        y1: bbox.y - 2,
+        x2: bbox.x + bbox.width + 2,
+        y2: bbox.y + bbox.height + 2
+    });
+}
+
+        // Initialize median lines tooltip text on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const medianTooltip = document.getElementById('median-lines-tooltip');
+            medianTooltip.textContent = medianLinesVisible ? "Hide median lines" : "Show median lines";
+        });
+        
+        })(); // End async IIFE for data loading

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "DataMB | Visualizações e Estatísticas de Futebol",
+    "description": "Compara jogadores e equipas de futebol. Navega por perfis de jogadores e equipas, experimenta as nossas comparações de radar e outras ferramentas para visualizar dados da Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Eredivisie, Liga Portugal e outras ligas."
+  },
+  "header": {
+    "players": "Jogadores",
+    "pro": "Pro",
+    "teams": "Equipas"
+  },
+  "search": {
+    "placeholder": "Pesquisar jogador ou equipa...",
+    "placeholder2": "Inserir nome de equipa ou jogador..."
+  },
+  "footer": {
+    "rights": "© Todos os direitos reservados",
+    "privacy": "Privacidade",
+    "contact": "Contacto",
+    "about": "Sobre"
+  },
+  "button": {
+    "players": "JOGADORES",
+    "pro": "PRO",
+    "teams": "EQUIPAS"
+  },
+  "positions": {
+    "goalkeeper": "Guarda-redes",
+    "centreback": "Defesa central",
+    "fullback": "Lateral",
+    "midfielder": "Médio",
+    "winger": "Extremo",
+    "striker": "Avançado"
+  }
+}

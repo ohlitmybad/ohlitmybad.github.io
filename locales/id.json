@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "DataMB | Visualisasi dan Statistik Sepak Bola",
+    "description": "Bandingkan pemain dan tim sepak bola. Jelajahi profil pemain dan tim, coba perbandingan radar kami dan alat lainnya untuk memvisualisasikan data dari Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Eredivisie, Liga Portugal dan liga lainnya."
+  },
+  "header": {
+    "players": "Pemain",
+    "pro": "Pro",
+    "teams": "Tim"
+  },
+  "search": {
+    "placeholder": "Cari pemain atau tim...",
+    "placeholder2": "Masukkan nama tim atau pemain..."
+  },
+  "footer": {
+    "rights": "© Hak Cipta Dilindungi",
+    "privacy": "Privasi",
+    "contact": "Kontak",
+    "about": "Tentang"
+  },
+  "button": {
+    "players": "PEMAIN",
+    "pro": "PRO",
+    "teams": "TIM"
+  },
+  "positions": {
+    "goalkeeper": "Penjaga gawang",
+    "centreback": "Bek tengah",
+    "fullback": "Bek sayap",
+    "midfielder": "Gelandang",
+    "winger": "Pemain sayap",
+    "striker": "Penyerang"
+  }
+}

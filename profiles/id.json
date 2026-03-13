@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": " Statistik dan Visual Sepak Bola | DataMB",
+    "description": " Profil data 2025/26 dibandingkan dengan pemain di 7 Liga Top Eropa. Lihat statistik dengan grafik radar dan plot kami, atau bandingkan dengan pemain lain.",
+    "tdescription": " Profil data 2025/26 dibandingkan dengan tim lain di 7 Liga Top Eropa. Lihat statistik dengan grafik radar dan plot kami, atau bandingkan tim dengan alat perbandingan kami."
+  },
+  "header": {
+    "home": "Beranda",
+    "pro": "Pro",
+    "guide": "Panduan"
+  },
+  "positions": {
+    "goalkeeper": "Penjaga gawang",
+    "centreback": "Bek tengah",
+    "fullback": "Bek sayap",
+    "midfielder": "Gelandang",
+    "winger": "Pemain sayap",
+    "striker": "Penyerang"
+  },
+  "metrics": {
+    "prevented-goals-per-90": "Gol yang dicegah per 90",
+    "save-percentage-pct": "Penyelamatan %",
+    "short-pass-completion-pct": "Umpan pendek berhasil %",
+    "long-pass-accuracy-pct": "Akurasi umpan panjang %",
+    "aerial-duels-won-pct": "Duel udara menang %",
+    "defensive-duels-won-pct": "Duel bertahan menang %",
+    "progressive-passes-per-90": "Umpan progresif per 90",
+    "progressive-carries-per-90": "Bawa bola progresif per 90",
+    "key-passes-per-90": "Umpan kunci per 90",
+    "pass-completion-pct": "Umpan berhasil %",
+    "successful-dribbles-per-90": "Dribel berhasil per 90",
+    "goals-per-90": "Gol per 90",
+    "goals-conceded-per-90": "Gol kebobolan per 90",
+    "xg-per-90": "xG per 90",
+    "xa-per-90": "xA per 90",
+    "goal-conversion-pct": "Konversi gol %",
+    "shots-per-90": "Tembakan per 90"
+  },
+  "radar": {
+    "metrics": {
+      "physicality": "Fisik",
+      "defending": "Bertahan",
+      "counters": "Serangan balik",
+      "possession": "Penguasaan",
+      "attacking": "Menyerang",
+      "goals": "Gol",
+      "pressing": "Pressing"
+    },
+    "aerial": "Udara%",
+    "duels": "Duel%",
+    "possWon": "Perebutan",
+    "progPasses": "Umpan prog.",
+    "fwdPass": "Umpan dpn%",
+    "passes": "Umpan",
+    "carrying": "Bawa bola",
+    "xAssist": "xAssist",
+    "cross": "Umpan silang",
+    "short": "Pendek%",
+    "long": "Panjang%",
+    "int": "Intersepsi",
+    "aerialswon": "Udara menang",
+    "prevented": "PSxG-GA",
+    "keyPasses": "Umpan kunci",
+    "fwdPasses": "Umpan dpn",
+    "duel": "Duel bth.%",
+    "assists": "Assist",
+    "xgxa": "npxG+xA",
+    "npg": "NPG",
+    "dribbles": "Dribel",
+    "npxg": "npxG",
+    "xa": "xA",
+    "save": "Penyelamatan%",
+    "conversion": "Konversi%",
+    "offduels": "Duel srgn",
+    "touches": "Sentuhan kotak"
+  },
+  "table": {
+    "club": "Klub",
+    "league": "Liga",
+    "age": "Usia",
+    "position": "Posisi",
+    "season": "Musim",
+    "percentile": " persentil",
+    "minutes_played": "Menit bermain",
+    "percentile_suffix": {
+      "th_suffix": "",
+      "st_suffix": "",
+      "nd_suffix": "",
+      "rd_suffix": ""
+    },
+    "vs_top_7_leagues": "vs 7 Liga Teratas",
+    "metrics": {
+      "accurate_crosses": "Umpan silang berhasil",
+      "expected_assists": "Asisten yang diharapkan",
+      "progressive_passes": "Umpan progresif berhasil",
+      "poss_won": "Bola direbut",
+      "defensive_duel_success": "Duel bertahan menang %",
+      "aerial_duel_success": "Duel udara menang %",
+      "progressive_carries": "Bawa bola progresif",
+      "successful_dribbles": "Dribel berhasil",
+      "non_penalty_goals": "Gol (selain penalti)",
+      "expected_goals_and_assists": "npxG+xA",
+      "assists": "Asisten",
+      "key_passes": "Umpan kunci",
+      "offensive_duels": "Duel menyerang menang",
+      "conversion": "Konversi gol",
+      "touches": "Sentuhan di kotak penalti",
+      "npxg": "npxG",
+      "aerials_won": "Duel udara menang",
+      "int": "Intersepsi (PAdj)",
+      "passes_completed": "Umpan berhasil",
+      "long_pass_accuracy": "Akurasi umpan panjang %",
+      "short_pass_accuracy": "Umpan pendek %",
+      "psxg_minus_ga": "PSxG-GA",
+      "duel_success": "Duel %",
+      "forward_passes": "Umpan ke depan berhasil",
+      "forward_pass_accuracy": "Akurasi umpan ke depan %",
+      "goals": "Gol",
+      "attacking": "Menyerang",
+      "possession": "Penguasaan",
+      "counters": "Serangan balik",
+      "defending": "Bertahan",
+      "physicality": "Fisik",
+      "pressing": "Pressing",
+      "passes": "Umpan"
+    }
+  },
+  "teams": {
+    "radar": {
+      "compare": "Bandingkan tim"
+    },
+    "minutes": "MENIT LIGA TERBANYAK"
+  },
+  "cb": {
+    "radar": {
+      "compare": "Bandingkan bek tengah"
+    }
+  },
+  "fb": {
+    "radar": {
+      "compare": "Bandingkan bek sayap"
+    }
+  },
+  "cm": {
+    "radar": {
+      "compare": "Bandingkan gelandang"
+    }
+  },
+  "fw": {
+    "radar": {
+      "compare": "Bandingkan pemain sayap"
+    }
+  },
+  "st": {
+    "radar": {
+      "compare": "Bandingkan penyerang"
+    }
+  },
+  "gk": {
+    "radar": {
+      "compare": "Bandingkan penjaga gawang"
+    }
+  },
+  "plot": {
+    "more": "Metrik lainnya"
+  },
+  "footer": {
+    "copyright": "© Hak Cipta Dilindungi",
+    "terms": "Privasi",
+    "privacy": "Kontak",
+    "glossary": "Tentang"
+  },
+  "search": {
+    "placeholder": "Masukkan nama tim atau pemain..."
+  }
+}

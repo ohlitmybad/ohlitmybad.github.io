@@ -118,7 +118,7 @@ function applyLanguage(language) {
                             
                             if (namePosition === 'prefix') {
                                 const footballIndex = currentContent.indexOf('Football');
-                                const seasonIndex = currentContent.indexOf('2025/26');
+                                const seasonIndex = currentContent.indexOf('2026/27');
                                 
                                 // Find the earliest occurrence of either delimiter
                                 let delimiterIndex = -1;
